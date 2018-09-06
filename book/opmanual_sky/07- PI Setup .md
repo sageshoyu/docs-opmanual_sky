@@ -15,10 +15,10 @@ For wire cleanliness try to fit all ESC as shown below.
 ![](https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/pimount-wires.jpg)
 Place the Pimount on top and use the short m3 bolts to secure the mount to the standoffs
 
-![](https://previews.dropbox.com/p/thumb/AAIuE0CXPbb0id5S31S6ekiYYSe1MCnUOFOnETGqyLT_vh5eiwRiE46K_l3pueWyDgg5Wb9yu9or6-UZe8STGwYEZs0uHivfbOghXL2UDQjnVPl6G0oGnqFrn5JVAaDfIhCI2Rai-x_V2ZiXa7BDljxfCPJwssRTdy21pr2zfAYKyw/p.jpeg?size=800x600&size_mode=3)
+![](https://github.com/duckietown/docs-opmanual_sky/blob/draft/book/opmanual_sky/10-build/esc%20connectors%20tucked.JPG?raw=true)
 
 Use the sliver screws included with the frame kit ti secure the Pi to the mount. The USB ports should be toward the front of the drone.
-![](https://previews.dropbox.com/p/thumb/AAL41VhRzMgfNnucj8_XWt_Pus2YFUjY5Im3apIVz2d2Ys8UKrOgKv4FJXcINA8FqInYjiAdFVB8rkGHzi7w2RrTv-kT1ECCgRPUWBo6VzqdcsRkMSlePNelKlxN5dUk2jMrFnusDzHLwjWwAJQrGi-grELRfx0mqs9zS29QlM1DNw/p.jpeg?size=800x600&size_mode=3)
+![](https://github.com/duckietown/docs-opmanual_sky/blob/draft/book/opmanual_sky/10-build/IMG_3735.JPG?raw=true)
 
 ## Attach the heat sync
 We have had problems with PIs burning out, so attach heat sinks to the CPU and network chips on the PI (the two biggest ICs). This will help disappate heat during high CPU load.
@@ -33,9 +33,9 @@ Also be sure to connect camera before fully pressing down the Pi hat. Note the c
 ### BEC
 Attach the BEC to the top of the USB ports using some double sided tape.
 
-![](https://previews.dropbox.com/p/thumb/AAJ4jDU_FebpkrYCPCuS9FiPgUfZ5Jk6zF9HSZC3gk3mDr-8mCGvxqLcWKRga77Zhxpu26Xb47Dur4we6IEsQy0OsoFCcA66xgkGMbYb_IgB_fTgGRg3RpleM05Ywe_nvsjEDZpd23WF4YUsinRcI0gAD_KfhrCV_A4jghtUCJiIdA/p.jpeg?size=800x600&size_mode=3)
+![](https://github.com/duckietown/docs-opmanual_sky/blob/draft/book/opmanual_sky/10-build/IMG_3741.JPG?raw=true)
 
-![](https://previews.dropbox.com/p/thumb/AAKZqPkwYofgf6oAvdrFLkKPd8TDgDkCosbNIjvLU044eGesvAo9Vl5koz6rPsFL_Jx-ac3uTNdejt6CKWBNJjqzWxTvD7YPxPghr0MNcItjwEkmWX-WGlhkhZxFrakaiK1BPv9jtdkTXQR29v-jQH3JtbKFRd3ygX3meZQ58FCNTg/p.jpeg?size=800x600&size_mode=3)
+![](https://github.com/duckietown/docs-opmanual_sky/blob/draft/book/opmanual_sky/10-build/IMG_3745.JPG?raw=true)
 
 ## Plug things in
 

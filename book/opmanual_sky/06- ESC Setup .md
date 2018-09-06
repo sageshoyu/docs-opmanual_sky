@@ -22,7 +22,7 @@ Make sure you have no propellers on your motors. For each ESC:
 ![](https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/fc_esc_setup/read.png)
 6) You will be presented with a list of ESC firmwares. Select Afro 20A Multi from the list and click OK.
 
-![](https://previews.dropbox.com/p/thumb/AALSdrXUrQGUPB2ztvlHfIjwpRfg4mdMVMtQoNp-8DNeNYviaJymw0_STsZoXjbZ6-d4oeMlKL2Rg8EXDHA67c3qWSs4jytg6OtVnFV5EnriJAi62-R2bS-m3l7eFadPcBN4CUQwmlHZhTh1Z_rqJz_faNql4zOTFABCzpnzVVfBIldZ2hZ2MRIpfjK8XBBNFYaIoRvUBQZtwM5oLQ-KvfX1rzT1nqTvVgkDlsetjffqJA/p.jpeg?size=1600x1200&size_mode=3)
+![](https://github.com/duckietown/docs-opmanual_sky/blob/draft/book/opmanual_sky/10-build/20%20amp%20afr0.JPG?raw=true)
 
 7) Confirm that you want to flash your ESC
 ![](https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/fc_esc_setup/confirmation.png)
@@ -37,7 +37,7 @@ If this was one of the motors for which you needed to change the direction in th
 
 ![](https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/fc_esc_setup/motor_direction.png)
 11) Lastly turn off the beacon setting. To do this set it to infinite.
-![](https://previews.dropbox.com/p/thumb/AAJqAgMUUl-g9LtP8f4VtSksgZYivvtEmw4Lm4n409h5Baanoq2OdD-aZU-qfTdJdO85nJiCKpX8VXtjN3g-aBMSMBojMD5v9-2PAlGwu5lPAMKxcuqe2T-AchRzVgu-L-ZAhqnXxjSukBzj4doftrJzLKZQYAAId0urkU4xrB5cIzvT39riUN_yi7Nfihee889yEgGq7AV_AswNDnmSj-iZGB-N_d_pddg5nhhU_wtpuA/p.png?size=800x600&size_mode=3)
+![](https://github.com/duckietown/docs-opmanual_sky/blob/draft/book/opmanual_sky/10-build/beacon.png?raw=true)
 
 12) Write these changes to the ESC.
 ![](https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/fc_esc_setup/write_setup.png)
