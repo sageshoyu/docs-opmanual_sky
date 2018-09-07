@@ -95,7 +95,7 @@ i. Flip the yaw by 180 degrees and click "Save and Reboot." This is because we m
 ii. Also change the receiver to "MSP RX input" and click "Save and Reboot." By default it is configured to receive data from an RC receiver, but we want it to take commands over MSP.
 <figure>
     <figcaption>MSP RX Input</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/blob/master/website/projects/build/pics/msprx.png"/>
+    <img style='width:35em' src="msprx.png"/>
 </figure>
 iii. Set the Minimum Throttle to 1100.  
 4. We need tell it to be in Angle mode for the entire range (and not acrobatic mode). Go to the "Modes" tab  
@@ -146,11 +146,11 @@ This is the first time you will be firing up your drone! At this point, make sur
 
 Now plug in the Skyline to your computer via USB and connect to the Cleanflight configurator.
 
-i. Go to the Motors tab in Cleanflight. Make sure the props are off!
-ii. Read the safety notice and check the box that says “I understand the risks, propellers are removed - Enable motor control.”
-iii. Slowly power up each motor. Verify first that the correct motor spins and second that it spins in the correct direction using the diagram below.
-iv. If the motor does not spin, verify the connections, make sure there are no shorts and that it has power.
-v. If the motor spins in the wrong direction, make a note of which motor it is. You will be able to flip the directions of motors that are spinning the wrong way in the next section.
+i. Go to the Motors tab in Cleanflight. Make sure the props are off!  
+ii. Read the safety notice and check the box that says “I understand the risks, propellers are removed - Enable motor control.”  
+iii. Slowly power up each motor. Verify first that the correct motor spins and second that it spins in the correct direction using the diagram below.  
+iv. If the motor does not spin, verify the connections, make sure there are no shorts and that it has power.  
+v. If the motor spins in the wrong direction, make a note of which motor it is. You will be able to flip the directions of motors that are spinning the wrong way in the next section.  
 
 <figure>
     <figcaption>Correct Motor Directions</figcaption>
