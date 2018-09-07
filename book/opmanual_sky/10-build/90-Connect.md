@@ -33,25 +33,25 @@ If you are on the RLAB network you will need to edit `~/ws/src/pidrone_pkg/setup
 ## Start Up the Programs
 Start [screen](https://www.gnu.org/software/screen/) by changing to `~/ws/src/pidrone_pkg and running screen -c pi.screenrc`. Screen is a program that allows you to have multiple shells open in one ssh session. We use it for the drone because it allows us to preload the different programs you need to run in order to make the drone fly. In this way you can have a full shell for each program in which you can explore different command line options, start and stop, see logging information.  
 
-We have a custom screen configuration file, `pi.screenrc` that sets things up. In screen, the escape key is the "&#96;" key (the same key as ~). You can switch windows by running the escape key followed by a number. For example, '&#96;'0 will switch to window 0, which is running roscore. Some other useful useful commands:  
+We have a custom screen configuration file, `pi.screenrc` that sets things up. In screen, the escape key is the <code>&#96;</code> key (the same key as ~). You can switch windows by running the escape key followed by a number. For example, <code>&#96;</code>0 will switch to window 0, which is running roscore. Some other useful useful commands:  
 
-to move to cycle through the windows: '&#96;'n  
-to disconnect from the screen: '&#96;'d   
+to move to cycle through the windows: <code>&#96;</code>n  
+to disconnect from the screen: <code>&#96;</code>d   
 to reconnect to a screen: screen -x  
-to kill the whole screen: '&#96;':quit  
+to kill the whole screen: <code>&#96;</code>:quit  
 to check if there are any screens running: screen -list  
 After screen starts, verify the following programs have been started by switching to each window and checking. Some programs may not be started yet or may need to be restarted. (For safety we do not automatically start mode_controller.py which can arm the drone. )
 
-\`0: roscore (enables ROS nodes to communicate)  
-\`1: mode_controller.py (controls whether drone is disarmed, armed, or flying)  
-\`2: command_line_interface.py (enables user to send flight commands to the drone through the command line)  
-\`3: flight_controller_node.py (sends flight commands to the flight controller)  
-\`4: pid_controller.py (runs a PID controller for the drone to autonomously control its motion)  
-\`5: state_estimator.py (publishes the estimated state of the drone)  
-\`6: vision_flow_and_phase.py (enables the pi camera to start recording)  
-\`7: infrared_pub.py (publishes height readings from the infrared sensor)  
-\`8: rosbridge (allows the Javascript interface to connect to the drone)  
-\`9: web_video_server (the python program that serves camera images as an image stream for the web)  
+<code>&#96;</code>0: roscore (enables ROS nodes to communicate)  
+<code>&#96;</code>1: mode_controller.py (controls whether drone is disarmed, armed, or flying)  
+<code>&#96;</code>2: command_line_interface.py (enables user to send flight commands to the drone through the command line)  
+<code>&#96;</code>3: flight_controller_node.py (sends flight commands to the flight controller)  
+<code>&#96;</code>4: pid_controller.py (runs a PID controller for the drone to autonomously control its motion)  
+<code>&#96;</code>5: state_estimator.py (publishes the estimated state of the drone)  
+<code>&#96;</code>6: vision_flow_and_phase.py (enables the pi camera to start recording)  
+<code>&#96;</code>7: infrared_pub.py (publishes height readings from the infrared sensor)  
+<code>&#96;</code>8: rosbridge (allows the Javascript interface to connect to the drone)  
+<code>&#96;</code>9: web_video_server (the python program that serves camera images as an image stream for the web)  
 If roscore fails to start, you will need to restart all of the other programs once you get it running. Sometimes roscore starts "half way" and leaves a zombie process running. If it won't start, run ps -elf | grep ros and kill any roscore or rosmaster processes and try again. You know it has started correctly when you see it print the ROS_MASTER_URI.
 
 ## Start Up the Web Interface
