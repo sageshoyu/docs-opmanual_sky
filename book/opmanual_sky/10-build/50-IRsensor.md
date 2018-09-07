@@ -1,4 +1,4 @@
-# Sharp Infrared Range Finder {#build-assignment status=ready}
+# Sharp Infrared Range Finder {#build-assignment-4 status=ready}
 The Sharp IR sensor shoots out an infrared beam and measures distance by the angle at which that infrared light is bounced back.
 
 It is an analog sensor, which means that it outputs a range of voltages to indicate its measurement, as opposed to a digital signal (1s and 0s). Unfortunately, the Raspberry Pi 3 does not have any way to read analog values, so we need a device to convert the analog voltage to a digital signal we can make sense of...

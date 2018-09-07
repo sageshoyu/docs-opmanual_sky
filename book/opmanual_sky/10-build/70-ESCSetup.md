@@ -1,4 +1,4 @@
-# ESC Setup {#build-assignment status=ready}
+# ESC Setup {#build-assignment-6 status=ready}
 The Afro ESC (electronic speed controller) stock firmware is called SimonK. In testing we found that the throttle response time for our ESCs on this firmware was not quick enough, and this would cause adverse flight effects during aggressive maneuvers.
 
 During this step you will reflash your ESCs with an alternative open-source firmware called BLHeli, which is has a faster response time and a convenient GUI for ESC configuration. The BLHeli firmware can only be flashed on Windows. If you do not have Windows, please come to office hours, where we have computers setup to flash BLHeli.
@@ -12,29 +12,29 @@ Make sure you have no propellers on your motors. For each ESC:
 
 <figure>
     <figcaption>Plug ESC into Flashing Tool</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/fc_esc_setup/plug_in_1.JPG"/>
+    <img style='width:35em' src="plug_in_1.png"/>
 </figure>
 <figure>
     <figcaption>Plug ESC into Flashing Tool</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/fc_esc_setup/plug_in_2.JPG"/>
+    <img style='width:35em' src="plug_in_2.png"/>
 </figure>
 
 3) Click the "Connect" button in BlHeliSuite
 <figure>
     <figcaption>Connect</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/fc_esc_setup/open_blheli.png"/>
+    <img style='width:35em' src="open_blheli.png"/>
 </figure>
 
 4) Click the read setup button
 <figure>
     <figcaption>Read Setup</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/fc_esc_setup/connected.png"/>
+    <img style='width:35em' src="connected.png"/>
 </figure>
 
 5) When prompted to flash your ESC, click "Yes"
 <figure>
     <figcaption>Flash your ESC</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/fc_esc_setup/read.png"/>
+    <img style='width:35em' src="read.png"/>
 </figure>
 
 6) You will be presented with a list of ESC firmwares. Select Afro 20A Multi from the list and click OK.
@@ -46,30 +46,30 @@ Make sure you have no propellers on your motors. For each ESC:
 7) Confirm that you want to flash your ESC
 <figure>
     <figcaption>Confirm</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/fc_esc_setup/confirmation.png"/>
+    <img style='width:35em' src="confirmation.png"/>
 </figure>
 
 <figure>
     <figcaption>Flashing</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/fc_esc_setup/flashing.png"/>
+    <img style='width:35em' src="flashing.png"/>
 </figure>
 
 8) When finished, a window will appear, notifying you that the ESC has properly been flashed. If there are any errors, call over a TA. Click "OK" to dismiss the window.
 <figure>
     <figcaption>Finish Flashing</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/fc_esc_setup/flashed.png"/>
+    <img style='width:35em' src="flashed.png"/>
 </figure>
 
 9) A window will appear notifying you that the ESC setup has been read successfully. Click "OK".
 <figure>
     <figcaption>Done!</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/fc_esc_setup/done.png"/>
+    <img style='width:35em' src="done.png"/>
 </figure>
 
 10) Change the "PPM Min Throttle" 1100 and the "PPM Max Throttle" to 1900.
 <figure>
     <figcaption>Throttle Config</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/fc_esc_setup/throttle.png"/>
+    <img style='width:35em' src="throttle.png"/>
 </figure>
 
 If this was one of the motors for which you needed to change the direction in the previous section, change the 'Motor Direction' parameter accordingly.
@@ -87,7 +87,7 @@ If this was one of the motors for which you needed to change the direction in th
 12) Write these changes to the ESC.
 <figure>
     <figcaption>Save Changes to ESC</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/fc_esc_setup/write_setup.png"/>
+    <img style='width:35em' src="write_setup.png"/>
 </figure>
 
 13) Repeat until all ESCs are flashed.

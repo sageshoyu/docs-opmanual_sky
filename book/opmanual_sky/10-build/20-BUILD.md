@@ -1,4 +1,4 @@
-# Build {#build-assignment status=ready}
+# Build {#build-assignment-1 status=ready}
 
 The goal of this project is to assemble your drone and test it with the solution code. We will provide parts, and you will also need a basestation (laptop).
 

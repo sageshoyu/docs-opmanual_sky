@@ -1,4 +1,4 @@
-# Cleanflight on the Skyline 32 {#build-assignment status=ready}
+# Cleanflight on the Skyline 32 {#build-assignment-5 status=ready}
 
 The Skyline 32 is the flight controller; it has an onboard accelerometer and gyroscope, and sends commands to the ESCs. We compile the firmware (called CleanFlight) with an option that allows us to control the Skyline via USB. In this part, you will mount and configure the Skyline 32, install new firmware on it, and power up the motors!
 
@@ -17,7 +17,7 @@ Use double-sided foam tape to mount the skyline to the front of your drone. The 
     <img style='width:35em' src="skyline_mount_top.png"/>
 </figure>
 
-It is very important that the flight controller is perfectly aligned with your drone's frame. Any missalignments will mean that the sensors are getting incorrect (coupled axes) information about the acceleration. Make sure the edge of the flight controller is parallel with the edge of the frame.
+It is very important that the flight controller is perfectly aligned with your drone's frame. Any misalignments will mean that the sensors are getting incorrect (coupled axes) information about the acceleration. Make sure the edge of the flight controller is parallel with the edge of the frame.
 
 <figure>
     <figcaption>Skyline Bottom View</figcaption>
@@ -82,7 +82,7 @@ You will configure the flight controller based on our drone's specific geometry 
 2. Go to "Ports" tab and make sure SerialRX for UART2 is disabled and click "Save and Reboot." UART2 is a pin on the flight controller, and we want to make sure it only uses the USB.
 <figure>
     <figcaption>Ports Config</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/serialrx.png"/>
+    <img style='width:35em' src="serialrx.png"/>
 </figure>
 
 3. Go to "Configuration" tab  
@@ -90,7 +90,7 @@ You will configure the flight controller based on our drone's specific geometry 
 i. Flip the yaw by 180 degrees and click "Save and Reboot." This is because we mount the flight controller the opposite direction in order to leave the USB port free to plug into the Raspberry Pi.
 <figure>
     <figcaption>Flip Yaw</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/flip_yaw.png"/>
+    <img style='width:35em' src="flip_yaw.png"/>
 </figure>
 ii. Also change the receiver to "MSP RX input" and click "Save and Reboot." By default it is configured to receive data from an RC receiver, but we want it to take commands over MSP.
 <figure>
@@ -102,16 +102,16 @@ iii. Set the Minimum Throttle to 1100.
 i. Under "Angle", click "Add Range."  
 <figure>
     <figcaption>Angle Mode</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/add_range.png"/>
+    <img style='width:35em' src="add_range.png"/>
 </figure>
 ii. Drag the sliders so that the range spans from 900 to 2100. (The entire range.)
 <figure>
     <figcaption>Expand Range</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/angle_range.png"/>
+    <img style='width:35em' src="angle_range.png"/>
 </figure>
 <figure>
     <figcaption>Expanded Angle Range</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/angle_range_2.png"/>
+    <img style='width:35em' src="angle_range_2.png"/>
 </figure>
 
 iii. Click "Save".  
@@ -120,12 +120,12 @@ iii. Click "Save".
 i. Change the "ROLL" and "PITCH" PID terms to match the image. Roll should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: 1.00, Super Rate: 0.00, Max Vel: 200). Pitch should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: curly bracket, Super Rate: 0.00, Max Vel: 200)
 <figure>
     <figcaption>PID Params</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/pid_settings.png"/>
+    <img style='width:35em' src="pid_settings.png"/>
 </figure>
 ii. Change angle limit to 50.
 <figure>
     <figcaption>Angle Limit</figcaption>
-    <img style='width:35em' src="https://github.com/h2r/pidrone-site/raw/master/website/projects/build/pics/angle_limit.png"/>
+    <img style='width:35em' src="angle_limit.png"/>
 </figure>
 iii. Click "Save."  
 

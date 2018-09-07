@@ -1,4 +1,4 @@
-# Raspberry PI {#build-assignment status=ready}
+# Raspberry PI {#build-assignment-7 status=ready}
 This step describes how to attach the PI to your drone.
 
 ## Flash the Pi SD Card

@@ -1,4 +1,4 @@
-# Parts List {#build-assignment status=ready}
+# Parts List {#build-assignment-2 status=ready}
 
 During this step you will learn about each of the parts of the drone. Read the following parts list and verify you have each component.
 
