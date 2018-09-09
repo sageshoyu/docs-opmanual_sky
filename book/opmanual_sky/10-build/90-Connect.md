@@ -43,16 +43,16 @@ to kill the whole screen: <code>&#96;</code>:quit
 to check if there are any screens running: screen -list
 After screen starts, verify the following programs have been started by switching to each window and checking. Some programs may not be started yet or may need to be restarted. (For safety we do not automatically start mode_controller.py which can arm the drone. )
 
-<code>&#96;</code>0: roscore (enables ROS nodes to communicate)
-<code>&#96;</code>1: mode_controller.py (controls whether drone is disarmed, armed, or flying)
-<code>&#96;</code>2: command_line_interface.py (enables user to send flight commands to the drone through the command line)
-<code>&#96;</code>3: flight_controller_node.py (sends flight commands to the flight controller)
-<code>&#96;</code>4: pid_controller.py (runs a PID controller for the drone to autonomously control its motion)
-<code>&#96;</code>5: state_estimator.py (publishes the estimated state of the drone)
-<code>&#96;</code>6: vision_flow_and_phase.py (enables the pi camera to start recording)
-<code>&#96;</code>7: infrared_pub.py (publishes height readings from the infrared sensor)
-<code>&#96;</code>8: rosbridge (allows the Javascript interface to connect to the drone)
-<code>&#96;</code>9: web_video_server (the python program that serves camera images as an image stream for the web)
+0. <code>&#96;</code>0: roscore (enables ROS nodes to communicate)
+1. <code>&#96;</code>1: mode_controller.py (controls whether drone is disarmed, armed, or flying)
+2. <code>&#96;</code>2: command_line_interface.py (enables user to send flight commands to the drone through the command line)
+3. <code>&#96;</code>3: flight_controller_node.py (sends flight commands to the flight controller)
+4. <code>&#96;</code>4: pid_controller.py (runs a PID controller for the drone to autonomously control its motion)
+5. <code>&#96;</code>5: state_estimator.py (publishes the estimated state of the drone)
+6. <code>&#96;</code>6: vision_flow_and_phase.py (enables the pi camera to start recording)
+7. <code>&#96;</code>7: infrared_pub.py (publishes height readings from the infrared sensor)
+8. <code>&#96;</code>8: rosbridge (allows the Javascript interface to connect to the drone)
+9. <code>&#96;</code>9: web_video_server (the python program that serves camera images as an image stream for the web)
 If roscore fails to start, you will need to restart all of the other programs once you get it running. Sometimes roscore starts "half way" and leaves a zombie process running. If it won't start, run ps -elf | grep ros and kill any roscore or rosmaster processes and try again. You know it has started correctly when you see it print the ROS_MASTER_URI.
 
 ## Start Up the Web Interface
