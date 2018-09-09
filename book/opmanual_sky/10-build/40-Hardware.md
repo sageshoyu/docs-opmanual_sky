@@ -10,28 +10,28 @@ The motors with the red nuts will spin counter-clockwise and the black clockwise
 <figure>
     <figcaption>Motor Directions</figcaption>
     <img style='width:35em' src="motor_directions.png"/>
-</figure>  
+</figure>
 
 The side of the frame with the small hexagonal hole pattern is the front.
 
 <figure>
     <figcaption>Front of Frame</figcaption>
     <img style='width:35em' src="frame_front.png"/>
-</figure>  
+</figure>
 
 In order to ensure the nuts tend to tighten during flight instead of loosen, you want each nut to thread in the opposite direction as its motor spins. For example, this means the front right motor’s nut should tighten in the CW direction. The image below shows the correct motors in the correct places, with red in the front right and back left, and black in the front left and back right. When mounting the motors, make sure to route the wire through the hole in the frame to the underside of the frame before bolting on the motor.
 
 <figure>
     <figcaption>Correct Motor Placement</figcaption>
     <img style='width:35em' src="motors_in_frame.png"/>
-</figure>  
+</figure>
 
 Use two of the long M3 bolts included with the motor and screw them in tightly.
 
 <figure>
     <figcaption>Screwing in Motors</figcaption>
     <img style='width:35em' src="motor_bottom.png"/>
-</figure>  
+</figure>
 
 ## Solder The PDB
 
@@ -45,19 +45,17 @@ Cut off all the bullet connectors on the thick wires of the ESC as close to the 
     <img style='width:35em' src="esc_cut_strip.png"/>
 </figure>  
 
-Strip wires of xt 60 connector.
-
 <figure>
     <figcaption>Stripping the XT60 Connector</figcaption>
     <img style='width:35em' src="xt60strip.png"/>
-</figure>  
+</figure>
 
 Inside the plastic box labeled, SKYLINE 32, find the battery monitor lead, cut off the two larger connectors, and strip 1cm.
 
 <figure>
     <figcaption>Stripping Battery Monitor Connectors</figcaption>
     <img style='width:35em' src="monitor_cut_strip.png"/>
-</figure>  
+</figure>
 
 ## Tin PDB and Stripped wires.
 Tin all 20 ESC leads. Twist the battery monitor leads around the BEC leads and tin.
@@ -65,7 +63,7 @@ Tin all 20 ESC leads. Twist the battery monitor leads around the BEC leads and t
 <figure>
     <figcaption>Tinning ESC Leads</figcaption>
     <img style='width:35em' src="BEC_VBAT.png"/>
-</figure>  
+</figure>
 
 Thoroughly tin the battery lead with XT60 connector. It is important that solder flows all the way through the exposed wire.
 
