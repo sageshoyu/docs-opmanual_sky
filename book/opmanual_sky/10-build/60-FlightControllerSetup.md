@@ -32,7 +32,7 @@ Carefully plug the 6" USB cable into the USB port of the skyline. These little s
 </figure>
 
 ## Compiling Firmware For Skyline32
-Download the [pre-compiled hex](cleanflight_2.1.0_NAZE.hex).
+Download the [pre-compiled hex](https://cs.brown.edu/courses/cs1951r/website_2017/projects/build/cleanflight_2.1.0_NAZE.hex).
 
 You can also recompile the firmware. To do this, download the firmware source code at https://github.com/cleanflight/cleanflight and compile with
 
