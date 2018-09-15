@@ -2,7 +2,10 @@
 This step describes how to attach the PI to your drone.
 
 ## Flash the Pi SD Card
-Download the SD card [image](https://drive.google.com/file/d/0B3p6mSLy0S-sc1FCak1ORE9STFk/view). Flash your SD card using the following [instructions](https://www.raspberrypi.org/documentation/installation/installing-images/).
+Download the SD card [image](). The image is not quite ready, but will be
+posted shortly! Flash your SD card using the following
+[instructions](https://www.raspberrypi.org/documentation/installation/installing-images/).
+The image povided comes with Raspbian, ROS, and other software preinstalled.
 
 Your card should now be flashed.
 
@@ -30,7 +33,7 @@ Use the sliver screws included with the frame kit to secure the Pi to the mount.
 </figure>
 
 ## Attach Heat Sinks
-We have had problems with PIs burning out, so attach heat sinks to the CPU and network chips on the PI (the two biggest ICs). This will help dissipate heat during high CPU load.
+The Pi does not have a CPU cooling system, so it tends to heat up quickly and either slow the performance of the drone or flat out burn the processors. Attach the heat sinks to the CPU and network chips on the PI (the two biggest ICs). These will help dissipate heat during high CPU load.
 
 ## Pi Hat
 With the Pi hat all soldered together place it on top of the Pi being sure the pins go into the Header holes.
@@ -53,17 +56,17 @@ Attach the BEC to the top of the USB ports using some double sided tape.
 
 ## Plug things in
 
-Obtain an SD card and install it into the PI. We are providing pre-flashed SD cards with Raspbian, ROS, and other software preinstalled.
+1. Obtain an SD card and install it into the PI.
 
-Plug the flight controller USB cable into the PI's USB port.
+2. Plug the flight controller USB cable into the PI's USB port.
 
 ## Power on the Drone
-After double checking the wiring is correct, plug in the battery to power on the drone! Verify that  
+After double checking that the wiring is correct, plug in the battery to power on the drone! Verify that
+1. The red light on the PI turns on, and then the green flashing light.
+2. The red and blue light on the flight controller turns out.
+3. The green lights on the ESCs turn on.
+4. The LEDs on the bottom of the power distribution board turn on.
 
-The red light on the PI turns on, and then the green flashing light.  
-The red and blue light on the flight controller turns out.  
-The green lights on the ESCs turn on.  
-The LEDs on the power distribution board turn on.  
-If you see smoke coming from your drone, you probably have a short. Unplug it and inspect all solder joints for shorts.  
+If you see smoke coming from your drone, you probably have a short. Unplug it and inspect all solder joints for shorts.
 
 Describe how you would debug each situation if the lights do not turn on.

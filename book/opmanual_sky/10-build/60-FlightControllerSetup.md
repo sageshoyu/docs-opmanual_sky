@@ -24,7 +24,7 @@ It is very important that the flight controller is perfectly aligned with your d
     <img style='width:35em' src="skyline_mount_bottom.png"/>
 </figure>
 
-Carefully plug your 6" USB cable into the USB port of the skyline. These little surface-mount USB micro ports are very prone to failure, so to minimize the likelyhood of ripping off the port or breaking a connection cover the USB connector thoroughly with hot glue. Yes, you will not be able to remove the USB cable. This is intentional.
+Carefully plug the 6" USB cable into the USB port of the skyline. These little surface-mount USB micro ports are very prone to failure, so to minimize the likelyhood of ripping off the port or breaking a connection cover the USB connector thoroughly with hot glue. Yes, you will not be able to remove the USB cable. This is intentional.
 
 <figure>
     <figcaption>Glued USB Connector</figcaption>
@@ -41,6 +41,10 @@ You can also recompile the firmware. To do this, download the firmware source co
     make NAZE OPTIONS=USE_MSP_UART
 
 ## Flashing Fimware
+You will now flash the firmware onto the flight controller.
+
+*Note: in order to use cleanflight on your personal computer rather than base station in the lab see cleanflight homepage for driver installation.*
+
 1. Plug the skyline into the computer via USB. If your skyline is already on a drone, do not connect the battery.
 2. Open [cleanflight configurator](https://chrome.google.com/webstore/detail/cleanflight-configurator/enacoimjcgeinfnnnpajinjgmkahmfgb) and go to the "Firmware Flasher" tab. This tab is before you connect to the base station.
 
@@ -70,8 +74,6 @@ You can also recompile the firmware. To do this, download the firmware source co
 </figure>
 
 ## Configuration Options
-
-*Note in order to use cleanflight on your personal computer rather than base station in the lab see cleanflight homepage for driver installation.*
 You will configure the flight controller based on our drone's specific geometry and hardware.
 
 1. Plug in Skyline and click "Connect"
@@ -85,8 +87,8 @@ You will configure the flight controller based on our drone's specific geometry 
     <img style='width:35em' src="serialrx.png"/>
 </figure>
 
-3. Go to "Configuration" tab  
-4.  
+3. Go to "Configuration" tab
+4.
 i. Flip the yaw by 180 degrees and click "Save and Reboot." This is because we mount the flight controller the opposite direction in order to leave the USB port free to plug into the Raspberry Pi.
 <figure>
     <figcaption>Flip Yaw</figcaption>
@@ -97,9 +99,9 @@ ii. Also change the receiver to "MSP RX input" and click "Save and Reboot." By d
     <figcaption>MSP RX Input</figcaption>
     <img style='width:35em' src="msprx.png"/>
 </figure>
-iii. Set the Minimum Throttle to 1100.  
-4. We need tell it to be in Angle mode for the entire range (and not acrobatic mode). Go to the "Modes" tab  
-i. Under "Angle", click "Add Range."  
+iii. Set the Minimum Throttle to 1100.
+4. We need tell it to be in Angle mode for the entire range (and not acrobatic mode). Go to the "Modes" tab
+i. Under "Angle", click "Add Range."
 <figure>
     <figcaption>Angle Mode</figcaption>
     <img style='width:35em' src="add_range.png"/>
@@ -114,9 +116,9 @@ ii. Drag the sliders so that the range spans from 900 to 2100. (The entire range
     <img style='width:35em' src="angle_range_2.png"/>
 </figure>
 
-iii. Click "Save".  
+iii. Click "Save".
 
-5.We need to change the PID parameters to ones that work better on our drone. Go to the "PID Tuning" tab.  
+5.We need to change the PID parameters to ones that work better on our drone. Go to the "PID Tuning" tab.
 i. Change the "ROLL" and "PITCH" PID terms to match the image. Roll should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: 1.00, Super Rate: 0.00, Max Vel: 200). Pitch should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: curly bracket, Super Rate: 0.00, Max Vel: 200)
 <figure>
     <figcaption>PID Params</figcaption>
@@ -127,7 +129,7 @@ ii. Change angle limit to 50.
     <figcaption>Angle Limit</figcaption>
     <img style='width:35em' src="angle_limit.png"/>
 </figure>
-iii. Click "Save."  
+iii. Click "Save."
 
 ## Plug in the motors
 The numbers corresponding to each motor are as shown. Recall that the camera is in the back of the frame and the flight controller is in the front.
@@ -146,11 +148,11 @@ This is the first time you will be firing up your drone! At this point, make sur
 
 Now plug in the Skyline to your computer via USB and connect to the Cleanflight configurator.
 
-i. Go to the Motors tab in Cleanflight. Make sure the props are off!  
-ii. Read the safety notice and check the box that says “I understand the risks, propellers are removed - Enable motor control.”  
-iii. Slowly power up each motor. Verify first that the correct motor spins and second that it spins in the correct direction using the diagram below.  
-iv. If the motor does not spin, verify the connections, make sure there are no shorts and that it has power.  
-v. If the motor spins in the wrong direction, make a note of which motor it is. You will be able to flip the directions of motors that are spinning the wrong way in the next section.  
+i. Go to the Motors tab in Cleanflight. Make sure the props are off!
+ii. Read the safety notice and check the box that says “I understand the risks, propellers are removed - Enable motor control.”
+iii. Slowly power up each motor. Verify first that the correct motor spins and second that it spins in the correct direction using the diagram below.
+iv. If the motor does not spin, verify the connections, make sure there are no shorts and that it has power.
+v. If the motor spins in the wrong direction, make a note of which motor it is. You will be able to flip the directions of motors that are spinning the wrong way in the next section.
 
 <figure>
     <figcaption>Correct Motor Directions</figcaption>

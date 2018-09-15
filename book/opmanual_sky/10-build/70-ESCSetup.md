@@ -78,7 +78,8 @@ If this was one of the motors for which you needed to change the direction in th
     <img style='width:35em' src="motor_directions.png"/>
 </figure>
 
-11) Lastly turn off the beacon setting. To do this set it to infinite.
+11) Lastly turn off the beacon setting. To do this set it to infinite. This prevents the motors from beeping if the flight controller is plugged in but not receiving controls.
+12)
 <figure>
     <figcaption>Beacon Setting</figcaption>
     <img style='width:35em' src="beacon.png"/>
@@ -94,5 +95,3 @@ If this was one of the motors for which you needed to change the direction in th
 
 ## Checkoff
 Come to TA hours to get checked off! We will check that you have **all four** motors flashed, spinning the right direction, and connected to your flight controller correctly.
-
-Once you have been checked off, we will give you a flashed Micro SD card which will have the Raspbian OS and packages for your Raspberry Pi 3 on it.

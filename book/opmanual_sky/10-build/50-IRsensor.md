@@ -10,16 +10,16 @@ Enter the Analog to Digital Converter (ADC)!
     <img style='width:35em' src="ADC.png"/>
 </figure>
 
-This nifty little device can read four analog signals (A0 - A4) and outputs a digital protocol (i2c) which the Pi can read.
+This nifty little device can read four analog signals (A0 - A4) and outputs a digital protocol (i2c) which the Pi can read through it's general purpose digital input/output (GPIO) pins.
 
 ## Pi Hat!
-
+You'll be soldering the ADC to the Pi Hat, which provides breadboard like functionality (meaning that pins in the same row of the Pi Hat are all connected). The Pi Hat makes makes soldering and wiring the ADC to the Pi's GPIO pins far easier and neater.
 <figure>
     <figcaption>Pi Hat</figcaption>
     <img style='width:35em' src="hat.png"/>
 </figure>
 
-Solder header pins to ADC
+1. Solder the header pins to ADC.
 <figure>
     <figcaption>ADC Pins</figcaption>
     <img style='width:35em' src="adc_pins.png"/>
@@ -30,7 +30,7 @@ Solder header pins to ADC
     <img style='width:35em' src="adc_1.png"/>
 </figure>
 
-Solder the  Pi header to the Pi hat.
+2. Solder the  Pi header to the Pi hat.
 
 <figure>
     <figcaption>Back of Pi Hat</figcaption>
@@ -42,7 +42,7 @@ Solder the  Pi header to the Pi hat.
     <img style='width:35em' src="soldered_hat.png"/>
 </figure>
 
-Solder ADC to Pi Hat in this position on the board
+3. Solder ADC to Pi Hat in this position on the board
 
 <figure>
     <figcaption>ADC Soldered to Pi Hat</figcaption>
@@ -50,15 +50,15 @@ Solder ADC to Pi Hat in this position on the board
 </figure>
 
 
-Take your infrared connector cable and just cut the black connector off. Strip and tin the exposed wires.
+4. Take your infrared connector cable and cut the black connector off to expose the wire ends. Strip and tin the exposed wires.
 
 <figure>
     <figcaption>Cut IR Wire</figcaption>
     <img style='width:35em' src="cut_ir_wire.png"/>
 </figure>
 
+5. Cut and strip red, yellow, green, and black 24 AWG stranded wires to fit where shown.
 ##### Wiring diagram
-Cut and strip red, yellow, green, and black 24 AWG stranded wires to fit where shown.
 
 <figure>
     <figcaption>Pi Hat Wiring</figcaption>
@@ -74,4 +74,4 @@ What it should look like.
     <img style='width:35em' src="pi_hat_final.png"/>
 </figure>
 
-Note: The Ir sensor wires are quite weak and need to be stripped carefully and soldered securely to prevent them from breaking during flight.
+**Note:** The IR sensor wires are quite weak and need to be stripped carefully and soldered securely to prevent them from breaking during flight.
