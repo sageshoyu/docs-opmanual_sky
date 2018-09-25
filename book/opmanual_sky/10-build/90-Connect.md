@@ -9,19 +9,19 @@ Installing ROS may be useful if you wish to do more advanced projects. You can t
 You can complete all assignments and work for the course without installing ROS on your base station. We will include assignments for learning more about ROS, but you will use the ROS Indigo installed on your Raspberry Pi for this work.
 
 ## Connect to the Drone
-Power up your drone and connect to its wifi network, `defaultdrone`. The wifi password is bigbubba. Once connected, `ssh pi@defaultdrone.local`. (Or figure out the IP address from route; see the networking assignment.) The password is `bigbubba`.
+Power up your drone and connect to its Wi-Fi network, `defaultdrone`. The Wi-Fi password is `bigbubba`. Once connected, `ssh pi@defaultdrone.local`. (Or figure out the IP address from route; see the networking assignment.) The password is `bigbubba`.
 
-Note that our convention for "default" unsecured passwords is bigbubba. This is a password to be used when you would like an unsecured password such as "password", or the like.
+Note that our convention for "default" unsecured passwords is `bigbubba`. This is a password to be used when you would like an unsecured password such as "password", or the like.
 
 Be careful it is your drone as other students may be powering on their drones at the same time, causing namespace collisions. You can test if it is your drone by using the `./blinkpowerled.sh` script, located in the `~/cs1951r_utils` directory. This script causes the red power LED to blink on and off several time at 1Hz. Run it and make sure your LED blinks and not someone else's!
 
-Change the hostname with sudo raspi-config. (This is important because you want to know if you connect to the wrong drone.) Change the wifi SSID by editing `/etc/hostapd/hostapd.conf`. Reboot after these changes by running `sudo reboot`.
+Change the hostname with sudo raspi-config. (This is important because you want to know if you connect to the wrong drone.) Change the Wi-Fi SSID by editing `/etc/hostapd/hostapd.conf`. Reboot after these changes by running `sudo reboot`.
 
 ## Get the repo
-There are two ways to get a copy of our solution code off of github and onto your drone. The first way is to use git clone to clone the repo onto your drone, but your drone will need to be connected to the wifi. If you are a Brown student, this is made possible if you are in the CIT or the SciLi by following these instruction below. The other alternative is to just download and unzip the repo onto your base station and using the command: `scp -r [filepathToFileOnYourComputer] pi@[yourDronesHostname]:~/ws/src/` to copy the files to your drone. After doing this, ssh into your drone and skip to step 3 below.
-To use git clone, you'll need to connect your drone to the internet. We've included a script, `~/cs1951r_utils/connect_to_rlab.py` that will disable your wifi access point and connect to the RLAB network. It will reset to the access point after a reboot.
+There are two ways to get a copy of our solution code off of github and onto your drone. The first way is to use git clone to clone the repo onto your drone, but your drone will need to be connected to the Wi-Fi. If you are a Brown student, this is made possible if you are in the CIT or the SciLi by following these instruction below. The other alternative is to just download and unzip the repo onto your base station and using the command: `scp -r [filepathToFileOnYourComputer] pi@[yourDronesHostname]:~/ws/src/` to copy the files to your drone. After doing this, ssh into your drone and skip to step 3 below.
+To use git clone, you'll need to connect your drone to the internet. We've included a script, `~/cs1951r_utils/connect_to_rlab.py` that will disable your Wi-Fi access point and connect to the RLAB network. It will reset to the access point after a reboot.
 
-1. Run connect_to_rlab.py, and then connect your basestation to RLAB wifi (password: metropolis) You should be able to ping your drone with `ping pi@hostname` where hostname is whatever you set it to in the previous step. If this does not work, try using `nmap` to find your drone. When doing this be very sure you are connected to your drone. (Blink the power LED to be sure.)
+1. Run `connect_to_rlab.py`, and then connect your basestation to RLAB Wi-Fi (password: metropolis). You should be able to ping your drone with `ping pi@hostname` where hostname is whatever you set it to in the previous step. If this does not work, try using `nmap` to find your drone. When doing this be very sure you are connected to your drone. (Blink the power LED to be sure.)
 
 2. SSH back into your drone, `ssh pi@hostname`, and go to the src folder in your ros workspace `cd ~/ws/src`. Clone our solution code with `git clone https://github.com/h2r/pidrone_pkg`.
 
@@ -69,11 +69,11 @@ The drone will disarm and halt if it has not received a heartbeat in the last fi
 To enable a local heartbeat you can run the following command in a free window in the screen (you can quit the process in \`9 to free up a screen): `rostopic pub "/pidrone/heartbeat/web_interface" std_msgs/Empty`
 
 1) Without running a heartbeat on the drone and with the web interface connected: Arm the drone, then close the web window. Verify the drone automatically disarms after 5 seconds.
-2) Without running a heartbeat on the drone and with the web interface connected: Arm the drone, then disconnect from the drone wifi. Verify the drone automatically disarms after 3 seconds.
-3) Publish the heart beat with the rostopic pub command above. What happens now when you disconnect the Wifi? Why? (Make sure your props are off when doing this test!)
+2) Without running a heartbeat on the drone and with the web interface connected: Arm the drone, then disconnect from the drone Wi-Fi. Verify the drone automatically disarms after 3 seconds.
+3) Publish the heart beat with the rostopic pub command above. What happens now when you disconnect the Wi-Fi? Why? (Make sure your props are off when doing this test!)
 As soon as there are propellors on your drone **NEVER** run the heartbeat message locally.
 
 ## Checkoff
-Show your drone to a TA with each part of the UI working. They will verify that 1) the IR sensor is working 2) the camera is sending data 3) arm/disarm works and 4) the heartbeat safety mechanism works on wifi dropouts.
+Show your drone to a TA with each part of the UI working. They will verify that 1) the IR sensor is working 2) the camera is sending data 3) arm/disarm works and 4) the heartbeat safety mechanism works on Wi-Fi dropouts.
 
 They will then show you how to fly.

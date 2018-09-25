@@ -2,10 +2,9 @@
 This step describes how to attach the PI to your drone.
 
 ## Flash the Pi SD Card
-Download the SD card [image](). The image is not quite ready, but will be
-posted shortly! Flash your SD card using the following
+Download the SD card [image](https://drive.google.com/file/d/1CXCAINc50yNGsTt4w-XQU9ClrjbNeIHT/view?usp=sharing) (file size approximately 6 GB). Flash your SD card using the following
 [instructions](https://www.raspberrypi.org/documentation/installation/installing-images/).
-The image povided comes with Raspbian, ROS, and other software preinstalled.
+The image provided comes with Raspbian, ROS, and other software preinstalled.
 
 Your card should now be flashed.
 
