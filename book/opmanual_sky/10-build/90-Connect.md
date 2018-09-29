@@ -41,7 +41,7 @@ to disconnect from the screen: <code>&#96;</code>d
 to reconnect to a screen: screen -x
 to kill the whole screen: <code>&#96;</code>:quit
 to check if there are any screens running: screen -list
-After screen starts, verify the following programs have been started by switching to each window and checking. Some programs may not be started yet or may need to be restarted. (For safety we do not automatically start mode_controller.py which can arm the drone. )
+After screen starts, verify the following programs have been started by switching to each window and checking. Some programs may not be started yet or may need to be restarted. (For safety we do not automatically start mode_controller.py which can arm the drone. )  To stop a program, interrupt it by sending the interrupt signal with Ctrl-C.  You should get back to a prompt.  Then use the up arrow or the emacs shortcut "Ctrl-P" to get the command line for that program back.  Press "enter" to run the program again.   
 
 0. <code>&#96;</code>0: roscore (enables ROS nodes to communicate)
 1. <code>&#96;</code>1: mode_controller.py (controls whether drone is disarmed, armed, or flying)
@@ -76,4 +76,4 @@ As soon as there are propellors on your drone **NEVER** run the heartbeat messag
 ## Checkoff
 Show your drone to a TA with each part of the UI working. They will verify that 1) the IR sensor is working 2) the camera is sending data 3) arm/disarm works and 4) the heartbeat safety mechanism works on Wi-Fi dropouts.
 
-They will then show you how to fly.
+Then go to the next session to see how to fly.

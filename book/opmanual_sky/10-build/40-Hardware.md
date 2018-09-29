@@ -191,3 +191,17 @@ Zip tie the IR sensor onto the bottom of the frame’s front platform, as in the
 
 ## Checkoff
 Come to TA hours and have a TA verify that all your hardware is set up correctly before continuing.
+
+
+We will check that:
+
+* there are no shorts on your power distribution board
+
+* all solder joints are secure
+
+* motors are screwwed in securely in the correct clockwise/counterclockwise configuration
+
+* camera is secure
+
+* IR sensor is secure.
+
