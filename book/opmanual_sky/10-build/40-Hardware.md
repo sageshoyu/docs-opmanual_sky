@@ -43,14 +43,14 @@ Cut off all the bullet connectors on the thick wires of the ESC as close to the 
 <figure>
     <figcaption>Stripping ESCs</figcaption>
     <img style='width:35em' src="esc_cut_strip.png"/>
-</figure>  
+</figure>
 
 <figure>
     <figcaption>Stripping the XT60 Connector</figcaption>
     <img style='width:35em' src="xt60strip.png"/>
 </figure>
 
-Inside the plastic box labeled, SKYLINE 32, find the battery monitor lead, cut off the two larger connectors, and strip 1cm.
+Inside the plastic box labeled SKYLINE 32, find the battery monitor lead, cut off the two larger connectors, and strip 1cm. Make sure that the battery monitor lead properly connects positive to positive terminals and ground to ground. There might be more than one two-wire connector in the SKYLINE box, so make sure to use the one that connects the terminals correctly, which should be the one with a red wire for positive and a brown wire for ground.
 
 <figure>
     <figcaption>Stripping Battery Monitor Connectors</figcaption>
