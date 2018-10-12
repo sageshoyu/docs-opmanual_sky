@@ -33,9 +33,6 @@ Use two of the long M3 bolts included with the motor and screw them in tightly.
     <img style='width:35em' src="motor_bottom.png"/>
 </figure>
 
-## Solder The PDB
-
-Just like the human body has a circulatory system to carry oxygen-rich blood to wherever it is needed, the drone has a power distribution board (PDB) to take the all-important battery power and send it to every component. In this step, you will solder 4 ESCs (electronic speed controllers), a BEC (battery eliminator circuit), a battery lead with XT60 connector, and a battery monitor lead to your PDB (power distribution board).
 
 ## Strip Wires
 Cut off all the bullet connectors on the thick wires of the ESC as close to the connector as possible. Leave the PWM signal connector alone. Strip 0.5 cm from each of the wires you just cut. You need to do this for the two input wires and the three output wires, as shown in the picture:
