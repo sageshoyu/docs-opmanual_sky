@@ -1,4 +1,4 @@
-# Instructions for Flight {#flight status=ready}
+# Flying Your Drone {#flight status=ready}
 In order to fly, you will need:
 * Fully assembled drone
 * Charged battery

@@ -1,4 +1,4 @@
-# Instructions for Network Configuration {#network status=ready}
+# Network Configuration {#network status=ready}
 
 There are several options for your Raspberry Pi's network structure
 with different tradeoffs.  Here we give a summary of different
