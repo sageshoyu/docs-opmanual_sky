@@ -39,3 +39,13 @@ In order to fly, you will need:
   * `s` : down
   * `a` : yaw left
   * `d` : yaw right
+
+Note that there is also a keyboard control interface that you can
+access via SSH that we wrote for our initial testing.  However we
+*strongly* recommend the web interface for two reasons.  First, the
+web interface detects key press as well as key release.  TTY does not
+notify us about key release, which makes the SSH interface harder to
+use.  Additionally, the web interface publishes a heartbeat, that
+causes the drone to disarm if the heartbeat is not received.  It is
+not possible to do a heartbeat with the SSH interface because the
+program is running onboard the drone.
