@@ -1,5 +1,7 @@
 # Flying Your Drone {#flight status=ready}
+
 In order to fly, you will need:
+
 * Fully assembled drone
 * Charged battery
 * Base station
@@ -17,6 +19,9 @@ In order to fly, you will need:
 1. Navigate to `pidrone_pkg` using `cd ~/ws/src/pidrone_pkg`.
 
 1. Start up a screen with `screen -c pi.screenrc`.
+
+1. Put the landing struts on (we ziptie them on) and make sure the
+drone is on a level surface.
 
 1. Calibrate the accellerometer by running `scripts/calibrateAcc.py`.
 
