@@ -1,4 +1,4 @@
-# Nodes {#software-architecture-assignment status=ready}
+# Nodes {#ros-nodes status=ready}
 
 This section elaborates on all of the ROS nodes that run on your drone to make it fly autonomously. These are described in the order in which they appear in pi.screenrc.
 
