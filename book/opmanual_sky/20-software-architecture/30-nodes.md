@@ -8,7 +8,7 @@ Starts up a ROS master to allow the nodes to find eachother.
 ## \`1: Mode Controller
 Mode controller controls what mode the drone should be in based on the user input and on safety checks. For example, if any of the heartbeats stop publishing, the mode controller disarms the drone. You will need to start this node explicitly after starting up a new screen.
 
-* Pythone script: mode_controller.py
+* Python script: mode_controller.py
 * Hardware interfacing: None
 * Publishers:
     * '/pidrone/commanded/mode'
@@ -30,7 +30,7 @@ Command Line Interface is a text-based UI that allows you to control the drone. 
     * "/pidrone/desired/mode"
     * "/pidrone/desired/pose"
     * "/pidrone/desired/twist"
-    * "idrone/reset_transform"
+    * "pidrone/reset_transform"
     * "pidrone/position_control"
     * "/pidrone/map"
 * Subscribers:
