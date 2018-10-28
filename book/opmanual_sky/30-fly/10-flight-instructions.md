@@ -30,7 +30,10 @@ entering ```0` to make sure that roscore has started properly, and then cycle th
 
 1. Once you've ensured all of the nodes are running, find the file `index.html` in the `web` folder in the `pidrone_pkg` folder which you've downloaded onto your base station.  (If you haven't do that now by finding the repository on github [here](https://github.com/h2r/pidrone_pkg) and downloading the zip file onto your base station or cloning the git repository.)
 
-1. Press connect on the web interface to connect to your drone. If it doesn't connect, change the default IP address to your drone's hostname.
+1. Press connect on the web interface to connect to your drone.  Make
+sure the IP address or hostname is the IP address of your drone.
+(Note that you can change the default IP address or hostname by
+editing index.html.)
 
 1. Ensure that the IR sensor is publishing reasonable values by moving your drone up and down by hand and watching the values in the IR sensor graph on the web interface.
 

@@ -69,7 +69,5 @@ not specify which one to connect to.  This script does not persist
 across reboots, so the next time your drone boots up it will be in
 master mode, and you must run it again to switch to managed mode.
 
-
-
-
-
+You will also need to edit `setup.sh` to configure the ROS_IP to be
+the IP address that you are assigned by the network's DHCP server.  
