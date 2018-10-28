@@ -1,6 +1,18 @@
 # Mapping and Localization {#mapping status=ready}
 
-Version 2.0 of the PiDrone software comes with 5 programs for vision outlined in the table below. The two main algorithms are Localization and SLAM (Simultaneous Localization and Mapping). They both use the drone’s camera to produce a pose estimate, but localization requires a map of the environment before hand (map.jpg) whereas SLAM builds a map of the environment as it runs. SLAM is much slower than localization. The table shows which of the algorithms are supported under the following conditions: onboard (running on the raspberry pi), offboard (running on a separate Linux computer), online (running in real time) and offline (collecting data first and then computing in retrospect).
+The Duckiedrone software comes with 5 programs for global localization
+outlined in the table below. The two main algorithms are Localization
+and SLAM (Simultaneous Localization and Mapping). They both use the
+drone's camera to produce a pose estimate, but localization requires a
+map of the environment before hand (map.jpg) whereas SLAM builds a map
+of the environment as it runs. SLAM is much slower than localization,
+and does not run well online even with a fast base station. However it
+gives good performance when run offline to create a map, and then
+later using that map to localize. The table shows which of the
+algorithms are supported under the following conditions: onboard
+(running on the raspberry pi), offboard (running on a separate Linux
+computer), online (running in real time) and offline (collecting data
+first and then computing in retrospect).
 
 |              | Online                | Offline       |
 |--------------|-----------------------|---------------|
