@@ -55,19 +55,21 @@ instead do all processing in a single node.
 
 ## SLAM
 
+The recommended mode for SLAM is to run it offline; there is not
+enough compute even offboard to run it during flight.  It may be
+possible to run SLAM online with additional optimization or by
+rewriting the algorithm in C++; for this reason we include
+instructions for running online as well.
+
+**Offline**: run `vision_localization_onboard.py --SLAM --offline` on
+  the Pi or yoru basestation. Press `m` to toggle mapping mode on,
+  during which time you can fly to collect data for the map. Pressing
+  `m` again will stop the mapping and begin running SLAM offline. It
+  is highly recommended that you land the drone for this part. Once it
+  tells you that it is finished making the map, press `r` to toggle
+  localization over the map you have just made.
+
 **Offboard/online:** run `vision_localization_offboard.py` on the pi. On the offboard computer run `offboard_slam.py`. Press `r` to toggle SLAM.
 
 **Onboard/online:** run `vision_localization_onboard.py --SLAM` on the
   pi. Press `r` to toggle localization.
-
-**Onboard/offline**: run `vision_localization_onboard.py --SLAM --offline` on
-  the Pi. Press `m` to toggle mapping mode on, during which time you
-  can fly to collect data for the map. Pressing `m` again will stop
-  the mapping and begin running SLAM offline. It is highly recommended
-  that you land the drone for this part. Once it tells you that it is
-  finished making the map, press `r` to toggle localization over the
-  map you have just made.
-
-
-In all modes,  
-
