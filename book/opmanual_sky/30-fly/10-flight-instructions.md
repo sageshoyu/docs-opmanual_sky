@@ -37,11 +37,11 @@ editing index.html.)
 
 1. Ensure that the IR sensor is publishing reasonable values by moving your drone up and down by hand and watching the values in the IR sensor graph on the web interface.
 
-1. Ensure that there is space around your drone to fly, and that you
-are flying over a textured surface.  Rotate the drone so that the
-camera is facing you and the flight controller is facing forward.  In
-this way, the keyboard control velocity frame (`i`, `j`, `k`, `l`)
-will match the drone's frame.
+1. Ensure that there is space around and a textured surface beneath your drone to fly.  Rotate the drone so that the camera end is facing towards you and the flight controller is facing away from you.  In this way the keyboard controls (I,j,k,l) will match the drone's orientation. 
+I - foward (flight controller side)
+J - left
+K - backward (camera side)
+L - right
 
 1. Find and read the keyboard commands to control the drone at the
 bottom of the web interface.  Note that there is also a keyboard
