@@ -31,36 +31,37 @@ anything offboard, ROS must be installed on the offboard machine.
 Running offboard is not required to run SLAM; however it may be
 significantly faster to create the map if you use a fast base station.
 
-**Onboard/Offline**: run `vision_localization_onboard.py --SLAM --offline` on
-  the Pi. Press `m` to toggle mapping mode on,
-  during which time you can fly to collect data for the map. Pressing
-  `m` again will stop the mapping and begin running SLAM offline. It
-  is highly recommended that you land the drone for this part. Once it
-  tells you that it is finished making the map, press `r` to toggle
-  localization over the map you have just made.
+For offline slam:
 
-**Offboard/Offline**: run `vision_localization_offboard.py` on the
-  Pi. On the offboard computer run `offboard_slam.py`. Press `r` to
-  toggle SLAM.  Press `m` to toggle mapping mode on, during which time
-  you can fly to collect data for the map. Pressing `m` again will
-  stop the mapping and begin running SLAM offline. It is highly
-  recommended that you land the drone for this part. Once it tells you
-  that it is finished making the map, press `r` to toggle localization
-  over the map you have just made.
+**Onboard**: run `vision_localization_onboard.py --SLAM --offline` on
+  the Pi. To create the map, first take off.  Once the drone is in the air,
+press `m` to toggle mapping mode on, during which time you can fly to
+collect data for the map. Pressing `m` again will stop the mapping and
+begin running SLAM offline.  Then land the drone.  Once it tells you
+that it is finished making the map, press `r` to toggle localization
+over the map you have just made.  
 
 
-**Offboard/online:** run `vision_localization_offboard.py` on the pi. On the offboard computer run `offboard_slam.py`. Press `r` to toggle SLAM.
+**Offboard**: run `vision_localization_offboard.py --offline` on the
+  Pi. On the offboard computer run `offboard_slam.py`.  This will make
+  the map, but there is currently no way to use the map to localize.
 
-**Onboard/online:** run `vision_localization_onboard.py --SLAM` on the
+
+For online slam:
+
+**Offboard:** run `vision_localization_offboard.py` on the pi. On the
+  offboard computer run `offboard_slam.py`. Press `r` to toggle SLAM.
+
+**Onboard:** run `vision_localization_onboard.py --SLAM` on the
   pi. Press `r` to toggle SLAM.
 
 
-**Onboard, re-using map**: In this mode, the code will skip the
-  mapping process and instead read in a map from a text file and
-  localize over that. run `vision_localization_onboard.py --SLAM
-  --offline --read [name of map file]`. Press `r` to toggle
-  localization as if you were running the normal localization code.
-
+<!--
+ Once the map has been created, you can use it to localize by running:
+  `vision_localization_onboard.py --SLAM --offline --read [name of map
+  file]`. Press `r` to toggle localization as if you were running the
+  normal localization code.
+-->
 
 
 ## Localization with a Stitched Map
