@@ -11,8 +11,8 @@ In order to fly, you will need:
 ## Example of Highly textured planar surface
 - should have considerable and distinct markings for camera to process.  
 <figure>
-    <fig caption></figcaption>
-    <img style='width:15em' src="https://github.com/duckietown/docs-opmanual_sky/blob/master/book/opmanual_sky/10-build/drone%20map.jpg"/>
+    <figcaption>Highly textured planar surface.</figcaption>
+    <img style='width:15em' src="https://github.com/duckietown/docs-opmanual_sky/blob/master/book/opmanual_sky/10-build/map.jpg"/>
 </figure>  
 
 ## Steps to Fly:
