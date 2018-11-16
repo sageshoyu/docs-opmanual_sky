@@ -47,7 +47,10 @@ over the map you have just made.
   the map, but there is currently no way to use the map to localize.
 
 
-For online slam:
+Online SLAM runs but not in real time, even offboard.  Therefore we do
+not recommend it until and unless we make it fast enough to run in
+realtime.  However we are including instructions in case someone wants
+to try!  For online slam:
 
 **Offboard:** run `vision_localization_offboard.py` on the pi. On the
   offboard computer run `offboard_slam.py`. Press `r` to toggle SLAM.
