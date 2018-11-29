@@ -8,7 +8,7 @@ represented as images stitched together (map.jpg) whereas SLAM builds
 a map of the environment as it runs. SLAM does not run well online
 even with a fast base station. However it gives good performance when
 run offline to create a map, and then later using that map to
-localize. 
+localize.
 
 These scripts replace the `vision_flow_and_phase.py` script that does
 velocity and position control.  The reason is that we save time and
@@ -18,7 +18,7 @@ the camera.
 
 The recommended workflow is to first run SLAM to create a map offline.
 Then after creating the map, run localization with the saved map to
-give the drone a global position estimate. 
+give the drone a global position estimate.
 
 ## SLAM
 
@@ -43,8 +43,11 @@ over the map you have just made.
 
 
 **Offboard**: run `vision_localization_offboard.py --offline` on the
-  Pi. On the offboard computer run `offboard_slam.py`.  This will make
-  the map, but there is currently no way to use the map to localize.
+  Pi. You can use 'r' to toggle collecting flight data, when you press it
+  the second time, it is written to a file called "flight_data.txt".
+  On the offboard computer run `offboard_offline.py` to make the map using
+  the recorded flight data. Currently, there is no way to localize using this
+  map.
 
 
 Online SLAM runs but not in real time, even offboard.  Therefore we do
@@ -88,5 +91,3 @@ Take photos of the new map with a cell phone or other camera. Take
 **Onboard:** run `vision_localization_onboard.py` on the pi. You must fly over the area captured in map.jpg. Press `r` in the web interface to toggle localization.
 
 **Offboard:** run `vision_localization_offboard.py` on the pi and `offboard_localization.py` on the remote computer. You must fly over the area captured in map.jpg. Press `r` to toggle localization.
-
-
