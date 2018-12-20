@@ -89,7 +89,7 @@ Screw the short M3 bolts into the brass 6mm M3 standoffs.
     <img style='width:35em' src="standoffs_with_screws.png"/>
 </figure>
 
-Use a hex key to screw the standoffs through the PDB into grooves in the frame in the shown orientation. Apply a downward pressure as you are turning to ensure the standoffs bite into the plastic. Be careful not to over-tighten the standoffs and strip out the groove.
+Use a hex key to screw the standoffs through the PDB into grooves in the frame so the 5V out is closest to the camera module as shown. Apply a downward pressure as you are turning to ensure the standoffs bite into the plastic. Be careful not to over-tighten the standoffs and strip out the groove.
 
 <figure>
     <figcaption>PDB Secured in Frame</figcaption>
