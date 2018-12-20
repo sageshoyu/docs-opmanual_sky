@@ -105,7 +105,7 @@ Place your 3mm diameter heatshrink tubing cut to 1cm sections onto each of the m
     <img style='width:35em' src="motor_wires_shrinkwrap.png"/>
 </figure>
 
-Tin the ESC wires thoroughly if you haven’t already. Tin the motor wires as well. (Note: They come pre-tinned, but with a different, higher temperature solder and not quite enough of it)
+Tin the ESC wires thoroughly if you haven’t already. Tin the motor wires as well. (Note: They come pre-tinned, but with a different, higher temperature solder and not quite enough of it, we suggest 0.6mm Sn-0.3Ag-0.7Cu but other solder will work as well.)
 
 <figure>
     <figcaption>Tinned ESC and Motor Wires</figcaption>
