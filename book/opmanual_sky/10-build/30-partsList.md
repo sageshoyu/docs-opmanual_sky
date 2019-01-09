@@ -104,7 +104,15 @@ Please note that all hardware to secure components is included.
 **Price:** \$17.93    
 **Units:** 1  
 **Description:** This 250mm plastic racing quad frame is the chassis for the drone.  
+## [**PDB**](https://hobbyking.com/en_us/hobbyking-fpv250-v4-orange-ghost-edition-led-night-flyer-fpv-quad-copter-orange-kit.html)
+<figure>
+    <figcaption>PDB</figcaption>
+    <img style='width:35em' src="diatonepdb.png"/>
+</figure>  
 
+**Price:** N/A   
+**Units:** 1  
+**Description:** This board distributes power to the various components of the drone, and is included with the frame
 ## [**Skyline 32 Flight Controller**](https://hobbyking.com/en_us/skyline32-acro-flight-controller-w-baseflight-cleanflight.html)
 <figure>
     <figcaption>Flight Controller</figcaption>
@@ -184,6 +192,17 @@ Please note that all hardware to secure components is included.
 **Price:** \$5.10 + \$7.37  
 **Units:** 1  
 **Description:** Used to charge the battery using a wall outlet.    
+
+## **ESC flasher tool**  
+<figure>
+    <figcaption>ESC flasher</figcaption>
+    <img style='width:35em' src="charger.png"/>
+</figure>  
+
+**Price:** \$5.10 + \$7.37  
+**Units:** 1  
+**Description:** Used to charge the battery using a wall outlet.    
+
 
 ## Total: \$248.64
 <figure>
