@@ -193,15 +193,15 @@ Please note that all hardware to secure components is included.
 **Units:** 1  
 **Description:** Used to charge the battery using a wall outlet.    
 
-## **ESC flasher tool**  
+## [**ESC flasher tool**](https://www.amazon.com/HobbyKing-Afro-ESC-Programming-Tool/dp/B00MB1Y24Q)
 <figure>
     <figcaption>ESC flasher</figcaption>
-    <img style='width:35em' src="charger.png"/>
+    <img style='width:35em' src="ESCflasher.png"/>
 </figure>  
 
-**Price:** \$5.10 + \$7.37  
+**Price:** $14.99  
 **Units:** 1  
-**Description:** Used to charge the battery using a wall outlet.    
+**Description:** Used to configure the firmware on the Afro ESC's. 
 
 
 ## Total: \$248.64
@@ -210,4 +210,4 @@ Please note that all hardware to secure components is included.
     <img style='width:35em' src="drone.png"/>
 </figure>
 
-This price does not include spare batteries, supplies and tools.
+This price does not include spare batteries,ESC flasher, supplies and tools.
