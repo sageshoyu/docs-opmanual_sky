@@ -35,7 +35,7 @@ Please note that all hardware to secure components is included.
 **Units:** 1  
 **Description:** This camera points downward and allows the drone to image the space it is flying over.    
 
-## **Pi Mount**  
+## [**Pi Mount**](https://github.com/duckietown/docs-opmanual_sky/blob/master/book/opmanual_sky/10-build/PiMount%20V2%20(1)%20(1).stl)
 <figure>
     <figcaption>Pi Mount</figcaption>
     <img style='width:35em' src="pimount.png"/>
@@ -43,7 +43,7 @@ Please note that all hardware to secure components is included.
 
 **Price:** \~\$0.00  
 **Units:** 1  
-**Description:** We 3D printed a mount to attach the Raspberry Pi to the frame.   
+**Description:** We 3D printed a mount to attach the Raspberry Pi to the frame.    
 
 ## [**Motherboard Standoffs**](https://www.amazon.com/Motherboard-Brass-Standoff-Hexagonal-Spacer/dp/B00MJU985C/)  
 <figure>
