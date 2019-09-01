@@ -16,17 +16,27 @@ Safety tips:
 ## Stripping and Tinning Wires
 **Stripping** is the process of removing a portion of insulator from a wire in order to expose its strands. It is done by using a wire stripper.
 
-![Alt](/X.png "Title") <insert before/after pic of stripped wire>
+![Alt](/X.png "Title") <before/after pic of stripped wire>
 
-**Tinning** is the process of coating exposed wire with solder. It is done by using a soldering iron to melt solder onto the exposed wire.
+**Tinning** is the process of coating exposed wire with solder. It is done by using a soldering iron to melt solder onto exposed wire.
 
-![Alt](/X.png "Title") <insert before/after pic of tinned wire>
+![Alt](/X.png "Title") <before/after pic of tinned wire>
 
 The purpose of stripping and tinning wires is to allow us to join them together. By itself, stripping would not allow us to join wires because the exposed wires would have no way to "stick" to each other:
 
-![Alt](/X.png "Title") <insert pic of stripped wires trying to be joined>
+![Alt](/X.png "Title") <pic of stripped wires trying to be joined>
 
-However, tinning does allow us to "stick" exposed wires to each other; the solder on each exposed wire turns into a liquid when exposed to high heat, then back to a solid when the heat is removed. So we can connect the wires by:
+However, tinning *does* allow us to "stick" (i.e. join) exposed wires to each other; Since solder turns into a liquid when exposed to high heat, but back to a solid when heat is removed, we can connect wires by:
 1. Putting the tinned wires next to each other (so they are touching)
-2. Heating the solder on both wires simultaneously so each turns into a liquid blob. The liquid blobs will then combine into a bigger liquid blob.
-3. Removing the heat so the bigger liquid blob solidifies, thus joining the two wires.
+
+![Alt](/X.png "Title") <pic of tinned wires next to each other>
+  
+2. Heating the solder on both wires simultaneously so each turns into a liquid blob. The liquid blobs will then combine into a larger liquid blob.
+
+![Alt](/X.png "Title") <pic of simultaneous melting>
+  
+3. Removing the heat so the larger liquid blob solidifies, thus joining the two wires.
+
+![Alt](/X.png "Title") <pic of solidified blob, i.e. joined wires>
+
+Furthermore, since solder is conductive, the resulting joint acts as a bridge for electricity traveling between the connected wires!
