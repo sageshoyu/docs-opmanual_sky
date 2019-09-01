@@ -1,5 +1,5 @@
 # Phase 0: Prep Work {#part:build-assignment-X status=ready}
-Expected Time: 3.5 hours
+**Expected Time**: 3.5 hours
 
 ## Preface
 
