@@ -1,8 +1,9 @@
-# Phase 0: Prep Work (Expected Time: 3.5 hours) {#part:build-assignment-X status=ready}
+# Phase 0: Prep Work {#part:build-assignment-X status=ready}
+Expected Time: 3.5 hours
 
 ## Preface
 
-Before you begin this phase, please ensure you have all the parts in the [parts and materials list]().
+Before you begin, please ensure you have all the parts in the [parts and materials list]().
 
 In this phase of the build, you will do prep work for the next phases of the build. This phase will require a lot of soldering, so please go through a [soldering tutorial](https://www.youtube.com/watch?v=Qps9woUGkvI) before starting.
 
@@ -68,7 +69,7 @@ Please skip this step if your kit already contains a completed XT60 connector ca
     - Protective casing for XT60 connector (optional)
     - 12AWG black wire, 12AWG red wire
     
-    ![Alt](/X.png "Title") <pic of female XT60 connector, protective casing, 12AWG black wire, 12 AWG red wire>
+    ![Alt](/X.png "Title") <pic of female XT60 connector, protective casing, 12AWG black wire, 12AWG red wire>
     
 2. Follow this [guide](http://www.mindsensors.com/blog/how-to/tutorial-soldering-xt60-connectors) on creating an XT60 connector cable.
 3. Attach the protective casing by sliding it into place (optional).
