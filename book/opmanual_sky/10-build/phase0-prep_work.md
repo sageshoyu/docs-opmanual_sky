@@ -40,3 +40,23 @@ However, tinning *does* allow us to "stick" (i.e. join) exposed wires to each ot
 ![Alt](/X.png "Title") <pic of solidified blob, i.e. joined wires>
 
 Furthermore, since solder is conductive, the resulting joint acts as a bridge for electricity traveling between the connected wires!
+
+**Your task**, then, is to strip and tin all of your parts so that they can be joined together in the next phases:
+- ESCs
+- BEC
+- 
+
+## Creating an XT60 Connector Cable
+Please skip this step if your kit already contains a complete XT60 connector cable:
+
+![Alt](/X.png "Title") <pic of complete XT60H connector cable>
+
+1. Gather the following parts:
+    - XT60 connector (Female)
+    - Protective casing for XT60 connector (optional)
+    - 12AWG black wire (6in.), 12AWG red wire (6in.)
+    
+    ![Alt](/X.png "Title") <pic of female XT60 connector, protective casing, 12AWG black wire, 12 AWG red wire>
+    
+2. Follow this [guide](http://www.mindsensors.com/blog/how-to/tutorial-soldering-xt60-connectors) on how to create an XT60 connector cable.
+3. Attach the protective casing by sliding it into place (optional).
