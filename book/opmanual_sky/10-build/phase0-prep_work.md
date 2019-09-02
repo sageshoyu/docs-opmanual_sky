@@ -19,30 +19,22 @@ Safety tips:
 
 ![Alt](/X.png "Title") <before/after pic of stripped wire;>
 
-**Tinning** is the process of coating exposed wire with solder. It is done by using a soldering iron to melt solder onto exposed wire.
+**Tinning** is the process of applying solder to exposed wire. It is done by using a soldering iron to melt solder into the exposed wire.
 
 ![Alt](/X.png "Title") <before/after pic of tinned wire;>
 
-The purpose of stripping and tinning wires is to allow them to be joined together. By itself, stripping would not allow wires to be joined because the exposed wires would have no way to "stick" to each other:
+The purpose of stripping and tinning wires is to allow them to be joined together. By itself, stripping would not allow wires to be joined because the exposed wires would have no way to "stick" to each other.
 
-![Alt](/X.png "Title") <pic of stripped wires trying to be joined;>
+However, tinning *does* allow exposed wires to "stick" (i.e. join) to each other by using the fact that solder turns into a liquid when exposed to high heat, but into a solid when the heat is removed; this means wires can be joined by:
+1. Putting the tinned wires next to each other so they are touching.
+2. Heating solder on both wires simultaneously so each turns into a liquid. The liquids will then combine.
+3. Removing the heat so the liquid solidifies, thus joining the two wires.
 
-However, tinning *does* allow exposed wires to "stick" (i.e. join) to each other; since solder turns into a liquid when exposed to high heat, but back into a solid when heat is removed, wires can be joined by:
-1. Putting the tinned wires next to each other (so they are touching)
+See this [tutorial](https://www.youtube.com/watch?v=pRPF4wpXX9Q) to learn how to tin and join two wires.
 
-  ![Alt](/X.png "Title") <pic of tinned wires next to each other;>
-  
-2. Heating the solder on both wires simultaneously so each turns into a liquid blob. The liquid blobs will then combine into a larger liquid blob.
+Furthermore, since solder is conductive, the resulting joint acts as a bridge for electricity traveling between the connected wires! 
 
-  ![Alt](/X.png "Title") <pic of simultaneous melting;>
-  
-3. Removing the heat so the larger liquid blob solidifies, thus joining the two wires.
-
-  ![Alt](/X.png "Title") <pic of solidified blob, i.e. joined wires;>
-
-Furthermore, since solder is conductive, the resulting joint acts as a bridge for electricity traveling between the connected wires!
-
-**Your task**, then, is to strip and tin all of your parts so that they can be joined together in the next phases:
+**Your task** in this phase is to strip and tin all of your parts, so that in latter phases they can be joined together:
 
 - 4 ESCs
 
@@ -56,7 +48,7 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
   
   ![Alt](/X.png "Title") <before/after pic of BEC stripped and tinned;>
   
-- Red and brown wire pair in flight controller box (NOTE: do **not** substitute with another wire pair in the box)
+- Red and brown wire pair in flight controller box (NOTE: do **NOT** substitute with any other wire pair in the box)
 
   ![Alt](/X.png "Title") <before/after pic of red/brown wire stripped and tinned;>
 
@@ -90,7 +82,7 @@ For each ESC:
 
    ![Alt](/X.png "Title") <before/after pic of heat shrink on ESC;>
    
-6. Strip and tin the completed ESC.
+6. Strip and tin all wires of the completed ESC (if not already done).
 
 ## Creating an XT60 Connector Cable
 Please skip this step if your kit already contains a completed XT60 connector cable:
@@ -107,7 +99,7 @@ Please skip this step if your kit already contains a completed XT60 connector ca
     
 2. Follow this [guide](http://www.mindsensors.com/blog/how-to/tutorial-soldering-xt60-connectors) on creating an XT60 connector cable.
 3. Slide the protective casing through the red and black wires, then attach to XT60 connector (optional).
-4. Strip and tin your completed XT60 connector cable.
+4. Strip and tin all wires of the completed XT60 connector cable (if not already done).
 
 ## Checkoff
 - Do a [connectivity check]() on the XT60 connector cable; verify there is no short between the red and black wire.
