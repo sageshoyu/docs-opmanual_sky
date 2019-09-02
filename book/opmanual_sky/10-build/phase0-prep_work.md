@@ -12,7 +12,7 @@ Safety tips:
 - Don't touch the soldering iron tip (or any other metal piece) while the soldering iron is on, since doing so can cause burns. If you get burned, rinse the affected area with cold water immediately.
 - Likewise, don't use the soldering iron on anything you don't intend to solder. The high heat will cause things to melt or burn.
 - Don't breathe soldering fumes; use a soldering fan whenever possible.
-- If you have difficulty soldering (e.g. shaky hands), please seek the advise of a TA or teacher.
+- If you have difficulty soldering (e.g. shaky hands), please seek the advice of a TA or teacher.
 
 ## Stripping and Tinning Wires
 **Stripping** is the process of removing a portion of insulator from a wire in order to expose its strands. It is done by using a wire stripper.
@@ -108,3 +108,8 @@ For each ESC:
    
 6. Strip and tin the completed ESC.
 
+## Checkoff
+- Do a [connectivity check]() on each ESC; for each ESC, verify there are no shorts between any two wires you soldered.
+- Visually inspect each ESC and verify that the heat shrinks are on properly; there should be no exposed wires and each heat shrink should be a tight fit.
+- Do a [connectivity check]() on the XT60 connector cable; verify there is no short between the red and black wire.
+- Visually inspect that each of the following is stripped and tinned: 4 ESCs, 4 motors, BEC, XT60 connector, red and brown wire pair.
