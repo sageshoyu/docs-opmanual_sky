@@ -77,6 +77,15 @@ Please note that all hardware to secure components is included.
 **Units:** 6    
 **Description:** The standoffs allow us to place the pi mount on top of the PDB (Power Distribution Board) and stablize the pi hat on the Raspberry Pi.
 
+## **M3 Bolts**
+<figure>
+    <figcaption>M3 BoltB</figcaption>
+    <img style='width:35em' src="photos/standoffs_with_screws.png"/>
+</figure>  
+ 
+**Units:** 4    
+**Description:** M3 Bolts allow us to use standoffs to place the pi mount on top of the PDB.
+
 ## [**Raspberry Pi 3 Model B (Pi)**](https://www.alliedelec.com/product/raspberry-pi/raspberry-pi-3/70816528/)
 <figure>
     <figcaption>Raspberry Pi</figcaption>
@@ -112,15 +121,6 @@ Please note that all hardware to secure components is included.
  
 **Units:** 3    
 **Description:** The screws allow us to place the Raspberry Pi on top of the pi mount.
-
-## **Screws for Pi Mount to PDB**
-<figure>
-    <figcaption>Screws for Pi Mount to PDB</figcaption>
-    <img style='width:35em' src="photos/screws_black.jpg"/>
-</figure>  
- 
-**Units:** 4    
-**Description:** The screws allow us to place the pi mount on top of the PDB.
 
 ## [**Battery Eliminator Circuit (BEC)**](https://hobbyking.com/en_us/kingkong-5v-3a-ubec.html)
 <figure>
