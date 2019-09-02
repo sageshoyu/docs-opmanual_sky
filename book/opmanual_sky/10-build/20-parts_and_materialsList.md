@@ -65,7 +65,7 @@ Please note that all hardware to secure components is included.
     <img style='width:35em' src="photos/bullet_connector.jpg"/>
 </figure>  
   
-**Units:** 24 (12 of male side and 12 of female side)
+**Units:** 24 (12 of male side and 12 of female side)    
 **Description:** TODO. 
 
 ## [**6mm + 4mm Brass Standoff**](https://www.amazon.com/Motherboard-Brass-Standoff-Hexagonal-Spacer/dp/B00MJU985C)  
@@ -180,7 +180,7 @@ Please note that all hardware to secure components is included.
 ## [**Pi Mount**](https://github.com/duckietown/docs-opmanual_sky/blob/master/book/opmanual_sky/10-build/PiMount%20V2%20(1)%20(1).stl)
 <figure>
     <figcaption>Pi Mount</figcaption>
-    <img style='width:35em' src="photos/pimount.jpg"/>
+    <img style='width:35em' src="photos/pi_mount.jpg"/>
 </figure>  
  
 **Units:** 1  
@@ -212,3 +212,4 @@ Please note that all hardware to secure components is included.
  
 **Units:** 1  
 **Description:** This can help attach the battery to the drone.                       
+
