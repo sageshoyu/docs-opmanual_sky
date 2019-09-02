@@ -67,12 +67,13 @@ Please skip this step if your kit already contains a completed XT60 connector ca
 1. Gather the following parts:
     - XT60 connector (Female)
     - Protective casing for XT60 connector (optional)
-    - 12AWG black wire, 12AWG red wire
+    - 12AWG red wire, 12AWG black wire
+    - Heat shrinks (recommend 5mm-9mm width)
     
-    ![Alt](/X.png "Title") <pic of female XT60 connector, protective casing, 12AWG black wire, 12AWG red wire>
+    ![Alt](/X.png "Title") <pic of parts listed above>
     
 2. Follow this [guide](http://www.mindsensors.com/blog/how-to/tutorial-soldering-xt60-connectors) on creating an XT60 connector cable.
-3. Attach the protective casing by sliding it into place (optional).
+3. Slide the protective casing through the red and black wires, then attach to XT60 connector (optional).
 4. Strip and tin your completed XT60 connector cable.
 
 ## Soldering wires on ESC pads
