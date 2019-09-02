@@ -58,14 +58,6 @@ Here you will learn about the tools and materials that you will need to use to b
  
 **Description:** Used to remove the nonconductive casing from the end of a wire so that the wire can be soldered to a component.
 
-## Heat Shrinks
-<figure>
-    <figcaption>Heat Shrinks</figcaption>
-    <img style='width:35em' src="photos/heat_shrink2.jpg" width="500"/>
-</figure>  
- 
-**Description:** Protective material that is put over soldering joints. The material shrinks when exposed to high heat.
-
 ## Heat Gun
 <figure>
     <figcaption>Heat Gun</figcaption>
@@ -81,14 +73,6 @@ Here you will learn about the tools and materials that you will need to use to b
 </figure>  
  
 **Description:** Useful for holding wires and securing standoffs.
-
-## Zip Ties
-<figure>
-    <figcaption>Zip Ties</figcaption>
-    <img style='width:35em' src="photos/zip_ties.jpg" width="500"/>
-</figure>  
- 
-**Description:** Used to secure the infrared sensor, PWM connectors, and ESCs to the frame of the drone.
 
 ## 2.5 mm Allen Wrench
 <figure>
