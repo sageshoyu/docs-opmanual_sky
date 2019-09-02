@@ -71,7 +71,7 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 
 For each ESC:
 
-2. Use your fingers (or small wire cutters) to very *carefully* remove excess material from each ESC pad.
+2. Use your fingers (or small wire cutters) to *very carefully* remove excess material from each ESC pad.
 
    ![Alt](/X.png "Title") <before/after pic of excess material removed from pads;>
 
