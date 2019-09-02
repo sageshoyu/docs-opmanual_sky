@@ -17,64 +17,47 @@ Safety tips:
 ## Stripping and Tinning Wires
 **Stripping** is the process of removing a portion of insulator from a wire in order to expose its strands. It is done by using a wire stripper.
 
-![Alt](/X.png "Title") <before/after pic of stripped wire>
+![Alt](/X.png "Title") <before/after pic of stripped wire;>
 
 **Tinning** is the process of coating exposed wire with solder. It is done by using a soldering iron to melt solder onto exposed wire.
 
-![Alt](/X.png "Title") <before/after pic of tinned wire>
+![Alt](/X.png "Title") <before/after pic of tinned wire;>
 
 The purpose of stripping and tinning wires is to allow them to be joined together. By itself, stripping would not allow wires to be joined because the exposed wires would have no way to "stick" to each other:
 
-![Alt](/X.png "Title") <pic of stripped wires trying to be joined>
+![Alt](/X.png "Title") <pic of stripped wires trying to be joined;>
 
-However, tinning *does* allow exposed wires to "stick" (i.e. join) to each other; Since solder turns into a liquid when exposed to high heat, but back to a solid when heat is removed, wires can be joined by:
+However, tinning *does* allow exposed wires to "stick" (i.e. join) to each other; since solder turns into a liquid when exposed to high heat, but back into a solid when heat is removed, wires can be joined by:
 1. Putting the tinned wires next to each other (so they are touching)
 
-  ![Alt](/X.png "Title") <pic of tinned wires next to each other>
+  ![Alt](/X.png "Title") <pic of tinned wires next to each other;>
   
 2. Heating the solder on both wires simultaneously so each turns into a liquid blob. The liquid blobs will then combine into a larger liquid blob.
 
-  ![Alt](/X.png "Title") <pic of simultaneous melting>
+  ![Alt](/X.png "Title") <pic of simultaneous melting;>
   
 3. Removing the heat so the larger liquid blob solidifies, thus joining the two wires.
 
-  ![Alt](/X.png "Title") <pic of solidified blob, i.e. joined wires>
+  ![Alt](/X.png "Title") <pic of solidified blob, i.e. joined wires;>
 
 Furthermore, since solder is conductive, the resulting joint acts as a bridge for electricity traveling between the connected wires!
 
 **Your task**, then, is to strip and tin all of your parts so that they can be joined together in the next phases:
 - ESCs
 
-  ![Alt](/X.png "Title") <before/after pic of ESCs stripped and tinned>
+  ![Alt](/X.png "Title") <before/after pic of ESCs stripped and tinned;>
   
 - Motors
 
-  ![Alt](/X.png "Title") <before/after pic of motors stripped and tinned>
+  ![Alt](/X.png "Title") <before/after pic of motors stripped and tinned;>
   
-- BEC (NOTE: only tin black and red wires on the IN side of BEC)
+- BEC (NOTE: only tin red and black wires on the IN side of BEC)
   
-  ![Alt](/X.png "Title") <before/after pic of BEC stripped and tinned>
+  ![Alt](/X.png "Title") <before/after pic of BEC stripped and tinned;>
   
 - Red and brown wire pair in flight controller box (NOTE: do **not** substitute with another wire pair in the box)
 
-  ![Alt](/X.png "Title") <before/after pic of red/brown wire stripped and tinned>
-
-## Creating an XT60 Connector Cable
-Please skip this step if your kit already contains a completed XT60 connector cable:
-
-![Alt](/X.png "Title") <pic of complete XT60H connector cable>
-
-1. Gather the following parts:
-    - XT60 connector (Female)
-    - Protective casing for XT60 connector (optional)
-    - 12AWG red wire, 12AWG black wire
-    - Heat shrinks (recommend 5mm-9mm width)
-    
-    ![Alt](/X.png "Title") <pic of parts listed above>
-    
-2. Follow this [guide](http://www.mindsensors.com/blog/how-to/tutorial-soldering-xt60-connectors) on creating an XT60 connector cable.
-3. Slide the protective casing through the red and black wires, then attach to XT60 connector (optional).
-4. Strip and tin your completed XT60 connector cable.
+  ![Alt](/X.png "Title") <before/after pic of red/brown wire stripped and tinned;>
 
 ## Soldering wires on ESC pads
 
@@ -83,13 +66,13 @@ Please skip this step if your kit already contains a completed XT60 connector ca
    - Heat Shrinks (recommend 13mm width)
    - 12 pieces of wire (recommend 4 red, 4 yellow, and 4 blue - each 3in. length)
    
-   ![Alt](/X.png "Title") <pic of listed parts>
+   ![Alt](/X.png "Title") <pic of listed parts;>
 
 For each ESC:
 
 2. Use your fingers (or small wire cutters) to very *carefully* remove excess material from each ESC pad.
 
-   ![Alt](/X.png "Title") <before/after pic of excess material removed from pads>
+   ![Alt](/X.png "Title") <before/after pic of excess material removed from pads;>
 
 3. Solder the following:
    - 1 red wire on pad A
@@ -98,18 +81,35 @@ For each ESC:
    
    (NOTE: the wire colors are purely our convention. Feel free to use other colors if needed.)
    
-   ![Alt](/X.png "Title") <pic of pads A, B, and C; pic of red soldered on A, yellow soldered on B, blue soldered on C>
+   ![Alt](/X.png "Title") <pic of pads A, B, and C; pic of red soldered on A, yellow soldered on B, blue soldered on C;>
    
 4. Do a [connectivity check]() between each pair of soldered wires (recommend doing this now instead of in checkoff later).
 
 5. Put a heat shrink over the ESC. The heat shrink should cover (length-wise) the exposed soldered wires on one end and half the ESC on the other end. Use a heat gun to shrink the heat shrink.
 
-   ![Alt](/X.png "Title") <before/after pic of heat shrink on ESC>
+   ![Alt](/X.png "Title") <before/after pic of heat shrink on ESC;>
    
 6. Strip and tin the completed ESC.
 
+## Creating an XT60 Connector Cable
+Please skip this step if your kit already contains a completed XT60 connector cable:
+
+![Alt](/X.png "Title") <pic of complete XT60H connector cable;>
+
+1. Gather the following parts:
+    - XT60 connector (Female)
+    - Protective casing for XT60 connector (optional)
+    - 12AWG red wire, 12AWG black wire
+    - Heat shrinks (recommend 5mm-9mm width)
+    
+    ![Alt](/X.png "Title") <pic of parts listed above;>
+    
+2. Follow this [guide](http://www.mindsensors.com/blog/how-to/tutorial-soldering-xt60-connectors) on creating an XT60 connector cable.
+3. Slide the protective casing through the red and black wires, then attach to XT60 connector (optional).
+4. Strip and tin your completed XT60 connector cable.
+
 ## Checkoff
+- Do a [connectivity check]() on the XT60 connector cable; verify there is no short between the red and black wire.
 - Do a [connectivity check]() on each ESC; for each ESC, verify there are no shorts between any two wires you soldered.
 - Visually inspect each ESC and verify that the heat shrinks are on properly; there should be no exposed wires and each heat shrink should be a tight fit.
-- Do a [connectivity check]() on the XT60 connector cable; verify there is no short between the red and black wire.
 - Visually inspect that each of the following is stripped and tinned: 4 ESCs, 4 motors, BEC, XT60 connector, red and brown wire pair.
