@@ -34,7 +34,7 @@ Here you will learn about the tools and materials that you will need to use to b
  
 **Description:** The soldering fan sucks up the smoke made when the solder melts so that you do not inhale it.
 
-## Halping Hands
+## Helping Hands
 <figure>
     <figcaption>Helping Hands</figcaption>
     <img style='width:35em' src="photos/helping_hands.jpg"/>
