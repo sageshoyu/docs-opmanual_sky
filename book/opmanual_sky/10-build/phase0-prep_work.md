@@ -74,3 +74,36 @@ Please skip this step if your kit already contains a completed XT60 connector ca
 2. Follow this [guide](http://www.mindsensors.com/blog/how-to/tutorial-soldering-xt60-connectors) on creating an XT60 connector cable.
 3. Attach the protective casing by sliding it into place (optional).
 4. Strip and tin your completed XT60 connector cable.
+
+## Soldering wires on ESC pads
+
+1. Gather the following parts:
+   - 4 ESCs
+   - Heat Shrinks (recommend 13mm width)
+   - 12 pieces of wire (recommend 4 red, 4 yellow, and 4 blue - each 3in. length)
+   
+   ![Alt](/X.png "Title") <pic of listed parts>
+
+For each ESC:
+
+2. Use your fingers (or small wire cutters) to very *carefully* remove excess material from each ESC pad.
+
+   ![Alt](/X.png "Title") <before/after pic of excess material removed from pads>
+
+3. Solder the following:
+   - 1 red wire on pad A
+   - 1 yellow wire on pad B
+   - 1 blue wire on pad C
+   
+   (NOTE: the wire colors are purely our convention. Feel free to use other colors if needed.)
+   
+   ![Alt](/X.png "Title") <pic of pads A, B, and C; pic of red soldered on A, yellow soldered on B, blue soldered on C>
+   
+4. Do a [connectivity check]() between each pair of soldered wires (recommend doing this now instead of in checkoff later).
+
+5. Put a heat shrink over the ESC. The heat shrink should cover (length-wise) the exposed soldered wires on one end and half the ESC on the other end. Use a heat gun to shrink the heat shrink.
+
+   ![Alt](/X.png "Title") <before/after pic of heat shrink on ESC>
+   
+6. Strip and tin the completed ESC.
+
