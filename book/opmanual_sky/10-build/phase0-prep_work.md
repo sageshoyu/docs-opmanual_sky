@@ -43,11 +43,12 @@ However, tinning *does* allow exposed wires to "stick" (i.e. join) to each other
 Furthermore, since solder is conductive, the resulting joint acts as a bridge for electricity traveling between the connected wires!
 
 **Your task**, then, is to strip and tin all of your parts so that they can be joined together in the next phases:
-- ESCs
+
+- 4 ESCs
 
   ![Alt](/X.png "Title") <before/after pic of ESCs stripped and tinned;>
   
-- Motors
+- 4 Motors
 
   ![Alt](/X.png "Title") <before/after pic of motors stripped and tinned;>
   
