@@ -13,7 +13,7 @@ Here you will learn about the tools and materials that you will need to use to b
 ## Solder
 <figure>
     <figcaption>Solder</figcaption>
-    <img style='width:35em' src="photos/soldering.jpg"/>
+    <img style='width:35em' src="photos/solder.jpg"/>
 </figure>  
  
 **Description:** The soldering Iron melts the solder so that electrical components can be connected. 
