@@ -16,7 +16,7 @@ Here you will learn about the tools and materials that you will need to use to b
     <img style='width:35em' src="photos/solder.jpg"/>
 </figure>  
  
-**Description:** The soldering Iron melts the solder so that electrical components can be connected. 
+**Description:** The soldering iron melts the solder so that electrical components can be connected. 
 
 ## Solder Wool
 <figure>
@@ -32,7 +32,7 @@ Here you will learn about the tools and materials that you will need to use to b
     <img style='width:35em' src="photos/soldering_fan.jpg"/>
 </figure>  
  
-**Description:** The soldering fan sucks up the smoke made when the sodlering melts so that you do not inhale it.
+**Description:** The soldering fan sucks up the smoke made when the solder melts so that you do not inhale it.
 
 ## Halping Hands
 <figure>
@@ -61,15 +61,15 @@ Here you will learn about the tools and materials that you will need to use to b
 ## Heat Shrinks
 <figure>
     <figcaption>Heat Shrinks</figcaption>
-    <img style='width:35em' src="photos/heat_shrink.jpg"/>
+    <img style='width:35em' src="photos/heat_shrink2.jpg"/>
 </figure>  
  
 **Description:** Protective material that is put over soldering joints. The material shrinks when exposed to high heat.
 
 ## Heat Gun
 <figure>
-    <figcaption>Heat Guns</figcaption>
-    <img style='width:35em' src="photos/heat_shrink.jpg"/>
+    <figcaption>Heat Gun</figcaption>
+    <img style='width:35em' src="photos/heat_gun.jpg"/>
 </figure>  
  
 **Description:** Blows hot air so that heat shrinks can shrink over a solder joint.
@@ -101,7 +101,7 @@ Here you will learn about the tools and materials that you will need to use to b
 ## Double Sided Mounting Tape
 <figure>
     <figcaption>Double Sided Mounting Tape</figcaption>
-    <img style='width:35em' src="photos/esc.jpg"/>
+    <img style='width:35em' src="photos/double_sided_mounting_tape.jpg"/>
 </figure>  
 
 **Description:** Used to attach the camera and flight controller to the drone.
@@ -114,13 +114,13 @@ Here you will learn about the tools and materials that you will need to use to b
 
 **Description:** Wire that will be soldered to the ESCs so that they can be connected to the motors.
 
-## Hot Glue Gun
+## Wire for Pi Hat
 <figure>
-    <figcaption>Hot Glue Gun</figcaption>
-    <img style='width:35em' src="photos/hot_glue_gun_and_hot_glue_sticks.jpg"/>
+    <figcaption>Wire for Pi Hat</figcaption>
+    <img style='width:35em' src="photos/wires2.jpg"/>
 </figure>  
 
-**Description:** Used to secure mini USB connector to the flight controller.
+**Description:** Used to connect components on the Pi Hat.
 
 ## Hot Glue Gun
 <figure>
@@ -137,3 +137,11 @@ Here you will learn about the tools and materials that you will need to use to b
 </figure>  
 
 **Description:** If you accidentally burn the casing of a wire with the soldering iron, you can protect the wire by wrapping it in electrical tape.
+
+## Multimeter
+<figure>
+    <figcaption>Multimeter</figcaption>
+    <img style='width:35em' src="photos/multimeter.jpg"/>
+</figure>  
+
+**Description:** Used to test the connection and voltage across components on your drone. This tool will be used to confirm you correctly completed steps of the build.
