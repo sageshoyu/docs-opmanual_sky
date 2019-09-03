@@ -129,7 +129,9 @@ For each ESC:
 ## Create an XT60 Connector Cable
 Please skip this step if your kit already contains a completed XT60 connector cable:
 
-![Alt](/X.png "Title") <pic of completed XT60H connector cable;>
+<figure>Completed XT60 Connector</figcaption>
+    <img style='width:35em' src="phase_0_photos/xt60_complete.png" height="500"/>
+    </figure>  
 
 1. Gather the following parts:
     - XT60 connector (Female)
@@ -137,7 +139,10 @@ Please skip this step if your kit already contains a completed XT60 connector ca
     - 12AWG red wire, 12AWG black wire
     - Heat shrinks (recommend 5mm-9mm width)
     
-    ![Alt](/X.png "Title") <pic of parts listed above;>
+    <figure>
+    <figcaption>Parts of XT60 connector</figcaption>
+    <img style='width:35em' src="phase_0_photos/XT60_connector_plus_red_and_black_wires.jpg" height="500"/>
+    </figure>  
     
 2. Follow this [guide](http://www.mindsensors.com/blog/how-to/tutorial-soldering-xt60-connectors) on creating an XT60 connector cable.
 3. Slide the protective casing through the red and black wires, then attach to XT60 connector (optional).
