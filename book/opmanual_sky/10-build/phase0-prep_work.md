@@ -14,7 +14,7 @@ Safety tips:
 - Don't breathe soldering fumes; use a soldering fan whenever possible.
 - If you have difficulty soldering (e.g. shaky hands), please seek the advice of a TA or teacher.
 
-## Stripping and Tinning Wires
+## Strip and Tin Wires
 **Stripping** is the process of removing a portion of insulator from a wire in order to expose its strands. It is done by using a wire stripper.
 
 ![Alt](/X.png "Title") <before/after pic of stripped wire;>
@@ -52,7 +52,7 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 
   ![Alt](/X.png "Title") <before/after pic of red/brown wire stripped and tinned;>
 
-## Soldering wires on ESC pads
+## Solder wires onto ESC pads
 
 1. Gather the following parts:
    - 4 ESCs
@@ -84,7 +84,7 @@ For each ESC:
    
 6. Strip and tin all wires of the completed ESC (if not already done).
 
-## Creating an XT60 Connector Cable
+## Create an XT60 Connector Cable
 Please skip this step if your kit already contains a completed XT60 connector cable:
 
 ![Alt](/X.png "Title") <pic of complete XT60H connector cable;>
