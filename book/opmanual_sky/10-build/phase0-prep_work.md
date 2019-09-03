@@ -54,6 +54,10 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 
 ## Solder wires onto ESC pads
 
+In this section, you will prepare your ESCs:
+
+![Alt](/X.png "Title") <pic of completed ESCs (without bullet connectors)>
+
 1. Gather the following parts:
    - 4 ESCs
    - Heat Shrinks (recommend 13mm width)
@@ -87,7 +91,7 @@ For each ESC:
 ## Create an XT60 Connector Cable
 Please skip this step if your kit already contains a completed XT60 connector cable:
 
-![Alt](/X.png "Title") <pic of complete XT60H connector cable;>
+![Alt](/X.png "Title") <pic of completed XT60H connector cable;>
 
 1. Gather the following parts:
     - XT60 connector (Female)
