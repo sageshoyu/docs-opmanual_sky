@@ -222,3 +222,20 @@ Please note that all hardware to secure components is included.
 **Units:** 1    
 **Description:** This can help attach the battery to the drone.                       
 
+# Materials List {#build-assignment-2 status=ready}
+
+## [**Heat Shrinks**](https://www.amazon.com/dp/B07GS7PBHV)
+<figure>
+    <figcaption>Heat Shrinks</figcaption>
+    <img style='width:35em' src="photos/heat_shrinks.jpg"/>
+</figure>  
+       
+**Description:** Heat-shrink tubing (or, commonly, heat shrink or heatshrink) is a shrinkable plastic tube used to insulate wires, providing abrasion resistance and environmental protection for stranded and solid wire conductors, connections, joints and terminals in electrical work.   
+
+## [**Zip Ties**](https://www.amazon.com/dp/B078T6N58P)
+<figure>
+    <figcaption>Zip Ties</figcaption>
+    <img style='width:35em' src="photos/zip_ties.jpg"/>
+</figure>  
+       
+**Description:** A zip tie is a type of fastener, for holding items together, primarily electrical cables or wires.     
