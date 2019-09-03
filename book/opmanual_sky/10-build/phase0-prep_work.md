@@ -17,11 +17,27 @@ Safety tips:
 ## Strip and Tin Wires
 **Stripping** is the process of removing a portion of insulator from a wire in order to expose its strands. It is done by using a wire stripper.
 
-![Alt](/X.png "Title") <before/after pic of stripped wire;>
+<figure>
+    <figcaption>An unstripped wire</figcaption>
+    <img style='width:35em' src="phase_0_photos/wire.jpg" width="500"/>
+</figure>  
+
+<figure>
+    <figcaption>A stripped wire</figcaption>
+    <img style='width:35em' src="phase_0_photos/stripped_wire.jpg" width="500"/>
+</figure>  
 
 **Tinning** is the process of applying solder to exposed wire. It is done by using a soldering iron to melt solder into the exposed wire.
 
-![Alt](/X.png "Title") <before/after pic of tinned wire;>
+<figure>
+    <figcaption>A wire before tinning</figcaption>
+    <img style='width:35em' src="phase_0_photos/untinned_wire.jpg" width="500"/>
+</figure>  
+
+<figure>
+    <figcaption>A tinned wire</figcaption>
+    <img style='width:35em' src="phase_0_photos/tinned_wire.jpg" width="500"/>
+</figure>  
 
 The purpose of stripping and tinning wires is to allow them to be joined together. By itself, stripping would not allow wires to be joined because the exposed wires would have no way to "stick" to each other.
 
@@ -38,25 +54,35 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 
 - 4 ESCs
 
-  ![Alt](/X.png "Title") <before/after pic of ESCs stripped and tinned;>
+<figure>
+    <figcaption>A tinned ESC</figcaption>
+    <img style='width:35em' src="phase_0_photos/tinned_esc_2.jpg" width="500"/>
+</figure>  
   
 - 4 Motors
 
-  ![Alt](/X.png "Title") <before/after pic of motors stripped and tinned;>
+<figure>
+    <figcaption>A tinned motor</figcaption>
+    <img style='width:35em' src="phase_0_photos/tinned_motor.jpg" width="500"/>
+</figure>  
   
 - BEC (NOTE: only tin red and black wires on the IN side of BEC)
   
-  ![Alt](/X.png "Title") <before/after pic of BEC stripped and tinned;>
+<figure>
+    <figcaption>A tinned BEC</figcaption>
+    <img style='width:35em' src="phase_0_photos/tinned_bec.jpg" width="500"/>
+</figure>  
   
 - Red and brown wire pair in flight controller box (NOTE: do **NOT** substitute with any other wire pair in the box)
 
-  ![Alt](/X.png "Title") <before/after pic of red/brown wire stripped and tinned;>
+<figure>
+    <figcaption>A tinned red and brown wire pair</figcaption>
+    <img style='width:35em' src="phase_0_photos/tinned_red_brown.jpg" width="500"/>
+</figure>  
 
 ## Solder wires onto ESC pads
 
 In this section, you will prepare your ESCs:
-
-![Alt](/X.png "Title") <pic of completed ESCs (without bullet connectors)>
 
 1. Gather the following parts:
    - 4 ESCs
@@ -69,7 +95,15 @@ For each ESC:
 
 2. Use your fingers (or small wire cutters) to *very carefully* remove excess material from each ESC pad.
 
-   ![Alt](/X.png "Title") <before/after pic of excess material removed from pads;>
+<figure>
+    <figcaption>Excess material on ESC pads</figcaption>
+    <img style='width:35em' src="phase_0_photos/uncut_esc_pads.jpg" width="500"/>
+</figure>  
+
+<figure>
+    <figcaption>ESC pads without excess material</figcaption>
+    <img style='width:35em' src="phase_0_photos/improved_esc_pads.jpg" width="500"/>
+</figure>  
 
 3. Solder the following:
    - 1 red wire on pad A
@@ -78,13 +112,19 @@ For each ESC:
    
    (NOTE: the wire colors are purely our convention. Feel free to use other colors if needed.)
    
-   ![Alt](/X.png "Title") <pic of pads A, B, and C; pic of red soldered on A, yellow soldered on B, blue soldered on C;>
+<figure>
+    <figcaption>A prepared ESC</figcaption>
+    <img style='width:35em' src="phase_0_photos/colorful_esc.jpg" width="500"/>
+</figure>  
    
 4. Do a [connectivity check]() between each pair of soldered wires (recommend doing this now instead of in checkoff later).
 
 5. Put a heat shrink over the ESC. The heat shrink should cover (length-wise) the exposed soldered wires on one end and half the ESC on the other end. Use a heat gun to shrink the heat shrink.
 
-   ![Alt](/X.png "Title") <before/after pic of heat shrink on ESC;>
+<figure>
+    <figcaption>A prepared ESC with heat shrink on</figcaption>
+    <img style='width:35em' src="phase_0_photos/colorful_esc_shrinkwrap2.jpg" width="500"/>
+</figure>  
    
 6. Strip and tin all wires of the completed ESC (if not already done).
 
