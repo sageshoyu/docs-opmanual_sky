@@ -88,8 +88,6 @@ In this section, you will prepare your ESCs:
    - 4 ESCs
    - Heat Shrinks (recommend 13mm width)
    - 12 pieces of wire (recommend 4 red, 4 yellow, and 4 blue - each 3in. length)
-   
-   ![Alt](/X.png "Title") <pic of listed parts;>
 
 For each ESC:
 
