@@ -45,3 +45,15 @@ A BEC (i.e. Battery Eliminator Circuit) is a component which requires power. It 
 **WARNING**: like before, solder the BEC wires at ~15&deg; angle.
 
 ## Checkoff
+
+- Do a [connectivity check]() on the PDB; verify there is:
+  - a short between any positive (+) pad and any other positive (+) pad
+  - a short between any negative (-) pad and any other negative (-) pad
+  - **no short** between any positive (+) pad and any negative (-) pad
+
+- **ONLY** if the connectivity check passed, do a [DC voltage check]() on the PDB; plug in a 12V battery and verify there is:
+  - ~0V between any positive (+) pad and any other positive (+) pad
+  - ~0V between any negative (-) pad and any other negative (-) pad
+  - ~12V between any positive (+) pad and any negative (-) pad. 
+  
+    NOTE: if the battery is X volts instead of 12 volts (e.g. 10), then the multimeter will show X volts instead of 12 volts.
