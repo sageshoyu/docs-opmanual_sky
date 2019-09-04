@@ -16,11 +16,11 @@ Visually, the flow of power looks like:
 
 ## Tin the PDB
 
-Similar to exposed wires, the square metal pads on a PDB need to be tinned. This will allow tinned wires to be joined to the pads - and therefore the PDB.
+Similar to exposed wires, the metal pads on a PDB need to be tinned. This will allow tinned wires to be joined to the pads - and therefore the PDB.
 
 **Your task** is to tin the PDB:
 
-![Alt](/X.png "Title") <pic of tinned PDB>
+![Alt](/X.png "Title") <pic of tinned PDB;>
 
 NOTE: you do not need to tin the 5V and 12V pads.
 
