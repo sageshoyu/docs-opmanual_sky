@@ -35,7 +35,7 @@ Please note that all hardware to secure components is included.
 ## [**2205 2300KV Brushless Motor**](https://www.amazon.com/Crazepony-DX2205-2300KV-Brushless-Quadcopter/dp/B07B4738T9)
 <figure>
     <figcaption>2205 2300KV Brushless Motor</figcaption>
-    <img style='width:35em' src="photos/motors.png"/>
+    <img style='width:35em' src="photos/2205_2300kv_brushless_motors_red.jpg"/>
 </figure>  
 
 **Units:** 4 (two clockwise and two counterclockwise)  
