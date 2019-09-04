@@ -61,7 +61,7 @@ In electronics, a continuity test is the checking of an electric circuit to see 
 
 ## [**AC Voltage Check**](https://www.youtube.com/watch?v=nW13vjQjS5M)
 
-1. **Selecting the DC Voltage Mode**  
+1. **Selecting the AC Voltage Mode**  
 * Switch on your multimeter, and set the dial to AC voltage mode (indicated by a V with a wavy line, or the symbol ṽ).  
 * **NOTE:** AC voltage does not have polarity. 
 * **NOTE:** Do not let your fingers touch the lead tips. Do not allow the tips to contact one another.
