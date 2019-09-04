@@ -2,6 +2,8 @@
 
 During this step you will learn about how to use multimeters to do a continuity check and a voltage check.    
 
+A multimeter or a multitester, also known as a VOM (volt-ohm-milliammeter), is an electronic measuring instrument that combines several measurement functions in one unit. A typical multimeter can measure voltage, current, and resistance. [This](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all) is a tutorial for multimeters.   
+
 <figure>
     <figcaption>Multimeter</figcaption>
     <img style='width:35em' src="photos/multimeter.jpg"/>
