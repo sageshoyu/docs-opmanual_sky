@@ -93,16 +93,28 @@ For reference, here are the motor directions with respect to the frame:
    ![Alt](/X.png "Title") <pic of drone frame WITH CLEARLY MARKED FRONT AND BACK;>
  
 3. Feed the velcro through the center of the drone frame. Make sure the fuzzy side is facing up.
+   
+   ![Alt](/X.png "Title") <>
 
 4. Screw one black screw into each of the standoffs.
 
+   ![Alt](/X.png "Title") <>
+
 5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing. Once the PDB is secure, remove the black screws from the standoff. It may help to hold a standoff with a long-nose plier while unscrewing.
+
+   ![Alt](/X.png "Title") <>
 
 6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black screws for each attachment.
 
+   ![Alt](/X.png "Title") <>
+
 7. Attach CCW motors to the bottom-left and top-right of the drone frame, using 2 black screws for each attachment.
 
+   ![Alt](/X.png "Title") <>
+
 8. For each motor, connect its male bullect connectors to the female bullet connectors of the ESC in the motor's corner (e.g. top-left motor connects to top-left ESC). Any connection order will suffice for now, as you will be able to change them in a latter phase.
+
+   ![Alt](/X.png "Title") <>
 
 ## Checkoff
 
