@@ -24,6 +24,8 @@ Similar to exposed wires, the metal pads on a PDB need to be tinned. This will a
 
 NOTE: you do not need to tin the 5V and 12V pads.
 
+**WARNING**: Be careful not to push the soldering iron tip into the PDB pads, as too much force will cut the pad right off the PDB!
+
 ## Solder ESCs to the PDB
 
 An ESC (i.e. Electronic Speed Control) is a component which requires power. It takes this power and provides a variable amount of it to a motor; since a motor's RPM depends on how much power it gets, an ESC can control how fast a motor spins by controlling how much power it supplies the motor.
