@@ -182,7 +182,7 @@ Please skip this step if your kit already contains a completed XT60 connector ca
 4. Strip and tin all wires of the completed XT60 connector cable (if not already done).
 
 ## Checkoff
-- Do a [connectivity check]() on the XT60 connector cable; verify there is no short between the red and black wire.
-- Do a [connectivity check]() on each ESC; for each ESC, verify there are no shorts between any two wires you soldered.
 - Visually inspect each ESC and verify that the heat shrinks are on properly; there should be no exposed wires and each heat shrink should be a tight fit.
 - Visually inspect that each of the following is stripped and tinned: 4 ESCs, 4 motors, BEC, XT60 connector, red and brown wire pair.
+- Do a [connectivity check]() on the XT60 connector cable; verify there is no short between the red and black wire.
+- Do a [connectivity check]() on each ESC; for each ESC, verify there are no shorts between any two wires you soldered.
