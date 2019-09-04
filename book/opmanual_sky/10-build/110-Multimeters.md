@@ -14,13 +14,13 @@ A multimeter or a multitester, also known as a VOM (volt-ohm-milliammeter), is a
 In electronics, a continuity test is the checking of an electric circuit to see if current flows (that it is in fact a complete circuit).
 
 1. **Selecting the Continuity Function**   
-* Switch the multimeter dial to the continuity test function(indicated by an icon that looks like a sound wave).  
+* Switch the multimeter dial to the continuity test function (indicated by an icon that looks like a sound wave).  
 <figure>
     <figcaption>Switch the Dial to the Continuity Test Function</figcaption>
     <img style='width:35em' src="phase_0_photos/multimeter_dial_continuity.jpg"/>
 </figure>
 
-
+* Press "FUNC." button, and you should hear a short audible "beep" sound.    
 * Touch the multimeter leads together, and you should hear an audible "beep" sound.   
 <figure>
     <figcaption>Touch the Multimeter Leads Together</figcaption>
@@ -77,4 +77,4 @@ In electronics, a continuity test is the checking of an electric circuit to see 
 
 [This](https://www.fluke.com/en-us/learn/best-practices/test-tools-basics/digital-multimeters/how-to-measure-ac-voltage-with-a-digital-multimeter) contains more detailed information about AC voltage test.    
 
-
+**NOTE:** Please turn off the multimeter by setting the dial to *OFF* after you finish your check.
