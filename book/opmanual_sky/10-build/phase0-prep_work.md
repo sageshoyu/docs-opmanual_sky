@@ -144,7 +144,7 @@ Please skip this step if your kit already contains a completed XT60 connector ca
     
     <figure>
     <figcaption>Parts of XT60 connector</figcaption>
-    <img style='width:35em' src="phase_0_photos/XT60_connector_plus_red_and_black_wires.jpg" height="500"/>
+    <img style='width:35em' src="phase_0_photos/XT60_connector_plus_red_and_black_wires.jpg" height="300"/>
     </figure>  
     
 2. Follow this [guide](http://www.mindsensors.com/blog/how-to/tutorial-soldering-xt60-connectors) on creating an XT60 connector cable.
