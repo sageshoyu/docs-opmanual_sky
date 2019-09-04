@@ -104,7 +104,8 @@ Here you will learn about the tools and materials that you will need to use to b
     <img style='width:35em' src="photos/wires2.jpg" width="500"/>
 </figure>  
 
-**Description:** Used to connect components on the Pi Hat.
+**Description:** Used to connect components on the Pi Hat. 
+**The wires for ESC are thicker than the wires for pi Hat **
 
 ## Hot Glue Gun
 <figure>
