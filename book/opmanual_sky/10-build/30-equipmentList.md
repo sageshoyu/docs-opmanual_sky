@@ -74,6 +74,12 @@ Here you will learn about the tools and materials that you will need to use to b
  
 **Description:** Useful for holding wires and securing standoffs.
 
+## Philips Screw Driver
+<figure>
+    <figcaption>Philips Screw Driver</figcaption>
+    <img style='width:35em' src="photos/Philips Screw Driver.jpg" width="500"/>
+</figure>  
+
 ## 2.5 mm Allen Wrench
 <figure>
     <figcaption>2.5 mm Allen Wrench</figcaption>
