@@ -46,12 +46,23 @@ A BEC (i.e. Battery Eliminator Circuit) is a component which requires power. It 
 
 **WARNING**: like before, solder wires at ~15&deg; angle.
 
+## Solder red and brown wire pair to the PDB
+
+The red and brown wire pair (from the flight controller box) is a component which requires power. It takes this power and simply passes it along to the white stub on the other end. What is the point of this? In a latter phase, you will connect the white stub to your flight controller. This will allow the flight controller to *observe* or *monitor* the power traversing the PDB. For this reason, the red and brown wire pair is called the *battery monitor lead*.
+
+**Your task** is to solder the red and brown wire pair to the PDB. Due to its small size, you will need to solder onto another pair of wires, e.g. BEC wires. The red wire should connect to a positive (+) pad and the brown wire should connect to a negative (-) pad:
+
+![Alt](/X.png "Title") <pic of red and brown wire pair soldered to PDB>
+
+**WARNING**: while trying to solder on these wires, you may accidentally unsolder the existing wires from the PDB. We recommend temporarily holding down the existing wires with a long-nose plier, tape, or helping hands.
+
 ## Checkoff
 
 - Visually inspect the drone to verify the following:
   - All red wires connected to the PDB are connected to positive (+) pads
   - All black wires connected to the PDB are connected to negative (-) pads
-  - the wires on the IN side - **not** the OUT side - of the BEC are soldered to the PDB
+  - The wires on the IN side - **not** the OUT side - of the BEC are soldered to the PDB
+  - For the battery monitor lead, the red wire is connected to a positive (+) pad while the brown wire is connected to a negative (-) pad
 
 - Do a [connectivity check]() on the PDB; verify there is:
   - a short between any positive (+) pad and any other positive (+) pad
