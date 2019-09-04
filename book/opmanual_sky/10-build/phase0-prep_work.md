@@ -17,13 +17,13 @@ In this phase of the build, you will do prep work for the next phases of the bui
 ## Strip and Tin Wires
 **Stripping** is the process of removing a portion of insulator from a wire in order to expose its strands. It is done by using a wire stripper.
 
-| An unstripped wire        |  A stripped wire         |
+| An unstripped wire        |  A stripped wire          |
 |:-------------------------:|:-------------------------:|
 |![](phase_0_photos/wire.jpg)  |  ![](phase_0_photos/stripped_wire.jpg) |
 
 **Tinning** is the process of applying solder to exposed wire. It is done by using a soldering iron to melt solder into the exposed wire.
 
-| A wire before tinning        |  A tinned wire         |
+| A wire before tinning     |  A tinned wire            |
 |:-------------------------:|:-------------------------:|
 |![](phase_0_photos/untinned_wire.jpg)  |  ![](phase_0_photos/tinned_wire.jpg) |
 
@@ -67,36 +67,24 @@ For each ESC:
 
 2. Use your fingers (or small wire cutters) to *very carefully* remove excess material from each ESC pad.
 
-<figure>
-    <figcaption>Excess material on ESC pads</figcaption>
-    <img style='width:35em' src="phase_0_photos/uncut_esc_pads.jpg" width="500"/>
-</figure>  
-
-<figure>
-    <figcaption>ESC pads without excess material</figcaption>
-    <img style='width:35em' src="phase_0_photos/improved_esc_pads.jpg" width="500"/>
-</figure>  
+| Excess material on ESC pads | After removal excess material |
+|:-------------------------:|:-------------------------:
+| <img style='width:35em' src="phase_0_photos/uncut_esc_pads.jpg" width="500"/> | <img style='width:35em' src="phase_0_photos/improved_esc_pads.jpg" width="500"/>
 
 3. Solder the following:
    - 1 red wire on pad A
    - 1 yellow wire on pad B
    - 1 blue wire on pad C
    
-   (NOTE: the wire colors are purely our convention. Feel free to use other colors if needed.)
+   (**NOTE:** the wire colors are purely our convention. Feel free to use other colors if needed.)
    
-<figure>
-    <figcaption>A prepared ESC</figcaption>
-    <img style='width:35em' src="phase_0_photos/colorful_esc.jpg" width="500"/>
-</figure>  
-   
-4. Do a [connectivity check]() between each pair of soldered wires (recommend doing this now instead of in checkoff later).
+4. Do a [connectivity check]() between each pair of soldered wires (recommend doing this now instead of in checkoff later).  
 
-5. Put a heat shrink over the ESC. The heat shrink should cover (length-wise) the exposed soldered wires on one end and half the ESC on the other end. Apply heat to shrink the heat shrink.
+5. Put a heat shrink over the ESC. The heat shrink should cover (length-wise) the exposed soldered wires on one end and half the ESC on the other end. Apply heat to shrink the heat shrink.   
 
-<figure>
-    <figcaption>A prepared ESC with heat shrink on</figcaption>
-    <img style='width:35em' src="phase_0_photos/colorful_esc_shrinkwrap2.jpg" width="500"/>
-</figure>  
+| A Prepared ESC | A Prepared ESC with heat shrink |
+|:-------------------------:|:-------------------------:
+| <img style='width:35em' src="phase_0_photos/colorful_esc.jpg" width="500"/> | <img style='width:35em' src="phase_0_photos/colorful_esc_shrinkwrap2.jpg" width="500"/>   
    
 6. Strip and tin all wires of the completed ESC (if not already done).
 
@@ -104,7 +92,7 @@ For each ESC:
 
 Before beginning this section, please refer to a bullet connector soldering [tutorial](https://www.youtube.com/watch?v=u--Kvz8hksE).
 
-NOTE: you can use any setup to hold the bullet connector, so long as the setup is not thermally conductive.
+**NOTE:** you can use any setup to hold the bullet connector, so long as the setup is not thermally conductive.
 
 1. Gather the following parts:
    - 4 completed ESCs
@@ -138,7 +126,7 @@ Please skip this step if your kit already contains a completed XT60 connector ca
 
 <figure>Completed XT60 Connector</figcaption>
     <img style='width:35em' src="phase_0_photos/xt60_complete.png" height="500"/>
-    </figure>  
+</figure>  
 
 1. Gather the following parts:
     - XT60 connector (Female)
