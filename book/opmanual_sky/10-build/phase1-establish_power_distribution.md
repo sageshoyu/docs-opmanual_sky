@@ -24,6 +24,8 @@ Similar to exposed wires, the metal pads on a PDB need to be tinned. This will a
 
 NOTE: you do not need to tin the 5V and 12V pads.
 
+NOTE: unless stated otherwise, red wires should be soldered to positive (+) pads and black wires should be soldered to negative (-) pads.
+
 **WARNING**: Be careful not to aggresively push the soldering iron tip into the PDB, as too much force will cut the pads right off!
 
 ## Solder ESCs to the PDB
@@ -54,9 +56,19 @@ The red and brown wire pair (from the flight controller box) is a component whic
 
 **Your task** is to solder the red and brown wire pair to the PDB. Due to its small size, you will need to solder onto another pair of wires, e.g. BEC wires. The red wire should connect to a positive (+) pad and the brown wire should connect to a negative (-) pad:
 
-![Alt](/X.png "Title") <pic of red and brown wire pair soldered to PDB>
+![Alt](/X.png "Title") <pic of red and brown wire pair soldered to PDB;>
 
 **WARNING**: while trying to solder on these wires, you may accidentally unsolder the existing wires from the PDB. We recommend temporarily holding down the existing wires with a long-nose plier, tape, or helping hands.
+
+## Solder XT60 Connector Cable to the PDB
+
+A XT60 connector cable is a component which provides power when a power source (e.g. battery) is connected to it. By soldering it to the PDB, the PDB will get power to distribute to other components.
+
+**Your task** is to solder your XT60 connector cable to the PDB:
+
+![Alt](/X.png "Title") <pic of XT60 connector cable soldered to PDB;>
+
+**WARNING**: since this wire is thicker than the others, it is more difficult to solder to the pads. Be careful not to solder/cut the pads off the PDB!
 
 ## Checkoff
 
@@ -64,7 +76,7 @@ The red and brown wire pair (from the flight controller box) is a component whic
   - All red wires connected to the PDB are connected to positive (+) pads
   - All black wires connected to the PDB are connected to negative (-) pads
   - The wires on the IN side - **not** the OUT side - of the BEC are soldered to the PDB
-  - For the battery monitor lead, the red wire is connected to a positive (+) pad while the brown wire is connected to a negative (-) pad
+  - For the battery monitor lead: the red wire is connected to a positive (+) pad while the brown wire is connected to a negative (-) pad
 
 - Do a [connectivity check]() on the PDB; verify there is:
   - a short between any positive (+) pad and any other positive (+) pad
