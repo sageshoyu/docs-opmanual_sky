@@ -25,7 +25,7 @@ In this phase of the build, you will do prep work for the next phases of the bui
 
 | A wire before tinning     |  A tinned wire            |
 |:-------------------------:|:-------------------------:|
-|![](phase_0_photos/untinned_wire.jpg)  |  ![](phase_0_photos/tinned_wire.jpg) |
+|![](phase_0_photos/pre_tinned_1.jpg)  |  ![](phase_0_photos/post_tinned_1.jpg) |
 
 
 The purpose of stripping and tinning wires is to allow them to be joined together. By itself, stripping would not allow wires to be joined because the exposed wires would have no way to "stick" to each other.
@@ -36,6 +36,14 @@ However, tinning *does* allow exposed wires to "stick" (i.e. join) to each other
 3. Removing the heat so the liquid solidifies, thus joining the two wires.
 
 See this [tutorial](https://www.youtube.com/watch?v=pRPF4wpXX9Q) to learn how to tin and join two wires.
+
+An alternate way to tin a wire would be to wrap the wire with solder, then melt with a soldering iron:
+
+| A wire before tinning     |  A tinned wire            |
+|:-------------------------:|:-------------------------:|
+|![](phase_0_photos/pre_tinned_2.jpg)  |  ![](phase_0_photos/post_tinned_2.jpg) |
+
+NOTE: not a lot of solder is needed, nor does it need to be wrapped compactly
 
 Furthermore, since solder is conductive, the resulting joint acts as a bridge for electricity traveling between the connected wires! 
 
