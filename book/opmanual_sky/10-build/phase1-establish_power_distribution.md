@@ -42,9 +42,16 @@ A BEC (i.e. Battery Eliminator Circuit) is a component which requires power. It 
 
 ![Alt](/X.png "Title") <pic of BEC soldered to PDB>
 
-**WARNING**: like before, solder the BEC wires at ~15&deg; angle.
+**WARNING**: solder the wires on the IN side of the BEC (i.e. the wires you tinned in the Prep Work phase) to the PDB, not the OUT side. "IN" is short for "input", which is why its wires should connect to the PDB.
+
+**WARNING**: like before, solder wires at ~15&deg; angle.
 
 ## Checkoff
+
+- Visually inspect the drone to verify the following:
+  - All red wires connected to the PDB are connected to positive (+) pads
+  - All black wires connected to the PDB are connected to negative (-) pads
+  - the wires on the IN side - **not** the OUT side - of the BEC are soldered to the PDB
 
 - Do a [connectivity check]() on the PDB; verify there is:
   - a short between any positive (+) pad and any other positive (+) pad
