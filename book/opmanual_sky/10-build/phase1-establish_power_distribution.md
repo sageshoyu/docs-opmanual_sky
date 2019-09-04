@@ -100,7 +100,7 @@ For reference, here are the motor directions with respect to the frame:
 
    ![Alt](/X.png "Title") <>
 
-5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing. Once the PDB is secure, remove the black screws from the standoff. It may help to hold a standoff with a long-nose plier while unscrewing.
+5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing. Once the PDB is secure, remove the black screws from the standoffs. It may help to hold a standoff with a long-nose plier while unscrewing.
 
    ![Alt](/X.png "Title") <>
 
