@@ -7,7 +7,7 @@ Before you begin, please ensure you have all the parts in the [parts and materia
 
 In this phase of the build, you will do prep work for the next phases of the build. This phase will require a lot of soldering, so please go through a [soldering tutorial](https://www.youtube.com/watch?v=Qps9woUGkvI) before starting.
 
-Safety tips:
+**Safety Tips:**
 - Be careful holding wires and components with your bare hands while soldering, as they will get very hot very quickly. We recommend using a long-nose plier or helping hands whenever possible.
 - Don't touch the soldering iron tip (or any other metal piece) while the soldering iron is on, since doing so can cause burns. If you get burned, rinse the affected area with cold water immediately.
 - Likewise, don't use the soldering iron on anything you don't intend to solder. The high heat will cause things to melt or burn.
@@ -17,27 +17,16 @@ Safety tips:
 ## Strip and Tin Wires
 **Stripping** is the process of removing a portion of insulator from a wire in order to expose its strands. It is done by using a wire stripper.
 
-<figure>
-    <figcaption>An unstripped wire</figcaption>
-    <img style='width:35em' src="phase_0_photos/wire.jpg" width="500"/>
-</figure>  
-
-<figure>
-    <figcaption>A stripped wire</figcaption>
-    <img style='width:35em' src="phase_0_photos/stripped_wire.jpg" width="500"/>
-</figure>  
+| An unstripped wire        |  A stripped wire         |
+|:-------------------------:|:-------------------------:|
+|![](phase_0_photos/wire.jpg)  |  ![](phase_0_photos/stripped_wire.jpg) |
 
 **Tinning** is the process of applying solder to exposed wire. It is done by using a soldering iron to melt solder into the exposed wire.
 
-<figure>
-    <figcaption>A wire before tinning</figcaption>
-    <img style='width:35em' src="phase_0_photos/untinned_wire.jpg" width="500"/>
-</figure>  
+| A wire before tinning        |  A tinned wire         |
+|:-------------------------:|:-------------------------:|
+|![](phase_0_photos/untinned_wire.jpg)  |  ![](phase_0_photos/tinned_wire.jpg) |
 
-<figure>
-    <figcaption>A tinned wire</figcaption>
-    <img style='width:35em' src="phase_0_photos/tinned_wire.jpg" width="500"/>
-</figure>  
 
 The purpose of stripping and tinning wires is to allow them to be joined together. By itself, stripping would not allow wires to be joined because the exposed wires would have no way to "stick" to each other.
 
@@ -50,35 +39,20 @@ See this [tutorial](https://www.youtube.com/watch?v=pRPF4wpXX9Q) to learn how to
 
 Furthermore, since solder is conductive, the resulting joint acts as a bridge for electricity traveling between the connected wires! 
 
-**Your task** in this phase is to strip and tin all of your parts, so that in latter phases they can be joined together:
+**TODO:** 
+- In this phase, strip and tin all of your parts, so that in latter phases they can be joined together.  
 
-- 4 ESCs
 
-<figure>
-    <figcaption>A tinned ESC</figcaption>
-    <img style='width:35em' src="phase_0_photos/tinned_esc_2.jpg" width="500"/>
-</figure>  
-  
-- 4 Motors
+**NOTE:**
+- Only tin red and black wires on the IN side of BEC.
+- Do **NOT** substitute the red and brown wire pair in flight controller box with any other wire pair in the box.
 
-<figure>
-    <figcaption>A tinned motor</figcaption>
-    <img style='width:35em' src="phase_0_photos/tinned_motor.jpg" width="500"/>
-</figure>  
-  
-- BEC (NOTE: only tin red and black wires on the IN side of BEC)
-  
-<figure>
-    <figcaption>A tinned BEC</figcaption>
-    <img style='width:35em' src="phase_0_photos/tinned_bec.jpg" width="500"/>
-</figure>  
-  
-- Red and brown wire pair in flight controller box (NOTE: do **NOT** substitute with any other wire pair in the box)
-
-<figure>
-    <figcaption>A tinned red and brown wire pair</figcaption>
-    <img style='width:35em' src="phase_0_photos/tinned_red_brown.jpg" width="500"/>
-</figure>  
+| Part Name                 | Amount                    |  After Tinning Picture    |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+| ESC                       | 4                         |  ![](phase_0_photos/tinned_esc_2.jpg) |
+| Motor                     | 4                         |  ![](phase_0_photos/tinned_motor.jpg) |
+| BEC                       | 1                         |  ![](phase_0_photos/tinned_bec.jpg) |
+| Red and brown wire pair in flight controller box | 1                         |  ![](phase_0_photos/tinned_red_brown.jpg) | 
 
 ## Solder wires onto ESC pads
 
