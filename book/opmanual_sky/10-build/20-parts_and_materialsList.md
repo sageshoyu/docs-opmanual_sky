@@ -5,7 +5,7 @@ During this step you will learn about each of the parts of the drone. Read the f
 Please note that all hardware to secure components is included.  
 **Requires** 2mm, 2.5mm hex wrench, small Phillips screwdriver, thick double-sided tape, heat shrink tubing, soldering equipment, zip ties, wire snips, and wire strippers.  
 
-## [**FPV250 Drone Frame**](https://hobbyking.com/en_us/hobbyking-fpv250-v4-orange-ghost-edition-led-night-flyer-fpv-quad-copter-orange-kit.html)
+## **FPV250 Drone Frame**
 <figure>
     <figcaption>FPV250 Drone Frame</figcaption>
     <img style='width:35em' src="photos/drone_frame.jpg"/>
@@ -14,7 +14,7 @@ Please note that all hardware to secure components is included.
 **Units:** 1  
 **Description:** This 250mm plastic racing quad frame is the chassis for the drone, included in the frame box.
 
-## [**Power Distribution Board (PDB)**](https://hobbyking.com/en_us/hobbyking-fpv250-v4-orange-ghost-edition-led-night-flyer-fpv-quad-copter-orange-kit.html)
+## **Power Distribution Board (PDB)**
 <figure>
     <figcaption>PDB</figcaption>
     <img style='width:35em' src="photos/diatonepdb.png"/>
@@ -23,7 +23,7 @@ Please note that all hardware to secure components is included.
 **Units:** 1  
 **Description:** This board distributes power to the various components of the drone, and it is included with the frame box.
 
-## [**XT60 12AWG Power Cable**](https://www.amazon.com/dp/B00XBQ294A)
+## **XT60 Connector + Protective Casing + 12AWG Red and Black Wires**
 <figure>
     <figcaption>Power Cable</figcaption>
     <img style='width:35em' src="photos/XT60_connector_plus_red_and_black_wires.jpg"/>
