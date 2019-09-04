@@ -6,7 +6,7 @@ A multimeter or a multitester, also known as a VOM (volt-ohm-milliammeter), is a
 
 <figure>
     <figcaption>Multimeter</figcaption>
-    <img style='width:35em' src="phase_0_photos/multimeter.jpg"/>
+    <img style='width:35em' src="phase_0_photos/multimeters.jpg"/>
 </figure>
 
 ## [**Continuity Check**](https://www.youtube.com/watch?v=5G622WDZaHg)
