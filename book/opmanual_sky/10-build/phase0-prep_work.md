@@ -9,9 +9,7 @@ In this phase of the build, you will do prep work for the next phases of the bui
 
 **Safety Tips:**
 - Be careful holding wires and components with your bare hands while soldering, as they will get very hot very quickly. We recommend using a long-nose plier or helping hands whenever possible.
-- Don't touch the soldering iron tip (or any other metal piece) while the soldering iron is on, since doing so can cause burns. If you get burned, rinse the affec
-
-ted area with cold water immediately.
+- Don't touch the soldering iron tip (or any other metal piece) while the soldering iron is on, since doing so can cause burns. If you get burned, rinse the affected area with cold water immediately.    
 - Likewise, don't use the soldering iron on anything you don't intend to solder. The high heat will cause things to melt or burn.
 - Don't breathe soldering fumes; use a soldering fan whenever possible.
 - If you have difficulty soldering (e.g. shaky hands), please seek the advice of a TA or teacher.
@@ -24,10 +22,11 @@ ted area with cold water immediately.
 |![](photos/wire.jpg)  |  ![](photos/stripped_wire.jpg) |
 
 **Tinning** is the process of applying solder to exposed wire. It is done by using a soldering iron to melt solder into the exposed wire.
+**NOTE:** Not a lot of solder is needed, nor does it need to be wrapped compactly.
 
 | A wire before tinning     |  A tinned wire            |
 |:-------------------------:|:-------------------------:|
-|<img style='width:30em' src="photos/pre_tinned_1.jpg" width="490"/>  |  <img style='width:35em' src="photos/post_tinned_1.jpg" width="500"/> |
+|<img style='width:30em' src="photos/pre_tinned_1.jpg" width="400" height="400"/>  |  <img style='width:35em' src="photos/post_tinned_1.jpg" width="400" height="400"/> |
 
 
 The purpose of stripping and tinning wires is to allow them to be joined together. By itself, stripping would not allow wires to be joined because the exposed wires would have no way to "stick" to each other.
@@ -43,9 +42,7 @@ An alternate way to tin a wire would be to wrap the wire with solder, then melt 
 
 | A wire before tinning     |  A tinned wire            |
 |:-------------------------:|:-------------------------:|
-|<img style='width:30em' src="photos/pre_tinned_2.jpg" width="490"/>  |  <img style='width:35em' src="photos/post_tinned_2.jpg" width="500"/> |
-
-NOTE: not a lot of solder is needed, nor does it need to be wrapped compactly
+|<img style='width:30em' src="photos/pre_tinned_2.jpg" width="350" height="400"/>  |  <img style='width:35em' src="photos/post_tinned_2.jpg" width="360" height="400"/> |
 
 Furthermore, since solder is conductive, the resulting joint acts as a bridge for electricity traveling between the connected wires! 
 
@@ -59,10 +56,10 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 
 | Part Name                 | Amount                    |  After Tinning Picture    |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-| ESC                       | 4                         |  ![](photos/tinned_esc_2.jpg) |
-| Motor                     | 4                         |  ![](photos/tinned_motor.jpg) |
-| BEC                       | 1                         |  ![](photos/tinned_bec.jpg) |
-| Red and brown wire pair in flight controller box | 1                         |  ![](photos/tinned_red_brown.jpg) | 
+| ESC                       | 4                         |  <img style='width:30em' src="photos/tinned_esc_2.jpg" width="600" height="350"/> |
+| Motor                     | 4                         |  <img style='width:30em' src="photos/tinned_motor.jpg" width="600" height="350"/> |
+| BEC                       | 1                         |  <img style='width:30em' src="photos/tinned_bec.jpg" width="600" height="350"/> |
+| Red and brown wire pair in flight controller box | 1                         |  <img style='width:30em' src="photos/tinned_red_brown.jpg" width="600" height="350"/> | 
 
 ## Solder wires onto ESC pads
 
@@ -86,7 +83,7 @@ For each ESC:
    - 1 yellow wire on pad B
    - 1 blue wire on pad C
    
-   (**NOTE:** the wire colors are purely our convention. Feel free to use other colors if needed.)
+   **NOTE:** the wire colors are purely our convention. Feel free to use other colors if needed.
    
 4. Do a [connectivity check]() between each pair of soldered wires (recommend doing this now instead of in checkoff later).  
 
@@ -102,7 +99,7 @@ For each ESC:
 
 Before beginning this section, please refer to a bullet connector soldering [tutorial](https://www.youtube.com/watch?v=u--Kvz8hksE).
 
-**NOTE:** you can use any setup to hold the bullet connector, so long as the setup is not thermally conductive.
+**NOTE:** You can use any setup to hold the bullet connector, so long as the setup is not thermally conductive.
 
 1. Gather the following parts:
    - 4 completed ESCs
@@ -146,8 +143,9 @@ For each motor:
 ## Create an XT60 Connector Cable
 Please skip this step if your kit already contains a completed XT60 connector cable:
 
-<figure>Completed XT60 Connector</figcaption>
-    <img style='width:35em' src="photos/xt60_complete.png" height="500"/>
+<figure>
+    <figcaption>Completed XT60 Connector</figcaption>
+    <img style='width:35em' src="photos/xt60_complete.png" width="400"/>
 </figure>  
 
 1. Gather the following parts:
@@ -158,7 +156,7 @@ Please skip this step if your kit already contains a completed XT60 connector ca
     
     <figure>
     <figcaption>Parts of XT60 connector</figcaption>
-    <img style='width:35em' src="photos/XT60_connector_plus_red_and_black_wires.jpg" height="300"/>
+    <img style='width:35em' src="photos/XT60_connector_plus_red_and_black_wires.jpg" height="200"/>
     </figure>  
     
 2. Follow this [guide](http://www.mindsensors.com/blog/how-to/tutorial-soldering-xt60-connectors) on creating an XT60 connector cable.
