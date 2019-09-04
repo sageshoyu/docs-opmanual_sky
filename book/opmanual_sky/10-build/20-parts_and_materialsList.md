@@ -8,7 +8,7 @@ Please note that all hardware to secure components is included.
 ## **FPV250 Drone Frame**
 <figure>
     <figcaption>FPV250 Drone Frame</figcaption>
-    <img style='width:35em' src="photos/drone_frame.jpg"/>
+    <img style='width:35em' src="photos/drone_frame.jpg" width="600" align="middle"/>
 </figure>
 
 **Units:** 1  
@@ -17,7 +17,7 @@ Please note that all hardware to secure components is included.
 ## **Power Distribution Board (PDB)**
 <figure>
     <figcaption>PDB</figcaption>
-    <img style='width:35em' src="photos/diatonepdb.png"/>
+    <img style='width:35em' src="photos/diatonepdb.png" width="500"/>
 </figure>  
  
 **Units:** 1  
@@ -26,7 +26,7 @@ Please note that all hardware to secure components is included.
 ## **XT60 Connector + Protective Casing + 12AWG Red and Black Wires**
 <figure>
     <figcaption>Power Cable</figcaption>
-    <img style='width:35em' src="photos/XT60_connector_plus_red_and_black_wires.jpg"/>
+    <img style='width:35em' src="photos/XT60_connector_plus_red_and_black_wires.jpg" width="500"/>
 </figure>  
    
 **Units:** 1  
@@ -35,7 +35,7 @@ Please note that all hardware to secure components is included.
 ## [**2205 2300KV Brushless Motor**](https://www.amazon.com/Crazepony-DX2205-2300KV-Brushless-Quadcopter/dp/B07B4738T9)
 <figure>
     <figcaption>2205 2300KV Brushless Motor</figcaption>
-    <img style='width:35em' src="photos/2205_2300kv_brushless_motors_red.jpg"/>
+    <img style='width:35em' src="photos/2205_2300kv_brushless_motors_red.jpg" width="400"/>
 </figure>  
 
 **Units:** 4 (two clockwise and two counterclockwise)  
@@ -44,7 +44,7 @@ Please note that all hardware to secure components is included.
 ## [**5040 3-Blade Propellers**](https://www.amazon.com/Toolcool-Kingkong-Propellers-Quadcopters-Multicopters/dp/B01INCXNQY)
 <figure>
     <figcaption>Propellers</figcaption>
-    <img style='width:35em' src="photos/props.png"/>
+    <img style='width:35em' src="photos/props.png" width="500"/>
 </figure>  
   
 **Units:** 4 (two clockwise and two counterclockwise, paired with motors)   
@@ -53,7 +53,7 @@ Please note that all hardware to secure components is included.
 ## [**30A Brushless Electronic Speed Controller (ESC)**](https://www.amazon.com/dp/B07FD4G32J)
 <figure>
     <figcaption>ESCs</figcaption>
-    <img style='width:35em' src="photos/esc.jpg"/>
+    <img style='width:35em' src="photos/esc.jpg" width="500"/>
 </figure>  
   
 **Units:** 4    
@@ -62,7 +62,7 @@ Please note that all hardware to secure components is included.
 ## [**2.0mm Bullet Connector**](https://www.amazon.com/Pixnor-Plated-Female-Connectors-Battery/dp/B0113N3D42/)
 <figure>
     <figcaption>Bullet Connectors</figcaption>
-    <img style='width:35em' src="photos/bullet_connector.jpg"/>
+    <img style='width:35em' src="photos/bullet_connector.jpg" width="400"/>
 </figure>  
   
 **Units:** 24 (12 of male side and 12 of female side)    
@@ -71,7 +71,7 @@ Please note that all hardware to secure components is included.
 ## [**6mm + 4mm Brass Standoff**](https://www.amazon.com/Motherboard-Brass-Standoff-Hexagonal-Spacer/dp/B00MJU985C)  
 <figure>
     <figcaption>Standoffs</figcaption>
-    <img style='width:35em' src="photos/standoffs.png"/>
+    <img style='width:35em' src="photos/standoffs.png" width="500"/>
 </figure>  
 
 **Units:** 6    
@@ -80,7 +80,7 @@ Please note that all hardware to secure components is included.
 ## **M3 Bolts**
 <figure>
     <figcaption>M3 BoltB</figcaption>
-    <img style='width:35em' src="photos/standoffs_with_screws.png"/>
+    <img style='width:35em' src="photos/standoffs_with_screws.png" width="500"/>
 </figure>  
  
 **Units:** 4    
@@ -89,7 +89,7 @@ Please note that all hardware to secure components is included.
 ## [**Raspberry Pi 3 Model B (Pi)**](https://www.alliedelec.com/product/raspberry-pi/raspberry-pi-3/70816528/)
 <figure>
     <figcaption>Raspberry Pi</figcaption>
-    <img style='width:35em' src="photos/pi_on_box.png"/>
+    <img style='width:35em' src="photos/pi_on_box.png" width="500"/>
 </figure>  
 
 **Units:** 1   
@@ -98,7 +98,7 @@ Please note that all hardware to secure components is included.
 ## [**16GB Micro SD Card**](https://www.amazon.com/SanDisk-Mobile-MicroSDHC-SDSDQM-B35A-Adapter/dp/B004ZIENBA/)
 <figure>
     <figcaption>Micro SD Card</figcaption>
-    <img style='width:35em' src="photos/sd.png"/>
+    <img style='width:35em' src="photos/sd.png" width="500"/>
 </figure>  
 
 **Units:** 1   
@@ -107,7 +107,7 @@ Please note that all hardware to secure components is included.
 ## [**Heat Sinks**](https://www.amazon.com/dp/B076ZH6X9L)
 <figure>
     <figcaption>Heat Sinks</figcaption>
-    <img style='width:35em' src="photos/heat_sinks.jpg"/>
+    <img style='width:35em' src="photos/heat_sinks.jpg" width="500"/>
 </figure>  
 
 **Units:** 3 (14mm * 14mm * 7mm, 9mm * 9mm * 5mm, 12mm * 12mm * 1mm)    
@@ -116,7 +116,7 @@ Please note that all hardware to secure components is included.
 ## [**Screws for Pi to Pi Mount**](https://github.com/duckietown/docs-opmanual_sky/blob/master/book/opmanual_sky/10-build/PiMount%20V2%20(1)%20(1).stl)
 <figure>
     <figcaption>Screws for Pi to Pi Mount</figcaption>
-    <img style='width:35em' src="photos/screws_silver.jpg"/>
+    <img style='width:35em' src="photos/screws_silver.jpg" width="500"/>
 </figure>  
  
 **Units:** 3    
@@ -125,7 +125,7 @@ Please note that all hardware to secure components is included.
 ## [**Battery Eliminator Circuit (BEC)**](https://hobbyking.com/en_us/kingkong-5v-3a-ubec.html)
 <figure>
     <figcaption>BEC</figcaption>
-    <img style='width:35em' src="photos/bec.png"/>
+    <img style='width:35em' src="photos/bec.png" width="500"/>
 </figure>  
  
 **Units:** 1   
@@ -134,7 +134,7 @@ Please note that all hardware to secure components is included.
 ## [**Flight Controller (FC)**](https://hobbyking.com/en_us/skyline32-advanced-flight-controller-w-baseflight-cleanflight.html)
 <figure>
     <figcaption>Flight Controller</figcaption>
-    <img style='width:35em' src="photos/fc.png"/>
+    <img style='width:35em' src="photos/fc.png" width="500"/>
 </figure>  
   
 **Units:** 1   
@@ -143,7 +143,7 @@ Please note that all hardware to secure components is included.
 ## [**USB to Micro USB**](https://www.amazon.com/dp/B078L2J7Q1)
 <figure>
     <figcaption>Micro USB</figcaption>
-    <img style='width:35em' src="photos/usb.png"/>
+    <img style='width:35em' src="photos/usb.png" width="500"/>
 </figure>  
  
 **Units:** 1   
@@ -152,7 +152,7 @@ Please note that all hardware to secure components is included.
 ## [**Arducam 5 Megapixels 1080p OV5647 Camera**](https://www.amazon.com/Arducam-Megapixels-Sensor-OV5647-Raspberry/dp/B012V1HEP4/)
 <figure>
     <figcaption>Camera</figcaption>
-    <img style='width:35em' src="photos/cam.png"/>
+    <img style='width:35em' src="photos/cam.png" width="500"/>
 </figure>  
   
 **Units:** 1   
@@ -161,7 +161,7 @@ Please note that all hardware to secure components is included.
 ## [**Infrared Sensor (IR, 10cm-80cm range)**](https://www.robotshop.com/en/sharp-gp2y0a21yk0f-ir-range-sensor.html) + [**8in. IR Sensor Cable**](https://www.robotshop.com/en/sirc-01-sharp-gp2-ir-sensor-cable-8.html)
 <figure>
     <figcaption>IR Sensor</figcaption>
-    <img style='width:35em' src="photos/ir.png"/>
+    <img style='width:35em' src="photos/ir.png" width="500"/>
 </figure>  
   
 **Units:** 1   
@@ -171,7 +171,7 @@ Please note that all hardware to secure components is included.
 ## [**Perma-Proto Raspberry Pi Hat (Pi Hat)**](https://www.adafruit.com/product/2310)
 <figure>
     <figcaption>Pi Hat</figcaption>
-    <img style='width:35em' src="photos/hat.png"/>
+    <img style='width:35em' src="photos/hat.png" width="500"/>
 </figure>  
  
 **Units:** 1    
@@ -180,7 +180,7 @@ Please note that all hardware to secure components is included.
 ## [**Adafruit Analog to Digital Converter (ADC)**](https://www.digikey.com/product-detail/en/adafruit-industries-llc/1083/1528-1014-ND/4990763)
 <figure>
     <figcaption>ADC</figcaption>
-    <img style='width:35em' src="photos/adc.png"/>
+    <img style='width:35em' src="photos/adc.png" width="500"/>
 </figure>  
    
 **Units:** 1    
@@ -189,7 +189,7 @@ Please note that all hardware to secure components is included.
 ## [**Pi Mount**](https://github.com/duckietown/docs-opmanual_sky/blob/master/book/opmanual_sky/10-build/PiMount%20V2%20(1)%20(1).stl)
 <figure>
     <figcaption>Pi Mount</figcaption>
-    <img style='width:35em' src="photos/pi_mount.jpg"/>
+    <img style='width:35em' src="photos/pi_mount.jpg" width="500"/>
 </figure>  
  
 **Units:** 1   
@@ -198,7 +198,7 @@ Please note that all hardware to secure components is included.
 ## [**1500mAh 3S 20C LiPo Battery**](https://hobbyking.com/en_us/turnigy-1500mah-3s-20c-lipo-pack.html)
 <figure>
     <figcaption>Battery</figcaption>
-    <img style='width:35em' src="photos/battery.png"/>
+    <img style='width:35em' src="photos/battery.png" width="500"/>
 </figure>  
  
 **Units:** 1   
@@ -207,7 +207,7 @@ Please note that all hardware to secure components is included.
 ## [**12V 2-3S LiPo Charger**](https://hobbyking.com/en_us/turnigy-12v-2-3s-basic-balance-charger.html)+[**AC/DC US Charge Adapter**](https://hobbyking.com/en_us/frsky-ac-dc-charge-adapter-us-version.html)
 <figure>
     <figcaption>Battery Charger</figcaption>
-    <img style='width:35em' src="photos/charger.png"/>
+    <img style='width:35em' src="photos/charger.png" width="500"/>
 </figure>  
 
 **Units:** 1   
@@ -216,7 +216,7 @@ Please note that all hardware to secure components is included.
 ## [**Velcro**](https://www.amazon.com/dp/B00T2JQ0ZE)
 <figure>
     <figcaption>Velcro</figcaption>
-    <img style='width:35em' src="photos/velcro.jpg"/>
+    <img style='width:35em' src="photos/velcro.jpg" width="500"/>
 </figure>  
  
 **Units:** 1    
@@ -227,7 +227,7 @@ Please note that all hardware to secure components is included.
 ## [**Heat Shrinks**](https://www.amazon.com/dp/B07GS7PBHV)
 <figure>
     <figcaption>Heat Shrinks</figcaption>
-    <img style='width:35em' src="photos/heat_shrinks.png"/>
+    <img style='width:35em' src="photos/heat_shrinks.png" width="500"/>
 </figure>  
        
 **Description:** Heat-shrink tubing (or, commonly, heat shrink or heatshrink) is a shrinkable plastic tube used to insulate wires, providing abrasion resistance and environmental protection for stranded and solid wire conductors, connections, joints and terminals in electrical work.   
@@ -235,7 +235,7 @@ Please note that all hardware to secure components is included.
 ## [**Zip Ties**](https://www.amazon.com/dp/B078T6N58P)
 <figure>
     <figcaption>Zip Ties</figcaption>
-    <img style='width:35em' src="photos/zip_ties.jpg"/>
+    <img style='width:35em' src="photos/zip_ties.jpg" width="500"/>
 </figure>  
        
 **Description:** A zip tie is a type of fastener, for holding items together, primarily electrical cables or wires.     
