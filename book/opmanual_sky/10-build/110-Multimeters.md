@@ -31,7 +31,7 @@ In electronics, a continuity test is the checking of an electric circuit to see 
 * This is done so that you know that the continuity function is working.    
 
 
-2. **Performing the Continuity Test**  
+2. **Performing the Continuity Check**  
 * Place one lead at each terminal of the circuit or component you want to test.   
 <figure>
     <figcaption>Multimeter Leads On Board</figcaption>
@@ -53,7 +53,7 @@ In electronics, a continuity test is the checking of an electric circuit to see 
     <img style='width:35em' src="photos/multimeter_dial_dc_voltage.jpg"/>
 </figure>
 
-2. **Performing the Voltage Test**  
+2. **Performing the Voltage Check**  
 * Place the positive(red) lead on the positive terminal, and the negative(black) lead on the negative terminal.  
 * We can get a reading from the screen now.   
 * **NOTE:** Reversing the leads won't do any harm; it just gives us a negative reading.  
@@ -70,7 +70,7 @@ In electronics, a continuity test is the checking of an electric circuit to see 
     <img style='width:35em' src="photos/multimeter_dial_ac_voltage.jpg"/>
 </figure> 
 
-2. **Performing the Voltage Test**  
+2. **Performing the Voltage Check**  
 * Place the positive(red) lead on the positive terminal, and the negative(black) lead on the negative terminal.  
 * We can get a reading from the screen now.   
 * **NOTE:** Reversing the leads won't do any harm; it just gives us a negative reading.  
