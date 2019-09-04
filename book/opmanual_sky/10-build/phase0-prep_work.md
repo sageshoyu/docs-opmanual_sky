@@ -1,5 +1,5 @@
 # Phase 0: Prep Work {#part:build-assignment-X status=ready}
-**Expected Time**: 3.5 hours
+**Expected Time**: 4 hours
 
 ## Preface
 
@@ -82,7 +82,7 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 
 ## Solder wires onto ESC pads
 
-In this section, you will prepare your ESCs:
+In this section, you will prepare your ESCs.
 
 1. Gather the following parts:
    - 4 ESCs
@@ -117,7 +117,7 @@ For each ESC:
    
 4. Do a [connectivity check]() between each pair of soldered wires (recommend doing this now instead of in checkoff later).
 
-5. Put a heat shrink over the ESC. The heat shrink should cover (length-wise) the exposed soldered wires on one end and half the ESC on the other end. Use a heat gun to shrink the heat shrink.
+5. Put a heat shrink over the ESC. The heat shrink should cover (length-wise) the exposed soldered wires on one end and half the ESC on the other end. Apply heat to shrink the heat shrink.
 
 <figure>
     <figcaption>A prepared ESC with heat shrink on</figcaption>
@@ -125,6 +125,39 @@ For each ESC:
 </figure>  
    
 6. Strip and tin all wires of the completed ESC (if not already done).
+
+## Solder bullet connectors
+
+Before beginning this section, please refer to a bullet connector soldering [tutorial](https://www.youtube.com/watch?v=u--Kvz8hksE).
+
+NOTE: you can use any setup to hold the bullet connector, so long as the setup is not thermally conductive.
+
+1. Gather the following parts:
+   - 4 completed ESCs
+   - 4 motors
+   - 12 bullet connectors, female
+   - 12 bullet connectors, male
+   - Heat shrinks (recommend 4mm in width)
+
+For each ESC:
+
+2. Solder a female bullet connector to each of the 3 ESC wires (i.e. red, yellow, blue).
+
+   ![Alt](/X.png "Title") <pic of soldered female connectors without heat shrinks;>
+
+3. Put a heat shrink over each solder joint. For female connectors: the heat shrink should cover the solder joint on one end and run the entire length of the bullet connector. Apply heat to shrink the heat shrink.
+
+   ![Alt](/X.png "Title") <pic of soldered female connectors with heat shrinks;>
+
+For each motor:
+
+4. Solder a male bullet connector to each of the motor's wires.
+
+   ![Alt](/X.png "Title") <pic of soldered male connectors without heat shrinks;>
+    
+5. Put a heat shrink over each solder joint. For male connectors: the heat shrink should cover the solder joint on one end and run only the short length of the cylindrical part. Apply heat to shrink the heat shrink.
+
+   ![Alt](/X.png "Title") <pic of soldered male connectors with heat shrinks;>
 
 ## Create an XT60 Connector Cable
 Please skip this step if your kit already contains a completed XT60 connector cable:
