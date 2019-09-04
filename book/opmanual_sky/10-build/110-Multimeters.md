@@ -2,7 +2,8 @@
 
 During this step you will learn about how to use multimeters to do a continuity check and a voltage check.    
 
-A multimeter or a multitester, also known as a VOM (volt-ohm-milliammeter), is an electronic measuring instrument that combines several measurement functions in one unit. A typical multimeter can measure voltage, current, and resistance. [This](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all) is a tutorial for multimeters.   
+A multimeter or a multitester, also known as a VOM (volt-ohm-milliammeter), is an electronic measuring instrument that combines several measurement functions in one unit. A typical multimeter can measure voltage, current, and resistance. [This](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all) is a general tutorial for multimeters.   
+**NOTE:** Please turn off the multimeter by setting the dial to *OFF* after you finish your check.    
 
 <figure>
     <figcaption>Multimeter</figcaption>
@@ -29,7 +30,6 @@ In electronics, a continuity test is the checking of an electric circuit to see 
 
 
 * This is done so that you know that the continuity function is working.    
-
 
 2. **Performing the Continuity Check**  
 * Place one lead at each terminal of the circuit or component you want to test.   
@@ -76,5 +76,3 @@ In electronics, a continuity test is the checking of an electric circuit to see 
 * **NOTE:** Reversing the leads won't do any harm; it just gives us a negative reading.  
 
 [This](https://www.fluke.com/en-us/learn/best-practices/test-tools-basics/digital-multimeters/how-to-measure-ac-voltage-with-a-digital-multimeter) contains more detailed information about AC voltage test.    
-
-**NOTE:** Please turn off the multimeter by setting the dial to *OFF* after you finish your check.
