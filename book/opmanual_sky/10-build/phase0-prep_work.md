@@ -25,7 +25,7 @@ In this phase of the build, you will do prep work for the next phases of the bui
 
 | A wire before tinning     |  A tinned wire            |
 |:-------------------------:|:-------------------------:|
-|![](phase_0_photos/pre_tinned_1.jpg)  |  ![](phase_0_photos/post_tinned_1.jpg) |
+|<img style='width:30em' src="phase_0_photos/pre_tinned_1.jpg" width="490"/>  |  <img style='width:35em' src="phase_0_photos/post_tinned_1.jpg" width="500"/> |
 
 
 The purpose of stripping and tinning wires is to allow them to be joined together. By itself, stripping would not allow wires to be joined because the exposed wires would have no way to "stick" to each other.
@@ -41,7 +41,7 @@ An alternate way to tin a wire would be to wrap the wire with solder, then melt 
 
 | A wire before tinning     |  A tinned wire            |
 |:-------------------------:|:-------------------------:|
-|![](phase_0_photos/pre_tinned_2.jpg)  |  ![](phase_0_photos/post_tinned_2.jpg) |
+|<img style='width:30em' src="phase_0_photos/pre_tinned_2.jpg" width="490"/>  |  <img style='width:35em' src="phase_0_photos/post_tinned_2.jpg" width="500"/> |
 
 NOTE: not a lot of solder is needed, nor does it need to be wrapped compactly
 
@@ -77,7 +77,7 @@ For each ESC:
 
 | Excess material on ESC pads | After removal excess material |
 |:-------------------------:|:-------------------------:
-| <img style='width:35em' src="phase_0_photos/uncut_esc_pads.jpg" width="500"/> | <img style='width:35em' src="phase_0_photos/improved_esc_pads.jpg" width="500"/>
+| <img style='width:35em' src="phase_0_photos/uncut_esc_pads.jpg" width="500"/> | <img style='width:35em' src="phase_0_photos/improved_esc_pads.jpg" width="488"/>
 
 3. Solder the following:
    - 1 red wire on pad A
