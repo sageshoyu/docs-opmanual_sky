@@ -24,7 +24,7 @@ Similar to exposed wires, the metal pads on a PDB need to be tinned. This will a
 
 NOTE: you do not need to tin the 5V and 12V pads.
 
-**WARNING**: Be careful not to aggresively push the soldering iron tip into the PDB, as too much force will cut the pads right off the PDB!
+**WARNING**: Be careful not to aggresively push the soldering iron tip into the PDB, as too much force will cut the pads right off!
 
 ## Solder ESCs to the PDB
 
