@@ -6,7 +6,7 @@ A multimeter or a multitester, also known as a VOM (volt-ohm-milliammeter), is a
 
 <figure>
     <figcaption>Multimeter</figcaption>
-    <img style='width:35em' src="photos/multimeter.jpg"/>
+    <img style='width:35em' src="phase_0_photos/multimeter.jpg"/>
 </figure>
 
 ## [**Continuity Check**](https://www.youtube.com/watch?v=5G622WDZaHg)
@@ -17,14 +17,14 @@ In electronics, a continuity test is the checking of an electric circuit to see 
 * Switch the multimeter dial to the continuity test function(indicated by an icon that looks like a sound wave).  
 <figure>
     <figcaption>Switch the Dial to the Continuity Test Function</figcaption>
-    <img style='width:35em' src="photos/multimeter_dial_continuity.jpg"/>
+    <img style='width:35em' src="phase_0_photos/multimeter_dial_continuity.jpg"/>
 </figure>
 
 
 * Touch the multimeter leads together, and you should hear an audible "beep" sound.   
 <figure>
     <figcaption>Touch the Multimeter Leads Together</figcaption>
-    <img style='width:35em' src="photos/multimeter_leads_together.jpg"/>
+    <img style='width:35em' src="phase_0_photos/multimeter_leads_together.jpg"/>
 </figure>
 
 
@@ -35,7 +35,7 @@ In electronics, a continuity test is the checking of an electric circuit to see 
 * Place one lead at each terminal of the circuit or component you want to test.   
 <figure>
     <figcaption>Multimeter Leads On Board</figcaption>
-    <img style='width:35em' src="photos/multimeter_leads_on_board.jpg"/>
+    <img style='width:35em' src="phase_0_photos/multimeter_leads_on_board.jpg"/>
 </figure>
 
 
@@ -50,7 +50,7 @@ In electronics, a continuity test is the checking of an electric circuit to see 
 * Switch on your multimeter, and set the dial to DC voltage mode (indicated by a V with a straight line, or the symbol ⎓).   
 <figure>
     <figcaption>Switch the Dial to the DC Voltage Test Function</figcaption>
-    <img style='width:35em' src="photos/multimeter_dial_dc_voltage.jpg"/>
+    <img style='width:35em' src="phase_0_photos/multimeter_dial_dc_voltage.jpg"/>
 </figure>
 
 2. **Performing the Voltage Check**  
@@ -67,7 +67,7 @@ In electronics, a continuity test is the checking of an electric circuit to see 
 * **NOTE:** Do not let your fingers touch the lead tips. Do not allow the tips to contact one another.
 <figure>
     <figcaption>Switch the Dial to the AC Voltage Test Function</figcaption>
-    <img style='width:35em' src="photos/multimeter_dial_ac_voltage.jpg"/>
+    <img style='width:35em' src="phase_0_photos/multimeter_dial_ac_voltage.jpg"/>
 </figure> 
 
 2. **Performing the Voltage Check**  
