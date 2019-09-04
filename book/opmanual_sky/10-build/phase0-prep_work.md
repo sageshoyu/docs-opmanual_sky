@@ -111,6 +111,8 @@ Before beginning this section, please refer to a bullet connector soldering [tut
 
 For each ESC:
 
+2. Solder a female bullet connector to each of the 3 ESC wires (i.e. red, yellow, blue).
+
 <figure>
     <figcaption>Female bullet connectors on ESC wires (here the wires are black instead of red, yellow, and blue)</figcaption>
     <img style='width:35em' src="phase_0_photos/bullet_connectors_in_esc.jpg" width="500"/>
