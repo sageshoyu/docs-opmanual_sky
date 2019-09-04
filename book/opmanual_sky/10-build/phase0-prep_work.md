@@ -130,7 +130,7 @@ For each motor:
 4. Solder a male bullet connector to each of the motor's wires.
 
 <figure>
-    <figcaption>Male bullet connectors on motor wiresi</figcaption>
+    <figcaption>Male bullet connectors on motor wires</figcaption>
     <img style='width:35em' src="phase_0_photos/motor_with_bullet_connectors.jpg" width="500"/>
 </figure>  
     
