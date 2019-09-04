@@ -136,6 +136,6 @@ For reference, here are the motor directions with respect to the frame:
   
     NOTE: if the battery is X volts instead of 12 volts (e.g. 10), then the multimeter will show X volts instead of 12 volts.
 
-- **ONLY** if the DC voltage check passed, connect a battery to your drone. Verify the following:
+- **ONLY** if the DC voltage check passed, re-connect a battery to your drone and verify the following:
   - The ESCs emitted a quick succession of 3 beeps.
   - The bottom of the drone frame is illuminating, due to the LEDs on the bottom of the PDB.
