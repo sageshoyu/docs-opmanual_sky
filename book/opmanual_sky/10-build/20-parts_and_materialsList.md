@@ -26,7 +26,7 @@ Please note that all hardware to secure components is included.
 ## [**XT60 12AWG Power Cable**](https://www.amazon.com/dp/B00XBQ294A)
 <figure>
     <figcaption>Power Cable</figcaption>
-    <img style='width:35em' src="photos/xt60connector.png"/>
+    <img style='width:35em' src="photos/XT60_connector_plus_red_and_black_wires.jpg"/>
 </figure>  
    
 **Units:** 1  
@@ -227,7 +227,7 @@ Please note that all hardware to secure components is included.
 ## [**Heat Shrinks**](https://www.amazon.com/dp/B07GS7PBHV)
 <figure>
     <figcaption>Heat Shrinks</figcaption>
-    <img style='width:35em' src="photos/heat_shrinks.jpg"/>
+    <img style='width:35em' src="photos/heat_shrinks.png"/>
 </figure>  
        
 **Description:** Heat-shrink tubing (or, commonly, heat shrink or heatshrink) is a shrinkable plastic tube used to insulate wires, providing abrasion resistance and environmental protection for stranded and solid wire conductors, connections, joints and terminals in electrical work.   
