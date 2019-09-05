@@ -1,4 +1,4 @@
-# Cleanflight on the Skyline 32 {#build-assignment-5 status=ready}
+# Cleanflight on the Skyline 32 {status=draft}
 
 The Skyline 32 is the flight controller; it has an onboard accelerometer and gyroscope, and sends commands to the ESCs. We compile the firmware (called CleanFlight) with an option that allows us to control the Skyline via USB. In this part, you will mount and configure the Skyline 32, install new firmware on it, and power up the motors!
 
