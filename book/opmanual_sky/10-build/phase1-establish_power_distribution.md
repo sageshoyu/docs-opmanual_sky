@@ -119,15 +119,10 @@ For reference, here are the motor directions with respect to the frame:
 1. Gather the following:
 
    - Drone frame
-   
    - Completed PDB
-   
    - 4 motors (2 CW, 2 CCW)
-   
    - Velcro
-   
    - 6 standoffs
-   
    - 8 black bolts (in motors box)
    
 2. Place the drone frame on a flat surface so that the back is facing you.
