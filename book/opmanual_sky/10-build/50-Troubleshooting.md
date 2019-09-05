@@ -1,4 +1,4 @@
-# Troubleshooting {#build-assignment-10 status=ready}
+# Troubleshooting {#build-troubleshooting status=ready}
 
 - Help, I accidentally cut off a chunk of my wire while stripping!
 

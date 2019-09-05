@@ -1,4 +1,4 @@
-# Additional Resources {#additional-resources status=ready}
+# Additional Resources {#build-additional-resources status=ready}
 
 Here is a list of resources that you might find useful as you work on your drone. Some of these resources elaborate on concepts that we gloss over in this course but that you might find interesting, namely related to hardware.
 

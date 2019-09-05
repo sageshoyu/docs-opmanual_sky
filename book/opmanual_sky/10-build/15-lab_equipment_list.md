@@ -1,4 +1,4 @@
-# Lab Equipment List {#build-assignment-3 status=ready}
+# Lab Equipment List {#build-lab-equipment status=ready}
 
 This document contains a list of lab equipment we recommend having in your Makerspace.
 

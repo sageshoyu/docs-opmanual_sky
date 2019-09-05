@@ -1,4 +1,4 @@
-# Parts and Materials List {#build-assignment-2 status=ready}
+# Parts and Materials List {#build-parts-and-materials status=ready}
 
 This document contains a list of parts and materials needed to build a drone. Every item is included in a drone kit, unless specified otherwise.
  
