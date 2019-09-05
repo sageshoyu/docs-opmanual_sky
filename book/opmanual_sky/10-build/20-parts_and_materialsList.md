@@ -41,7 +41,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 </figure>  
   
 **Units:** 4 (2 clockwise and 2 counterclockwise, paired with motors)   
-**Description:** A device with blades that turns rotational motion into thrust. 5 refers to the diameter in inches, and 4 refers to the distance the propeller would travel if turned 1 rotation without slippage, e.g. in jello. Three blades gives more lift for a given diameter than two blades - at the cost of efficiency.
+**Description:** A device with blades that turns rotational motion into thrust. 5 refers to the diameter in inches, and 4 refers to the distance the propeller would travel if turned one rotation without slippage, e.g. in jello. Three blades gives more lift for a given diameter than two blades - at the cost of efficiency.
 
 ## **30A Brushless Electronic Speed Controller (ESC)**
 <figure>
@@ -72,16 +72,16 @@ This document contains a list of parts and materials needed to build a drone. Ev
     <img style='width:35em' src="photos/standoffs_with_screws.png" width="500"/>
 </figure>  
  
-**Units:** 12-16
-**Description:** Bolts that can be screwed into standoffs.
+**Units:** 12-16   
+**Description:** A screw that can be screwed into a standoff or a motor. Included in the motors box.
 
-## **Raspberry Pi 3 Model B**
+## **Raspberry Pi 3 Model B (Pi)**
 <figure>
     <img style='width:35em' src="photos/pi_on_box.png" width="500"/>
 </figure>  
 
 **Units:** 1   
-**Description:** A single board computer that can execute code loaded via an SD card. Also called a *Pi* for short.
+**Description:** A single board computer that can execute code loaded via an SD card.
 
 ## **16GB Micro SD Card**
 <figure>
@@ -96,7 +96,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
     <img style='width:35em' src="photos/heat_sinks.jpg" width="500"/>
 </figure>  
 
-**Units:** 3 (14mm * 14mm * 7mm, 9mm * 9mm * 5mm, 12mm * 12mm * 1mm)    
+**Units:** 3 (14mm * 14mm * 7mm; 9mm * 9mm * 5mm; 12mm * 12mm * 1mm)    
 **Description:** A device that dissipates heat into the air. When attached to a Pi, it will regulate temperature at optimal levels.
 
 ## **Pi Mount**
@@ -113,7 +113,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 </figure>  
  
 **Units:** 3    
-**Description:** Small screws for mounting the Pi on top of the pi mount.
+**Description:** Small screws for mounting the Pi on top of the pi mount. Included in the frame box.
 
 ## **Battery Eliminator Circuit (BEC)**
 <figure>
@@ -162,7 +162,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 </figure>  
  
 **Units:** 1    
-**Description:** A breadboard specifically designed for easy attachment to Pi.
+**Description:** A breadboard specifically designed for easy attachment to a Pi.
 
 ## **Adafruit Analog-to-Digital Converter (ADC)**
 <figure>
@@ -181,11 +181,13 @@ This document contains a list of parts and materials needed to build a drone. Ev
 **Description:** A lithium polymer battery used to power the drone. 
 
 ## **12V 2-3S LiPo Charger** + **AC/DC US Charge Adapter**
-<figure>
-    <img style='width:35em' src="photos/charger.png" width="500"/>
-</figure>  
 
-**Units:** 1 + 1
+| LiPo Charger     |  Charge Adapter            |
+|:-------------------------:|:-------------------------:|
+|<img style='width:35em' src="photos/charger.png" width="400"/>  |  <img style='width:35em' src="photos/charge_adapter.jpg" width="400" height="400"/> |
+
+
+**Units:** 1 + 1   
 **Description:** A charger used to charge a LiPo battery. A charger adapter is needed in order to plug the charger into a wall outlet.
 
 ## **Velcro**
@@ -196,14 +198,12 @@ This document contains a list of parts and materials needed to build a drone. Ev
 **Units:** 1    
 **Description:** A velcro strip used to hold the battery to the drone.                     
 
-# Materials List {#build-assignment-2 status=ready}
-
 ## **Heat Shrinks** (not included)
 <figure>
     <img style='width:35em' src="photos/heat_shrinks.png" width="500"/>
 </figure>  
        
-**Description:** Heat-shrink tubing (or, commonly, heat shrink or heatshrink) is a shrinkable plastic tube used to insulate wires, providing abrasion resistance and environmental protection for stranded and solid wire conductors, connections, joints and terminals in electrical work.   
+**Description:** A heat shrink (a.k.a heatshrink or heat-shrink tubing) is a shrinkable plastic insulator tube used to insulate wires. It is commonly used as a "sleeve" over a solder joint.
 
 ## **Zip Ties** (not included)
 <figure>
