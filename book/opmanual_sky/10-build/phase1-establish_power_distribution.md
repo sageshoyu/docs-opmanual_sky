@@ -85,13 +85,13 @@ For reference, here are the motor directions with respect to the frame:
    - 4 motors (2 CW, 2 CCW)
    - Velcro
    - 6 standoffs
-   - 8 black screws (in motors box)
+   - 8 black bolts (in motors box)
    
 2. Place the drone frame on a flat surface so that the back is facing you.
 
    ![Alt](/X.png "Title") <pic of drone frame WITH CLEARLY MARKED FRONT AND BACK;>
  
-3. Feed the velcro through the center of the drone frame. Make sure the fuzzy side is facing up.
+3. Feed the velcro through the center of the drone frame. Make sure the fuzzy side is facing down.
    
    ![Alt](/X.png "Title") <>
 
@@ -99,15 +99,15 @@ For reference, here are the motor directions with respect to the frame:
 
    ![Alt](/X.png "Title") <>
 
-5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing. Once the PDB is secure, remove the black screws from the standoffs. It may help to use a long-nose plier to hold the standoffs while unscrewing.
+5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing. Once the PDB is secure, remove the black bolts from the standoffs. It may help to use a long-nose plier to hold the standoffs while unscrewing.
 
    ![Alt](/X.png "Title") <>
 
-6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black screws for each attachment.
+6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black bolts for each attachment.
 
    ![Alt](/X.png "Title") <>
 
-7. Attach CCW motors to the bottom-left and top-right of the drone frame, using 2 black screws for each attachment.
+7. Attach CCW motors to the bottom-left and top-right of the drone frame, using 2 black bolts for each attachment.
 
    ![Alt](/X.png "Title") <>
 
