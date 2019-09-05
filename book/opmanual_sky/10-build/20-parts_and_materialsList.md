@@ -124,11 +124,8 @@ This document contains a list of parts and materials needed to build a drone. Ev
 **Description:** An electronic component that transforms high power into low power (in technical terms, performs a *voltage drop*). 
 
 ## **Flight Controller (FC)** + **USB to Micro USB**
-<figure>
-    <img style='width:35em' src="photos/fc.png" width="500"/>
-</figure>  
 
-| FC     | USB to Micro USB           |
+| Flight Controller     | USB to Micro USB           |
 |:-------------------------:|:-------------------------:|
 |<img style='width:35em' src="photos/fc.png" width="400"/>  | <img style='width:35em' src="photos/usb.png" width="400"/> |
   
