@@ -4,7 +4,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
  
 ## **FPV250 Drone Frame**
 <figure>
-    <figcaption>FPV250 Drone Frame</figcaption>
     <img style='width:35em' src="photos/drone_frame.jpg" width="600" align="middle"/>
 </figure>
 
@@ -13,7 +12,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Power Distribution Board (PDB)**
 <figure>
-    <figcaption>PDB</figcaption>
     <img style='width:35em' src="photos/diatonepdb.png" width="500"/>
 </figure>  
  
@@ -22,7 +20,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **XT60 Connector** + **Protective Casing** + **12AWG Red Wire** + **12AWG Black Wire**
 <figure>
-    <figcaption>Power Cable</figcaption>
     <img style='width:35em' src="photos/XT60_connector_plus_red_and_black_wires.jpg" width="500"/>
 </figure>  
    
@@ -32,7 +29,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **2205 2300KV Brushless Motor**
 <figure>
-    <figcaption>2205 2300KV Brushless Motor</figcaption>
     <img style='width:35em' src="photos/2205_2300kv_brushless_motors_red.jpg" width="400"/>
 </figure>  
 
@@ -41,7 +37,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **5040 3-Blade Propeller**
 <figure>
-    <figcaption>Propellers</figcaption>
     <img style='width:35em' src="photos/props.png" width="500"/>
 </figure>  
   
@@ -50,7 +45,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **30A Brushless Electronic Speed Controller (ESC)**
 <figure>
-    <figcaption>ESCs</figcaption>
     <img style='width:35em' src="photos/esc.jpg" width="500"/>
 </figure>  
   
@@ -59,7 +53,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **2.0mm Bullet Connector**
 <figure>
-    <figcaption>Bullet Connectors</figcaption>
     <img style='width:35em' src="photos/bullet_connector.jpg" width="400"/>
 </figure>  
   
@@ -68,7 +61,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **6mm + 4mm Brass Standoff** 
 <figure>
-    <figcaption>Standoffs</figcaption>
     <img style='width:35em' src="photos/standoffs.png" width="500"/>
 </figure>  
 
@@ -77,7 +69,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Black Bolts**
 <figure>
-    <figcaption>M3 BoltB</figcaption>
     <img style='width:35em' src="photos/standoffs_with_screws.png" width="500"/>
 </figure>  
  
@@ -86,7 +77,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Raspberry Pi 3 Model B**
 <figure>
-    <figcaption>Raspberry Pi</figcaption>
     <img style='width:35em' src="photos/pi_on_box.png" width="500"/>
 </figure>  
 
@@ -95,7 +85,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **16GB Micro SD Card**
 <figure>
-    <figcaption>Micro SD Card</figcaption>
     <img style='width:35em' src="photos/sd.png" width="500"/>
 </figure>  
 
@@ -104,7 +93,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Heat Sink**
 <figure>
-    <figcaption>Heat Sinks</figcaption>
     <img style='width:35em' src="photos/heat_sinks.jpg" width="500"/>
 </figure>  
 
@@ -113,7 +101,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Pi Mount**
 <figure>
-    <figcaption>Pi Mount</figcaption>
     <img style='width:35em' src="photos/pi_mount.jpg" width="500"/>
 </figure>  
  
@@ -122,7 +109,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Screws for Pi to Pi Mount**
 <figure>
-    <figcaption>Screws for Pi to Pi Mount</figcaption>
     <img style='width:35em' src="photos/screws_silver.jpg" width="500"/>
 </figure>  
  
@@ -131,7 +117,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Battery Eliminator Circuit (BEC)**
 <figure>
-    <figcaption>BEC</figcaption>
     <img style='width:35em' src="photos/bec.png" width="500"/>
 </figure>  
  
@@ -140,7 +125,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Flight Controller (FC)**
 <figure>
-    <figcaption>Flight Controller</figcaption>
     <img style='width:35em' src="photos/fc.png" width="500"/>
 </figure>  
   
@@ -149,7 +133,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **USB to Micro USB**
 <figure>
-    <figcaption>Micro USB</figcaption>
     <img style='width:35em' src="photos/usb.png" width="500"/>
 </figure>  
  
@@ -158,7 +141,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Arducam 5 Megapixels 1080p OV5647 Camera**
 <figure>
-    <figcaption>Camera</figcaption>
     <img style='width:35em' src="photos/cam.png" width="500"/>
 </figure>  
   
@@ -167,7 +149,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Infrared Sensor** + **IR Sensor Cable**
 <figure>
-    <figcaption>IR Sensor</figcaption>
     <img style='width:35em' src="photos/ir.png" width="500"/>
 </figure>  
   
@@ -177,7 +158,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Perma-Proto Raspberry Pi Hat**
 <figure>
-    <figcaption>Pi Hat</figcaption>
     <img style='width:35em' src="photos/hat.png" width="500"/>
 </figure>  
  
@@ -186,7 +166,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Adafruit Analog to Digital Converter (ADC)**
 <figure>
-    <figcaption>ADC</figcaption>
     <img style='width:35em' src="photos/adc.png" width="500"/>
 </figure>  
    
@@ -195,7 +174,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **1500mAh 3S 20C LiPo Battery**
 <figure>
-    <figcaption>Battery</figcaption>
     <img style='width:35em' src="photos/battery.png" width="500"/>
 </figure>  
  
@@ -204,7 +182,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **12V 2-3S LiPo Charger** + **AC/DC US Charge Adapter**
 <figure>
-    <figcaption>Battery Charger</figcaption>
     <img style='width:35em' src="photos/charger.png" width="500"/>
 </figure>  
 
@@ -213,7 +190,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Velcro**
 <figure>
-    <figcaption>Velcro</figcaption>
     <img style='width:35em' src="photos/velcro.jpg" width="500"/>
 </figure>  
  
@@ -224,7 +200,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Heat Shrinks** (not included)
 <figure>
-    <figcaption>Heat Shrinks</figcaption>
     <img style='width:35em' src="photos/heat_shrinks.png" width="500"/>
 </figure>  
        
@@ -232,7 +207,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Zip Ties** (not included)
 <figure>
-    <figcaption>Zip Ties</figcaption>
     <img style='width:35em' src="photos/zip_ties.jpg" width="500"/>
 </figure>  
        
