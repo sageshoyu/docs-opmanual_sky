@@ -1,4 +1,4 @@
-# How to Use Multimeters {#build-assignment-10 status=ready}
+# How to Use Multimeters {#build-multimeter status=ready}
 
 During this step you will learn about how to use multimeters to do a continuity check and a voltage check.    
 

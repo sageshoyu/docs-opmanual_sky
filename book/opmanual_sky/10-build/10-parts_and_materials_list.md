@@ -1,10 +1,10 @@
-# Parts and Materials List {#build-assignment-2 status=ready}
+# Parts and Materials List {#build-parts-and-materials status=ready}
 
 This document contains a list of parts and materials needed to build a drone. Every item is included in a drone kit, unless specified otherwise.
  
 ## **FPV250 Drone Frame**
 <figure>
-    <img style='width:35em' src="photos/drone_frame.jpg" width="600" align="middle"/>
+    <img src="photos/drone_frame.jpg" width="400" align="middle"/>
 </figure>
 
 **Units:** 1  
@@ -12,7 +12,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Power Distribution Board (PDB)**
 <figure>
-    <img style='width:35em' src="photos/diatonepdb.png" width="500"/>
+    <img src="photos/diatonepdb.png" width="400"/>
 </figure>  
  
 **Units:** 1  
@@ -20,7 +20,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **XT60 Connector** + **Protective Casing** + **12AWG Red Wire** + **12AWG Black Wire**
 <figure>
-    <img style='width:35em' src="photos/XT60_connector_plus_red_and_black_wires.jpg" width="500"/>
+    <img src="photos/XT60_connector_plus_red_and_black_wires.jpg" width="400"/>
 </figure>  
    
 **Units:** 1 + 1 + 1 + 1
@@ -29,7 +29,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **2205 2300KV Brushless Motor**
 <figure>
-    <img style='width:35em' src="photos/2205_2300kv_brushless_motors_red.jpg" width="400"/>
+    <img src="photos/2205_2300kv_brushless_motors_red.jpg" width="200"/>
 </figure>  
 
 **Units:** 4 (2 clockwise and 2 counterclockwise)  
@@ -37,7 +37,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **5040 3-Blade Propeller**
 <figure>
-    <img style='width:35em' src="photos/props.png" width="500"/>
+    <img src="photos/props.png" width="400"/>
 </figure>  
   
 **Units:** 4 (2 clockwise and 2 counterclockwise, paired with motors)   
@@ -45,7 +45,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **30A Brushless Electronic Speed Controller (ESC)**
 <figure>
-    <img style='width:35em' src="photos/esc.jpg" width="500"/>
+    <img src="photos/esc.jpg" width="400"/>
 </figure>  
   
 **Units:** 4    
@@ -53,7 +53,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **2.0mm Bullet Connector**
 <figure>
-    <img style='width:35em' src="photos/bullet_connector.jpg" width="400"/>
+    <img src="photos/bullet_connector.jpg" width="200"/>
 </figure>  
   
 **Units:** 24 (12 male and 12 female)    
@@ -61,7 +61,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **6mm + 4mm Brass Standoff** 
 <figure>
-    <img style='width:35em' src="photos/standoffs.png" width="500"/>
+    <img src="photos/standoffs.png" width="200"/>
 </figure>  
 
 **Units:** 6    
@@ -69,7 +69,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **M3 Black Bolt**
 <figure>
-    <img style='width:35em' src="photos/standoffs_with_screws.png" width="500"/>
+    <img src="photos/standoffs_with_screws.png" width="200"/>
 </figure>  
  
 **Units:** 12-16   
@@ -77,7 +77,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Raspberry Pi 3 Model B (Pi)**
 <figure>
-    <img style='width:35em' src="photos/pi_on_box.png" width="500"/>
+    <img src="photos/pi_on_box.png" width="400"/>
 </figure>  
 
 **Units:** 1   
@@ -85,7 +85,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **16GB Micro SD Card**
 <figure>
-    <img style='width:35em' src="photos/sd.png" width="500"/>
+    <img src="photos/sd.png" width="300"/>
 </figure>  
 
 **Units:** 1   
@@ -93,7 +93,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Heat Sink**
 <figure>
-    <img style='width:35em' src="photos/heat_sinks.jpg" width="500"/>
+    <img src="photos/heat_sinks.jpg" width="300"/>
 </figure>  
 
 **Units:** 3 (14mm * 14mm * 7mm; 9mm * 9mm * 5mm; 12mm * 12mm * 1mm)    
@@ -101,7 +101,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Pi Mount**
 <figure>
-    <img style='width:35em' src="photos/pi_mount.jpg" width="500"/>
+    <img src="photos/pi_mount.jpg" width="300"/>
 </figure>  
  
 **Units:** 1   
@@ -109,7 +109,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Screws for Pi to Pi Mount**
 <figure>
-    <img style='width:35em' src="photos/screws_silver.jpg" width="500"/>
+    <img src="photos/screws_silver.jpg" width="300"/>
 </figure>  
  
 **Units:** 3    
@@ -117,7 +117,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Battery Eliminator Circuit (BEC)**
 <figure>
-    <img style='width:35em' src="photos/bec.png" width="500"/>
+    <img src="photos/bec.png" width="300"/>
 </figure>  
  
 **Units:** 1   
@@ -127,14 +127,14 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 | Flight Controller     | USB to Micro USB           |
 |:-------------------------:|:-------------------------:|
-|<img style='width:35em' src="photos/fc.png" width="400"/>  | <img style='width:35em' src="photos/usb.png" width="400"/> |
+|<img src="photos/fc.png" width="250"/>  | <img src="photos/usb.png" width="250"/> |
   
 **Units:** 1 + 1  
 **Description:** A flight controller is a device that contains a few sensors: an Inertial Measurement Unit (IMU) and a gyroscope; an IMU measures linear accelerations and a gyroscope measures angular velocities. These measurements are reported via a USB to Micro USB. A flight controller can also send input signals to an ESC.
 
 ## **Arducam 5MP 1080p OV5647 Camera (Pi Cam)** + **15pin Flexible Flat Cable (FFC)**
 <figure>
-    <img style='width:35em' src="photos/cam.png" width="500"/>
+    <img src="photos/cam.png" width="300"/>
 </figure>  
   
 **Units:** 1 + 1   
@@ -142,7 +142,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Infrared Sensor (IR)** + **IR Sensor Cable**
 <figure>
-    <img style='width:35em' src="photos/ir.png" width="500"/>
+    <img src="photos/ir.png" width="300"/>
 </figure>  
   
 **Units:** 1 + 1  
@@ -150,7 +150,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Perma-Proto Raspberry Pi Hat (Pi Hat)**
 <figure>
-    <img style='width:35em' src="photos/hat.png" width="500"/>
+    <img src="photos/hat.png" width="300"/>
 </figure>  
  
 **Units:** 1    
@@ -158,7 +158,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Adafruit Analog-to-Digital Converter (ADC)**
 <figure>
-    <img style='width:35em' src="photos/adc.png" width="500"/>
+    <img src="photos/adc.png" width="300"/>
 </figure>  
    
 **Units:** 1    
@@ -166,7 +166,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **1500mAh 3S 20C LiPo Battery**
 <figure>
-    <img style='width:35em' src="photos/battery.png" width="500"/>
+    <img src="photos/battery.png" width="300"/>
 </figure>  
  
 **Units:** 1   
@@ -176,7 +176,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 | LiPo Charger     |  Charge Adapter            |
 |:-------------------------:|:-------------------------:|
-|<img style='width:35em' src="photos/charger.png" width="400"/>  |  <img style='width:35em' src="photos/charge_adapter.jpg" width="400" height="400"/> |
+|<img src="photos/charger.png" width="250"/>  |  <img src="photos/charge_adapter.jpg" height="200"/> |
 
 
 **Units:** 1 + 1   
@@ -184,7 +184,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Velcro**
 <figure>
-    <img style='width:35em' src="photos/velcro.jpg" width="500"/>
+    <img src="photos/velcro.jpg" width="300"/>
 </figure>  
  
 **Units:** 1    
@@ -192,14 +192,14 @@ This document contains a list of parts and materials needed to build a drone. Ev
 
 ## **Heat Shrinks** (not included)
 <figure>
-    <img style='width:35em' src="photos/heat_shrinks.png" width="500"/>
+    <img src="photos/heat_shrinks.png" width="400"/>
 </figure>  
        
 **Description:** A heat shrink (a.k.a heatshrink or heat-shrink tubing) is a shrinkable plastic insulator tube used to insulate wires. It is commonly used as a "sleeve" over a solder joint.
 
 ## **Zip Ties** (not included)
 <figure>
-    <img style='width:35em' src="photos/zip_ties.jpg" width="500"/>
+    <img src="photos/zip_ties.jpg" width="300"/>
 </figure>  
        
 **Description:** A zip tie is a type of fastener for holding items together, primarily electrical cables or wires.     
