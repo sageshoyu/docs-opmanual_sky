@@ -1,4 +1,8 @@
+<<<<<<< HEAD:book/opmanual_sky/10-build/50-Troubleshooting.md
 # Troubleshooting {#build-troubleshooting status=ready}
+=======
+# Troubleshooting {#part:build-assignment-11 status=ready}
+>>>>>>>  :book/opmanual_sky/10-build/Troubleshooting.md
 
 - Help, I accidentally cut off a chunk of my wire while stripping!
 
