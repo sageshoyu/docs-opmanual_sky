@@ -19,7 +19,7 @@ In this phase of the build, you will do prep work for the next phases of the bui
 
 | An unstripped wire        |  A stripped wire          |
 |:-------------------------:|:-------------------------:|
-|<img src="photos/wire.jpg" width="30em"/>  |  <img src="photos/stripped_wire.jpg" width="300" height="300"/> |
+|<img src="photos/wire.jpg" width="300px"/>  |  <img src="photos/stripped_wire.jpg" width="300" height="300"/> |
 
 **Tinning** is the process of applying solder to exposed wire. It is done by using a soldering iron to melt solder into the exposed wire.
 
