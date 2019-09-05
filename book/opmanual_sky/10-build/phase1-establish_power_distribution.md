@@ -57,7 +57,9 @@ An ESC (i.e. Electronic Speed Control) is a component which requires power. It t
 
 A BEC (i.e. Battery Eliminator Circuit) is a component which requires power. It takes this power and outputs a constant amount of lower power (in technical terms, it performs a *voltage drop*. Our BEC does a 12V to 5V voltage drop). The BEC is important because some components in latter phases require lower power than supplied by the battery.
 
-**Action Items**: Solder your BEC to the PDB.    
+**Action Items**: 
+
+- Solder your BEC to the PDB.    
 
 <figure>
     <img src="photos/added_bec.jpg" width="400"/>
