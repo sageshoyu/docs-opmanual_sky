@@ -6,6 +6,7 @@
 A drone contains many electronic components that enable it to fly. These components require power (via a voltage source) in order to function. 
 
 In this phase of the build, you will establish power distribution to your drone so that all its components receive power. At a high level, establishing power distribution requires the following:
+
 - A component(s) which requires power
 - A power connector cable that provides power when a power source (e.g. battery) is connected to it
 - A PDB (i.e. Power Distribution Board) that receives power from a power connector cable and provides it to each component that requires power.
@@ -98,6 +99,7 @@ For reference, here are the motor directions with respect to the frame:
 </figure>
 
 1. Gather the following:
+
    - Drone frame
    - Completed PDB
    - 4 motors (2 CW, 2 CCW)
