@@ -99,7 +99,7 @@ Here you will learn about the tools and materials that you will need to use to b
 ## Wire for ESCs
 <figure>
     <figcaption>Wire for ESCs</figcaption>
-    <img style='width:35em' src="photos/wire_for_escs.jpg" width="500"/>
+    <img style='width:35em' src="photos/wires_for_escs2.jpg" width="500"/>
 </figure>  
 
 **Description:** Wire that will be soldered to the ESCs so that they can be connected to the motors.
