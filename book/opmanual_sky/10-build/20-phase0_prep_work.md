@@ -4,7 +4,7 @@
 
 ## Preface
 
-Before you begin, please ensure you have all the parts in the [parts and materials list](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build-parts-and-materials.html).
+Before you begin, please ensure you have all the parts in the [parts and materials list](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build_parts_and_materials.html).
 
 In this phase of the build, you will do prep work for the next phases of the build. This phase will require a lot of soldering, so please go through a [soldering tutorial](https://www.youtube.com/watch?v=Qps9woUGkvI) before starting.
 
@@ -109,7 +109,7 @@ For each ESC:
     <img src="photos/ABC_pads_on_ESC.jpg" width="400"/>
    </figure>
    
-4. Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build-multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later).  
+4. Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build_multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later).  
 
 5. Put a heat shrink over the ESC. The heat shrink should cover (length-wise) the exposed soldered wires on one end and half the ESC on the other end. Apply heat to shrink the heat shrink.   
 
@@ -204,6 +204,6 @@ Please skip this step if your kit already contains a completed XT60 connector ca
 
 - Visually inspect that each of the following is stripped and tinned: 4 ESCs, 4 motors, BEC, XT60 connector, red and brown wire pair.
 
-- Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build-multimeter.html) on the XT60 connector cable; verify there is no short between the red and black wire.
+- Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build_multimeter.html) on the XT60 connector cable; verify there is no short between the red and black wire.
 
-- Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build-multimeter.html) on each ESC; for each ESC, verify there are no shorts between any two wires you soldered.
+- Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build_multimeter.html) on each ESC; for each ESC, verify there are no shorts between any two wires you soldered.
