@@ -12,15 +12,15 @@ In this phase of the build, you will do prep work for the next phases of the bui
 
 **Safety Tips:**
 
-- Be careful holding wires and components with your bare hands while soldering, as they will get very hot very quickly. We recommend using long-nose pliers or helping hands whenever possible.
+    - Be careful holding wires and components with your bare hands while soldering, as they will get very hot very quickly. We recommend using long-nose pliers or helping hands whenever possible.
 
-- Don't touch the soldering iron tip (or any other metal piece) while the soldering iron is on, since doing so can cause burns. If you get burned, rinse the affected area with cold water immediately. 
+    - Don't touch the soldering iron tip (or any other metal piece) while the soldering iron is on, since doing so can cause burns. If you get burned, rinse the affected area with cold water immediately. 
    
-- Likewise, don't use the soldering iron on anything you don't intend to solder. The high heat will cause things to melt or burn.
+    - Likewise, don't use the soldering iron on anything you don't intend to solder. The high heat will cause things to melt or burn.
 
-- Don't breathe soldering fumes; use a soldering fan whenever possible.
+    - Don't breathe soldering fumes; use a soldering fan whenever possible.
 
-- If you have difficulty soldering (e.g. shaky hands), please seek the advice of a TA or teacher.
+    - If you have difficulty soldering (e.g. shaky hands), please seek the advice of a TA or teacher.
 
 ## Strip and Tin Wires
 
