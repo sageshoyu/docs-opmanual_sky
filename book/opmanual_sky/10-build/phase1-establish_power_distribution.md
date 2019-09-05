@@ -65,7 +65,7 @@ A BEC (i.e. Battery Eliminator Circuit) is a component which requires power. It 
 The red and brown wire pair (from the flight controller box) is a component which requires power. It takes this power and simply passes it along to the white stub on the other end. What is the point of this? In a latter phase, you will connect the white stub to your flight controller. This will allow the flight controller to *observe* or *monitor* the power traversing the PDB. For this reason, the red and brown wire pair is called the *battery monitor lead*.    
 
 **TODO:** Solder the red and brown wire pair to the PDB. Due to its small size, you will need to solder onto another pair of wires, e.g. BEC wires. The red wire should connect to a positive (+) pad and the brown wire should connect to a negative (-) pad.     
-**WARNING**: While trying to solder on these wires, you may accidentally unsolder the existing wires from the PDB. We recommend temporarily holding down the existing wires with a long-nose plier, tape, or helping hands.     
+**WARNING**: While trying to solder on these wires, you may accidentally unsolder the existing wires from the PDB. We recommend temporarily holding down the existing wires with long-nose pliers, tape, or helping hands.     
 
 <figure>
     <figcaption>ESCs, BEC, and red/brown connector soldered to PDB</figcaption>
@@ -126,7 +126,7 @@ For reference, here are the motor directions with respect to the frame:
     <img style='width:35em' src="photos/standoffs_with_screws.png" width="500"/>
 </figure>
 
-5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing. Once the PDB is secure, remove the black bolts from the standoffs. It may help to use a long-nose plier to hold the standoffs while unscrewing.
+5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing. Once the PDB is secure, remove the black bolts from the standoffs. It may help to use long-nose pliers to hold the standoffs while unscrewing.
 
 <figure>
     <figcaption>Securing the PDB to the frame</figcaption>
