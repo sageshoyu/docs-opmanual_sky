@@ -19,13 +19,13 @@ In this phase of the build, you will do prep work for the next phases of the bui
 
 | An unstripped wire        |  A stripped wire          |
 |:-------------------------:|:-------------------------:|
-|<img style='width:30em' src="photos/wire.jpg" width="250" height="250"/>  |  <img style='width:30em' src="photos/stripped_wire.jpg" width="250" height="250"/> |
+|<img src="photos/wire.jpg" width="250"/>  |  <img src="photos/stripped_wire.jpg" width="250"/> |
 
 **Tinning** is the process of applying solder to exposed wire. It is done by using a soldering iron to melt solder into the exposed wire.    
 
 | A wire before tinning     |  A tinned wire            |
 |:-------------------------:|:-------------------------:|
-|<img style='width:30em' src="photos/pre_tinned_1.jpg" width="250" height="250"/>  |  <img style='width:35em' src="photos/post_tinned_1.jpg" width="250" height="250"/> |
+|<img src="photos/pre_tinned_1.jpg" width="250"/>  |  <img src="photos/post_tinned_1.jpg" width="250"/> |
 
 
 The purpose of stripping and tinning wires is to allow them to be joined together. By itself, stripping would not allow wires to be joined because the exposed wires would have no way to "stick" to each other.
@@ -41,7 +41,7 @@ An alternate way to tin a wire would be to wrap the wire with solder, then melt 
 
 | A wire before tinning     |  A tinned wire            |
 |:-------------------------:|:-------------------------:|
-|<img style='width:30em' src="photos/pre_tinned_2.jpg" width="250" height="250"/>  |  <img style='width:30em' src="photos/post_tinned_2.jpg" width="250" height="250"/> |
+|<img src="photos/pre_tinned_2.jpg" width="244.5"/>  |  <img src="photos/post_tinned_2.jpg" width="250"/> |
 
 Furthermore, since solder is conductive, the resulting joint acts as a bridge for electricity traveling between the connected wires! 
 
@@ -55,10 +55,10 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 
 | Part Name                 | Amount                    |  After Tinning Picture    |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-| ESC                       | 4                         |  <img style='width:30em' src="photos/tinned_esc_2.jpg" width="250" height="250"/> |
-| Motor                     | 4                         |  <img style='width:30em' src="photos/tinned_motor.jpg" width="250" height="250"/> |
-| BEC                       | 1                         |  <img style='width:30em' src="photos/tinned_bec.jpg" width="250" height="250"/> |
-| Red and brown wire pair in flight controller box | 1                         |  <img style='width:30em' src="photos/tinned_red_brown.jpg" width="250" height="250"/> | 
+| ESC                       | 4                         |  <img src="photos/tinned_esc_2.jpg" width="250" /> |
+| Motor                     | 4                         |  <img src="photos/tinned_motor.jpg" width="250" /> |
+| BEC                       | 1                         |  <img src="photos/tinned_bec.jpg" width="250" /> |
+| Red and brown wire pair in flight controller box | 1                         |  <img src="photos/tinned_red_brown.jpg" width="250"/> | 
 
 ## Solder wires onto ESC pads
 
@@ -75,7 +75,7 @@ For each ESC:
 
 | Excess material on ESC pads | After removal excess material |
 |:-------------------------:|:-------------------------:
-| <img style='width:35em' src="photos/uncut_esc_pads.jpg" width="250"/> | <img style='width:35em' src="photos/improved_esc_pads.jpg" width="250"/>
+| <img src="photos/uncut_esc_pads.jpg" width="250"/> | <img src="photos/improved_esc_pads.jpg" width="242"/>
 
 3. Solder the following:
    - 1 red wire on pad A
@@ -86,7 +86,7 @@ For each ESC:
    
    <figure>
     <figcaption>Pad letters</figcaption>
-    <img style='width:35em' src="photos/ABC_pads_on_ESC.jpg" width="400"/>
+    <img src="photos/ABC_pads_on_ESC.jpg" width="400"/>
    </figure>
    
 4. Do a [connectivity check]() between each pair of soldered wires (recommend doing this now instead of in checkoff later).  
@@ -95,7 +95,7 @@ For each ESC:
 
 | A Prepared ESC | A Prepared ESC with heat shrink |
 |:-------------------------:|:-------------------------:
-| <img style='width:35em' src="photos/colorful_esc.jpg" width="250"/> | <img style='width:35em' src="photos/colorful_esc_shrinkwrap2.jpg" width="250"/>   
+| <img src="photos/colorful_esc.jpg" width="250"/> | <img src="photos/colorful_esc_shrinkwrap2.jpg" width="250"/>   
    
 6. Strip and tin all wires of the completed ESC (if not already done).
 
@@ -118,14 +118,14 @@ For each ESC:
 
 <figure>
     <figcaption>Female bullet connectors on ESC wires (here the wires are black instead of red, yellow, and blue)</figcaption>
-    <img style='width:35em' src="photos/bullet_connectors_in_esc.jpg" width="500"/>
+    <img src="photos/bullet_connectors_in_esc.jpg" width="400"/>
 </figure>  
 
 3. Put a heat shrink over each solder joint. For female connectors: the heat shrink should cover the solder joint on one end and run the entire length of the bullet connector. Apply heat to shrink the heat shrink.
 
 <figure>
     <figcaption>Female bullet connect with heat shrink</figcaption>
-    <img style='width:35em' src="photos/esc_bullet_connect_heat_shrink_close_up.jpg" width="500"/>
+    <img src="photos/esc_bullet_connect_heat_shrink_close_up.jpg" width="400"/>
 </figure>  
 
 For each motor:
@@ -134,14 +134,14 @@ For each motor:
 
 <figure>
     <figcaption>Male bullet connectors on motor wires</figcaption>
-    <img style='width:35em' src="photos/motor_with_bullet_connectors.jpg" width="500"/>
+    <img style='width:35em' src="photos/motor_with_bullet_connectors.jpg" width="400"/>
 </figure>  
     
 5. Put a heat shrink over each solder joint. For male connectors: the heat shrink should cover the solder joint on one end and run only the short length of the cylindrical part. Apply heat to shrink the heat shrink.
 
 <figure>
     <figcaption>Male bullet connector with heat shrink</figcaption>
-    <img style='width:35em' src="photos/motor_bullet_connector_heat_shrink.jpg" width="500"/>
+    <img style='width:35em' src="photos/motor_bullet_connector_heat_shrink.jpg" width="400"/>
 </figure>  
 
 ## Create an XT60 Connector Cable
@@ -149,7 +149,7 @@ Please skip this step if your kit already contains a completed XT60 connector ca
 
 <figure>
     <figcaption>Completed XT60 Connector</figcaption>
-    <img style='width:35em' src="photos/xt60_complete.png" width="250"/>
+    <img src="photos/xt60_complete.png" width="250"/>
 </figure>  
 
 1. Gather the following parts:
@@ -160,7 +160,7 @@ Please skip this step if your kit already contains a completed XT60 connector ca
     
     <figure>
     <figcaption>Parts of XT60 connector</figcaption>
-    <img style='width:35em' src="photos/XT60_connector_plus_red_and_black_wires.jpg" height="200"/>
+    <img src="photos/XT60_connector_plus_red_and_black_wires.jpg" width="300"/>
     </figure>  
     
 2. Follow this [guide](http://www.mindsensors.com/blog/how-to/tutorial-soldering-xt60-connectors) on creating an XT60 connector cable.
