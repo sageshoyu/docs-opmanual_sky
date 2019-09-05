@@ -123,29 +123,25 @@ This document contains a list of parts and materials needed to build a drone. Ev
 **Units:** 1   
 **Description:** An electronic component that transforms high power into low power (in technical terms, performs a *voltage drop*). 
 
-## **Flight Controller (FC)**
+## **Flight Controller (FC)** + **USB to Micro USB**
 <figure>
     <img style='width:35em' src="photos/fc.png" width="500"/>
 </figure>  
+
+| FC     | USB to Micro USB           |
+|:-------------------------:|:-------------------------:|
+|<img style='width:35em' src="photos/fc.png" width="400"/>  | <img style='width:35em' src="photos/usb.png" width="400"/> |
   
 **Units:** 1   
-**Description:** A device that contains a few sensors: an Inertial Measurement Unit (IMU) and a gyroscope; an IMU measures linear accelerations and a gyroscope measures angular velocities. A flight controller can also send input signals to an ESC.
+**Description:** A flight controller is a device that contains a few sensors: an Inertial Measurement Unit (IMU) and a gyroscope; an IMU measures linear accelerations and a gyroscope measures angular velocities. These measurements are reported via a USB to Micro USB. A flight controller can also send input signals to an ESC.
 
-## **USB to Micro USB**
-<figure>
-    <img style='width:35em' src="photos/usb.png" width="500"/>
-</figure>  
- 
-**Units:** 1   
-**Description:** A cable that connects the flight controller to the Pi.  
-
-## **Arducam 5 Megapixels 1080p OV5647 Camera (Pi Cam)**
+## **Arducam 5 Megapixels 1080p OV5647 Camera (Pi Cam)** + **15pin Flexible Flat Cable (FFC)**
 <figure>
     <img style='width:35em' src="photos/cam.png" width="500"/>
 </figure>  
   
 **Units:** 1   
-**Description:** A sensor that observes 2D images of the world and reports it on a thin strip.
+**Description:** A sensor that observes 2D images of the world and reports it on a FFC cable.
 
 ## **Infrared Sensor (IR)** + **IR Sensor Cable**
 <figure>
@@ -154,7 +150,6 @@ This document contains a list of parts and materials needed to build a drone. Ev
   
 **Units:** 1   
 **Description:** A sensor that measures distance to an object using infrared beams, then reports it on a cable.
-
 
 ## **Perma-Proto Raspberry Pi Hat (Pi Hat)**
 <figure>
