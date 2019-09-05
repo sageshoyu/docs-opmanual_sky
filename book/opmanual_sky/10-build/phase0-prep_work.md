@@ -15,13 +15,13 @@ In this phase of the build, you will do prep work for the next phases of the bui
 - If you have difficulty soldering (e.g. shaky hands), please seek the advice of a TA or teacher.
 
 ## Strip and Tin Wires
-**Stripping** is the process of removing a portion of insulator from a wire in order to expose its strands. It is done by using a wire stripper.
+**Stripping** is the process of removing a portion of insulator from a wire in order to expose its strands. It is done by using a wire stripper.    
 
 | An unstripped wire        |  A stripped wire          |
 |:-------------------------:|:-------------------------:|
-|<img src="photos/wire.jpg" width="300px"/>  |  <img src="photos/stripped_wire.jpg" width="300" height="300"/> |
+|<img style='width:30em' src="photos/wire.jpg" width="400" height="400"/>  |  <img style='width:30em' src="photos/stripped_wire.jpg" width="400" height="400"/> |
 
-**Tinning** is the process of applying solder to exposed wire. It is done by using a soldering iron to melt solder into the exposed wire.
+**Tinning** is the process of applying solder to exposed wire. It is done by using a soldering iron to melt solder into the exposed wire.    
 
 | A wire before tinning     |  A tinned wire            |
 |:-------------------------:|:-------------------------:|
