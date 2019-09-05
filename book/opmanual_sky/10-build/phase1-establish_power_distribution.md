@@ -14,7 +14,7 @@ Visually, the flow of power looks like:
 
 <figure>
     <figcaption>Power Flow Diagram</figcaption>
-    <img style='width:35em' src="photos/power_flow.png"/>
+    <img src="photos/power_flow.png" width="400"/>
 </figure>
 
 
@@ -28,7 +28,7 @@ Similar to exposed wires, the metal pads on a PDB need to be tinned. This will a
 
 <figure>
     <figcaption>Tinned PDB</figcaption>
-    <img style='width:35em' src="photos/pdbtinned.png" width="500"/>
+    <img src="photos/pdbtinned.png" width="400"/>
 </figure>
 
 
@@ -42,7 +42,7 @@ An ESC (i.e. Electronic Speed Control) is a component which requires power. It t
 
 <figure>
     <figcaption>ESCs soldered to PDB</figcaption>
-    <img style='width:35em' src="photos/added_escs.jpg" width="500"/>
+    <img src="photos/added_escs.jpg" width="400"/>
 </figure>
 
 ## Solder BEC to the PDB
@@ -56,7 +56,7 @@ A BEC (i.e. Battery Eliminator Circuit) is a component which requires power. It 
 
 <figure>
     <figcaption>ESCs and BEC soldered to PDB</figcaption>
-    <img style='width:35em' src="photos/added_bec.jpg" width="500"/>
+    <img src="photos/added_bec.jpg" width="400"/>
 </figure>
 
 
@@ -69,7 +69,7 @@ The red and brown wire pair (from the flight controller box) is a component whic
 
 <figure>
     <figcaption>ESCs, BEC, and red/brown connector soldered to PDB</figcaption>
-    <img style='width:35em' src="photos/added_red_brown.jpg" width="500"/>
+    <img src="photos/added_red_brown.jpg" width="400"/>
 </figure>
 
 ## Solder XT60 Connector Cable to the PDB
@@ -81,7 +81,7 @@ A XT60 connector cable is a component which provides power when a power source (
 
 <figure>
     <figcaption>Completed PDB</figcaption>
-    <img style='width:35em' src="photos/pdb_complete.jpg" width="500"/>
+    <img src="photos/pdb_complete.jpg" width="400"/>
 </figure>
 
 ## Attach parts to drone frame
@@ -94,7 +94,7 @@ For reference, here are the motor directions with respect to the frame:
 
 <figure>
     <figcaption>Motor Direction</figcaption>
-    <img style='width:35em' src="photos/motor_directions.png" width="500"/>
+    <img src="photos/motor_directions.png" width="400"/>
 </figure>
 
 1. Gather the following:
@@ -109,35 +109,35 @@ For reference, here are the motor directions with respect to the frame:
 
 <figure>
     <figcaption>Drone Frame</figcaption>
-    <img style='width:35em' src="photos/frame_front.png" width="500"/>
+    <img src="photos/frame_front.png" width="400"/>
 </figure>
  
 3. Feed the velcro through the center of the drone frame. Make sure the fuzzy side is facing down.
    
 <figure>
     <figcaption>Velcro in Drone Frame</figcaption>
-    <img style='width:35em' src="photos/velcro_in_frame.jpg" width="500"/>
+    <img src="photos/velcro_in_frame.jpg" width="400"/>
 </figure>
 
 4. Screw one black screw into each of the standoffs.
 
 <figure>
     <figcaption>Standoffs in screws</figcaption>
-    <img style='width:35em' src="photos/standoffs_with_screws.png" width="500"/>
+    <img src="photos/standoffs_with_screws.png" width="200"/>
 </figure>
 
 5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing. Once the PDB is secure, remove the black bolts from the standoffs. It may help to use long-nose pliers to hold the standoffs while unscrewing.
 
 <figure>
     <figcaption>Securing the PDB to the frame</figcaption>
-    <img style='width:35em' src="photos/securing_pdb.jpg" width="500"/>
+    <img src="photos/securing_pdb.jpg" width="400"/>
 </figure>
 
 6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black bolts for each attachment.
 
 <figure>
     <figcaption>Screwing motor into frame</figcaption>
-    <img style='width:35em' src="photos/motor_bottom.png" width="500"/>
+    <img src="photos/motor_bottom.png" width="400"/>
 </figure>
 
 7. Attach CCW motors to the bottom-left and top-right of the drone frame, using 2 black bolts for each attachment.
@@ -146,7 +146,7 @@ For reference, here are the motor directions with respect to the frame:
 
 <figure>
     <figcaption>Screwing motor into frame</figcaption>
-    <img style='width:35em' src="photos/connecting_bullet_connectors.jpg" width="500"/>
+    <img src="photos/connecting_bullet_connectors.jpg" width="400"/>
 </figure>
 
 ## Checkoff
