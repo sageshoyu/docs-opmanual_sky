@@ -20,13 +20,13 @@ This document contains a list of parts and materials needed to build a drone. Ev
 **Units:** 1  
 **Description:** An electronic component that distributes power that it receives to other components connected to it. Included in the frame box.
 
-## **XT60 Connector + Protective Casing + 12AWG Red Wire + 12AWG Black Wire**
+## **XT60 Connector** + **Protective Casing** + **12AWG Red Wire** + **12AWG Black Wire**
 <figure>
     <figcaption>Power Cable</figcaption>
     <img style='width:35em' src="photos/XT60_connector_plus_red_and_black_wires.jpg" width="500"/>
 </figure>  
    
-**Units:** 1, 1, 1, 1
+**Units:** 1 + 1 + 1 + 1
 
 **Description:** When put together, makes a power connector cable that transfers power it receives.
 
@@ -45,7 +45,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
     <img style='width:35em' src="photos/props.png" width="500"/>
 </figure>  
   
-**Units:** 4 (two clockwise and two counterclockwise, paired with motors)   
+**Units:** 4 (2 clockwise and 2 counterclockwise, paired with motors)   
 **Description:** A device with blades that turns rotational motion into thrust. 5 refers to the diameter in inches, and 4 refers to the distance the propeller would travel if turned 1 rotation without slippage, e.g. in jello. Three blades gives more lift for a given diameter than two blades - at the cost of efficiency.
 
 ## **30A Brushless Electronic Speed Controller (ESC)**
@@ -147,82 +147,82 @@ This document contains a list of parts and materials needed to build a drone. Ev
 **Units:** 1   
 **Description:** A device that contains a few sensors: an Inertial Measurement Unit (IMU) and a gyroscope; an IMU measures linear accelerations and a gyroscope measures angular velocities. A flight controller can also send input signals to an ESC.
 
-## [**USB to Micro USB**](https://www.amazon.com/dp/B078L2J7Q1)
+## **USB to Micro USB**
 <figure>
     <figcaption>Micro USB</figcaption>
     <img style='width:35em' src="photos/usb.png" width="500"/>
 </figure>  
  
 **Units:** 1   
-**Description:** Connects the Raspberry Pi and the flight controller.  
+**Description:** A cable that connects the flight controller to the Pi.  
 
-## [**Arducam 5 Megapixels 1080p OV5647 Camera**](https://www.amazon.com/Arducam-Megapixels-Sensor-OV5647-Raspberry/dp/B012V1HEP4/)
+## **Arducam 5 Megapixels 1080p OV5647 Camera**
 <figure>
     <figcaption>Camera</figcaption>
     <img style='width:35em' src="photos/cam.png" width="500"/>
 </figure>  
   
 **Units:** 1   
-**Description:** This camera points downward and allows the drone to image the space it is flying over.
+**Description:** A sensor that observes 2D images of the world and reports it on a thin strip.
 
-## [**Infrared Sensor (IR, 10cm-80cm range)**](https://www.robotshop.com/en/sharp-gp2y0a21yk0f-ir-range-sensor.html) + [**8in. IR Sensor Cable**](https://www.robotshop.com/en/sirc-01-sharp-gp2-ir-sensor-cable-8.html)
+## **Infrared Sensor** + **IR Sensor Cable**
 <figure>
     <figcaption>IR Sensor</figcaption>
     <img style='width:35em' src="photos/ir.png" width="500"/>
 </figure>  
   
 **Units:** 1   
-**Description:** Infrared distance sensor. Points downward and measures distance to the ground. We use it for altitude control.
+**Description:** A sensor that measures distance to an object using infrared beams, then reports it on a cable.
 
 
-## [**Perma-Proto Raspberry Pi Hat (Pi Hat)**](https://www.adafruit.com/product/2310)
+## **Perma-Proto Raspberry Pi Hat**
 <figure>
     <figcaption>Pi Hat</figcaption>
     <img style='width:35em' src="photos/hat.png" width="500"/>
 </figure>  
  
 **Units:** 1    
-**Description:** This hat make it much easier to manage the soldering and wiring. 
+**Description:** A breadboard specifically designed for easy attachment to Pi.
 
-## [**Adafruit Analog to Digital Converter (ADC)**](https://www.digikey.com/product-detail/en/adafruit-industries-llc/1083/1528-1014-ND/4990763)
+## **Adafruit Analog to Digital Converter (ADC)**
 <figure>
     <figcaption>ADC</figcaption>
     <img style='width:35em' src="photos/adc.png" width="500"/>
 </figure>  
    
 **Units:** 1    
-**Description:** This device allows us to use the Raspberry Pi to read from the infrared sensor. It converts analog signal to digital.
+**Description:** A device that converts real-valued signals (i.e. analog) into discrete-valued signals (i.e. digital).
 
-## [**1500mAh 3S 20C LiPo Battery**](https://hobbyking.com/en_us/turnigy-1500mah-3s-20c-lipo-pack.html)
+## **1500mAh 3S 20C LiPo Battery**
 <figure>
     <figcaption>Battery</figcaption>
     <img style='width:35em' src="photos/battery.png" width="500"/>
 </figure>  
  
 **Units:** 1   
-**Description:** This lithium polymer battery can supply up to 360 watts of power, and keeps the drone in the air for about 7 minutes. 
+**Description:** A lithium polymer battery used to power the drone. 
 
-## [**12V 2-3S LiPo Charger**](https://hobbyking.com/en_us/turnigy-12v-2-3s-basic-balance-charger.html)+[**AC/DC US Charge Adapter**](https://hobbyking.com/en_us/frsky-ac-dc-charge-adapter-us-version.html)
+## **12V 2-3S LiPo Charger** + **AC/DC US Charge Adapter**
 <figure>
     <figcaption>Battery Charger</figcaption>
     <img style='width:35em' src="photos/charger.png" width="500"/>
 </figure>  
 
-**Units:** 1   
-**Description:** The charger is used to charge the battery connecting to the AC/DC US charge adapter in out kit. The charge adapter can be plugged into a wall outlet and convert AC to a single DC voltage, the input is 100-240v 50/60Hz 0.2A, and the output is 15v DC 0.5A.
+**Units:** 1 + 1
+**Description:** A charger used to charge a LiPo battery. A charger adapter is needed in order to plug the charger into a wall outlet.
 
-## [**Velcro**](https://www.amazon.com/dp/B00T2JQ0ZE)
+## **Velcro**
 <figure>
     <figcaption>Velcro</figcaption>
     <img style='width:35em' src="photos/velcro.jpg" width="500"/>
 </figure>  
  
 **Units:** 1    
-**Description:** This can help attach the battery to the drone.                       
+**Description:** A velcro strip used to hold the battery to the drone.                     
 
 # Materials List {#build-assignment-2 status=ready}
 
-## [**Heat Shrinks**](https://www.amazon.com/dp/B07GS7PBHV)
+## **Heat Shrinks** (not included)
 <figure>
     <figcaption>Heat Shrinks</figcaption>
     <img style='width:35em' src="photos/heat_shrinks.png" width="500"/>
@@ -230,10 +230,10 @@ This document contains a list of parts and materials needed to build a drone. Ev
        
 **Description:** Heat-shrink tubing (or, commonly, heat shrink or heatshrink) is a shrinkable plastic tube used to insulate wires, providing abrasion resistance and environmental protection for stranded and solid wire conductors, connections, joints and terminals in electrical work.   
 
-## [**Zip Ties**](https://www.amazon.com/dp/B078T6N58P)
+## **Zip Ties** (not included)
 <figure>
     <figcaption>Zip Ties</figcaption>
     <img style='width:35em' src="photos/zip_ties.jpg" width="500"/>
 </figure>  
        
-**Description:** A zip tie is a type of fastener, for holding items together, primarily electrical cables or wires.     
+**Description:** A zip tie is a type of fastener for holding items together, primarily electrical cables or wires.     
