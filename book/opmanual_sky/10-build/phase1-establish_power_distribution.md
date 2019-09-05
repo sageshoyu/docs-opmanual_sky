@@ -26,7 +26,10 @@ Similar to exposed wires, the metal pads on a PDB need to be tinned. This will a
 **NOTE:** Unless stated otherwise, red wires should be soldered to positive (+) pads and black wires should be soldered to negative (-) pads.    
 **WARNING:** Be careful not to aggresively push the soldering iron tip into the PDB, as too much force will cut the pads right off!    
 
-![Alt](/X.png "Title") <pic of tinned PDB;>
+<figure>
+    <figcaption>Tinned PDB</figcaption>
+    <img style='width:35em' src="photos/pdbtinned.png width="500"/>
+</figure>
 
 
 ## Solder ESCs to the PDB
@@ -37,7 +40,10 @@ An ESC (i.e. Electronic Speed Control) is a component which requires power. It t
 **WARNING**: Do **NOT** solder the wires flat against the PDB - solder them at ~15&deg; angle. If you solder them flat, then you will not be able to fit the PDB into the drone frame.
 
 
-![Alt](/X.png "Title") <pic of 4 ESCs soldered to PDB>
+<figure>
+    <figcaption>ESCs soldered to PDB</figcaption>
+    <img style='width:35em' src="photos/added_escs.jpg" width="500"/>
+</figure>
 
 ## Solder BEC to the PDB
 
@@ -48,7 +54,10 @@ A BEC (i.e. Battery Eliminator Circuit) is a component which requires power. It 
 - Solder the wires on the IN side of the BEC (i.e. the wires you tinned in the Prep Work phase) to the PDB, not the OUT side. "IN" is short for "input", which is why its wires should connect to the PDB.    
 - Like before, solder wires at ~15&deg; angle.    
 
-![Alt](/X.png "Title") <pic of BEC soldered to PDB>
+<figure>
+    <figcaption>ESCs and BEC soldered to PDB</figcaption>
+    <img style='width:35em' src="photos/added_bec.jpg" width="500"/>
+</figure>
 
 
 ## Solder red and brown wire pair to the PDB
@@ -58,7 +67,10 @@ The red and brown wire pair (from the flight controller box) is a component whic
 **TODO:** Solder the red and brown wire pair to the PDB. Due to its small size, you will need to solder onto another pair of wires, e.g. BEC wires. The red wire should connect to a positive (+) pad and the brown wire should connect to a negative (-) pad.     
 **WARNING**: While trying to solder on these wires, you may accidentally unsolder the existing wires from the PDB. We recommend temporarily holding down the existing wires with a long-nose plier, tape, or helping hands.     
 
-![Alt](/X.png "Title") <pic of red and brown wire pair soldered to PDB;>
+<figure>
+    <figcaption>ESCs, BEC, and red/brown connector soldered to PDB</figcaption>
+    <img style='width:35em' src="photos/added_red_brown.jpg" width="500"/>
+</figure>
 
 ## Solder XT60 Connector Cable to the PDB
 
@@ -67,7 +79,10 @@ A XT60 connector cable is a component which provides power when a power source (
 **TODO:** Solder your XT60 connector cable to the PDB.    
 **WARNING**: Since this wire is thicker than the others, it is more difficult to solder to the pads. Be careful not to solder/cut the pads off the PDB!     
 
-![Alt](/X.png "Title") <pic of XT60 connector cable soldered to PDB;>
+<figure>
+    <figcaption>Completed PDB</figcaption>
+    <img style='width:35em' src="photos/pdb_complete.jpg" width="500"/>
+</figure>
 
 ## Attach parts to drone frame
 
@@ -77,7 +92,10 @@ Before beginning, verify the PDB is completely soldered with all necessary parts
 
 For reference, here are the motor directions with respect to the frame:
 
-![Alt](/X.png "Title") <diagram of motor directions. should already be in this repo;>
+<figure>
+    <figcaption>Motor Direction</figcaption>
+    <img style='width:35em' src="photos/motor_directions.png" width="500"/>
+</figure>
 
 1. Gather the following:
    - Drone frame
@@ -89,31 +107,47 @@ For reference, here are the motor directions with respect to the frame:
    
 2. Place the drone frame on a flat surface so that the back is facing you.
 
-   ![Alt](/X.png "Title") <pic of drone frame WITH CLEARLY MARKED FRONT AND BACK;>
+<figure>
+    <figcaption>Drone Frame</figcaption>
+    <img style='width:35em' src="photos/frame_front.png" width="500"/>
+</figure>
  
 3. Feed the velcro through the center of the drone frame. Make sure the fuzzy side is facing down.
    
-   ![Alt](/X.png "Title") <>
+<figure>
+    <figcaption>Velcro in Drone Frame</figcaption>
+    <img style='width:35em' src="photos/velcro_in_frame.jpg" width="500"/>
+</figure>
 
 4. Screw one black screw into each of the standoffs.
 
-   ![Alt](/X.png "Title") <>
+<figure>
+    <figcaption>Standoffs in screws</figcaption>
+    <img style='width:35em' src="photos/standoffs_with_screws.png" width="500"/>
+</figure>
 
 5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing. Once the PDB is secure, remove the black bolts from the standoffs. It may help to use a long-nose plier to hold the standoffs while unscrewing.
 
-   ![Alt](/X.png "Title") <>
+<figure>
+    <figcaption>Securing the PDB to the frame</figcaption>
+    <img style='width:35em' src="photos/securing_pdb.jpg" width="500"/>
+</figure>
 
 6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black bolts for each attachment.
 
-   ![Alt](/X.png "Title") <>
+<figure>
+    <figcaption>Screwing motor into frame</figcaption>
+    <img style='width:35em' src="photos/motor_bottom.jpg" width="500"/>
+</figure>
 
 7. Attach CCW motors to the bottom-left and top-right of the drone frame, using 2 black bolts for each attachment.
 
-   ![Alt](/X.png "Title") <>
-
 8. For each motor, connect its male bullect connectors to the female bullet connectors of the ESC in the motor's corner (e.g. top-left motor connects to top-left ESC). Any connection order will suffice for now, as you will be able to change them in a latter phase.
 
-   ![Alt](/X.png "Title") <>
+<figure>
+    <figcaption>Screwing motor into frame</figcaption>
+    <img style='width:35em' src="photos/connecting_bullet_connectors.jpg" width="500"/>
+</figure>
 
 ## Checkoff
 
