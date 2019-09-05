@@ -132,7 +132,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 **Units:** 1 + 1  
 **Description:** A flight controller is a device that contains a few sensors: an Inertial Measurement Unit (IMU) and a gyroscope; an IMU measures linear accelerations and a gyroscope measures angular velocities. These measurements are reported via a USB to Micro USB. A flight controller can also send input signals to an ESC.
 
-## **Arducam 5 Megapixels 1080p OV5647 Camera (Pi Cam)** + **15pin Flexible Flat Cable (FFC)**
+## **Arducam 5 Megapixels 1080p OV5647 Camera (Pi Cam)** + **Flexible Flat Cable (FFC)**
 <figure>
     <img style='width:35em' src="photos/cam.png" width="500"/>
 </figure>  
