@@ -8,13 +8,19 @@ Before you begin, please ensure you have all the parts in the [parts and materia
 In this phase of the build, you will do prep work for the next phases of the build. This phase will require a lot of soldering, so please go through a [soldering tutorial](https://www.youtube.com/watch?v=Qps9woUGkvI) before starting.
 
 **Safety Tips:**
+
 - Be careful holding wires and components with your bare hands while soldering, as they will get very hot very quickly. We recommend using long-nose pliers or helping hands whenever possible.
-- Don't touch the soldering iron tip (or any other metal piece) while the soldering iron is on, since doing so can cause burns. If you get burned, rinse the affected area with cold water immediately.    
+
+- Don't touch the soldering iron tip (or any other metal piece) while the soldering iron is on, since doing so can cause burns. If you get burned, rinse the affected area with cold water immediately. 
+   
 - Likewise, don't use the soldering iron on anything you don't intend to solder. The high heat will cause things to melt or burn.
+
 - Don't breathe soldering fumes; use a soldering fan whenever possible.
+
 - If you have difficulty soldering (e.g. shaky hands), please seek the advice of a TA or teacher.
 
 ## Strip and Tin Wires
+
 **Stripping** is the process of removing a portion of insulator from a wire in order to expose its strands. It is done by using a wire stripper.    
 
 | An unstripped wire        |  A stripped wire          |
@@ -31,8 +37,11 @@ In this phase of the build, you will do prep work for the next phases of the bui
 The purpose of stripping and tinning wires is to allow them to be joined together. By itself, stripping would not allow wires to be joined because the exposed wires would have no way to "stick" to each other.
 
 However, tinning *does* allow exposed wires to "stick" (i.e. join) to each other by using the fact that solder turns into a liquid when exposed to high heat, but into a solid when the heat is removed; this means wires can be joined by:
+
 1. Putting the tinned wires next to each other so they are touching.
+
 2. Heating solder on both wires simultaneously so each turns into a liquid. The liquids will then combine.
+
 3. Removing the heat so the liquid solidifies, thus joining the two wires.
 
 See this [tutorial](https://www.youtube.com/watch?v=pRPF4wpXX9Q) to learn how to tin and join two wires.
@@ -45,13 +54,17 @@ An alternate way to tin a wire would be to wrap the wire with solder, then melt 
 
 Furthermore, since solder is conductive, the resulting joint acts as a bridge for electricity traveling between the connected wires! 
 
-**TODO:** 
+**Action Items:** 
+
 - In this phase, strip and tin all of your parts, so that in latter phases they can be joined together.  
 
 
 **NOTE:**
+
 - Only tin red and black wires on the IN side of BEC.
-- Do **NOT** substitute the red and brown wire pair in flight controller box with any other wire pair in the box.
+
+- Do **not** substitute the red and brown wire pair in flight controller box with any other wire pair in the box.
+
 
 | Part Name                 | Amount                    |  After Tinning Picture    |
 |:-------------------------:|:-------------------------:|:-------------------------:|
@@ -65,8 +78,11 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 In this section, you will prepare your ESCs.
 
 1. Gather the following parts:
+
    - 4 ESCs
+
    - Heat Shrinks (recommend 13mm width)
+
    - 12 pieces of wire (recommend 4 red, 4 yellow, and 4 blue - each 3in. length)
 
 For each ESC:
@@ -78,8 +94,11 @@ For each ESC:
 | <img src="photos/uncut_esc_pads.jpg" width="250"/> | <img src="photos/improved_esc_pads.jpg" width="242"/>
 
 3. Solder the following:
+
    - 1 red wire on pad A
+
    - 1 yellow wire on pad B
+
    - 1 blue wire on pad C
    
    **NOTE:** the wire colors are purely our convention. Feel free to use other colors if needed.
@@ -89,7 +108,7 @@ For each ESC:
     <img src="photos/ABC_pads_on_ESC.jpg" width="400"/>
    </figure>
    
-4. Do a [connectivity check]() between each pair of soldered wires (recommend doing this now instead of in checkoff later).  
+4. Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/downloads/opmanual_sky/docs-opmanual_sky/branch/develop/opmanual_sky/out/build-multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later).  
 
 5. Put a heat shrink over the ESC. The heat shrink should cover (length-wise) the exposed soldered wires on one end and half the ESC on the other end. Apply heat to shrink the heat shrink.   
 
@@ -106,10 +125,15 @@ Before beginning this section, please refer to a bullet connector soldering [tut
 **NOTE:** You can use any setup to hold the bullet connector, so long as the setup is not thermally conductive.
 
 1. Gather the following parts:
+
    - 4 completed ESCs
+
    - 4 motors
+
    - 12 bullet connectors, female
+
    - 12 bullet connectors, male
+
    - Heat shrinks (recommend 4mm in width)
 
 For each ESC:
@@ -153,9 +177,13 @@ Please skip this step if your kit already contains a completed XT60 connector ca
 </figure>  
 
 1. Gather the following parts:
+
     - XT60 connector (Female)
+
     - Protective casing for XT60 connector (optional)
+
     - 12AWG red wire, 12AWG black wire
+
     - Heat shrinks (recommend 5mm-9mm width)
     
     <figure>
@@ -164,11 +192,17 @@ Please skip this step if your kit already contains a completed XT60 connector ca
     </figure>  
     
 2. Follow this [guide](http://www.mindsensors.com/blog/how-to/tutorial-soldering-xt60-connectors) on creating an XT60 connector cable.
+
 3. Slide the protective casing through the red and black wires, then attach to XT60 connector (optional).
+
 4. Strip and tin all wires of the completed XT60 connector cable (if not already done).
 
 ## Checkoff
+
 - Visually inspect each ESC and verify that the heat shrinks are on properly; there should be no exposed wires and each heat shrink should be a tight fit.
+
 - Visually inspect that each of the following is stripped and tinned: 4 ESCs, 4 motors, BEC, XT60 connector, red and brown wire pair.
-- Do a [connectivity check]() on the XT60 connector cable; verify there is no short between the red and black wire.
-- Do a [connectivity check]() on each ESC; for each ESC, verify there are no shorts between any two wires you soldered.
+
+- Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/downloads/opmanual_sky/docs-opmanual_sky/branch/develop/opmanual_sky/out/build-multimeter.html) on the XT60 connector cable; verify there is no short between the red and black wire.
+
+- Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/downloads/opmanual_sky/docs-opmanual_sky/branch/develop/opmanual_sky/out/build-multimeter.html) on each ESC; for each ESC, verify there are no shorts between any two wires you soldered.
