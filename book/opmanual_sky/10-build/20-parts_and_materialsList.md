@@ -46,25 +46,25 @@ This document contains a list of parts and materials needed to build a drone. Ev
 </figure>  
   
 **Units:** 4 (two clockwise and two counterclockwise, paired with motors)   
-**Description:** 5040 propellers serve as the wings of this drone. 5 refers to the diameter in inches, and 4 refers to the distance the propeller would travel if turned 1 rotation without slippage, say in jello. Three blades gives us more lift for a given diameter than two blades at the cost of efficiency.
+**Description:** A device with blades that turns rotational motion into thrust. 5 refers to the diameter in inches, and 4 refers to the distance the propeller would travel if turned 1 rotation without slippage, e.g. in jello. Three blades gives more lift for a given diameter than two blades - at the cost of efficiency.
 
-## [**30A Brushless Electronic Speed Controller (ESC)**](https://www.amazon.com/dp/B07FD4G32J)
+## **30A Brushless Electronic Speed Controller (ESC)**
 <figure>
     <figcaption>ESCs</figcaption>
     <img style='width:35em' src="photos/esc.jpg" width="500"/>
 </figure>  
   
 **Units:** 4    
-**Description:** These convert DC power from the battery into three-phase AC. It allows the flight controller to programmatically control the drone. You need an ESC for each of the four motors.     
+**Description:** An electronic component that sends variable amount of power to a motor, based on a specified input signal. Every motor needs one ESC.
 
-## [**2.0mm Bullet Connector**](https://www.amazon.com/Pixnor-Plated-Female-Connectors-Battery/dp/B0113N3D42/)
+## **2.0mm Bullet Connector**
 <figure>
     <figcaption>Bullet Connectors</figcaption>
     <img style='width:35em' src="photos/bullet_connector.jpg" width="400"/>
 </figure>  
   
-**Units:** 24 (12 of male side and 12 of female side)    
-**Description:** On the left is the male side and on the right is the female side. The male side can be inserted into the female side to complete a connection. We use these bullet connectors to connect ESCs to motors. 
+**Units:** 24 (12 male and 12 female)    
+**Description:** On the left is a male connector and on the right is a female connector. A male connector can be inserted into a female connector to complete an electric connection.
 
 ## [**6mm + 4mm Brass Standoff**](https://www.amazon.com/Motherboard-Brass-Standoff-Hexagonal-Spacer/dp/B00MJU985C)  
 <figure>
