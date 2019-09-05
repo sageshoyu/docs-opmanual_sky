@@ -3,9 +3,12 @@
 
 ## Preface
 
+
 Before you begin, please ensure you have all the parts in the [parts and materials list]().
 
+
 In this phase of the build, you will do prep work for the next phases of the build. This phase will require a lot of soldering, so please go through a [soldering tutorial](https://www.youtube.com/watch?v=Qps9woUGkvI) before starting.
+
 
 **Safety Tips:**
 
