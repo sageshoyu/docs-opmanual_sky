@@ -22,7 +22,6 @@ In this phase of the build, you will do prep work for the next phases of the bui
 |![](photos/wire.jpg)  |  ![](photos/stripped_wire.jpg) |
 
 **Tinning** is the process of applying solder to exposed wire. It is done by using a soldering iron to melt solder into the exposed wire.
-**NOTE:** Not a lot of solder is needed, nor does it need to be wrapped compactly.
 
 | A wire before tinning     |  A tinned wire            |
 |:-------------------------:|:-------------------------:|
