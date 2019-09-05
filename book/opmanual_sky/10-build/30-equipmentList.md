@@ -1,4 +1,4 @@
-# Equipment List {#build-assignment-3 status=ready}
+# Lab Equipment List {#build-assignment-3 status=ready}
 
 Here you will learn about the tools and materials that you will need to use to build your drone. This equipment can be found in your lab space.
 
