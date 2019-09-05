@@ -1,4 +1,4 @@
-# Set Up your Base Station {#build-assignment-8 status=ready}
+# Set Up your Base Station {status=draft}
 
 To fly the drone, you will need a computer to act as a base station. This computer does not need to be particularly fast or any particular operating system. The base station needs to have [SSH](https://en.wikipedia.org/wiki/Secure_Shell) installed. (There are nice SSH clients for almost every OS.) Additionally we have created an HTML/Javascript interface to connect to the drone. We have tested most on Google Chromium, but in theory any web browser should work. (If not, please send us bug reports or patches!) If you do not have your own laptop to use to fly the drone, come talk to us. We will provide you with a laptop to use as a base station throughout the semester.
 
