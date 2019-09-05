@@ -28,7 +28,7 @@ Similar to exposed wires, the metal pads on a PDB need to be tinned. This will a
 
 <figure>
     <figcaption>Tinned PDB</figcaption>
-    <img style='width:35em' src="photos/pdbtinned.png/>
+    <img style='width:35em' src="photos/pdbtinned.png" width="500"/>
 </figure>
 
 
@@ -123,7 +123,7 @@ For reference, here are the motor directions with respect to the frame:
 
 <figure>
     <figcaption>Standoffs in screws</figcaption>
-    <img style='width:35em' src="photos/standoffs_with_screws.png"/>
+    <img style='width:35em' src="photos/standoffs_with_screws.png" width="500"/>
 </figure>
 
 5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing. Once the PDB is secure, remove the black bolts from the standoffs. It may help to use a long-nose plier to hold the standoffs while unscrewing.
@@ -137,7 +137,7 @@ For reference, here are the motor directions with respect to the frame:
 
 <figure>
     <figcaption>Screwing motor into frame</figcaption>
-    <img style='width:35em' src="photos/motor_bottom.jpg" width="500"/>
+    <img style='width:35em' src="photos/motor_bottom.png" width="500"/>
 </figure>
 
 7. Attach CCW motors to the bottom-left and top-right of the drone frame, using 2 black bolts for each attachment.
