@@ -1,4 +1,4 @@
-# Hardware Assembly {status=draft}
+# Hardware Assembly
 
 During this step you will assemble the hardware on the drone.
 

@@ -1,4 +1,5 @@
-# Raspberry PI {status=draft}
+# Raspberry PI
+
 This step describes how to attach the PI to your drone.
 
 ## Flash the Pi SD Card
