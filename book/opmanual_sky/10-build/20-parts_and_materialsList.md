@@ -67,13 +67,13 @@ This document contains a list of parts and materials needed to build a drone. Ev
 **Units:** 6    
 **Description:** A special type of screw that can also accept other screws.
 
-## **Black Bolts**
+## **M3 Black Bolt**
 <figure>
     <img style='width:35em' src="photos/standoffs_with_screws.png" width="500"/>
 </figure>  
  
-**Units:** 4    
-**Description:** Black bolts that can be screwed into standoffs.
+**Units:** 12-16
+**Description:** Bolts that can be screwed into standoffs.
 
 ## **Raspberry Pi 3 Model B**
 <figure>
@@ -139,7 +139,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 **Units:** 1   
 **Description:** A cable that connects the flight controller to the Pi.  
 
-## **Arducam 5 Megapixels 1080p OV5647 Camera**
+## **Arducam 5 Megapixels 1080p OV5647 Camera (Pi Cam)**
 <figure>
     <img style='width:35em' src="photos/cam.png" width="500"/>
 </figure>  
@@ -147,7 +147,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 **Units:** 1   
 **Description:** A sensor that observes 2D images of the world and reports it on a thin strip.
 
-## **Infrared Sensor** + **IR Sensor Cable**
+## **Infrared Sensor (IR)** + **IR Sensor Cable**
 <figure>
     <img style='width:35em' src="photos/ir.png" width="500"/>
 </figure>  
@@ -156,7 +156,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 **Description:** A sensor that measures distance to an object using infrared beams, then reports it on a cable.
 
 
-## **Perma-Proto Raspberry Pi Hat**
+## **Perma-Proto Raspberry Pi Hat (Pi Hat)**
 <figure>
     <img style='width:35em' src="photos/hat.png" width="500"/>
 </figure>  
@@ -164,7 +164,7 @@ This document contains a list of parts and materials needed to build a drone. Ev
 **Units:** 1    
 **Description:** A breadboard specifically designed for easy attachment to Pi.
 
-## **Adafruit Analog to Digital Converter (ADC)**
+## **Adafruit Analog-to-Digital Converter (ADC)**
 <figure>
     <img style='width:35em' src="photos/adc.png" width="500"/>
 </figure>  
