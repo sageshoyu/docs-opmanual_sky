@@ -1,10 +1,7 @@
-# Parts List {#build-assignment-2 status=ready}
+# Parts and Materials List {#build-assignment-2 status=ready}
 
-During this step you will learn about each of the parts of the drone. Read the following parts list and verify you have each component.
-
-Please note that all hardware to secure components is included.  
-**Requires** 2mm, 2.5mm hex wrench, small Phillips screwdriver, thick double-sided tape, heat shrink tubing, soldering equipment, zip ties, wire snips, and wire strippers.  
-
+This document contains a list of parts and materials needed to build a drone. Every item is included in a drone kit, unless specified otherwise.
+ 
 ## **FPV250 Drone Frame**
 <figure>
     <figcaption>FPV250 Drone Frame</figcaption>
@@ -12,7 +9,7 @@ Please note that all hardware to secure components is included.
 </figure>
 
 **Units:** 1  
-**Description:** This 250mm plastic racing quad frame is the chassis for the drone, included in the frame box.
+**Description:** A 250mm plastic racing quad frame. Included in the frame box.
 
 ## **Power Distribution Board (PDB)**
 <figure>
@@ -21,27 +18,28 @@ Please note that all hardware to secure components is included.
 </figure>  
  
 **Units:** 1  
-**Description:** This board distributes power to the various components of the drone, and it is included with the frame box.
+**Description:** An electronic component that distributes power that it receives to other components connected to it. Included in the frame box.
 
-## **XT60 Connector + Protective Casing + 12AWG Red and Black Wires**
+## **XT60 Connector + Protective Casing + 12AWG Red Wire + 12AWG Black Wire**
 <figure>
     <figcaption>Power Cable</figcaption>
     <img style='width:35em' src="photos/XT60_connector_plus_red_and_black_wires.jpg" width="500"/>
 </figure>  
    
-**Units:** 1  
-**Description:** The connector for the battery.  
+**Units:** 1, 1, 1, 1
 
-## [**2205 2300KV Brushless Motor**](https://www.amazon.com/Crazepony-DX2205-2300KV-Brushless-Quadcopter/dp/B07B4738T9)
+**Description:** When put together, makes a power connector cable that transfers power it receives.
+
+## **2205 2300KV Brushless Motor**
 <figure>
     <figcaption>2205 2300KV Brushless Motor</figcaption>
     <img style='width:35em' src="photos/2205_2300kv_brushless_motors_red.jpg" width="400"/>
 </figure>  
 
-**Units:** 4 (two clockwise and two counterclockwise)  
-**Description:** These brushless motors are the powerhouses of the system. A 3-phase AC signal drives them at variable speeds to keep the drone in the air. 
+**Units:** 4 (2 clockwise and 2 counterclockwise)  
+**Description:** An actuator that spins at variable RPM based on how much power it receives. Note that the motor direction (CW or CCW) specifies only the *nut threading*, not the direction of spin; both CW and CCW motors can spin bidirectionally.
 
-## [**5040 3-Blade Propellers**](https://www.amazon.com/Toolcool-Kingkong-Propellers-Quadcopters-Multicopters/dp/B01INCXNQY)
+## **5040 3-Blade Propeller**
 <figure>
     <figcaption>Propellers</figcaption>
     <img style='width:35em' src="photos/props.png" width="500"/>
