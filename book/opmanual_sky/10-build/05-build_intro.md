@@ -1,4 +1,4 @@
-# Build {#build-assignment-1 status=ready}
+# Introduction {#build-assignment-1 status=ready}
 
 The goal of this project is to build your drone and test it with the solution code. Parts necessary for the build are provided in your kit. In addition, you will need a base station (i.e. personal computer) in order to control the drone.
 
