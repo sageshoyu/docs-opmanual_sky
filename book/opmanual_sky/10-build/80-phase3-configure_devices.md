@@ -1,1 +1,1 @@
-# Configure Devices {#part:build-assignment-X status=ready}
+# Configure Devices {#part:build-assignment-7 status=ready}
