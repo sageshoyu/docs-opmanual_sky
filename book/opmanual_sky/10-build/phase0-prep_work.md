@@ -17,6 +17,26 @@ In this phase of the build, you will do prep work for the next phases of the bui
 ## Strip and Tin Wires
 **Stripping** is the process of removing a portion of insulator from a wire in order to expose its strands. It is done by using a wire stripper.    
 
+<table width="500" border="1" cellpadding="5">
+
+<tr>
+
+<td align="center" valign="center">
+<img src="photos/wire.jpg" />
+<br />
+An unstripped wire
+</td>
+
+<td align="center" valign="center">
+<img src="photos/stripped_wire.jpg" />
+<br />
+A stripped wire
+</td>
+
+</tr>
+
+</table>
+
 | An unstripped wire        |  A stripped wire          |
 |:-------------------------:|:-------------------------:|
 |<img style='width:30em' src="photos/wire.jpg" width=200 height=200/>  |  <img style='width:30em' src="photos/stripped_wire.jpg" width=200 height=200/> |
