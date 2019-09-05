@@ -1,4 +1,4 @@
-# ESC Setup {#build-assignment-6 status=ready}
+# ESC Setup {status=draft}
 The Afro ESC (electronic speed controller) stock firmware is called SimonK. In testing we found that the throttle response time for our ESCs on this firmware was not quick enough, and this would cause adverse flight effects during aggressive maneuvers.
 
 During this step you will reflash your ESCs with an alternative open-source firmware called BLHeli, which is has a faster response time and a convenient GUI for ESC configuration. The BLHeli firmware can only be flashed on Windows. If you do not have Windows, please come to office hours, where we have computers setup to flash BLHeli.
