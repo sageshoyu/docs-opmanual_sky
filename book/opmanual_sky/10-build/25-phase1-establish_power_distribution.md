@@ -1,1 +1,1 @@
-# Establish Power Distribution {#part:build-assignment-5 status=ready}
+# Establish Power Distribution {#build-assignment-5 status=ready}

@@ -1,1 +1,1 @@
-# Finalize Assembly {#part:build-assignment-8 status=ready}
+# Finalize Assembly {#build-assignment-8 status=ready}
