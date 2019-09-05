@@ -25,7 +25,7 @@ In this phase of the build, you will do prep work for the next phases of the bui
 
 | A wire before tinning     |  A tinned wire            |
 |:-------------------------:|:-------------------------:|
-|<img src="photos/pre_tinned_1.jpg" width="250"/>  |  <img src="photos/post_tinned_1.jpg" width="250"/> |
+|<img src="photos/pre_tinned_1.jpg" width="237"/>  |  <img src="photos/post_tinned_1.jpg" width="250"/> |
 
 
 The purpose of stripping and tinning wires is to allow them to be joined together. By itself, stripping would not allow wires to be joined because the exposed wires would have no way to "stick" to each other.
@@ -134,14 +134,14 @@ For each motor:
 
 <figure>
     <figcaption>Male bullet connectors on motor wires</figcaption>
-    <img style='width:35em' src="photos/motor_with_bullet_connectors.jpg" width="400"/>
+    <img src="photos/motor_with_bullet_connectors.jpg" width="400"/>
 </figure>  
     
 5. Put a heat shrink over each solder joint. For male connectors: the heat shrink should cover the solder joint on one end and run only the short length of the cylindrical part. Apply heat to shrink the heat shrink.
 
 <figure>
     <figcaption>Male bullet connector with heat shrink</figcaption>
-    <img style='width:35em' src="photos/motor_bullet_connector_heat_shrink.jpg" width="400"/>
+    <img src="photos/motor_bullet_connector_heat_shrink.jpg" width="400"/>
 </figure>  
 
 ## Create an XT60 Connector Cable
