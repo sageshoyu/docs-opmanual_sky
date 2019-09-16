@@ -76,48 +76,59 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 
 ## Solder wires onto ESC pads
 
-In this section, you will prepare your ESCs.
+<ol>
+	<li>Gather the following parts:</li>
+	<ul>
+      <li>4 ESCs</li>
+      <li>Heat Shrinks (recommend 13mm width)</li>
+      <li>12 pieces of wire (recommend 4 red, 4 yellow, and 4 blue - each 3in. length)</li>
+  </ul>
 
-1. Gather the following parts:
-
-   - 4 ESCs
-
-   - Heat Shrinks (recommend 13mm width)
-
-   - 12 pieces of wire (recommend 4 red, 4 yellow, and 4 blue - each 3in. length)
-
-For each ESC:
-
-2. Use your fingers (or small wire cutters) to *very carefully* remove excess material from each ESC pad.
-
-| Excess material on ESC pads | After removal excess material |
-|:-------------------------:|:-------------------------:
-| <img src="photos/ESC_pads_unclean_inked.jpg" width="250"/> | <img src="photos/ESC_pads_clean_inked.jpg" width="250"/>
-
-3. Solder the following:
-
-   - 1 red wire on pad A
-
-   - 1 yellow wire on pad B
-
-   - 1 blue wire on pad C
-   
-   **NOTE:** the wire colors are purely our convention. Feel free to use other colors if needed.
-   
-   <figure>
-    <figcaption>Pad letters</figcaption>
-    <img src="photos/ABC_pads_on_ESC.jpg" width="400"/>
-   </figure>
-   
-4. Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build_multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later).  
-
-5. Put a heat shrink over the ESC. The heat shrink should cover (length-wise) the exposed soldered wires on one end and half the ESC on the other end. Apply heat to shrink the heat shrink.   
-
-| A Prepared ESC | A Prepared ESC with heat shrink |
-|:-------------------------:|:-------------------------:
-| <img src="photos/colorful_esc.jpg" width="250"/> | <img src="photos/colorful_esc_shrinkwrap2.jpg" width="250"/>   
-   
-6. Strip and tin all wires of the completed ESC (if not already done).
+<li>For each ESC:</li>
+  <ol>
+    <li>
+      <div>
+         Use your fingers (or small wire cutters) to *very carefully* remove excess material from each ESC pad.
+      </div>
+      <div>
+        | Excess material on ESC pads | After removal excess material |
+        |:-------------------------:|:-------------------------:
+        | <img src="photos/ESC_pads_unclean_inked.jpg" width="250"/> | <img src="photos/ESC_pads_clean_inked.jpg" width="250"/>
+      </div>
+    </li>
+    <li>Solder the following:</li>
+    <ul>
+      <li>1 red wire on pad A</li>
+      <li>1 yellow wire on pad B</li>
+      <li>
+        <div>
+          1 blue wire on pad C
+        </div>
+        <div>
+          **NOTE:** the wire colors are purely our convention. Feel free to use other colors if needed.
+        </div>
+        <figure>
+            <figcaption>Pad letters</figcaption>
+            <img src="photos/ABC_pads_on_ESC.jpg" width="400"/>
+        </figure>
+      </li>
+    </ul>
+    <li>
+      Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build_multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later).  
+    </li>
+    <li>
+      <div>
+        Put a heat shrink over the ESC. The heat shrink should cover (length-wise) the exposed soldered wires on one end and half the ESC on the other end. Apply heat to shrink the heat shrink.
+      </div>
+      <div>
+        | A Prepared ESC | A Prepared ESC with heat shrink |
+        |:-------------------------:|:-------------------------:
+        | <img src="photos/colorful_esc.jpg" width="250"/> | <img src="photos/colorful_esc_shrinkwrap2.jpg" width="250"/> 
+      </div>
+    </li>
+    <li>Strip and tin all wires of the completed ESC (if not already done).</li>
+  </ol>
+</ol>
 
 ## Solder bullet connectors
 
