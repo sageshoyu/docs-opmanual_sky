@@ -155,10 +155,9 @@ Before beginning this section, please refer to a bullet connector soldering [tut
 ## Create an XT60 Connector Cable
 Please skip this step if your kit already contains a completed XT60 connector cable:
 
-<figure>
-    <figcaption>Completed XT60 Connector</figcaption>
-    <img src="photos/xt60_complete.png" width="250"/>
-</figure>  
+| Completed XT60 Connector
+|:-------------------------:
+| <img src="photos/xt60_complete.png" width="250"/>
 
 1. Gather the following parts:
 
@@ -170,10 +169,9 @@ Please skip this step if your kit already contains a completed XT60 connector ca
 
     - Heat shrinks (recommend 5mm-9mm width)
     
-    <figure>
-    <figcaption>Parts of XT60 connector</figcaption>
-    <img src="photos/XT60_connector_plus_red_and_black_wires.jpg" width="300"/>
-    </figure>  
+      | Parts for XT60 connector
+      |:-------------------------:
+      | <img src="photos/XT60_connector_plus_red_and_black_wires.jpg" width="300"/> 
     
 2. Follow this [guide](http://www.mindsensors.com/blog/how-to/tutorial-soldering-xt60-connectors) on creating an XT60 connector cable.
 
