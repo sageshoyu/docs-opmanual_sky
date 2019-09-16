@@ -92,7 +92,7 @@ For each ESC:
 
 | Excess material on ESC pads | After removal excess material |
 |:-------------------------:|:-------------------------:
-| <img src="photos/uncut_esc_pads.jpg" width="250"/> | <img src="photos/improved_esc_pads.jpg" width="242"/>
+| <img src="photos/ESC_pads_unclean_inked.jpg" width="250"/> | <img src="photos/ESC_pads_clean_inked.jpg" width="250"/>
 
 3. Solder the following:
 
