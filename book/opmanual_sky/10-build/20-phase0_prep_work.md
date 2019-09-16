@@ -1,6 +1,6 @@
 # Phase 0: Prep Work {#build-phase0 status=ready}
 
-**Expected Time**: 4 hours
+**Expected Time**: 5 hours
 
 ## Preface
 
