@@ -95,12 +95,12 @@ In this section, you will prepare your ESCs.
         * 1 yellow wire on pad B
         * 1 blue wire on pad C
 
-	**NOTE:** the wire colors are purely our convention. Feel free to use other colors if needed.
-   
+        **NOTE:** the wire colors are purely our convention. Feel free to use other colors if needed.
+
         <figure>
 	    <figcaption>Pad letters</figcaption>
     	    <img src="photos/ABC_pads_on_ESC.jpg" width="400"/>
-   	</figure>
+   	    </figure>
    
     3. Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build_multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later).  
 
