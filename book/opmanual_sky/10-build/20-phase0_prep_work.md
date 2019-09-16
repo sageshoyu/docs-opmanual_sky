@@ -10,15 +10,15 @@ In this phase of the build, you will do prep work for the next phases of the bui
 
 **Safety Tips:**
 
-- Be careful holding wires and components with your bare hands while soldering, as they will get very hot very quickly. We recommend using long-nose pliers or helping hands whenever possible.
+    - Be careful holding wires and components with your bare hands while soldering, as they will get very hot very quickly. We recommend using long-nose pliers or helping hands whenever possible.
 
-- Don't touch the soldering iron tip (or any other metal piece) while the soldering iron is on, since doing so can cause burns. If you get burned, rinse the affected area with cold water immediately. 
+    - Don't touch the soldering iron tip (or any other metal piece) while the soldering iron is on, since doing so can cause burns. If you get burned, rinse the affected area with cold water immediately. 
    
-- Likewise, don't use the soldering iron on anything you don't intend to solder. The high heat will cause things to melt or burn.
+    - Likewise, don't use the soldering iron on anything you don't intend to solder. The high heat will cause things to melt or burn.
 
-- Don't breathe soldering fumes; use a soldering fan whenever possible.
+    - Don't breathe soldering fumes; use a soldering fan whenever possible.
 
-- If you have difficulty soldering (e.g. shaky hands), please seek the advice of a TA or teacher.
+    - If you have difficulty soldering (e.g. shaky hands), please seek the advice of a TA or teacher.
 
 ## Strip and Tin Wires
 
@@ -27,6 +27,7 @@ In this phase of the build, you will do prep work for the next phases of the bui
 | An unstripped wire        |  A stripped wire          |
 |:-------------------------:|:-------------------------:|
 |<img src="photos/wire.jpg" width="250"/>  |  <img src="photos/stripped_wire.jpg" width="250"/> |
+
 
 **Tinning** is the process of applying solder to exposed wire. It is done by using a soldering iron to melt solder into the exposed wire.    
 
@@ -39,14 +40,14 @@ The purpose of stripping and tinning wires is to allow them to be joined togethe
 
 However, tinning *does* allow exposed wires to "stick" (i.e. join) to each other by using the fact that solder turns into a liquid when exposed to high heat, but into a solid when the heat is removed; this means wires can be joined by:
 
-1. Putting the tinned wires next to each other so they are touching.
+    1. Putting the tinned wires next to each other so they are touching.
 
-2. Heating solder on both wires simultaneously so each turns into a liquid. The liquids will then combine.
+    2. Heating solder on both wires simultaneously so each turns into a liquid. The liquids will then combine.
 
-3. Removing the heat so the liquid solidifies, thus joining the two wires.
+    3. Removing the heat so the liquid solidifies, thus joining the two wires.
 
 See this [tutorial](https://www.youtube.com/watch?v=pRPF4wpXX9Q) to learn how to tin and join two wires.
-
+<br/>
 An alternate way to tin a wire would be to wrap the wire with solder, then melt with a soldering iron:
 
 | A wire before tinning     |  A tinned wire            |
@@ -80,11 +81,11 @@ In this section, you will prepare your ESCs.
 
 1. Gather the following parts:
 
-   - 4 ESCs
+    - 4 ESCs
 
-   - Heat Shrinks (recommend 13mm width)
+    - Heat Shrinks (recommend 13mm width)
 
-   - 12 pieces of wire (recommend 4 red, 4 yellow, and 4 blue - each 3in. length)
+    - 12 pieces of wire (recommend 4 red, 4 yellow, and 4 blue - each 3in. length)
 
 For each ESC:
 
@@ -96,11 +97,11 @@ For each ESC:
 
 3. Solder the following:
 
-   - 1 red wire on pad A
+    - 1 red wire on pad A
 
-   - 1 yellow wire on pad B
+    - 1 yellow wire on pad B
 
-   - 1 blue wire on pad C
+    - 1 blue wire on pad C
    
    **NOTE:** the wire colors are purely our convention. Feel free to use other colors if needed.
    
@@ -127,15 +128,15 @@ Before beginning this section, please refer to a bullet connector soldering [tut
 
 1. Gather the following parts:
 
-   - 4 completed ESCs
+    - 4 completed ESCs
 
-   - 4 motors
+    - 4 motors
 
-   - 12 bullet connectors, female
+    - 12 bullet connectors, female
 
-   - 12 bullet connectors, male
+    - 12 bullet connectors, male
 
-   - Heat shrinks (recommend 4mm in width)
+    - Heat shrinks (recommend 4mm in width)
 
 For each ESC:
 
@@ -172,7 +173,7 @@ For each motor:
 ## Create an XT60 Connector Cable
 Please skip this step if your kit already contains a completed XT60 connector cable:
 
-<figure>
+<figure class='caption-bottom'>
     <figcaption>Completed XT60 Connector</figcaption>
     <img src="photos/xt60_complete.png" width="250"/>
 </figure>  
@@ -187,7 +188,7 @@ Please skip this step if your kit already contains a completed XT60 connector ca
 
     - Heat shrinks (recommend 5mm-9mm width)
     
-    <figure>
+    <figure class='caption-bottom'>
     <figcaption>Parts of XT60 connector</figcaption>
     <img src="photos/XT60_connector_plus_red_and_black_wires.jpg" width="300"/>
     </figure>  
