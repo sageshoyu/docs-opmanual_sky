@@ -59,20 +59,18 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 
 - In this phase, strip and tin all of your parts, so that in latter phases they can be joined together.  
 
-
 **NOTE:**
 
 - Only tin red and black wires on the IN side of BEC.
 
 - Do **not** substitute the red and brown wire pair in flight controller box with any other wire pair in the box.
 
-
-| Part Name                 | Amount                    |  After Tinning Picture    |
-|:-------------------------:|:-------------------------:|:-------------------------:|
-| ESC                       | 4                         |  <img src="photos/tinned_esc_2.jpg" width="250" /> |
-| Motor                     | 4                         |  <img src="photos/tinned_motor.jpg" width="250" /> |
-| BEC                       | 1                         |  <img src="photos/tinned_bec.jpg" width="250" /> |
-| Red and brown wire pair in flight controller box | 1                         |  <img src="photos/tinned_red_brown.jpg" width="250"/> | 
+    | Part Name                           | Amount                    |  After Tinning Picture    |
+    |:-----------------------------------:|:-------------------------:|:-------------------------:|
+    | ESC                                 | 4                         |  <img src="photos/tinned_esc_2.jpg" width="250" /> |
+    | Motor                               | 4                         |  <img src="photos/tinned_motor.jpg" width="250" /> |
+    | BEC                                 | 1                         |  <img src="photos/tinned_bec.jpg" width="250" /> |
+    | Red and brown wire pair (in FC box) | 1                         |  <img src="photos/tinned_red_brown.jpg" width="250"/> | 
 
 ## Solder wires onto ESC pads
 
