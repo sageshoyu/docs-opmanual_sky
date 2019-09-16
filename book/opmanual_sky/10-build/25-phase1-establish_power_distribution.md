@@ -128,7 +128,7 @@ For reference, here are the motor directions with respect to the frame:
 2. Place the drone frame on a flat surface so that the back is facing you.
 
 <figure>
-    <img src="photos/frame_front.png" width="400"/>
+    <img src="photos/drone_frame_labeled_orientation.jpg" width="400"/>
 </figure>
  
 3. Feed the velcro through the center of the drone frame. Make sure the fuzzy side is facing down.
