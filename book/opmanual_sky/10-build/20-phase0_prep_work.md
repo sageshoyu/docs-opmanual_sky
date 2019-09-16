@@ -83,7 +83,7 @@ In this section, you will prepare your ESCs.
    * Heat Shrinks (recommend 13mm width)
    * 12 pieces of wire (recommend 4 red, 4 yellow, and 4 blue - each 3in. length)
 
-3. For each ESC:
+2. For each ESC:
    1. Use your fingers (or small wire cutters) to *very carefully* remove excess material from each ESC pad.
 
    | Excess material on ESC pads | After removal excess material |
