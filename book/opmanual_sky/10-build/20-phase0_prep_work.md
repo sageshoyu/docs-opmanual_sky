@@ -58,12 +58,8 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 **Action Items:** 
 
 - In this phase, strip and tin all of your parts, so that in latter phases they can be joined together.  
-
-**NOTE:**
-
-- Only tin red and black wires on the IN side of BEC.
-
-- Do **not** substitute the red and brown wire pair in flight controller box with any other wire pair in the box.
+- Note: Only tin red and black wires on the IN side of BEC.
+- Note: Do **not** substitute the red and brown wire pair in flight controller box with any other wire pair in the box.
 
     | Part Name                           | Amount                    |  After Tinning Picture    |
     |:-----------------------------------:|:-------------------------:|:-------------------------:|
