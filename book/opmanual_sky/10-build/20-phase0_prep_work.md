@@ -90,11 +90,16 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
       <div>
          Use your fingers (or small wire cutters) to *very carefully* remove excess material from each ESC pad.
       </div>
-      <div>
-        | Excess material on ESC pads | After removal excess material |
-        |:-------------------------:|:-------------------------:
-        | <img src="photos/ESC_pads_unclean_inked.jpg" width="250"/> | <img src="photos/ESC_pads_clean_inked.jpg" width="250"/>
-      </div>
+      <figure class="flow-subfigures">
+        <figure>
+          <figcaption>Excess material on ESC pads</figcaption>
+          <img src="photos/ESC_pads_unclean_inked.jpg" width="250"/>
+        </figure>
+        <figure>
+          <figcaption>After removal excess material</figcaption>
+          <img src="photos/ESC_pads_clean_inked.jpg" width="250"/>
+        </figure>
+      </figure>
     </li>
     <li>Solder the following:</li>
     <ul>
@@ -128,6 +133,7 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
     </li>
     <li>Strip and tin all wires of the completed ESC (if not already done).</li>
   </ol>
+
 </ol>
 
 ## Solder bullet connectors
