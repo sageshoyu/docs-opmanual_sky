@@ -1,6 +1,6 @@
 # Phase 1: Establish Power Distribution {#build-phase1 status=ready}
 
-**Expected Time**: 2 hours
+**Expected Time**: 1 hour
 
 ## Preface
 
