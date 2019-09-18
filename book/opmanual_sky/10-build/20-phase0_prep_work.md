@@ -70,7 +70,11 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 
 ## Solder wires onto ESC pads
 
-In this section, you will prepare your ESCs.
+In this section, you will prepare your ESCs. Each ESC has 3 pads labeled A, B, and C. The labels are on the bottom of the ESC:
+
+| Pad letters
+|:-------------------------:
+| <img src="photos/ABC_pads_on_ESC.jpg" width="400"/>
 
 1. Gather the following parts: 
     * 4 ESCs
@@ -84,16 +88,24 @@ In this section, you will prepare your ESCs.
         |:---------------------------:|:-----------------------------:
         | <img src="photos/ESC_pads_unclean_inked.jpg" width="250"/> | <img src="photos/ESC_pads_clean_inked.jpg" width="250"/> |
 
+
+    2. Strip one end of a red wire. Wrap solder around the exposed strands, especially around the tip of the wire. DO NOT tin the wrapped solder.
+    
+    <before/after pic of wire wrapped with solder>
+    
+    3. Using long-nosed pliers, place the wrapped wire end on 
+
+
     2. Solder the following:
         * 1 red wire on pad A
         * 1 yellow wire on pad B
         * 1 blue wire on pad C
 
         **NOTE:** the wire colors are purely our convention. Feel free to use other colors if needed.
-
-        | Pad letters
-        |:-------------------------:
-        | <img src="photos/ABC_pads_on_ESC.jpg" width="400"/>
+        
+        
+        
+        
    
     3. Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build_multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later).  
 
