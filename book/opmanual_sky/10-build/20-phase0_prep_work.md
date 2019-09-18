@@ -97,19 +97,19 @@ In this section, you will prepare your ESCs. Each ESC has 3 pads labeled A, B, a
     
     <pic of wire pushed onto pad A;>
     
-    4. Use a soldering iron to simultaneously melt the wrapped solder into the wire and pad A. The best way to do this is to place the edge of the soldering iron tip against the left-hand side of the pad - thus touching both the pad and the wire.
+    4. Use a soldering iron to simultaneously melt the wrapped solder into the wire and pad A. The best way to do this is to place the edge of the soldering iron tip against the left-hand side of the pad - thus touching both the pad and the wire. Smooth out the melted solder by carrying the soldering iron from the left-hand side to the top, then down the right-hand side of the pad. If needed, repeat the motion back-and-forth or focus on any side (i.e. left, top, right) of the joint.
     
     <pic of soldering iron tip against pad A and wire;>
-    
-    5. Smooth out the melted solder by carrying the soldering iron from the left-hand side to the top, then down the right-hand side of the pad. If needed, repeat the motion back-and-forth or focus on any side (i.e. left, top, right) of the joint.
-    
+
     <pic of motion;>
     
-    6. Repeat the previous four steps for the other pads, specifically a yellow wire on pad B and a blue wire on pad C.
+    5. Repeat the previous three steps for the other pads, specifically a yellow wire on pad B and a blue wire on pad C.
     
        **NOTE:** the wire colors are purely our convention. Feel free to use other colors if needed.
                  
-    7. Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build_multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later).  
+    7. Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build_multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later).
+    
+    <pic of connectivity check;>
 
     8. Put a heat shrink over the ESC. The heat shrink should cover (length-wise) the exposed soldered wires on one end and half the ESC on the other end. Apply heat to shrink the heat shrink.
    
