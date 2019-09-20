@@ -159,7 +159,7 @@ Before beginning this section, please refer to a bullet connector soldering [tut
     
         | Female bullet connect with heat shrink
         |:-------------------------:
-        | <img src="photos/esc_bullet_connect_heat_shrink_close_up.jpg" width="400"/>
+        | <img src="photos/ESC_bullet_connectors_heat_shrinked.jpg" width="400"/>
 
 3. For each motor:
 
@@ -173,7 +173,7 @@ Before beginning this section, please refer to a bullet connector soldering [tut
     
         | Male bullet connector with heat shrink
         |:-------------------------:
-        | <img src="photos/motor_bullet_connector_heat_shrink.jpg" width="400"/> 
+        | <img src="photos/motor_bullet_connector_heat_shrinked.jpg" width="400"/> 
 
 ## Create an XT60 Connector Cable
 Please skip this step if your kit already contains a completed XT60 connector cable:
