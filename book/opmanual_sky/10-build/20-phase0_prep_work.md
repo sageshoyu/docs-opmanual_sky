@@ -240,7 +240,9 @@ Please skip this step if your kit already contains a completed XT60 connector ca
 
 9. Repeat the previous six steps for the negative (-) pin.
 
-10. Slide the protective casing through the red and black wires, then attach to the XT60 connector.
+10. Apply heat shrinks to the red and black wires. Make sure the connector pins are covered by the heat shrinks.
+
+11. Slide the protective casing through the red and black wires, then attach to the XT60 connector.
 
     **NOTE:** It may help to lightly use a pair of long-nose pliers to attach the XT60 connector.
     
@@ -248,7 +250,7 @@ Please skip this step if your kit already contains a completed XT60 connector ca
     |:-------------------------:
     | <img src="photos/using_pliers_to_attach_xt60_casing.jpg" width="250"/>
 
-11. Strip and tin all wires of the completed XT60 connector cable (if not already done). This effectively amounts to stripping and tinning the other end of the red and black wires.
+12. Strip and tin all wires of the completed XT60 connector cable (if not already done). This effectively amounts to stripping and tinning the other end of the red and black wires.
 
 ## Checkoff
 
