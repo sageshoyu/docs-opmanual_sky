@@ -196,11 +196,15 @@ Please skip this step if your kit already contains a completed XT60 connector ca
 
 <pic of XT60 connector in helping hands;>
 
-4. Insert the exposed strands of the red wire into the positive (+) pin of the XT60 connector. If several extraneous strands lie outside the pin, then twist the wire in your fingers - this will get the strands to curl into the pin. Once sure that nearly all exposed strands are in the pin, 
+4. Insert the exposed strands of the red wire into the positive (+) pin of the XT60 connector. If several extraneous strands lie outside the pin, then twist the wire in your fingers - this will get the strands to curl into the pin. Once sure that nearly all exposed strands are in the pin, attach the other alligator clip to the wire.
 
 <pic of red wire in + pin;>
 
-5. 
+5. Use a soldering iron to heat the top-side of the wire. Melt a pool of solder onto the wire. Once a good-sized pool has formed, stop feeding solder into the pool. Then drag and smooth the pool of solder onto  
+    
+    
+    
+    
     
     
 2. Follow this [guide](http://www.mindsensors.com/blog/how-to/tutorial-soldering-xt60-connectors) on creating an XT60 connector cable.
