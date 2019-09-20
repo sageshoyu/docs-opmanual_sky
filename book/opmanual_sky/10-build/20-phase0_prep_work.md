@@ -199,31 +199,54 @@ Please skip this step if your kit already contains a completed XT60 connector ca
     
 2. Strip the red and black wires.
 
-<pic of stripped red wire;>
+    | Stripped red and black wires
+    |:-------------------------:
+    | <img src="photos/12awg_red_black_stripped.jpg" width="400"/> 
 
 3. Insert the XT60 connector into one of the alligator clips of a pair of helping hands, with the positive (+) pin facing up.
 
-<pic of XT60 connector in helping hands;>
-
 4. Insert the exposed strands of the red wire into the positive (+) pin of the XT60 connector. If several extraneous strands lie outside the pin, then twist the wire in your fingers - this will get the strands to curl into the pin. Once sure that nearly all exposed strands are in the pin, attach the other alligator clip to the wire.
 
-<pic of red wire in + pin;>
+    | Wire and XT60 connector in helping hands
+    |:-------------------------:
+    | <img src="photos/xt60_and_wire_in_helping_hands_inked.jpg" width="400"/>
 
 5. **Key Step:** Use a soldering iron to heat the top-side of the wire. Melt a pool of solder onto the wire (**not** onto the soldering iron tip directly). Once a medium-sized pool has formed, stop feeding solder into the pool. Then drag and smooth the pool of solder onto the top-side of the rest of the exposed wire and the top-side of the corresponding XT60 pin. 
 
     **NOTE:** Minimize the time spent applying heat to the pin via the soldering iron. Heat applied for too long will dislodge the pin from the casing!
 
+    | Creating solder pool | Dragging pool through
+    |:--------------------:|:----------------------:
+    | <img src="photos/xt60_solder_top_1.jpg" width="400"/> | <img src="photos/xt60_solder_top_2.jpg" width="400"/>
+
+
 6. Rotate the helping hands up by ~90&deg; so that the front-side of the wire/pin is now facing up. Repeat the key step for this side.
+
+    | Creating solder pool | Dragging pool through
+    |:--------------------:|:----------------------:
+    | <img src="photos/xt60_solder_front_1.jpg" width="400"/> | <img src="photos/xt60_solder_front_2.jpg" width="400"/>
 
 7. Rotate the helping hands back down by ~90&deg;. Then take the wire and XT60 connector out of the alligator clips, roll by 180&deg;, and put back into the alligator clips; this effectively turns the setup outside-in, making the bottom-side (i.e. side in-between the two pins) of the wire/pin face up. Repeat the key step for this side.
 
+    | Creating solder pool | Dragging pool through
+    |:--------------------:|:----------------------:
+    | <img src="photos/xt60_solder_bottom_1.jpg" width="400"/> | <img src="photos/xt60_solder_bottom_2.jpg" width="400"/>
+
 8. Rotate the helping hands up by ~90&deg; so that the front-side (i.e. original back-side) is facing up. Repeat the key step for this side.
+
+    | Creating solder pool | Dragging pool through
+    |:--------------------:|:----------------------:
+    | <img src="photos/xt60_solder_back_1.jpg" width="400"/> | <img src="photos/xt60_solder_back_2.jpg" width="400"/>
 
 9. Repeat the previous six steps for the negative (-) pin.
 
 10. Slide the protective casing through the red and black wires, then attach to the XT60 connector.
 
     **NOTE:** It may help to lightly use a pair of long-nose pliers to attach the XT60 connector.
+    
+    | Attaching casing with pliers
+    |:-------------------------:
+    | <img src="photos/using_pliers_to_attach_xt60_casing.jpg" width="400"/>
 
 11. Strip and tin all wires of the completed XT60 connector cable (if not already done). This effectively amounts to stripping and tinning the other end of the red and black wires.
 
