@@ -51,7 +51,7 @@ An ESC (i.e. Electronic Speed Control) is a component which requires power. It t
 
 **Notes**: 
 
-- Do **not** solder the wires flat against the PDB - solder them at ~15&deg; angle. If you solder them flat, then you will not be able to fit the PDB into the drone frame.
+- Do **not** solder the wires flat against the PDB - solder them at ~40&deg; angle. If you solder them flat, then you will not be able to fit the PDB into the drone frame.
 
 ## Solder BEC to the PDB
 
@@ -67,7 +67,7 @@ A BEC (i.e. Battery Eliminator Circuit) is a component which requires power. It 
 
 **Notes**:
 
-- Like before, solder wires at ~15&deg; angle. 
+- Like before, solder wires at ~40&deg; angle. 
 
 - Solder the wires on the IN side of the BEC (i.e. the wires you tinned in the Prep Work phase) to the PDB, not the OUT side. "IN" is short for "input", which is why its wires should connect to the PDB.       
 
