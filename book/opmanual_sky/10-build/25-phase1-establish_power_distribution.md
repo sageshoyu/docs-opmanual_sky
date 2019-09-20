@@ -122,7 +122,7 @@ For reference, here are the motor directions with respect to the frame:
    - 4 motors (2 CW, 2 CCW)
    - Velcro
    - 4 standoffs
-   - 12 black bolts (in motors box, **not** drone frame box)
+   - 12 black screws (in motors box, **not** drone frame box)
    
 2. Place the drone frame on a flat surface so that the back is facing you.
 
@@ -148,13 +148,13 @@ For reference, here are the motor directions with respect to the frame:
     |:-----------------------:|:-------------------:
     | <img src="photos/putting_standoffs_in_frame.jpg" width="250"/> | <img src="photos/pdb_in_drone_frame.jpg" width="350"/>
 
-6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black bolts for each attachment.
+6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black screws for each attachment.
 
     | Securing motor in drone frame (upside-down view)
     |:-------------------------:
     |<img src="photos/motor_bottom.png" width="400"/>
 
-7. Attach CCW motors to the bottom-left and top-right of the drone frame, using 2 black bolts for each attachment.
+7. Attach CCW motors to the bottom-left and top-right of the drone frame, using 2 black screws for each attachment.
 
 8. For each motor, connect its male bullect connectors to the female bullet connectors of the ESC in the motor's corner (e.g. top-left motor connects to top-left ESC). Any connection order will suffice for now, as you will be able to change them in a latter phase.
 
