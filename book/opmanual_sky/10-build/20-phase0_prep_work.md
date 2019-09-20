@@ -99,7 +99,7 @@ In this section, you will prepare your ESCs. Each ESC has 3 pads labeled A, B, a
     
         | Wire pushed onto pad
         |:---------------------------: 
-        | <img src="photos/wire_pushed_onto_esc_pad_inked.jpg" width="250"/> |
+        | <img src="photos/wire_pushed_onto_esc_pad_inked.jpg" width="750"/> |
     
     
     4. Use a soldering iron to simultaneously melt the wrapped solder into the wire and pad A. The best way to do this is to place the edge of the soldering iron tip against the left-hand side of the pad - thus touching both the pad and the wire. Smooth out the melted solder by carrying the soldering iron from the left-hand side to the top, then down the right-hand side of the pad. If needed, repeat the motion back-and-forth or focus on any side (i.e. left, top, right) of the joint.
@@ -209,7 +209,7 @@ Please skip this step if your kit already contains a completed XT60 connector ca
 
     | Wire and XT60 connector in helping hands
     |:-------------------------:
-    | <img src="photos/xt60_and_wire_in_helping_hands_inked.jpg" width="400"/>
+    | <img src="photos/xt60_and_wire_in_helping_hands_inked.jpg" width="750"/>
 
 5. **Key Step:** Use a soldering iron to heat the top-side of the wire. Melt a pool of solder onto the wire (**not** onto the soldering iron tip directly). Once a medium-sized pool has formed, stop feeding solder into the pool. Then drag and smooth the pool of solder onto the top-side of the rest of the exposed wire and the top-side of the corresponding XT60 pin. 
 
@@ -246,7 +246,7 @@ Please skip this step if your kit already contains a completed XT60 connector ca
     
     | Attaching casing with pliers
     |:-------------------------:
-    | <img src="photos/using_pliers_to_attach_xt60_casing.jpg" width="400"/>
+    | <img src="photos/using_pliers_to_attach_xt60_casing.jpg" width="250"/>
 
 11. Strip and tin all wires of the completed XT60 connector cable (if not already done). This effectively amounts to stripping and tinning the other end of the red and black wires.
 
