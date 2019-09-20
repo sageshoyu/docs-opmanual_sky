@@ -58,7 +58,8 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 **Action Items:** 
 
 - In this phase, strip and tin all of your parts, so that in latter phases they can be joined together.  
-- Notes: 
+- Notes:
+    - Sometimes parts will have wires already tinned out-of-the-box by the manufacturer (i.e. pre-tinned). You can identify this by: 1) the "shininess" of the tip of a wire and 2) the inability to fray the wire strands of the tip of a wire. However, such tinning is often ineffective. Cut off any pre-tinned tips, then strip and tin the part yourself.
     - Only tin red and black wires on the IN side of BEC.
     - Do **not** substitute the red and brown wire pair in the flight controller box with any other wire pair in the box.
     - If the red and brown wire pair has a black connector on each wire, then cut off each black connector. Strip and tin the remaining portion of each wire.
