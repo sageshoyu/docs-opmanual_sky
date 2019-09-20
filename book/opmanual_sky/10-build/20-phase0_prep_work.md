@@ -58,8 +58,12 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 **Action Items:** 
 
 - In this phase, strip and tin all of your parts, so that in latter phases they can be joined together.  
-- Note: Only tin red and black wires on the IN side of BEC.
-- Note: Do **not** substitute the red and brown wire pair in flight controller box with any other wire pair in the box.
+- Notes:
+    - Sometimes parts will have wires already tinned out-of-the-box by the manufacturer (i.e. pre-tinned). You can identify this by: 1) the "shininess" of the tip of a wire and 2) the inability to fray the wire strands of the tip of a wire. However, such tinning is often ineffective. Cut off any pre-tinned tips, then strip and tin the part yourself.
+    - Only tin red and black wires on the IN side of BEC.
+    - Do **not** substitute the red and brown wire pair in the flight controller box with any other wire pair in the box.
+    - If the red and brown wire pair has a black connector on each wire, then cut off each black connector. Strip and tin the remaining portion of each wire.
+    - Do **not** cut off the white connector from the red and brown wire pair. If you accidentally do, then seek the help of a TA or teacher to solder the white connector back on the wires.
 
     | Part Name                           | Amount                    |  After Tinning Picture    |
     |:-----------------------------------:|:-------------------------:|:-------------------------:|
@@ -70,7 +74,11 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 
 ## Solder wires onto ESC pads
 
-In this section, you will prepare your ESCs.
+In this section, you will prepare your ESCs. Each ESC has 3 pads labeled A, B, and C. The labels are on the bottom of the ESC:
+
+| Pad letters
+|:-------------------------:
+| <img src="photos/ABC_pads_on_ESC.jpg" width="400"/>
 
 1. Gather the following parts: 
     * 4 ESCs
@@ -80,30 +88,45 @@ In this section, you will prepare your ESCs.
 2. For each ESC:
     1. Use your fingers (or small wire cutters) to *very carefully* remove excess material from each ESC pad.
     
-        | Excess material on ESC pads | After removal excess material 
+        | Excess material on ESC pads | After removal of excess material 
         |:---------------------------:|:-----------------------------:
         | <img src="photos/ESC_pads_unclean_inked.jpg" width="250"/> | <img src="photos/ESC_pads_clean_inked.jpg" width="250"/> |
 
-    2. Solder the following:
-        * 1 red wire on pad A
-        * 1 yellow wire on pad B
-        * 1 blue wire on pad C
 
-        **NOTE:** the wire colors are purely our convention. Feel free to use other colors if needed.
-
-        | Pad letters
-        |:-------------------------:
-        | <img src="photos/ABC_pads_on_ESC.jpg" width="400"/>
+    2. Strip one end of a red wire. Wrap solder around the exposed strands, especially around the tip of the wire. DO NOT tin the wrapped solder.
+        
+    3. Using long-nosed pliers, lightly push the wrapped wire end onto pad A.
+    
+        | Wire pushed onto pad
+        |:---------------------------: 
+        | <img src="photos/wire_pushed_onto_esc_pad_inked.jpg" width="750"/> |
+    
+    
+    4. Use a soldering iron to simultaneously melt the wrapped solder into the wire and pad A. The best way to do this is to place the edge of the soldering iron tip against the left-hand side of the pad - thus touching both the pad and the wire. Smooth out the melted solder by carrying the soldering iron from the left-hand side to the top, then down the right-hand side of the pad. If needed, repeat the motion back-and-forth or focus on any side (i.e. left, top, right) of the joint.
+    
+        | Motion 1  | Motion 2 | Motion 3 | 
+        |:---------:|:--------:|:---------:
+        | <img src="photos/solder_onto_pad_motion_1_inked.jpg" width="250"/> | <img src="photos/solder_onto_pad_motion_2_inked.jpg" width="250"/> | <img src="photos/solder_onto_pad_motion_3_inked.jpg" width="250"/>
+    
+    5. Lightly pull the wire soldered to the pad and verify it stays on. If it does, melt the rest of the wrapped solder into the wire (i.e. tin it).
+    
+    6. Repeat the previous four steps for the other pads, specifically a yellow wire on pad B and a blue wire on pad C.
+    
+       **NOTE:** the wire colors are purely our convention. Feel free to use other colors if needed.
    
-    3. Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build_multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later).  
+    7. Do a [connectivity check](https://docs-brown.duckietown.org/books-brown/opmanual_sky/out/build_multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later).
 
-    4. Put a heat shrink over the ESC. The heat shrink should cover (length-wise) the exposed soldered wires on one end and half the ESC on the other end. Apply heat to shrink the heat shrink.
+        | RY check | RB check | YB check
+        |:--------:|:--------:|:---------:
+        | <img src="photos/conn_check_RY.jpg" width="250"/> | <img src="photos/conn_check_RB.jpg" width="250"/> | <img src="photos/conn_check_YB.jpg" width="250"/>  
+
+    8. Put a heat shrink over the ESC. The heat shrink should cover (length-wise) the exposed soldered wires on one end and half the ESC on the other end. Apply heat to shrink the heat shrink.
    
         | A Prepared ESC | A Prepared ESC with heat shrink |
         |:-------------------------:|:-------------------------:
         | <img src="photos/colorful_esc.jpg" width="250"/> | <img src="photos/colorful_esc_shrinkwrap2.jpg" width="250"/>   
    
-    5. Strip and tin all wires of the completed ESC (if not already done).
+    9. Strip and tin all wires of the completed ESC (if not already done). This effectively amounts to stripping and tinning the other end of the red, yellow, and blue wires.
 
 ## Solder bullet connectors
 
@@ -136,7 +159,7 @@ Before beginning this section, please refer to a bullet connector soldering [tut
     
         | Female bullet connect with heat shrink
         |:-------------------------:
-        | <img src="photos/esc_bullet_connect_heat_shrink_close_up.jpg" width="400"/>
+        | <img src="photos/ESC_bullet_connectors_heat_shrinked.jpg" width="400"/>
 
 3. For each motor:
 
@@ -150,7 +173,7 @@ Before beginning this section, please refer to a bullet connector soldering [tut
     
         | Male bullet connector with heat shrink
         |:-------------------------:
-        | <img src="photos/motor_bullet_connector_heat_shrink.jpg" width="400"/> 
+        | <img src="photos/motor_bullet_connector_heat_shrinked.jpg" width="400"/> 
 
 ## Create an XT60 Connector Cable
 Please skip this step if your kit already contains a completed XT60 connector cable:
@@ -163,7 +186,7 @@ Please skip this step if your kit already contains a completed XT60 connector ca
 
     - XT60 connector (Female)
 
-    - Protective casing for XT60 connector (optional)
+    - Protective casing for XT60 connector
 
     - 12AWG red wire, 12AWG black wire
 
@@ -173,11 +196,59 @@ Please skip this step if your kit already contains a completed XT60 connector ca
       |:-------------------------:
       | <img src="photos/XT60_connector_plus_red_and_black_wires.jpg" width="300"/> 
     
-2. Follow this [guide](http://www.mindsensors.com/blog/how-to/tutorial-soldering-xt60-connectors) on creating an XT60 connector cable.
+    
+2. Strip the red and black wires.
 
-3. Slide the protective casing through the red and black wires, then attach to XT60 connector (optional).
+    | Stripped red and black wires
+    |:-------------------------:
+    | <img src="photos/12awg_red_black_stripped.jpg" width="400"/> 
 
-4. Strip and tin all wires of the completed XT60 connector cable (if not already done).
+3. Insert the XT60 connector into one of the alligator clips of a pair of helping hands, with the positive (+) pin facing up.
+
+4. Insert the exposed strands of the red wire into the positive (+) pin of the XT60 connector. If several extraneous strands lie outside the pin, then twist the wire in your fingers - this will get the strands to curl into the pin. Once sure that nearly all exposed strands are in the pin, attach the other alligator clip to the wire.
+
+    | Wire and XT60 connector in helping hands
+    |:-------------------------:
+    | <img src="photos/xt60_and_wire_in_helping_hands_inked.jpg" width="750"/>
+
+5. **Key Step:** Use a soldering iron to heat the top-side of the wire. Melt a pool of solder onto the wire (**not** onto the soldering iron tip directly). Once a medium-sized pool has formed, stop feeding solder into the pool. Then drag and smooth the pool of solder onto the top-side of the rest of the exposed wire and the top-side of the corresponding XT60 pin. 
+
+    **NOTE:** Minimize the time spent applying heat to the pin via the soldering iron. Heat applied for too long will dislodge the pin from the casing!
+
+    | Creating solder pool | Dragging pool through
+    |:--------------------:|:----------------------:
+    | <img src="photos/xt60_solder_top_1.jpg" width="400"/> | <img src="photos/xt60_solder_top_2.jpg" width="400"/>
+
+
+6. Rotate the helping hands up by ~90&deg; so that the front-side of the wire/pin is now facing up. Repeat the key step for this side.
+
+    | Creating solder pool | Dragging pool through
+    |:--------------------:|:----------------------:
+    | <img src="photos/xt60_solder_front_1.jpg" width="400"/> | <img src="photos/xt60_solder_front_2.jpg" width="400"/>
+
+7. Rotate the helping hands back down by ~90&deg;. Then take the wire and XT60 connector out of the alligator clips, roll by 180&deg;, and put back into the alligator clips; this effectively turns the setup outside-in, making the bottom-side (i.e. side in-between the two pins) of the wire/pin face up. Repeat the key step for this side.
+
+    | Creating solder pool | Dragging pool through
+    |:--------------------:|:----------------------:
+    | <img src="photos/xt60_solder_bottom_1.jpg" width="400"/> | <img src="photos/xt60_solder_bottom_2.jpg" width="400"/>
+
+8. Rotate the helping hands up by ~90&deg; so that the front-side (i.e. original back-side) is facing up. Repeat the key step for this side.
+
+    | Creating solder pool | Dragging pool through
+    |:--------------------:|:----------------------:
+    | <img src="photos/xt60_solder_back_1.jpg" width="400"/> | <img src="photos/xt60_solder_back_2.jpg" width="400"/>
+
+9. Repeat the previous six steps for the negative (-) pin.
+
+10. Slide the protective casing through the red and black wires, then attach to the XT60 connector.
+
+    **NOTE:** It may help to lightly use a pair of long-nose pliers to attach the XT60 connector.
+    
+    | Attaching casing with pliers
+    |:-------------------------:
+    | <img src="photos/using_pliers_to_attach_xt60_casing.jpg" width="250"/>
+
+11. Strip and tin all wires of the completed XT60 connector cable (if not already done). This effectively amounts to stripping and tinning the other end of the red and black wires.
 
 ## Checkoff
 
