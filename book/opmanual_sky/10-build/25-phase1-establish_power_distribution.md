@@ -150,7 +150,7 @@ For reference, here are the motor directions with respect to the frame:
 
 6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black bolts for each attachment.
 
-    | Securing motor in drone frame
+    | Securing motor in drone frame (upside-down view)
     |:-------------------------:
     |<img src="photos/motor_bottom.png" width="400"/>
 
@@ -174,7 +174,7 @@ For reference, here are the motor directions with respect to the frame:
   
   - For the battery monitor lead: the red wire is connected to a positive (+) pad while the brown wire is connected to a negative (-) pad
 
-- Do a [connectivity check]() on the PDB; verify there is:
+- Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the PDB; verify there is:
 
   - a short between any positive (+) pad and any other positive (+) pad
   
@@ -182,7 +182,7 @@ For reference, here are the motor directions with respect to the frame:
   
   - **no short** between any positive (+) pad and any negative (-) pad
 
-- **ONLY** if the connectivity check passed, do a [DC voltage check]() on the PDB; plug in a 12V battery and verify there is:
+- **ONLY** if the connectivity check passed, do a [DC voltage check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the PDB; plug in a 12V battery and verify there is:
 
   - ~0V between any positive (+) pad and any other positive (+) pad
   
