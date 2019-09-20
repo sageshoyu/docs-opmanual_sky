@@ -114,7 +114,7 @@ In this section, you will prepare your ESCs. Each ESC has 3 pads labeled A, B, a
     
        **NOTE:** the wire colors are purely our convention. Feel free to use other colors if needed.
    
-    7. Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later).
+    7. Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later). The multimeter *should* **not** beep, otherwise there is a short between the pair; if the multimeter does hold a continuous beep, then you will need to fix the short by removing any excess solder forming a bridge between the problematic pair of wires.
 
         | RY check | RB check | YB check
         |:--------:|:--------:|:---------:
