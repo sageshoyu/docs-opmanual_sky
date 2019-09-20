@@ -51,7 +51,7 @@ An ESC (i.e. Electronic Speed Control) is a component which requires power. It t
 
 **Notes**: 
 
-- Do **not** solder the wires flat against the PDB - solder them at ~15&deg; angle. If you solder them flat, then you will not be able to fit the PDB into the drone frame.
+- Do **not** solder the wires flat against the PDB - solder them at ~40&deg; angle. If you solder them flat, then you will not be able to fit the PDB into the drone frame.
 
 ## Solder BEC to the PDB
 
@@ -67,7 +67,7 @@ A BEC (i.e. Battery Eliminator Circuit) is a component which requires power. It 
 
 **Notes**:
 
-- Like before, solder wires at ~15&deg; angle. 
+- Like before, solder wires at ~40&deg; angle. 
 
 - Solder the wires on the IN side of the BEC (i.e. the wires you tinned in the Prep Work phase) to the PDB, not the OUT side. "IN" is short for "input", which is why its wires should connect to the PDB.       
 
@@ -122,7 +122,7 @@ For reference, here are the motor directions with respect to the frame:
    - 4 motors (2 CW, 2 CCW)
    - Velcro
    - 4 standoffs
-   - 8 black bolts (in motors box)
+   - 12 black screws (in motors box, **not** drone frame box)
    
 2. Place the drone frame on a flat surface so that the back is facing you.
 
@@ -138,23 +138,23 @@ For reference, here are the motor directions with respect to the frame:
 
 4. Screw a black screw into each of the standoffs.
 
-    | Screws in standoffs
+    | Putting screws in standoffs
     |:-------------------------:
-    |<img src="photos/putting_standoffs_in_frame.jpg" width="200"/>
+    |<img src="photos/standoffs_with_screws.png" width="200"/>
 
-5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing. Once the PDB is secure, remove the black bolts from the standoffs. It may help to use long-nose pliers to hold the standoffs while unscrewing.
+5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing.
 
-    | PDB in drone frame
-    |:-------------------------:
-    |<img src="photos/pdb_in_drone_frame.jpg" width="400"/>
+    | Applying downward force | PDB secured in drone frame
+    |:-----------------------:|:-------------------:
+    | <img src="photos/putting_standoffs_in_frame.jpg" width="250"/> | <img src="photos/pdb_in_drone_frame.jpg" width="350"/>
 
-6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black bolts for each attachment.
+6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black screws for each attachment.
 
-    | Securing motor in drone frame
+    | Securing motor in drone frame (upside-down view)
     |:-------------------------:
     |<img src="photos/motor_bottom.png" width="400"/>
 
-7. Attach CCW motors to the bottom-left and top-right of the drone frame, using 2 black bolts for each attachment.
+7. Attach CCW motors to the bottom-left and top-right of the drone frame, using 2 black screws for each attachment.
 
 8. For each motor, connect its male bullect connectors to the female bullet connectors of the ESC in the motor's corner (e.g. top-left motor connects to top-left ESC). Any connection order will suffice for now, as you will be able to change them in a latter phase.
 
@@ -174,7 +174,7 @@ For reference, here are the motor directions with respect to the frame:
   
   - For the battery monitor lead: the red wire is connected to a positive (+) pad while the brown wire is connected to a negative (-) pad
 
-- Do a [connectivity check]() on the PDB; verify there is:
+- Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the PDB; verify there is:
 
   - a short between any positive (+) pad and any other positive (+) pad
   
@@ -182,7 +182,7 @@ For reference, here are the motor directions with respect to the frame:
   
   - **no short** between any positive (+) pad and any negative (-) pad
 
-- **ONLY** if the connectivity check passed, do a [DC voltage check]() on the PDB; plug in a 12V battery and verify there is:
+- **ONLY** if the connectivity check passed, do a [DC voltage check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the PDB; plug in a 12V battery and verify there is:
 
   - ~0V between any positive (+) pad and any other positive (+) pad
   
