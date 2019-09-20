@@ -238,7 +238,7 @@ Please skip this step if your kit already contains a completed XT60 connector ca
     |:--------------------:|:----------------------:
     | <img src="photos/xt60_solder_back_1.jpg" width="400"/> | <img src="photos/xt60_solder_back_2.jpg" width="400"/>
 
-9. Repeat the previous six steps for the negative (-) pin.
+9. Repeat the previous six steps for the negative (-) pin. Once complete, **verify that a red wire is connected to the positive (+) XT60 pin and a black wire is connected to the negative (-) XT60 pin**.
 
 10. Apply heat shrinks to the red and black wires. Make sure the connector pins are covered by the heat shrinks.
 
@@ -257,6 +257,8 @@ Please skip this step if your kit already contains a completed XT60 connector ca
 - Visually inspect each ESC and verify that the heat shrinks are on properly; there should be no exposed wires and each heat shrink should be a tight fit.
 
 - Visually inspect that each of the following is stripped and tinned: 4 ESCs, 4 motors, BEC, XT60 connector, red and brown wire pair.
+
+- Visually inspect that a red wire is connected to the positive (+) XT60 pin and a black wire is connected to the negative (-) XT60 pin. A simple way to verify: a red wire should be connected to the pin on the flat side of the XT60 connector and a black wire should be connected to the pin on the rounded side of the XT60 connector.
 
 - Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the XT60 connector cable; verify there is no short between the red and black wire.
 
