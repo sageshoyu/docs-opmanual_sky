@@ -4,7 +4,8 @@
 
 ## Preface
 
-In this section of the build, you will complete the final assembly of your drone.
+In this section of the build, you will complete the final assembly of your drone. Start charging your battery now so that 
+you may use it to fly.
 
 ## Glue USB Connector to Flight Controller
 
@@ -18,3 +19,4 @@ Yes, you will not be able to remove the USB cable. This is intentional.
     |:-------------------------:
     |<img src="photos/usb_glue.png" width="400"/>
 
+## Attach PiMount
