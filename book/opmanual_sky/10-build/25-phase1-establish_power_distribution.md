@@ -122,7 +122,7 @@ For reference, here are the motor directions with respect to the frame:
    - 4 motors (2 CW, 2 CCW)
    - Velcro
    - 4 standoffs
-   - 8 black bolts (in motors box)
+   - 12 black bolts (in motors box, **not** drone frame box)
    
 2. Place the drone frame on a flat surface so that the back is facing you.
 
@@ -138,15 +138,15 @@ For reference, here are the motor directions with respect to the frame:
 
 4. Screw a black screw into each of the standoffs.
 
-    | Screws in standoffs
+    | Putting screws in standoffs
     |:-------------------------:
-    |<img src="photos/putting_standoffs_in_frame.jpg" width="200"/>
+    |<img src="photos/standoffs_with_screws.png" width="200"/>
 
-5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing. Once the PDB is secure, remove the black bolts from the standoffs. It may help to use long-nose pliers to hold the standoffs while unscrewing.
+5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing.
 
-    | PDB in drone frame
-    |:-------------------------:
-    |<img src="photos/pdb_in_drone_frame.jpg" width="400"/>
+    | Applying downward force | PDB secured in drone frame
+    |:-----------------------:|:-------------------:
+    | <img src="photos/putting_standoffs_in_frame.jpg" width="250"/> | <img src="photos/pdb_in_drone_frame.jpg" width="350"/>
 
 6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black bolts for each attachment.
 
