@@ -86,9 +86,17 @@ Finally! Attach the wings to the drone so that it may fly. Attach the clockwise 
 
 Use a wrench to tighten the bolts down so that the bottom of the propellor is flat on the top of the motor. Screw bolts down tightly, but not so tight that you could not remove the propellors if you had to.
 
+| Notice Arrows Indicating the Type of Propellor
+|:-------------------------:
+|<img src="photos/prop.jpg" width="400"/>
+
 | Attaching Propellors
 |:-------------------------:
-|<img src="photos/attaching_propellors.jpg" width="400"/>
+|<img src="photos/securing_prop.jpg" width="400"/>
+
+| Propellor Flat on Motor
+|:-------------------------:
+|<img src="photos/prop_flat_on_motor.jpg" width="400"/>
 
 ## Warnings
 
