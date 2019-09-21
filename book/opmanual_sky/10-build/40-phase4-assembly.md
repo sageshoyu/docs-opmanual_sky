@@ -52,6 +52,10 @@ Use the sliver screws included with the frame kit to secure the Pi to the mount.
 
 With the Pi hat all soldered together place it on top of the Pi being sure the pins go into the Header holes.
 
+| Attaching Pi Hat
+|:-------------------------:
+|<img src="photos/bec_attached_1.png" width="400"/>
+
 ### Camera
 
 Also be sure to connect the camera before fully pressing down the Pi hat. Note the camera port on the pi is closer to the HDMI port.
@@ -59,6 +63,10 @@ Also be sure to connect the camera before fully pressing down the Pi hat. Note t
 ### BEC
 
 Attach the BEC to the top of the USB ports using some double sided tape.
+
+| BEC Taped on USB Ports
+|:-------------------------:
+|<img src="photos/bec_attached_2.png" width="400"/>
 
 ## Ziptie ESCs and PWM Connectors to Frame Arms
 
