@@ -70,7 +70,7 @@ Attach the BEC to the top of the USB ports using some double sided tape.
 
 ## Ziptie ESCs and PWM Connectors to Frame Arms
 
-Use the mini zipties to secure the ESCs, motor wires, and ESC wires to the bottom of the arms of the frame. Also, use zip ties to secure the PWM connectors to the top or sides of the frame.
+Use the mini zipties to secure the ESCs, motor wires, and ESC wires to the bottom of the arms of the frame. To do this, thread the zip ties through the holes in the frame. Also, use zip ties to secure the PWM connectors to the top or sides of the frame.
 
 | ESC and motor wires secured with zipties
 |:-------------------------:
@@ -82,7 +82,13 @@ Use the mini zipties to secure the ESCs, motor wires, and ESC wires to the botto
 
 ## Propellors
 
-Finally! Attach the wings to the drone so that it may fly. Be aware that the bolts on the motors that spin counterclockwise tighten when turned counterclockwise, and the bolts on the motors that spin clockwise tighten when turned clockwise. Use a wrench to tighten the bolts down so that the bottom of the propellor is flat on the top of the motor. Screw bolts down tightly, but not so tight that you could not remove the propellors if you had to.
+Finally! Attach the wings to the drone so that it may fly. Attach the clockwise propellors to the clockwise motors, and the counterclockwise propellors to the counterclockwise motors. The motors have small arrows on them in the center to indicate which type they are. Be aware that the bolts on the motors that spin counterclockwise tighten when turned counterclockwise, and the bolts on the motors that spin clockwise tighten when turned clockwise. 
+
+Use a wrench to tighten the bolts down so that the bottom of the propellor is flat on the top of the motor. Screw bolts down tightly, but not so tight that you could not remove the propellors if you had to.
+
+| Attaching Propellors
+|:-------------------------:
+|<img src="photos/attaching_propellors.jpg" width="400"/>
 
 ## Warnings
 
