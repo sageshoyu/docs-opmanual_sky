@@ -82,7 +82,7 @@ Use the mini zipties to secure the ESCs, motor wires, and ESC wires to the botto
 
 ## Propellors
 
-Finally! Attach the wings to the drone so that it may fly. Attach the clockwise propellors to the clockwise motors, and the counterclockwise propellors to the counterclockwise motors. The motors have small arrows on them in the center to indicate which type they are. Be aware that the bolts on the motors that spin counterclockwise tighten when turned counterclockwise, and the bolts on the motors that spin clockwise tighten when turned clockwise. 
+Finally! Attach the wings to the drone so that it may fly. Attach the clockwise propellors to the clockwise motors, and the counterclockwise propellors to the counterclockwise motors. The motors have small arrows on them in the center to indicate which type they are. Be aware that the bolts on the motors that spin counterclockwise tighten when turned clockwise, and the bolts on the motors that spin clockwise tighten when turned counterclockwise. 
 
 Use a wrench to tighten the bolts down so that the bottom of the propellor is flat on the top of the motor. Screw bolts down tightly, but not so tight that you could not remove the propellors if you had to.
 
