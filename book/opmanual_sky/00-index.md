@@ -10,18 +10,20 @@
         margin-top: 4em;
         margin-bottom: 4em;
     }
-    
+
     #logo-container {
     text-align: center;
     }
 </style>
 
-
-<div style='page-break-before: always'>
-</div>
-
 This book is the operations manual for the Duckie Drone.
 
 <!-- show a TOC of the book -->
 
-<minitoc levels="2"/>
+
+
+<div style='page-break-before: always'>
+</div>
+
+
+<minitoc/>
