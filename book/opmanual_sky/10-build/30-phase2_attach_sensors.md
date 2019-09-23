@@ -24,18 +24,22 @@ The Pi Cam is a sensor which observes 2D images of the world. It will be attache
 2. If not already done, attach the FFC to the Pi Cam. The shorter side should go into the camera.
 
    <couple pics showing how to attach the FFC. so basically show the black port on the camera being opened and the FFC being inserted into it, then black port being closed with FFC in it;>
-
-   <pics of good FFC attachment (i.e. short end in pi cam) vs. bad FFC attachment (i.e. long end in pi cam);>
+   
+    | Good FFC attachment | Bad FFC attachment 
+    |:-------------------:|:-------------------:
+    | <img src="photos/ffc_attachment_good.jpg" width="250"/> | <img src="photos/ffc_attachment_bad.jpg" width="250"/>
 
 3. Put double sided mounting tape on the top, left, and right sides of the pi cam. Cut off any excess tape.
-
-   <pic of pi cam with double sided mouting tape attached;>
-
-4. Attach the Pi Cam to the hole in the back of the drone. Ensure that the attachment is not skewed.
-
-   <pic that CLEARLY shows the camera being attached to the back of the drone;>
    
-   <pics of good attachment (i.e. no skew) vs. bad attachment (i.e. with skew);>
+    | Pi Cam with tape
+    |:-------------------
+    | <img src="photos/tape_attached_to_pi_cam.jpg" width="400"/>
+
+4. Attach the Pi Cam to the hole in the back of the drone (attach on top so camera faces downward). Ensure that the attachment is not skewed.
+   
+    | Pi Cam no skew (bottom-up view) | Pi Cam with skew (bottom-up view)
+    |:-------------------:|:-------------------:
+    | <img src="photos/pi_cam_attached_no_skew.jpg" width="250"/> | <img src="photos/pi_cam_attached_skew.jpg" width="250"/>
 
 ## Attach IR sensor
 
