@@ -146,9 +146,9 @@ The corresponding ports on the FC are:
       - Try to minimize the FC skew as much as possible. If you think of the FC as being foward-facing eyes, then a skewed FC would make a cross-eyed drone!
       - Once the FC is attached, do a "rock test" (i.e. try to rock the FC back-and-forth by pushing the corners). If the FC rocks, then the double sided mounting tape used is too soft and is compressing under pressure. Detach the FC from the frame (e.g. _carefully_ use a flat-head screwdriver) and replace the tape with more robust tape.
 
-    | FC no skew (bottom-up view) | FC with skew (bottom-up view)
-    |:-------------------:|:-------------------:
-    | <img src="photos/fc_attached_no_skew.jpg" width="220"/> | <img src="photos/fc_attached_skew.jpg" width="280"/>
+| FC no skew (bottom-up view) | FC with skew (bottom-up view)
+|:-------------------:|:-------------------:
+| <img src="photos/fc_attached_no_skew.jpg" width="220"/> | <img src="photos/fc_attached_skew.jpg" width="280"/>
 
 
 ## Checkoff
