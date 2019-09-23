@@ -22,8 +22,6 @@ The Pi Cam is a sensor which observes 2D images of the world. It will be attache
    - Double sided mounting tape
 
 2. If not already done, attach the FFC to the Pi Cam. The shorter side should go into the camera.
-
-   <couple pics showing how to attach the FFC. so basically show the black port on the camera being opened and the FFC being inserted into it, then black port being closed with FFC in it;>
    
     | Good FFC attachment | Bad FFC attachment 
     |:-------------------:|:-------------------:
@@ -49,15 +47,22 @@ However, the IR sensor cable cannot be plugged into the drone's micro-computer d
 
 Implementing this conversion requires building a basic circuit that sends the IR sensor output (the yellow wire) to an ADC device as input. In block-diagram form, this looks like:
 
-<block-diagram of ADC circuit;>
+| ADC circuit block diagram
+|:-------------------
+| <img src="photos/adc_block_diagram.jpg" width="450"/>
 
 You will build a basic circuit corresponding to the diagram by using a special type of breadboard (i.e. Pi Hat). For reference, the completed circuit will look like the following:
 
-<diagram of completed ADC circuit;>
+| ADC completed circuit
+|:-------------------
+| <img src="photos/adc_completed_circuit.jpg" width="450"/>
+
 
 One useful property of a breadboard is that it has *rails*. A rail is a sequence of holes that share an electrical connection:
 
-<diagram of pi hat with rails highlighted;>
+| Rails highlighted on Pi Hat
+|:-------------------
+| <img src="photos/pihat_rails.jpg" width="450"/>
 
 This is useful because: 1) it means every wire put on a rail will see the same measurement and 2) it does not matter into which hole on a rail a wire is inserted. For example, if wire A reports sensor measurements and is put into rail 1 hole 1, then wire B can go into any hole on rail 1 to receive the reports by wire A.
 
@@ -71,25 +76,33 @@ This is useful because: 1) it means every wire put on a rail will see the same m
     - Red and black wires on OUT side of BEC (by this phase, BEC should be attached to PDB)
     - 4 pieces of thin wire (recommend 22-24 AWG, 3 in. length, colors: red, black, green, and blue)
     
-2. Cut/break the ADC header pins set to the same number as holes on the ADC. Solder the **short** end of the cut header pins set into the ADC. 
+2. Cut/break the ADC header pin set to the same number as holes on the ADC. Solder the **short** end of the header pins into the ADC. 
 
     **NOTE**: There is no electric conductivity between individual header pins, so it is okay if you accidentally cut/break too many pins from the set (e.g. full set of 12 pins broken into a set of 8 and set of 4 - instead of the needed 10). Simply break additional pins as needed (e.g. break 2 more pins from the set of 4, then you will have 8 + 2 = 10 pins).
     
-    <pics of pins soldered to ADC;>
+    | ADC pins soldered (top view) | ADC pins soldered (side view)
+    |:-------------------:|:-------------------:
+    | <img src="photos/adc_pins_soldered_1.jpg" width="150"/> | <img src="photos/adc_pins_soldered_2.jpg" width="350"/>
     
 3. Solder the ADC and all wires to the Pi Hat according to the diagram (strip wires as needed):
 
     **NOTE:** Recall that the Pi Hat is a breadboard, so it has rails. The wires you solder do not need to go into exact holes; each wire just needs to go into a hole on the same rail as its corresponding ADC pin (e.g. red wire does not need to go into pin immediately adjacent to VDD pin of ADC - it can go into any hole of that rail).
     
-    < Pi Hat wiring diagram;>
+    | Pi Hat wiring diagram
+    |:-------------------
+    | <img src="photos/pi_hat_wiring.jpg" width="450"/>
     
 4. Solder the Pi Hat header board set to the Pi Hat
 
-    < Pi hat header board set in Pi Hat;>
+    | Soldered header board (top view) | Soldered header board (bottom view)
+    |:-------------------:|:-------------------:
+    | <img src="photos/pi_hat_header_board_soldered_front.jpg" width="250"/> | <img src="photos/pi_hat_header_board_soldered_back.jpg" width="250"/>
     
 5. Attach the IR sensor to the bottom of the front of the drone frame
 
-    <pics of IR sensor zip-tied to drone frame;>
+    | Attached IR sensor (top view) | Attached IR sensor (bottom view)
+    |:-------------------:|:-------------------:
+    | <img src="photos/ir_attached_top_view.jpg" width="250"/> | <img src="photos/ir_attached_bottom_view.jpg" width="250"/>
 
 6. Attach the IR sensor cable (wires now soldered to Pi Hat) to the IR sensor.
     
