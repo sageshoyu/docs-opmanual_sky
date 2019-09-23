@@ -99,7 +99,7 @@ This is useful because: 1) it means every wire put on a rail will see the same m
     |:-------------------:|:-------------------:
     | <img src="photos/pi_hat_header_board_soldered_front.jpg" width="250"/> | <img src="photos/pi_hat_header_board_soldered_back.jpg" width="250"/>
     
-5. Attach the IR sensor to the bottom of the front of the drone frame
+5. Use zip-ties to attach the IR sensor to the bottom of the front of the drone frame
 
     | Attached IR sensor (top view) | Attached IR sensor (bottom view)
     |:-------------------:|:-------------------:
@@ -116,12 +116,15 @@ The FC will have three cables connected to it (in the steps of this section): a 
 
 The PWM wire set can be found inside the FC box:
 
-< pic of PWM wire set. in the image file, circle/highlight the "PWM" word on a cable;>
+| PWM wire set
+|:-------------------
+| <img src="photos/pwm_wires.jpg" width="350"/>
 
 The corresponding ports on the FC are:
 
-< pic of all 3 ports on FC circled/labeled; >
-
+| Ports on FC
+|:-------------------
+| <img src="photos/fc_labeled.jpg" width="350"/>
 
 1. Gather the following:
    - Flight Controller
@@ -131,11 +134,11 @@ The corresponding ports on the FC are:
    
 2. Connect the red and brown wire pair to the FC. Connect the PWM wire set to the FC. Connect the micro USB to USB cable to the FC. Note that there is a correct orientation to the connections - do **not** try to force them in.
 
-   <pic of battery monitor lead and PWM wire set plugged into FC; pic should be same as the 3-ports one from earlier, but with these wires plugged in; >
+| Cables connect to FC
+|:-------------------
+| <img src="photos/fc_with_cables_connected.jpg" width="350"/>
 
 3. Put double sided mounting tape on the bottom of the FC. Cut off any excess tape.
-
-   < pic of the bottom of the FC with a slab of double sided mounting tape on it; >
 
 4. Attach the FC to front of the drone. Ensure the FC is not skewed and it is pushed against the frame body. 
 
@@ -143,7 +146,9 @@ The corresponding ports on the FC are:
       - Try to minimize the FC skew as much as possible. If you think of the FC as being foward-facing eyes, then a skewed FC would make a cross-eyed drone!
       - Once the FC is attached, do a "rock test" (i.e. try to rock the FC back-and-forth by pushing the corners). If the FC rocks, then the double sided mounting tape used is too soft and is compressing under pressure. Detach the FC from the frame (e.g. _carefully_ use a flat-head screwdriver) and replace the tape with more robust tape.
 
-   < good pic FC attached to drone. "bad" pic of attached FC that shows FC skewed; >
+    | FC no skew (bottom-up view) | FC with skew (bottom-up view)
+    |:-------------------:|:-------------------:
+    | <img src="photos/fc_attached_no_skew.jpg" width="220"/> | <img src="photos/fc_attached_skew.jpg" width="280"/>
 
 
 ## Checkoff
