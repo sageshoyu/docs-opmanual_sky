@@ -51,12 +51,7 @@ Implementing this conversion requires building a basic circuit that sends the IR
 |:-------------------
 | <img src="photos/adc_block_diagram.jpg" width="450"/>
 
-You will build a basic circuit corresponding to the diagram by using a special type of breadboard (i.e. Pi Hat). For reference, the completed circuit will look like the following:
-
-| ADC completed circuit
-|:-------------------
-| <img src="photos/adc_completed_circuit.jpg" width="450"/>
-
+You will build a basic circuit corresponding to the diagram by using a special type of breadboard (i.e. Pi Hat).
 
 One useful property of a breadboard is that it has *rails*. A rail is a sequence of holes that share an electrical connection:
 
@@ -91,6 +86,12 @@ This is useful because: 1) it means every wire put on a rail will see the same m
     | Pi Hat wiring diagram
     |:-------------------
     | <img src="photos/pi_hat_wiring.jpg" width="450"/>
+    
+    For reference, the completed circuit will look like the following:
+
+    | ADC completed circuit
+    |:-------------------
+    | <img src="photos/adc_completed_circuit.jpg" width="450"/>
     
 4. Solder the Pi Hat header board set to the Pi Hat
 
