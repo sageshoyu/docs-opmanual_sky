@@ -10,37 +10,7 @@ In this phase of the buid, you will configure and calibrate the drone's devices.
 - Configuring the flight controller for our desired mode of operation
 - Calibrating the ESCs with respect to the flight controller
 
-The flight controller will receive roll, pitch, yaw, and thrust instructions from the drone's computer and send corresponding electrical signals to the ESCs (i.e. *PWM signals*). The ESCs will use those signals to send variable amounts of power to the motors. Then, the motors will spin in such a way so that the desired roll, pitch, yaw, and thrust are achieved. The flight controller knows what signals to send to the ESCs because it has an **IMU** (Inertial Measurement Unit), which measures the roll, pitch, and yaw of the drone.
-
-## Connecting the ESCs to the Flight Controller
-
-Plug the voltage monitoring cable (now soldered to your BEC) and the 6-channel PWM cable into your skyline
-
-<figure>
-    <figcaption>Plug in skyline cables</figcaption>
-    <img src="photos/skyline_cables.png" width="400"/>
-</figure>  
-
-Use double-sided foam tape to mount the skyline to the front of your drone. The USB port should be facing forward, so you have access to it. Also run the PWM connectors underneath the pi mount for easier wire management later.
-
-<figure>
-    <figcaption>Skyline Top View</figcaption>
-    <img src="photos/skyline_mount_top.png" width="400"/>
-</figure>  
-
-It is very important that the flight controller is perfectly aligned with your drone's frame. Any misalignments will mean that the sensors are getting incorrect (coupled axes) information about the acceleration. Make sure the edge of the flight controller is parallel with the edge of the frame.
-
-<figure>
-    <figcaption>Skyline Bottom View</figcaption>
-    <img src="photos/skyline_mount_bottom.png" width="400"/>
-</figure> 
-
-Carefully plug the 6" USB cable into the USB port of the skyline. These little surface-mount USB micro ports are very prone to failure, so to minimize the likelyhood of ripping off the port or breaking a connection cover the USB connector thoroughly with hot glue. Yes, you will not be able to remove the USB cable. This is intentional.
-
-<figure>
-    <figcaption>Skyline Bottom View</figcaption>
-    <img src="photos/usb_glue.png" width="400"/>
-</figure> 
+The flight controller will receive roll, pitch, yaw, and thrust instructions from the drone's computer and send corresponding electrical signals to the ESCs (i.e. *PWM signals*). The ESCs will use those signals to send variable amounts of power to the motors. Then, the motors will spin in such a way so that the desired roll, pitch, yaw, and thrust are achieved. The flight controller knows what signals to send to the ESCs because it has an **IMU** (i.e. Inertial Measurement Unit), which measures the roll, pitch, and yaw of the drone.
 
 ## Flashing Your SD Card
 
