@@ -4,14 +4,13 @@
 
 ## Preface
 
-In this phase of the build, you will:
-1. Flash your SD card with the software for your Raspberry Pi to work;
-2. Connect the ESCs to the flight controller;
-3. Configure the flight controller. 
+In this phase of the buid, you will configure and calibrate the drone's devices. This includes:
 
-The flight controller will receive roll, pitch, yaw, and thrust instructions from the Raspberry Pi and send PWM signals to the ESCs. The ESCs will use those PWM signals to send a specific voltage to the motors. Then, the motors will spin in such a way so that the desired roll, pitch, yaw, and thrust is achieved. The flight controller knows which PWM signals to send to the ESCs because it has an **IMU**(Inertial Measurement Unit), which measures the roll, pitch, and yaw of the drone.
+- Flashing your SD card with our software stack
+- Configuring the flight controller for our desired mode of operation
+- Calibrating the ESCs with respect to the flight controller
 
-We must flash the flight controller with firmware so that we may control the hardware on the flight controller. We will use a program called **Cleanflight** to configure the flight controller.
+The flight controller will receive roll, pitch, yaw, and thrust instructions from the drone's computer and send corresponding electrical signals to the ESCs (i.e. *PWM signals*). The ESCs will use those signals to send variable amounts of power to the motors. Then, the motors will spin in such a way so that the desired roll, pitch, yaw, and thrust are achieved. The flight controller knows what signals to send to the ESCs because it has an **IMU** (Inertial Measurement Unit), which measures the roll, pitch, and yaw of the drone.
 
 ## Connecting the ESCs to the Flight Controller
 
@@ -48,6 +47,8 @@ Carefully plug the 6" USB cable into the USB port of the skyline. These little s
 Plug your SD card into a computer with the PiDrone image. Flash the PiDrone image onto the SD card using Etcher.
 
 ## Flashing the Flight Controller
+
+We must flash the flight controller with firmware so that we may control the hardware on the flight controller. We will use a program called **Cleanflight** to configure the flight controller.
 
 On top of the flight controller, there are two holes marked "boot". Take a short piece of wire that is stripped on both sides and connect the two holes with the wire as shown below:
 
