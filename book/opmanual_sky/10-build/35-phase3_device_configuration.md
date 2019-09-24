@@ -49,13 +49,13 @@ Before the FC can be configured, it must first be flashed with firmware. **Firmw
 
     | Toggled Options 
     |:---------------------
-    | <img src="photos/.png" width="500"/>
+    | <img src="photos/flash_firmware_toggled_options_inked.jpg" width="500"/>
 
 5. Select "NAZE" and firmware version "2.1" from the dropdowns. If you have custom firmware to flash, instead click on "Load Firmware \[Local\]" in the bottom right corner of the window and select your custom fireware file.
 
     | Selecting firmware from dropdowns | Loading custom firmware 
     |:---------------------------------:|:-------------------:
-    | <img src="photos/.jpg" width="250"/> | <img src="photos/load_firmware.png" width="250"/>
+    | <img src="photos/flash_firmware_dropdowns_inked.jpg" width="250"/> | <img src="photos/load_firmware.png" width="250"/>
 
 6. On the FC, there are two holes marked "boot" (i.e. *bootloader pins*). Take a short piece of wire that is stripped on both sides and short the two holes with the wire.
 
