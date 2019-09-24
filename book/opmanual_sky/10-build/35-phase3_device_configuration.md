@@ -14,11 +14,23 @@ The flight controller will receive roll, pitch, yaw, and thrust instructions fro
 
 ## Flashing Your SD Card
 
-Plug your SD card into a computer with the PiDrone image. Flash the PiDrone image onto the SD card using Etcher.
+In order for the drone to operate autonomously, it must have an intelligent system in place which dictates what to do. Our software stack will be such a system, which we will load into the drone's computer using an SD card.
+
+1. Gather the following:
+    - A workstation (or personal computer)
+    - Micro SD card
+    
+2. On a workstation, downlaod the image flashing tool [Etcher](https://www.balena.io/etcher/).
+
+3. On a workstation, download the latest drone [image](https://drive.google.com/file/d/1ogPrxXBpXa6Tbv3xpYZcvCc_7EXD-w7S/view?usp=sharing).
+
+4. Connect the micro SD card to the workstation.
+
+5. Open Etcher and select the downloaded drone image. Then select the micro SD card as the drive to flash. Finally, click the "Flash" button.
 
 ## Flashing the Flight Controller
 
-We must flash the flight controller with firmware so that we may control the hardware on the flight controller. We will use a program called **Cleanflight** to configure the flight controller.
+Before the FC can be configured, it must first be flashed with firmware. **Firmware** is a special type of software that allows hardware to be controlled programmatically. Once the FC is flashed, a program called **Cleanflight** can be used to configure it.
 
 On top of the flight controller, there are two holes marked "boot". Take a short piece of wire that is stripped on both sides and connect the two holes with the wire as shown below:
 
