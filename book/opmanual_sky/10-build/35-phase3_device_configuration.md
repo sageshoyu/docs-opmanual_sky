@@ -32,129 +32,98 @@ In order for the drone to operate autonomously, it must have an intelligent syst
 
 Before the FC can be configured, it must first be flashed with firmware. **Firmware** is a special type of software that allows hardware to be controlled programmatically. Once the FC is flashed, a program called **Cleanflight** can be used to configure it.
 
-On top of the flight controller, there are two holes marked "boot". Take a short piece of wire that is stripped on both sides and connect the two holes with the wire as shown below:
+1. Gather the following:
+    - A workstation (or personal computer)
+    - Flight controller (by this phase, it should be attached to drone)
+    - USB to micro USB cable (by this phase, it should be connected to FC)
 
-<figure>
-    <figcaption>Flight controller with jumped bootloader wire</figcaption>
-    <img src="photos/fc_with_jumped_bootloader_wire.jpg" width="400"/>
-</figure>  
+2. On a workstation, install and open [Cleanflight](http://cleanflight.com/).
 
-Next, plug your flight controller with the jumped bootloader wire into a computer with Cleanflight installed, using a USB cable. Open up Cleanflight.
+3. Click on "Firmware Flasher" on the left sidebar.
 
-Click on "Firmware Flasher" on the left sidebar. 
+    | Firmware Flasher 
+    |:---------------------
+    | <img src="photos/click_on_firmware_flasher.png" width="500"/>
 
-<figure>
-    <figcaption>Firmware Flasher</figcaption>
-    <img src="photos/click_on_firmware_flasher.png" width="500"/>
-</figure>  
+4. Toggle on the following options: "No reboot sequence", "Flash on connect", and "Full chip erase". 
 
-Make sure "No reboot sequence", "Flash on connect", and "Full chip erase" are checked. Next, click on "Load Firmware \[Local\]" in the bottom right corner of the window. Then, select your custom fireware file.
+    | Toggled Options 
+    |:---------------------
+    | <img src="photos/.png" width="500"/>
 
-<figure>
-    <figcaption>Fireware Flasher</figcaption>
-    <img src="photos/load_firmware.png" width="500"/>
-</figure>  
+5. Select "NAZE" and firmware version "2.1" from the dropdowns. If you have custom firmware to flash, instead click on "Load Firmware \[Local\]" in the bottom right corner of the window and select your custom fireware file.
 
-Click on the "flash firmware" button.
+    | Selecting firmware from dropdowns | Loading custom firmware 
+    |:---------------------------------:|:-------------------:
+    | <img src="photos/.jpg" width="250"/> | <img src="photos/load_firmware.png" width="250"/>
 
-<figure>
-    <figcaption>Flash Firmware</figcaption>
-    <img src="photos/flash_firmware.png" width="500"/>
-</figure>  
+6. On the FC, there are two holes marked "boot" (i.e. *bootloader pins*). Take a short piece of wire that is stripped on both sides and short the two holes with the wire.
 
-<figure>
-    <figcaption>Flashing</figcaption>
-    <img src="photos/flashing.png" width="500"/>
-</figure>  
+    | Bootloader pins on FC | Wire in bootloader pins 
+    |:---------------------:|:-------------------:
+    | <img src="photos/fc_labeled_with_bootloader.jpg" width="250"/> | <img src="photos/fc_with_jumped_bootloader_wire.jpg" width="250"/>
 
-Wait until the bar at the bottom of the screen says "Programming: SUCCESSFUL". The firmware is flashed.    
-**NOTE:** If the bar instead says "Verifying: FAILED" and the only half of the bar is filled, that is fine too.     
+7. Connect the shorted FC to the workstation via a USB to micro USB cable. It should immediately start flashing because of the "flash on connect" option. Flashing will be complete once the bar at the bottom of the screen says "Programming: SUCCESSFUL". 
+
+    **NOTE:** If the bar instead reaches halfway and then says "Verifying: FAILED", do not worry - it has flashed successfully.  
+
+    | Flashing
+    |:---------------------
+    | <img src="photos/flashing.png" width="500"/>
+    
+8. Disconnect the FC from the workstation, remove the wire in the bootloader pins, and close Cleanflight.
 
 ## Configuring Your Flight Controller
 
-Remove the bootloader wire from your flight controller. Then, click the "Connect" button in the top right corner of the screen.
+Now that the FC has been flashed with firmware, it can be configured with Cleanflight.
 
-<figure>
-    <figcaption>Connect to Cleanflight</figcaption>
-    <img src="photos/connect.png" width="500"/>
-</figure>  
+1. Gather the following:
+    - A workstation (or personal computer) with Cleanflight installed
+    - Flight controller (by this phase, it should be attached to drone)
+    - USB to micro USB cable (by this phase, it should be connected to FC)
 
-Go to "Ports" tab and make sure SerialRX for UART2 is disabled and click "Save and Reboot." UART2 is a pin on the flight controller, and we want to make sure it only uses the USB.
+2. If not already done: remove the bootloader wire from the FC, disconnect it from the workstation, and close Cleanflight.
 
-<figure>
-    <figcaption>Ports Config</figcaption>
-    <img src="photos/ports.png" width="500"/>
-</figure>
+3. Open Cleanflight, reconnect the FC to the workstation, and click the "Connect" button in the top right corner of the screen (this is not needed if "auto-connect" is toggled on).
 
-Go to "Configuration" tab. 
+    | Connecting FC to Cleanflight
+    |:---------------------
+    | <img src="photos/connect.png" width="500"/>
 
-Change the ESC/Motor protocol to "MULTISHOT".
+4. Go to "Ports" tab and make sure SerialRX for UART2 is disabled and click "Save and Reboot." UART2 is a pin on the flight controller, and we want to make sure it only uses the USB.
 
-<figure>
-    <figcaption>Multishot</figcaption>
-    <img src="photos/multishot.png" width="500"/>
-</figure>  
+    | Ports Config
+    |:---------------------
+    | <img src="photos/ports.png" width="500"/>
 
-Set the Minimum Throttle to 1100.
+5. Go to "Configuration" tab. Change the ESC/Motor protocol to "MULTISHOT". Set the Minimum Throttle to 1100. Flip the yaw by 180&deg; (because the FC is rotated by 180&deg; when attached to the drone frame). Change the receiver to "MSP RX input" (by default it is configured to receive data from an RC receiver, but we want it to take commands over MSP). Finally, click "Save and Reboot."
 
-<figure>
-    <figcaption>Set Minimum Throttle</figcaption>
-    <img src="photos/minimum_throttle.png" width="500"/>
-</figure>  
+    **NOTE:** On the configuration page, Cleanflight might show that the direction of your motors are reversed. This is a UI bug and can be ignored. You will ensure that your motors are spinning in the correct direction in later steps.
 
-Flip the yaw by 180 degrees and click "Save and Reboot." This is because we mount the flight controller the opposite direction in order to leave the USB port free to plug into the Raspberry Pi.
+    | Set Multishot | Set Minimum Throttle |
+    |:-------------:|:--------------------:|
+    | <img src="photos/multishot.png" width="250"/>| <img src="photos/minimum_throttle.png" width="250"/>
 
-<figure>
-    <figcaption>Flip Yaw</figcaption>
-    <img src="photos/flip_yaw.png" width="500"/>
-</figure>  
-
-Also change the receiver to "MSP RX input" and click "Save and Reboot." By default it is configured to receive data from an RC receiver, but we want it to take commands over MSP. 
-
-<figure>
-    <figcaption>MSP RX Input</figcaption>
-    <img src="photos/msprx.png" width="500"/>
-</figure>  
-
-On the configuration page, Cleanflight might say that the direction of your motors are reversed. This is a UI bug in some versions of Cleanflight. You will ensure that your motors are spinning in the right direction soon.
-
-We need tell it to be in Angle mode for the entire range (and not acrobatic mode). Go to the "Modes" tab i. Under "Angle", click "Add Range."
-
-<figure>
-    <figcaption>Angle Mode</figcaption>
-    <img src="photos/add_range.png" width="500"/>
-</figure>  
+    | Flip Yaw | MSP RX Input |
+    |:--------:|:--------------------:|
+    | <img src="photos/flip_yaw.png" width="250"/>| <img src="photos/msprx.png" width="250"/>
 
 
-Drag the sliders so that the range spans from 900 to 2100. (The entire range.) 
+6. the FC needs to be in Angle mode for its entire available range - not just the range of acrobatic mode. Go to the "Modes" tab. Under the "Angle" option, click "Add Range". Drag the sliders so that the range spans from 900 to 2100 (i.e. entire range). Finally, click "Save".
 
-<figure>
-    <figcaption>Expand Range</figcaption>
-    <img src="photos/angle_range.png" width="500"/>
-</figure>  
+    | Angle Mode Option
+    |:-------------:
+    | <img src="photos/add_range.png" width="500"/>
 
-<figure>
-    <figcaption>Expanded Range</figcaption>
-    <img src="photos/angle_range_2.png" width="500"/>
-</figure>  
+    | Expand Range | Expanded Range |
+    |:------------:|:--------------------:|
+    | <img src="photos/angle_range.png" width="250"/>| <img src="photos/angle_range_2.png" width="250"/>
 
-Click "Save".
+7. The FC PID parameters need to be changed to work better with our drone. Go to the "PID Tuning" tab. Change the "ROLL" and "PITCH" PID terms to match the image. For reference: Roll should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: 1.00, Super Rate: 0.00, Max Vel: 200). Pitch should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: curly bracket, Super Rate: 0.00, Max Vel: 200). Change angle limit to 50. Finally, click "Save".
 
-We need to change the PID parameters to ones that work better on our drone. Go to the "PID Tuning" tab. Change the "ROLL" and "PITCH" PID terms to match the image. Roll should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: 1.00, Super Rate: 0.00, Max Vel: 200). Pitch should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: curly bracket, Super Rate: 0.00, Max Vel: 200)
-
-<figure>
-    <figcaption>PID Params</figcaption>
-    <img src="photos/pid_settings.png" width="500"/>
-</figure>  
-
-Change angle limit to 50. 
-
-<figure>
-    <figcaption>Set Angle Limit</figcaption>
-    <img src="photos/angle_limit.png" width="500"/>
-</figure>  
-
-Click "Save."
+    | PID Params   | Set Angle Limit |
+    |:------------:|:---------------:|
+    | <img src="photos/pid_settings.png" width="250"/>| <img src="photos/angle_limit.png" width="250"/>
 
 ## Connecting the ESCs to the Flight Controller
 
