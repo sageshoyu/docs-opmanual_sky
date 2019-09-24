@@ -51,7 +51,7 @@ Before the FC can be configured, it must first be flashed with firmware. **Firmw
     |:---------------------
     | <img src="photos/flash_firmware_toggled_options_inked.jpg" width="500"/>
 
-5. Select "NAZE" and firmware version "2.1" from the dropdowns. If you have custom firmware to flash, instead click on "Load Firmware \[Local\]" in the bottom right corner of the window and select your custom fireware file.
+5. Select "NAZE" and firmware version "2.1" from the dropdowns. Alternatively, if you have custom firmware to flash, instead click on "Load Firmware \[Local\]" in the bottom right corner of the window and select your custom fireware file.
 
     | Selecting firmware from dropdowns | Loading custom firmware 
     |:---------------------------------:|:-------------------:
