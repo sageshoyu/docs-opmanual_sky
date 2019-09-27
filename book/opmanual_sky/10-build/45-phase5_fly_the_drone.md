@@ -12,6 +12,14 @@ You will now go through the process of starting and flying your drone! For CS195
 2. Connect to the wifi network corresponding to the name of your drone.
 3. `ssh duckiesky@192.168.42.1` or `ssh duckiesky@<nameofdrone>.local`.
 
+## How to Change Drone Name and WiFi
+
+1. On the drone, open `/etc/hostapd/hostapd.conf` (using `sudo`).
+2. Change the line `ssid=defaultdrone` to `ssid=<my_wifi_name>`, where `<my_wifi_name>` is your desired WiFi name. Save your changes and close the file.
+3. On the drone, open `/etc/hostname` (using `sudo`).
+4. Replace the first line (e.g. `duckiesky-drone`) with your desired drone name. Save your changes and close the file.
+5. Disconnect and re-connect the drone. After ~30 sec, the drone WiFi will appear as `<my_wifi_name>`.
+
 ## How to Fly
 
 1. On drone, run the following:
@@ -21,7 +29,7 @@ You will now go through the process of starting and flying your drone! For CS195
    - Open `pidrone_pkg/web/index.html` (a.k.a. web interface) in a web browser; either double-click .html file or drag-and-drop it into a web browser to get it to render as a web page (meaningless to open/edit the file itself!).
    - Type IP address or hostname of drone into `hostname` box and click `Connect`.
 
-## Programs Needed to Fly
+## Programs Used to Fly
 
 - In the screen session (launched by `./start_pidrone_code.sh`):
   - Window `0`: Used for roscore. Responsible for starting a ROS Master.
@@ -39,7 +47,7 @@ You will now go through the process of starting and flying your drone! For CS195
 
 ## Controls
 
-- See web interface for a list of drone input controls.
+- See the web interface for a list of drone input controls.
 
 ## How to Connect to Home Network
 
