@@ -10,7 +10,7 @@ You will now go through the process of starting and flying your drone! For CS195
 
 1. Plug in the battery or power supply to the drone.
 2. Connect to the wifi network corresponding to the name of your drone.
-3. `ssh duckiesky@192.168.42.1` or `ssh duckiesky@<nameofdrone>.local`.
+3. `ssh duckiesky@192.168.42.1` or `ssh duckiesky@&#lt;nameofdrone&#gt;.local`.
 
 ## How to Change Drone Name and WiFi
 
