@@ -10,15 +10,15 @@ You will now go through the process of starting and flying your drone! For CS195
 
 1. Plug in the battery or power supply to the drone.
 2. Connect to the wifi network corresponding to the name of your drone.
-3. `ssh duckiesky@192.168.42.1` or `ssh duckiesky@&#lt;nameofdrone&#gt;.local`.
+3. `ssh duckiesky@192.168.42.1`.
 
 ## How to Change Drone Name and WiFi
 
 1. On the drone, open `/etc/hostapd/hostapd.conf` (using `sudo`).
-2. Change the line `ssid=defaultdrone` to `ssid=<my_wifi_name>`, where `<my_wifi_name>` is your desired WiFi name. Save your changes and close the file.
+2. Change the line `ssid=defaultdrone` to `ssid=my_wifi_name`, where `my_wifi_name` is your desired WiFi name. Save your changes and close the file.
 3. On the drone, open `/etc/hostname` (using `sudo`).
 4. Replace the first line (e.g. `duckiesky-drone`) with your desired drone name. Save your changes and close the file.
-5. Disconnect and re-connect the drone. After ~30 sec, the drone WiFi will appear as `<my_wifi_name>`.
+5. Disconnect and re-connect the drone. After ~30 sec, the drone WiFi will appear as `my_wifi_name`.
 
 ## How to Fly
 
@@ -88,7 +88,7 @@ You will now go through the process of starting and flying your drone! For CS195
 3. On base station:
 
    - connect to home network (instead of drone network)
-   - open a terminal or command prompt and run `ssh duckiesky@<hostname>`, where `<hostname>` is the hostname of the drone (found in file `/etc/hostname`). The default is `duckiesky-drone`.
+   - open a terminal or command prompt and run `ssh duckiesky@hostname`, where `hostname` is the hostname of the drone (found in file `/etc/hostname`). The default is `duckiesky-drone`.
    - A password prompt will appear. After entering the password, the ssh connection to the drone will be complete.
 
 ## Checkoff
