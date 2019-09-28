@@ -42,8 +42,8 @@ You will now go through the process of starting and flying your drone! For CS195
   - Window `7`: Used to run a web video server that lets a client receive camera image data.
   - Window `8`: Free window that can be used for anything.
   - Window `9`: Free window that can be used for anything.
-- Switch screen windows using `&#96;` + `window_number`. For example, `&#96;` + `0` switches to window `0`.
-- Exit the screen by using `&#96;` + `:` (i.e. `Shift` key + `;` key), then typing `quit` and pressing the `Enter` key. Altogether, you should see `:quit` at the bottom left of the terminal window before you press the `Enter` key.
+- Switch screen windows using `` ` `` + `window_number`. For example, `` ` `` + `0` switches to window `0`.
+- Exit the screen by using `` ` `` + `:` (i.e. `Shift` key + `;` key), then typing `quit` and pressing the `Enter` key. Altogether, you should see `:quit` at the bottom left of the terminal window before you press the `Enter` key.
 
 ## Controls
 
