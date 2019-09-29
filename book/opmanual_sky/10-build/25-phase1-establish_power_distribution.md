@@ -16,40 +16,45 @@ In this phase of the build, you will establish power distribution to your drone 
 
 Visually, the flow of power looks like:
 
-| Flow of power
-|:-------------------------:
-|<img src="photos/power_flow.png" width="400"/>
+<figure>
+    <figcaption>Flow of Power</figcaption>
+    <img style='width:400px' src="photos/power_flow.png"/>
+</figure>
 
 ## Tin the PDB
 
 Similar to exposed wires, the metal pads on a PDB need to be tinned. This will allow tinned wires to be joined to the pads - and therefore the PDB.
 
-**Action Items**: 
+TODO: 
 
 - Tin every pad on the PDB, **except** the 5V and 12V pads.    
 
-    | Tinned PDB
-    |:-------------------------:
-    |<img src="photos/pdbtinned.png" width="400"/>
+<figure>
+    <figcaption>Tinned PDB</figcaption>
+    <img style='width:300px' src="photos/pdbtinned.png"/>
+</figure>
 
-**Notes**:
+NOTE:
 
 - Unless stated otherwise, red wires should be soldered to positive (+) pads and black wires should be soldered to negative (-) pads.    
+
 - Be careful not to aggresively push the soldering iron tip into the PDB, as too much force will cut the pads right off!    
 
 ## Solder ESCs to the PDB
 
 An ESC (i.e. Electronic Speed Control) is a component which requires power. It takes this power and provides a variable amount of it to a motor; since a motor's RPM depends on how much power it gets, an ESC can control how fast a motor spins by controlling how much power it supplies the motor.
 
-**Action Items**:
+TODO: 
 
 - Solder each of your 4 ESCs to the PDB.   
 
-    | ESCs soldered to PDB
-    |:-------------------------:
-    |<img src="photos/added_escs.jpg" width="400"/>
+<figure>
+    <figcaption>ESCs Soldered to PDB</figcaption>
+    <img style='width:400px' src="photos/added_escs.jpg"/>
+</figure>
 
-**Notes**: 
+
+NOTE: 
 
 - Do **not** solder the wires flat against the PDB - solder them at ~40&deg; angle. If you solder them flat, then you will not be able to fit the PDB into the drone frame.
 
@@ -57,15 +62,17 @@ An ESC (i.e. Electronic Speed Control) is a component which requires power. It t
 
 A BEC (i.e. Battery Eliminator Circuit) is a component which requires power. It takes this power and outputs a constant amount of lower power (in technical terms, it performs a *voltage drop*. Our BEC does a 12V to 5V voltage drop). The BEC is important because some components in latter phases require lower power than supplied by the battery.
 
-**Action Items**: 
+TODO: 
 
 - Solder your BEC to the PDB.    
 
-    | BEC soldered to PDB
-    |:-------------------------:
-    |<img src="photos/added_bec.jpg" width="400"/>
+<figure>
+    <figcaption>BEC Soldered to PDB</figcaption>
+    <img style='width:400px' src="photos/added_bec.jpg"/>
+</figure>
 
-**Notes**:
+
+NOTE:
 
 - Like before, solder wires at ~40&deg; angle. 
 
@@ -75,15 +82,18 @@ A BEC (i.e. Battery Eliminator Circuit) is a component which requires power. It 
 
 The red and brown wire pair (from the flight controller box) is a component which requires power. It takes this power and simply passes it along to the white stub on the other end. What is the point of this? In a latter phase, you will connect the white stub to your flight controller. This will allow the flight controller to *observe* or *monitor* the power traversing the PDB. For this reason, the red and brown wire pair is called the *battery monitor lead*.    
 
-**Action Items**:
+
+TODO: 
 
 - Solder the red and brown wire pair to the PDB. Due to its small size, you will need to solder onto another pair of wires, e.g. BEC wires. The red wire should connect to a positive (+) pad and the brown wire should connect to a negative (-) pad.     
 
-    | Battery monitor lead soldered to PDB
-    |:-------------------------:
-    |<img src="photos/added_red_brown.jpg" width="400"/>
+<figure>
+    <figcaption>Battery Monitor Lead Soldered to PDB</figcaption>
+    <img style='width:400px' src="photos/added_red_brown.jpg"/>
+</figure>
 
-**Notes**: 
+
+NOTE: 
 
 - While trying to solder on these wires, you may accidentally unsolder the existing wires from the PDB. We recommend temporarily holding down the existing wires with long-nose pliers, tape, or helping hands.     
 
@@ -91,15 +101,17 @@ The red and brown wire pair (from the flight controller box) is a component whic
 
 A XT60 connector cable is a component which provides power when a power source (e.g. battery) is connected to it. By soldering it to the PDB, the PDB will get power to distribute to other components.    
 
-**Action Items**: 
+TODO: 
 
 - Solder your XT60 connector cable to the PDB.  
 
-    | XT60 connector cable soldered to PDB
-    |:-------------------------:
-    |<img src="photos/pdb_complete.jpg" width="400"/>
+<figure>
+    <figcaption>XT60 Connector Cable Soldered to PDB</figcaption>
+    <img style='width:400px' src="photos/pdb_complete.jpg"/>
+</figure>
 
-**Notes**: 
+
+NOTE: 
 
 - Since this wire is thicker than the others, it is more difficult to solder to the pads. Be careful not to solder/cut the pads off the PDB!     
 
@@ -111,9 +123,11 @@ Before beginning, verify the PDB is completely soldered with all necessary parts
 
 For reference, here are the motor directions with respect to the frame:
 
-| Motor directions on drone
-|:-------------------------:
-|<img src="photos/motor_directions.png" width="400"/>
+<figure>
+    <figcaption>Motor Directions on Drone</figcaption>
+    <img style='width:400px' src="photos/motor_directions.png"/>
+</figure>
+
 
 1. Gather the following:
 
@@ -126,41 +140,54 @@ For reference, here are the motor directions with respect to the frame:
    
 2. Place the drone frame on a flat surface so that the back is facing you.
 
-    | Orientation of drone frame
-    |:-------------------------:
-    |<img src="photos/drone_frame_labeled_orientation.jpg" width="400"/>
+    <figure>
+        <figcaption>Orientation of Drone Frame</figcaption>
+        <img style='width:350px' src="photos/drone_frame_labeled_orientation.jpg"/>
+    </figure>
  
 3. Feed the velcro through the center of the drone frame. Make sure the fuzzy side is facing down.
 
-    | Velcro through drone frame
-    |:-------------------------:
-    |<img src="photos/velcro_in_frame.jpg" width="400"/>
+    <figure>
+        <figcaption>Velcro through Drone Frame</figcaption>
+        <img style='width:350px' src="photos/velcro_in_frame.jpg"/>
+    </figure>
 
 4. Screw a black screw into each of the standoffs.
 
-    | Putting screws in standoffs
-    |:-------------------------:
-    |<img src="photos/standoffs_with_screws.png" width="200"/>
+    <figure>
+        <figcaption>Putting Screws in Standoffs</figcaption>
+        <img style='width:200px' src="photos/standoffs_with_screws.png"/>
+    </figure>
 
 5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing.
 
-    | Applying downward force | PDB secured in drone frame
-    |:-----------------------:|:-------------------:
-    | <img src="photos/putting_standoffs_in_frame.jpg" width="250"/> | <img src="photos/pdb_in_drone_frame.jpg" width="350"/>
+    <figure class="flow-subfigures">  
+        <figcaption>Put PDB on Drone Frame</figcaption>
+        <figure>
+            <figcaption>Applying Downward Force</figcaption>
+            <img style='height:297px' src="photos/putting_standoffs_in_frame.jpg"/>
+        </figure>
+        <figure>  
+            <figcaption>PDB Secured in Drone Frame</figcaption>
+            <img style='height:297px' src="photos/pdb_in_drone_frame.jpg"/>
+        </figure>
+    </figure>  
 
 6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black screws for each attachment.
 
-    | Securing motor in drone frame (upside-down view)
-    |:-------------------------:
-    |<img src="photos/motor_bottom.png" width="400"/>
+    <figure>
+        <figcaption>Securing Motor in Drone Frame (upside-down view)</figcaption>
+        <img style='width:350px' src="photos/motor_bottom.png"/>
+    </figure>
 
 7. Attach CCW motors to the bottom-left and top-right of the drone frame, using 2 black screws for each attachment.
 
 8. For each motor, connect its male bullect connectors to the female bullet connectors of the ESC in the motor's corner (e.g. top-left motor connects to top-left ESC). Any connection order will suffice for now, as you will be able to change them in a latter phase.
 
-    | Connecting bullet connectors
-    |:-------------------------:
-    |<img src="photos/connecting_bullet_connectors.jpg" width="400"/>
+    <figure>
+        <figcaption>Connecting Bullet Connectors</figcaption>
+        <img style='width:350px' src="photos/connecting_bullet_connectors.jpg"/>
+    </figure>
 
 ## Checkoff
 
@@ -190,7 +217,7 @@ For reference, here are the motor directions with respect to the frame:
   
   - ~12V between any positive (+) pad and any negative (-) pad. 
   
-    NOTE: if the battery is X volts instead of 12 volts (e.g. 10), then the multimeter will show X volts instead of 12 volts.
+  NOTE: If the battery is X volts instead of 12 volts (e.g. 10), then the multimeter will show X volts instead of 12 volts.
 
 - **ONLY** if the DC voltage check passed, re-connect a battery to your drone and verify the following:
 
