@@ -14,9 +14,9 @@ little surface-mount USB micro ports are very prone to failure, so to minimize
 the likelyhood of ripping off the port or breaking a connection cover the USB connector 
 thoroughly with hot glue.    
 
-NOTE:
+NOTE: 
 
-- You will not be able to remove the USB cable. This is intentional.
+- You will not be able to remove the USB cable. This is intentional.    
 
 <figure>
     <figcaption>Glued USB Connector</figcaption>
@@ -28,9 +28,9 @@ NOTE:
 
 Place the PiMount on top of the PDB and use the black screws to secure the mount to the standoffs.     
 
-NOTE:
+NOTE: 
 
-- Ensure that the triangle shape is on the side of the camera.
+- Ensure that the triangle shape is on the side of the camera.    
 
 <figure>
     <figcaption>Securing the PiMount</figcaption>

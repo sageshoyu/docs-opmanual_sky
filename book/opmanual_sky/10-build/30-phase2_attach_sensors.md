@@ -27,11 +27,11 @@ The Pi Cam is a sensor which observes 2D images of the world. It will be attache
         <figcaption>FFC Attachment</figcaption>
         <figure>
             <figcaption>Good FFC Attachment</figcaption>
-            <img style='width:220px' src="photos/ffc_attachment_good.jpg"/>
+            <img style='width:200px' src="photos/ffc_attachment_good.jpg"/>
         </figure>
         <figure>  
             <figcaption>Bad FFC Attachment</figcaption>
-            <img style='width:220px' src="photos/ffc_attachment_bad.jpg"/>
+            <img style='width:200px' src="photos/ffc_attachment_bad.jpg"/>
         </figure>
     </figure>  
 
@@ -90,7 +90,7 @@ This is useful because: 1) it means every wire put on a rail will see the same m
     - Red and black wires on OUT side of BEC (by this phase, BEC should be attached to PDB)
     - 4 pieces of thin wire (recommend 22-24 AWG, 3 in. length, colors: red, black, green, and blue)
     
-2. Cut/break the ADC header pin set to the same number as holes on the ADC. Solder the **short** end of the header pins into the ADC. 
+2. Cut/break the ADC header pin set to the same number as holes on the ADC. Solder the **short** end of the header pins into the ADC.     
 
     NOTE: 
 
@@ -108,7 +108,7 @@ This is useful because: 1) it means every wire put on a rail will see the same m
         </figure>
     </figure>  
     
-3. Solder the ADC and all wires to the Pi Hat according to the diagram (strip wires as needed):
+3. Solder the ADC and all wires to the Pi Hat according to the diagram (strip wires as needed):        
 
     NOTE:
 
@@ -116,14 +116,14 @@ This is useful because: 1) it means every wire put on a rail will see the same m
 
     <figure>
         <figcaption>Pi Hat Wiring Diagram</figcaption>
-        <img style='width:400px' src="photos/pi_hat_wiring.jpg"/>
+        <img style='width:350px' src="photos/pi_hat_wiring.jpg"/>
     </figure>
     
     For reference, the completed circuit will look like the following:
 
     <figure>
         <figcaption>ADC Completed Circuit</figcaption>
-        <img style='width:400px' src="photos/adc_completed_circuit.jpg"/>
+        <img style='width:300px' src="photos/adc_completed_circuit.jpg"/>
     </figure>
     
 4. Solder the Pi Hat header board set to the Pi Hat:
@@ -167,39 +167,36 @@ The PWM wire set can be found inside the FC box:
 
 <figure>
     <figcaption>PWM Wire Set</figcaption>
-    <img style='width:300px' src="photos/pwm_wires.jpg"/>
+    <img style='width:200px' src="photos/pwm_wires.jpg"/>
 </figure>
 
 The corresponding ports on the FC are:
 
 <figure>
     <figcaption>Ports on FC</figcaption>
-    <img style='width:300px' src="photos/fc_labeled.jpg"/>
+    <img style='width:200px' src="photos/fc_labeled.jpg"/>
 </figure>
 
 1. Gather the following:
-   - Flight Controller
-   - Micro USB to USB cable
-   - Double sided mounting tape
-   - PWM wire set (inside FC box)
+    - Flight Controller
+    - Micro USB to USB cable
+    - Double sided mounting tape
+    - PWM wire set (inside FC box)
    
 2. Connect the red and brown wire pair to the FC. Connect the PWM wire set to the FC. Connect the micro USB to USB cable to the FC. Note that there is a correct orientation to the connections - do **not** try to force them in.
 
 <figure>
     <figcaption>Cables Connect to FC</figcaption>
-    <img style='width:300px' src="photos/fc_with_cables_connected.jpg"/>
+    <img style='width:200px' src="photos/fc_with_cables_connected.jpg"/>
 </figure>
 
 3. Put double sided mounting tape on the bottom of the FC. Cut off any excess tape.
 
-4. Attach the FC to front of the drone. Ensure the FC is not skewed and it is pushed against the frame body. 
+4. Attach the FC to front of the drone. Ensure the FC is not skewed and it is pushed against the frame body.     
 
-    NOTE:
-
-        - Try to minimize the FC skew as much as possible. If you think of the FC as being foward-facing eyes, then a skewed FC would make a cross-eyed drone!
-
-        - Once the FC is attached, do a "rock test" (i.e. try to rock the FC back-and-forth by pushing the corners). If the FC rocks, then the double sided mounting tape used is too soft and is compressing under pressure. Detach the FC from the frame (e.g. _carefully_ use a flat-head screwdriver) and replace the tape with more robust tape.    
-
+    NOTE:     
+    - Try to minimize the FC skew as much as possible. If you think of the FC as being foward-facing eyes, then a skewed FC would make a cross-eyed drone!    
+    - Once the FC is attached, do a "rock test" (i.e. try to rock the FC back-and-forth by pushing the corners). If the FC rocks, then the double sided mounting tape used is too soft and is compressing under pressure. Detach the FC from the frame (e.g. _carefully_ use a flat-head screwdriver) and replace the tape with more robust tape.    
 
     <figure class="flow-subfigures">  
         <figcaption>Attach FC (bottom-up view)</figcaption>

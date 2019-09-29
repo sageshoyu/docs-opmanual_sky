@@ -81,9 +81,9 @@ Before the FC can be configured, it must first be flashed with firmware. **Firmw
         </figure>
     </figure> 
 
-7. Connect the shorted FC to the workstation via a USB to micro USB cable. It should immediately start flashing because of the "flash on connect" option. Flashing will be complete once the bar at the bottom of the screen says "Programming: SUCCESSFUL". 
+7. Connect the shorted FC to the workstation via a USB to micro USB cable. It should immediately start flashing because of the "flash on connect" option. Flashing will be complete once the bar at the bottom of the screen says "Programming: SUCCESSFUL".     
 
-    NOTE:
+    NOTE: 
 
     - If the bar instead reaches halfway and then says "Verifying: FAILED", do not worry - it has flashed successfully.     
 
@@ -119,11 +119,11 @@ Now that the FC has been flashed with firmware, it can be configured with Cleanf
         <img style='width:500px' src="photos/ports.png"/>
     </figure>
 
-5. Go to "Configuration" tab. Change the ESC/Motor protocol to "MULTISHOT". Set the Minimum Throttle to 1100. Flip the yaw by 180&deg; (because the FC is rotated by 180&deg; when attached to the drone frame). Change the receiver to "MSP RX input" (by default it is configured to receive data from an RC receiver, but we want it to take commands over MSP). Finally, click "Save and Reboot."
+5. Go to "Configuration" tab. Change the ESC/Motor protocol to "MULTISHOT". Set the Minimum Throttle to 1100. Flip the yaw by 180&deg; (because the FC is rotated by 180&deg; when attached to the drone frame). Change the receiver to "MSP RX input" (by default it is configured to receive data from an RC receiver, but we want it to take commands over MSP). Finally, click "Save and Reboot."    
 
-    NOTE:
+    NOTE: 
 
-    - On the configuration page, Cleanflight might show that the direction of your motors are reversed. This is a UI bug and can be ignored. You will ensure that your motors are spinning in the correct direction in later steps.
+    - On the configuration page, Cleanflight might show that the direction of your motors are reversed. This is a UI bug and can be ignored. You will ensure that your motors are spinning in the correct direction in later steps.    
 
     <figure>  
         <figcaption>Configuration: Step 1</figcaption>
