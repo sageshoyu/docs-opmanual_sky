@@ -17,9 +17,9 @@ In this phase of the build, you will prepare and attach sensors to the drone fra
 The Pi Cam is a sensor which observes 2D images of the world. It will be attached to the drone frame facing downward. This will allow the drone's micro-computer to compare different images of the ground in order to determine how fast the drone is moving in the x and y directions.
 
 1. Gather the following:
-   - Pi Cam
-   - 15pin FFC (likely in Pi Cam box, already attached)
-   - Double sided mounting tape
+    - Pi Cam
+    - 15pin FFC (likely in Pi Cam box, already attached)
+    - Double sided mounting tape
 
 2. If not already done, attach the FFC to the Pi Cam. The shorter side should go into the camera.
 
@@ -92,7 +92,7 @@ This is useful because: 1) it means every wire put on a rail will see the same m
     
 2. Cut/break the ADC header pin set to the same number as holes on the ADC. Solder the **short** end of the header pins into the ADC.     
 
-    NOTE: 
+    NOTE:     
 
     - There is no electric conductivity between individual header pins, so it is okay if you accidentally cut/break too many pins from the set (e.g. full set of 12 pins broken into a set of 8 and set of 4 - instead of the needed 10). Simply break additional pins as needed (e.g. break 2 more pins from the set of 4, then you will have 8 + 2 = 10 pins).
 
@@ -110,7 +110,7 @@ This is useful because: 1) it means every wire put on a rail will see the same m
     
 3. Solder the ADC and all wires to the Pi Hat according to the diagram (strip wires as needed):        
 
-    NOTE:
+    NOTE:     
 
     - Recall that the Pi Hat is a breadboard, so it has rails. The wires you solder do not need to go into exact holes; each wire just needs to go into a hole on the same rail as its corresponding ADC pin (e.g. red wire does not need to go into pin immediately adjacent to VDD pin of ADC - it can go into any hole of that rail).
 
@@ -195,7 +195,8 @@ The corresponding ports on the FC are:
 4. Attach the FC to front of the drone. Ensure the FC is not skewed and it is pushed against the frame body.     
 
     NOTE:     
-    - Try to minimize the FC skew as much as possible. If you think of the FC as being foward-facing eyes, then a skewed FC would make a cross-eyed drone!    
+
+    - Try to minimize the FC skew as much as possible. If you think of the FC as being foward-facing eyes, then a skewed FC would make a cross-eyed drone!     
     - Once the FC is attached, do a "rock test" (i.e. try to rock the FC back-and-forth by pushing the corners). If the FC rocks, then the double sided mounting tape used is too soft and is compressing under pressure. Detach the FC from the frame (e.g. _carefully_ use a flat-head screwdriver) and replace the tape with more robust tape.    
 
     <figure class="flow-subfigures">  

@@ -34,7 +34,7 @@ TODO:
     <img style='width:300px' src="photos/pdbtinned.png"/>
 </figure>
 
-NOTE:
+NOTE:     
 
 - Unless stated otherwise, red wires should be soldered to positive (+) pads and black wires should be soldered to negative (-) pads.    
 
@@ -54,9 +54,9 @@ TODO:
 </figure>
 
 
-NOTE: 
+NOTE:     
 
-- Do **not** solder the wires flat against the PDB - solder them at ~40&deg; angle. If you solder them flat, then you will not be able to fit the PDB into the drone frame.
+- Do **not** solder the wires flat against the PDB - solder them at ~40&deg; angle. If you solder them flat, then you will not be able to fit the PDB into the drone frame.    
 
 ## Solder BEC to the PDB
 
@@ -72,7 +72,7 @@ TODO:
 </figure>
 
 
-NOTE:
+NOTE:     
 
 - Like before, solder wires at ~40&deg; angle. 
 
@@ -93,7 +93,7 @@ TODO:
 </figure>
 
 
-NOTE: 
+NOTE:     
 
 - While trying to solder on these wires, you may accidentally unsolder the existing wires from the PDB. We recommend temporarily holding down the existing wires with long-nose pliers, tape, or helping hands.     
 
@@ -111,7 +111,7 @@ TODO:
 </figure>
 
 
-NOTE: 
+NOTE:    
 
 - Since this wire is thicker than the others, it is more difficult to solder to the pads. Be careful not to solder/cut the pads off the PDB!     
 
@@ -130,13 +130,12 @@ For reference, here are the motor directions with respect to the frame:
 
 
 1. Gather the following:
-
-   - Drone frame
-   - Completed PDB
-   - 4 motors (2 CW, 2 CCW)
-   - Velcro
-   - 4 standoffs
-   - 12 black screws (in motors box, **not** drone frame box)
+    - Drone frame
+    - Completed PDB
+    - 4 motors (2 CW, 2 CCW)
+    - Velcro
+    - 4 standoffs
+    - 12 black screws (in motors box, **not** drone frame box)
    
 2. Place the drone frame on a flat surface so that the back is facing you.
 
