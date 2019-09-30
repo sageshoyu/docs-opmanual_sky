@@ -12,49 +12,65 @@ you may use it to fly.
 Carefully plug the 6" USB cable into the USB port of the skyline. These 
 little surface-mount USB micro ports are very prone to failure, so to minimize 
 the likelyhood of ripping off the port or breaking a connection cover the USB connector 
-thoroughly with hot glue. 
-Yes, you will not be able to remove the USB cable. This is intentional.
+thoroughly with hot glue.    
 
-| Glued USB Connector
-|:-------------------------:
-|<img src="photos/usb_glue.png" width="400"/>
+NOTE: 
+
+- You will not be able to remove the USB cable. This is intentional.    
+
+<figure>
+    <figcaption>Glued USB Connector</figcaption>
+    <img style='width:350px' src="photos/usb_glue.png"/>
+</figure>
     
 
 ## Attach PiMount
 
-Place the PiMount on top of the PDB and use the black screws to secure the mount to the standoffs. Ensure that the triangle shape is on the side of the camera.
+Place the PiMount on top of the PDB and use the black screws to secure the mount to the standoffs.     
 
-| Securing the PiMount 
-|:-------------------------:
-|<img src="photos/securing_pihat.jpg" width="400"/>
+NOTE: 
+
+- Ensure that the triangle shape is on the side of the camera.    
+
+<figure>
+    <figcaption>Securing the PiMount</figcaption>
+    <img style='width:350px' src="photos/securing_pihat.jpg"/>
+</figure>
 
 ## Put Heat Sinks on Raspberry Pi
 
 You must put heat sinks on parts of the Raspberry Pi so that they do not overheat. Attach the heat sinks to the Pi as shown in the pictures. 
 
-| Heat Sinks on Top of Pi 
-|:-------------------------:
-|<img src="photos/heat_sinks_on_pi_front.jpg" width="400"/>
+<figure class="flow-subfigures">  
+    <figcaption>Put Heat Sinks on Pi</figcaption>
+    <figure>
+        <figcaption>Heat Sinks on Top of Pi</figcaption>
+        <img style='width:230px' src="photos/heat_sinks_on_pi_front.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Heat Sinks on Bottom of Pi</figcaption>
+        <img style='width:230px' src="photos/heat_sinks_on_pi_back.jpg"/>
+    </figure>
+</figure>  
 
-| Heat Sinks on Bottom of Pi
-|:-------------------------:
-|<img src="photos/heat_sinks_on_pi_back.jpg" width="400"/>
 
 ## Attach Raspberry Pi
 
 Use the sliver screws included with the frame kit to secure the Pi to the mount. You should use 3 screws as shown in picture. The USB ports should be toward the front of the drone.
 
-| Securing the Pi
-|:-------------------------:
-|<img src="photos/securing_pi.jpg" width="400"/>
+<figure>
+    <figcaption>Securing the Pi</figcaption>
+    <img style='width:350px' src="photos/securing_pi.jpg"/>
+</figure>
 
 ## Pi Hat
 
 With the Pi hat all soldered together place it on top of the Pi being sure the pins go into the Header holes.
 
-| Attaching Pi Hat
-|:-------------------------:
-|<img src="photos/bec_attached_1.png" width="400"/>
+<figure>
+    <figcaption>Attaching Pi Hat</figcaption>
+    <img style='width:350px' src="photos/bec_attached_1.png"/>
+</figure>
 
 ### Camera
 
@@ -64,21 +80,26 @@ Also be sure to connect the camera before fully pressing down the Pi hat. Note t
 
 Attach the BEC to the top of the USB ports using some double sided tape.
 
-| BEC Taped on USB Ports
-|:-------------------------:
-|<img src="photos/bec_attached_2.png" width="400"/>
+<figure>
+    <figcaption>Attaching Pi Hat</figcaption>
+    <img style='width:350px' src="photos/bec_attached_2.png"/>
+</figure>
 
 ## Ziptie ESCs and PWM Connectors to Frame Arms
 
 Use the mini zipties to secure the ESCs, motor wires, and ESC wires to the bottom of the arms of the frame. To do this, thread the zip ties through the holes in the frame. Also, use zip ties to secure the PWM connectors to the top or sides of the frame.
 
-| ESC and motor wires secured with zipties
-|:-------------------------:
-|<img src="photos/ziptie_esc.jpg" width="400"/>
-
-| PWM connector secured with zipties
-|:-------------------------:
-|<img src="photos/ziptie_pwm.jpg" width="400"/>
+<figure class="flow-subfigures">  
+    <figcaption>Use Zip-ties to Secure Everything</figcaption>
+    <figure>
+        <figcaption>ESC and Motor Wires with Zipties</figcaption>
+        <img style='width:230px' src="photos/ziptie_esc.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>PWM Connector with Zipties</figcaption>
+        <img style='width:230px' src="photos/ziptie_pwm.jpg"/>
+    </figure>
+</figure>  
 
 ## Propellors
 
@@ -86,17 +107,21 @@ Finally! Attach the wings to the drone so that it may fly. Attach the clockwise 
 
 Use a wrench to tighten the bolts down so that the bottom of the propellor is flat on the top of the motor. Screw bolts down tightly, but not so tight that you could not remove the propellors if you had to.
 
-| Notice Arrows Indicating the Type of Propellor
-|:-------------------------:
-|<img src="photos/prop.jpg" width="400"/>
-
-| Attaching Propellors
-|:-------------------------:
-|<img src="photos/securing_prop.jpg" width="400"/>
-
-| Propellor Flat on Motor
-|:-------------------------:
-|<img src="photos/prop_flat_on_motor.jpg" width="400"/>
+<figure class="flow-subfigures">  
+    <figcaption>Put on Propellors</figcaption>
+    <figure>
+        <figcaption>Notice Arrows Indicating the Type of Propellor</figcaption>
+        <img style='width:230px' src="photos/prop.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Attaching Propellors</figcaption>
+        <img style='width:230px' src="photos/securing_prop.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Propellor Flat on Motor</figcaption>
+        <img style='width:250px' src="photos/prop_flat_on_motor.jpg"/>
+    </figure>
+</figure>  
 
 ## Warnings
 
