@@ -103,7 +103,7 @@ Use the small zipties to secure the ESCs and motor wires to the bottom of each f
 
 ## Propellers
 
-Finally! Attach the propellers to the drone so that it may fly. Attach the CW propellers to the CW motors, and the CCW propellers to the CCW motors. The motors have small arrows on them in the center to indicate which type they are. Be aware that the bolts on the motors that spin CCW tighten when turned CW, and the bolts on the motors that spin CW tighten when turned CCW. 
+Attach the propellers to the drone so that it may fly; attach CW propellers to the CW motors, and CCW propellers to the CCW motors. The motors have small arrows on them in the center to indicate which type they are. Be aware that the bolts on the motors that spin CCW tighten when turned CW, and the bolts on the motors that spin CW tighten when turned CCW. 
 
 Use a wrench to tighten the bolts down so that the bottom of the propeller is flat on the top of the motor. Screw bolts down tightly, but not so tight that you could not remove the propellers if you had to.
 
@@ -120,6 +120,22 @@ Use a wrench to tighten the bolts down so that the bottom of the propeller is fl
     <figure>  
         <figcaption>Propeller Flat on Motor</figcaption>
         <img style='width:250px' src="photos/prop_flat_on_motor.jpg"/>
+    </figure>
+</figure>  
+
+## Attach Drone Feet
+
+Attach the drone feet in the drone frame box to the four arms of the drone. This can be done with either electrical tape or zip ties. **DO NOT** use hot glue, as it will not work.
+
+<figure class="flow-subfigures">  
+    <figcaption>Attach Drone Feet</figcaption>
+    <figure>
+        <figcaption>Side View</figcaption>
+        <img style='width:230px' src="photos/drone_feet_side_view.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Top View</figcaption>
+        <img style='width:230px' src="photos/drone_feet_top_view.jpg"/>
     </figure>
 </figure>  
 
