@@ -21,16 +21,16 @@ The Pi Cam is a sensor which observes 2D images of the world. It will be attache
     - 15pin FFC (likely in Pi Cam box, already attached)
     - Double sided mounting tape
 
-2. If not already done, attach the FFC to the Pi Cam. The shorter side should go into the camera.
+2. If not already done, attach the FFC to the Pi Cam. The shorter side should go into the camera port.
 
     <figure class="flow-subfigures">  
         <figcaption>FFC Attachment</figcaption>
         <figure>
-            <figcaption>Good FFC Attachment (shorter side in camera)</figcaption>
+            <figcaption>Good FFC Attachment (shorter side in camera port)</figcaption>
             <img style='width:200px' src="photos/ffc_attachment_good_inked.jpg"/>
         </figure>
         <figure>  
-            <figcaption>Bad FFC Attachment (longer side in camera)</figcaption>
+            <figcaption>Bad FFC Attachment (longer side in camera port)</figcaption>
             <img style='width:200px' src="photos/ffc_attachment_bad_inked.jpg"/>
         </figure>
     </figure>  
