@@ -74,7 +74,7 @@ With the Pi Hat all soldered together, place it on top of the Pi being sure the 
 
 ### Camera
 
-Also be sure to connect the camera before fully pressing down the Pi Hat. Note the camera port on the Pi is closer to the HDMI port.
+Also be sure to connect the camera before fully pressing down the Pi Hat. Note the camera port on the Pi is closer to the HDMI port. Also, the port is fairly shallow, so the FFC cable does not go in very deeply.
 
 ### BEC
 
