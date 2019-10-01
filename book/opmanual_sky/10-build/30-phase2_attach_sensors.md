@@ -26,12 +26,12 @@ The Pi Cam is a sensor which observes 2D images of the world. It will be attache
     <figure class="flow-subfigures">  
         <figcaption>FFC Attachment</figcaption>
         <figure>
-            <figcaption>Good FFC Attachment</figcaption>
-            <img style='width:200px' src="photos/ffc_attachment_good.jpg"/>
+            <figcaption>Good FFC Attachment (shorter side in camera)</figcaption>
+            <img style='width:200px' src="photos/ffc_attachment_good_inked.jpg"/>
         </figure>
         <figure>  
-            <figcaption>Bad FFC Attachment</figcaption>
-            <img style='width:200px' src="photos/ffc_attachment_bad.jpg"/>
+            <figcaption>Bad FFC Attachment (longer side in camera)</figcaption>
+            <img style='width:200px' src="photos/ffc_attachment_bad_inked.jpg"/>
         </figure>
     </figure>  
 
