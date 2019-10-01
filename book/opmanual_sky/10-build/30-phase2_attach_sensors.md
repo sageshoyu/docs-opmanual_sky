@@ -89,8 +89,36 @@ This is useful because: 1) it means every wire put on a rail will see the same m
     - IR sensor cable (likely in IR bag)
     - Red and black wires on OUT side of BEC (by this phase, BEC should be attached to PDB)
     - 4 pieces of thin wire (recommend 22-24 AWG, 3 in. length, colors: red, black, green, and blue)
-    
-2. Cut/break the ADC header pin set to the same number as holes on the ADC. Solder the **short** end of the header pins into the ADC.     
+
+2. Cut the black part off the IR sensor cable, then strip each wire.
+
+    <figure>  
+        <figcaption>IR sensor cable pre-cut</figcaption>
+        <figure>
+            <figcaption>Top View</figcaption>
+            <img style='width:250px' src="photos/ir_cable_precut.jpg"/>
+        </figure>
+        <figure>  
+            <figcaption>IR sensor cable post-cut (not yet stripped)</figcaption>
+            <img style='width:250px' src="photos/ir_cable_postcut.jpg"/>
+        </figure>
+    </figure>  
+
+3. Cut the black part off the BEC OUT wires, then strip each wire.
+
+    <figure>  
+        <figcaption>ADC Pins Soldered</figcaption>
+        <figure>
+            <figcaption>BEC wires pre-cut</figcaption>
+            <img style='width:250px' src="photos/bec_precut.jpg"/>
+        </figure>
+        <figure>  
+            <figcaption>BEC wires post-cut (not yet stripped)</figcaption>
+            <img style='width:250px' src="photos/bec_postcut.jpg"/>
+        </figure>
+    </figure>  
+
+4. Cut/break the ADC header pin set to the same number as holes on the ADC. **Solder the short end of the header pins into the ADC - NOT THE LONG END.**     
 
     NOTE:     
 
@@ -108,7 +136,7 @@ This is useful because: 1) it means every wire put on a rail will see the same m
         </figure>
     </figure>  
     
-3. Solder the ADC and all wires to the Pi Hat according to the diagram (strip wires as needed):        
+5. Solder the ADC and all wires to the Pi Hat according to the diagram (strip wires as needed):        
 
     NOTE:     
 
@@ -120,13 +148,25 @@ This is useful because: 1) it means every wire put on a rail will see the same m
     </figure>
     
     For reference, the completed circuit will look like the following:
-
-    <figure>
-        <figcaption>ADC Completed Circuit</figcaption>
-        <img style='width:300px' src="photos/adc_completed_circuit.jpg"/>
-    </figure>
     
-4. Solder the Pi Hat header board set to the Pi Hat:
+    <figure class="flow-subfigures">  
+        <figcaption>Soldered Header Board</figcaption>
+        <figure>
+            <figcaption>Top View</figcaption>
+            <img style='width:220px' src="photos/pihat_complete_topview.jpg"/>
+        </figure>
+        <figure>  
+            <figcaption>Bottom View</figcaption>
+            <img style='width:216px' src="photos/pihat_complete_bottomview.jpg"/>
+        </figure>
+    </figure> 
+    
+    
+6. Solder the Pi Hat header board set to the Pi Hat.
+
+    NOTE:    
+    
+    - Attach the header board set to the bottom of the Pi Hat, not the top; the black part should be on the bottom side of the Pi Hat.
 
     <figure class="flow-subfigures">  
         <figcaption>Soldered Header Board</figcaption>
@@ -140,7 +180,7 @@ This is useful because: 1) it means every wire put on a rail will see the same m
         </figure>
     </figure> 
     
-5. Use zip-ties to attach the IR sensor to the bottom of the front of the drone frame:
+7. Use zip-ties to attach the IR sensor to the bottom of the front of the drone frame:
 
     <figure class="flow-subfigures">  
         <figcaption>Attached IR Sensor</figcaption>
@@ -154,7 +194,7 @@ This is useful because: 1) it means every wire put on a rail will see the same m
         </figure>
     </figure>
 
-6. Attach the IR sensor cable (wires now soldered to Pi Hat) to the IR sensor.
+8. Attach the IR sensor cable (wires now soldered to Pi Hat) to the IR sensor.
     
 
 ## Attach Flight Controller
