@@ -134,8 +134,8 @@ Attach the drone feet in the drone frame box to the four arms of the drone. This
         <img style='width:230px' src="photos/drone_feet_side_view.jpg"/>
     </figure>
     <figure>  
-        <figcaption>Top View</figcaption>
-        <img style='width:230px' src="photos/drone_feet_top_view.jpg"/>
+        <figcaption>Bottom View</figcaption>
+        <img style='width:230px' src="photos/drone_feet_bottom_view.jpg"/>
     </figure>
 </figure>  
 
