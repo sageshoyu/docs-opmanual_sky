@@ -1,6 +1,6 @@
 # Phase 4: Asssembly {#build-phase4 status=ready}
 
-**Expected Time**: 30 minutes
+**Expected Time**: 1 hour
 
 ## Preface
 
@@ -9,7 +9,7 @@ you may use it to fly.
 
 ## Glue USB Connector to Flight Controller
 
-Carefully plug the 6" USB cable into the USB port of the skyline. These 
+Carefully plug the 6" micro USB to USB cable into the USB port of the flight controller. These 
 little surface-mount USB micro ports are very prone to failure, so to minimize 
 the likelyhood of ripping off the port or breaking a connection cover the USB connector 
 thoroughly with hot glue.    
@@ -56,7 +56,7 @@ You must put heat sinks on parts of the Raspberry Pi so that they do not overhea
 
 ## Attach Raspberry Pi
 
-Use the sliver screws included with the frame kit to secure the Pi to the mount. You should use 3 screws as shown in picture. The USB ports should be toward the front of the drone.
+Use the sliver screws included in the drone frame kit to secure the Pi to the mount. You should use 3 screws as shown in picture. The Pi USB ports should face toward the front of the drone.
 
 <figure>
     <figcaption>Securing the Pi</figcaption>
@@ -65,7 +65,7 @@ Use the sliver screws included with the frame kit to secure the Pi to the mount.
 
 ## Pi Hat
 
-With the Pi hat all soldered together place it on top of the Pi being sure the pins go into the Header holes.
+With the Pi Hat all soldered together, place it on top of the Pi being sure the pins go into the header holes.
 
 <figure>
     <figcaption>Attaching Pi Hat</figcaption>
@@ -74,7 +74,7 @@ With the Pi hat all soldered together place it on top of the Pi being sure the p
 
 ### Camera
 
-Also be sure to connect the camera before fully pressing down the Pi hat. Note the camera port on the pi is closer to the HDMI port.
+Also be sure to connect the camera before fully pressing down the Pi Hat. Note the camera port on the Pi is closer to the HDMI port. Also, the port is fairly shallow, so the FFC cable does not go in very deeply.
 
 ### BEC
 
@@ -87,7 +87,7 @@ Attach the BEC to the top of the USB ports using some double sided tape.
 
 ## Ziptie ESCs and PWM Connectors to Frame Arms
 
-Use the mini zipties to secure the ESCs, motor wires, and ESC wires to the bottom of the arms of the frame. To do this, thread the zip ties through the holes in the frame. Also, use zip ties to secure the PWM connectors to the top or sides of the frame.
+Use the small zipties to secure the ESCs and motor wires to the bottom of each frame arm. To do this, thread the zip ties through the holes in each frame arm. If they do not fit, instead wrap the zip ties around the frame arm. Also, use zip ties to secure the PWM connectors to the sides of each frame arm.
 
 <figure class="flow-subfigures">  
     <figcaption>Use Zip-ties to Secure Everything</figcaption>
@@ -101,25 +101,41 @@ Use the mini zipties to secure the ESCs, motor wires, and ESC wires to the botto
     </figure>
 </figure>  
 
-## Propellors
+## Propellers
 
-Finally! Attach the wings to the drone so that it may fly. Attach the clockwise propellors to the clockwise motors, and the counterclockwise propellors to the counterclockwise motors. The motors have small arrows on them in the center to indicate which type they are. Be aware that the bolts on the motors that spin counterclockwise tighten when turned clockwise, and the bolts on the motors that spin clockwise tighten when turned counterclockwise. 
+Attach the propellers to the drone so that it may fly; attach CW propellers to the CW motors, and CCW propellers to the CCW motors. The motors have small arrows on them in the center to indicate which type they are. Be aware that the bolts on the motors that spin CCW tighten when turned CW, and the bolts on the motors that spin CW tighten when turned CCW. 
 
-Use a wrench to tighten the bolts down so that the bottom of the propellor is flat on the top of the motor. Screw bolts down tightly, but not so tight that you could not remove the propellors if you had to.
+Use a wrench to tighten the bolts down so that the bottom of the propeller is flat on the top of the motor. Screw bolts down tightly, but not so tight that you could not remove the propellers if you had to.
 
 <figure class="flow-subfigures">  
-    <figcaption>Put on Propellors</figcaption>
+    <figcaption>Put on Propellers</figcaption>
     <figure>
-        <figcaption>Notice Arrows Indicating the Type of Propellor</figcaption>
+        <figcaption>Notice Arrows Indicating the Type of Propeller</figcaption>
         <img style='width:230px' src="photos/prop.jpg"/>
     </figure>
     <figure>  
-        <figcaption>Attaching Propellors</figcaption>
+        <figcaption>Attaching Propellers</figcaption>
         <img style='width:230px' src="photos/securing_prop.jpg"/>
     </figure>
     <figure>  
-        <figcaption>Propellor Flat on Motor</figcaption>
+        <figcaption>Propeller Flat on Motor</figcaption>
         <img style='width:250px' src="photos/prop_flat_on_motor.jpg"/>
+    </figure>
+</figure>  
+
+## Attach Drone Feet
+
+Attach the drone feet in the drone frame box to the four arms of the drone. This can be done with either electrical tape or zip ties. **DO NOT** use hot glue, as it will not work.
+
+<figure class="flow-subfigures">  
+    <figcaption>Attach Drone Feet</figcaption>
+    <figure>
+        <figcaption>Side View</figcaption>
+        <img style='width:230px' src="photos/drone_feet_side_view.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Bottom View</figcaption>
+        <img style='width:230px' src="photos/drone_feet_bottom_view.jpg"/>
     </figure>
 </figure>  
 
@@ -127,12 +143,12 @@ Use a wrench to tighten the bolts down so that the bottom of the propellor is fl
 
 - Make sure ESC-motor wires are ziptied down properly. If not, you risk having a short.
 
-- The propellors **must** be flat on the base of the motor.
+- The propellers **must** be flat on the base of the motor.
 
 
 ## Checkoff
 
-- Spin the propellors manually with your finger. Ensure no wires are hit by the propellors
+- Spin the propellers manually with your finger. Ensure no wires are hit by the propellers.
 
 - Make sure no wires or parts are dangling from the drone frame.
 
