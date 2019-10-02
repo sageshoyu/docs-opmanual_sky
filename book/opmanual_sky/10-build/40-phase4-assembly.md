@@ -34,7 +34,7 @@ NOTE:
 
 <figure>
     <figcaption>Securing the PiMount</figcaption>
-    <img style='width:350px' src="photos/securing_pihat.jpg"/>
+    <img style='width:350px' src="photos/securing_pihat_inked.jpg"/>
 </figure>
 
 ## Put Heat Sinks on Raspberry Pi
