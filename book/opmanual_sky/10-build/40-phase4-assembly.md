@@ -34,7 +34,7 @@ NOTE:
 
 <figure>
     <figcaption>Securing the PiMount</figcaption>
-    <img style='width:350px' src="photos/securing_pihat_inked.jpg"/>
+    <img style='width:350px' src="photos/securing_pimount_inked.jpg"/>
 </figure>
 
 ## Put Heat Sinks on Raspberry Pi
@@ -60,7 +60,7 @@ Use the sliver screws included in the drone frame kit to secure the Pi to the mo
 
 <figure>
     <figcaption>Securing the Pi</figcaption>
-    <img style='width:350px' src="photos/securing_pi.jpg"/>
+    <img style='width:350px' src="photos/securing_pi_inked.jpg"/>
 </figure>
 
 ## Pi Hat
