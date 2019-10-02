@@ -63,6 +63,20 @@ Use the sliver screws included in the drone frame kit to secure the Pi to the mo
     <img style='width:350px' src="photos/securing_pi_inked.jpg"/>
 </figure>
 
+Screw in a pair of standoffs into bottom right hole of the Pi. It may help to first screw in a black screw into the standoffs, then use an allen wrench to screw the standoffs into the hole. Note that the hole may initially seem too small for the standoffs, but it will definitely screw in.
+
+<figure class="flow-subfigures">  
+    <figcaption>Inserting standoffs into Pi</figcaption>
+    <figure>
+        <figcaption>Pi Standoffs Top View</figcaption>
+        <img style='width:230px' src="photos/pihat_standoffs_topview_inked.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Pi Standoffs Side View</figcaption>
+        <img style='width:230px' src="photos/pihat_standoffs_sideview_inked.jpg"/>
+    </figure>
+</figure>  
+
 ## Connect Pi Cam
 
 Feed the FFC cable from the Pi Cam through the hole in Pi Hat, then connect it to the Pi's camera port, i.e. the black port close to the HDMI port. Note that the port is fairly shallow, so the FFC cable does not go in very deeply.
