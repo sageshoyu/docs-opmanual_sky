@@ -79,23 +79,38 @@ Feed the FFC cable from the Pi Cam through the hole in Pi Hat, then connect it t
     </figure>
 </figure>  
 
-## Pi Hat
+## Connect Pi Hat
 
 With the Pi Hat all soldered together, place it on top of the Pi being sure the pins go into the header holes.
 
-<figure>
-    <figcaption>Attaching Pi Hat</figcaption>
-    <img style='width:350px' src="photos/bec_attached_1.png"/>
-</figure>
+<figure class="flow-subfigures">  
+    <figcaption>Connecting Pi Hat</figcaption>
+    <figure>
+        <figcaption>Lining up Pi Hat</figcaption>
+        <img style='width:230px' src="photos/pihat_lined_up.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Fully connected Pi Hat</figcaption>
+        <img style='width:230px' src="photos/pihat_fully_connected.jpg"/>
+    </figure>
+</figure>  
 
-### BEC
+### Attach BEC to Drone
 
-Attach the BEC to the top of the USB ports using some double sided tape.
+Attach the BEC to the top of the USB ports using some double sided tape. Alternatively, if it does not reach, then 1) place electrical tape on the Pi Hat, 2) place double sided mounting tape on the electrical tape, and 3) place the BEC upside down on double sided mounting tape.
 
-<figure>
-    <figcaption>Attaching Pi Hat</figcaption>
-    <img style='width:350px' src="photos/bec_attached_2.png"/>
-</figure>
+<figure class="flow-subfigures">  
+    <figcaption>Attaching BEC</figcaption>
+    <figure>
+        <figcaption>BEC on Pi USB ports</figcaption>
+        <img style='width:230px' src="photos/bec_attached_2.png"/>
+    </figure>
+    <figure>  
+        <figcaption>BEC on Pi Hat</figcaption>
+        <img style='width:230px' src="photos/bec_attached_pihat.jpg"/>
+    </figure>
+</figure>  
+
 
 ## Ziptie ESCs and PWM Connectors to Frame Arms
 
