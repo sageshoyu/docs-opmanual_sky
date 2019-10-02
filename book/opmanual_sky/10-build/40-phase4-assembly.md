@@ -102,12 +102,12 @@ Attach the BEC to the top of the USB ports using some double sided tape. Alterna
 <figure class="flow-subfigures">  
     <figcaption>Attaching BEC</figcaption>
     <figure>
-        <figcaption>BEC on Pi USB ports</figcaption>
-        <img style='width:230px' src="photos/bec_attached_2.png"/>
+        <figcaption>BEC on Pi USB ports (primary method)</figcaption>
+        <img style='width:230px' src="photos/bec_attached_pi_usbports_inked.jpg"/>
     </figure>
     <figure>  
-        <figcaption>BEC on Pi Hat</figcaption>
-        <img style='width:230px' src="photos/bec_attached_pihat.jpg"/>
+        <figcaption>BEC on Pi Hat (alternate method)</figcaption>
+        <img style='width:230px' src="photos/bec_attached_pihat_inked.jpg"/>
     </figure>
 </figure>  
 
