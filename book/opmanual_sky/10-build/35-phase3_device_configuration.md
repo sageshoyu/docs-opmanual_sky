@@ -219,7 +219,7 @@ iv. If the motor does not spin, verify the connections, make sure there are no s
     <img src="photos/motor_directions.png" width="500"/>
 </figure>  
 
-v. If a motor spins in the wrong direction, make a note of which motor it is. Power your drone off by disconnecting the battery or power supply. unplug the USB connector from the computer. To reverse the direction of a motor (to make it spin in the right direction), swap the connection of two bullet connectors for that motor.
+v. If a motor spins in the wrong direction, make a note of which motor it is. Power your drone off by disconnecting the battery or power supply. unplug the USB connector from the computer. To reverse the direction of a motor (to make it spin in the right direction), swap the connection of any two bullet connectors for that motor.
 
 Connect the drone to power again and plug it into the computer. Reconnect to Cleanflight and ensure that your drone's motors are spinning in the correct direction.
 
@@ -227,32 +227,26 @@ Connect the drone to power again and plug it into the computer. Reconnect to Cle
 
 This configuration tells the ESC at what PWM to start spinning up the motor. If you do not do it, the ESCs will not all work together to allow the drone to fly stably. Symptoms that this needs to be done include hot motors, a drone that lists to one side, or motors that appear to spin at different speeds.
 
-There appears to be a software bug in Cleanflight that causes this calibration process to switch the motor directions, so make sure you follow all steps and make sure the motors are spinning in the right direction when you finish.
-
 1. **REMOVE ALL PROPELLERS.**    
 
-2. Connect the flight controller to computer, then open up CleanFlight.
+2. Connect the FC to computer, then open up CleanFlight.
 
 3. Go to Motors tab.
 
 4. Unplug the battery from the drone.
 
-5. Toggle on "Motor Test Mode Notice". **MAKE SURE ALL PROPELLERS REMOVED!**    
+5. Toggle on "Motor Test Mode Notice". **MAKE SURE ALL PROPELLERS REMOVED!**.    
 
-6. Drag master slider up to full. All 4 motor sliders should move up to full accordingly (i.e. 2000).
+6. Drag master slider up to full. All 4 motor sliders should move up to full accordingly (e.g. 2000).
 
-7. Plug the battery into the drone
+7. Plug the battery into the drone.
 
 8. ESCs will make an interesting set of sounds, kind of like music. If they do not, stop and try the previous steps again.
-After the music stops, click on the bottom end of the master slider bar. The master slider should now be at the bottom of the bar. Correspondingly, all 4 motor sliders should be at the bottoms of their bars (i.e. 1000). 1.. The motors will make another set of sounds.
+After the music stops, drag the master slider to the bottom of the bar. Correspondingly, all 4 motor sliders should be at the bottoms of their bars (e.g. 1000). The motors will make another set of sounds.
 
-9. After the sounds stop, spin up each motor one at a time. Make sure they are spinning in the right direction (i.e. according to the diagram).
-
-10. Go to the Configuration tab. If the drone diagram is yellow and says "reversed", then toggle the "direction" slider below it to undo the reverse. The diagram should now be green, with each motor in the diagram having the expected spin direction. Click "save and reboot".
-
-11. Unplug from CleanFlight, reconnect everything to the drone, and power it on. **MAKE SURE THE PROPELLERS ARE REMOVED.** Arm the drone and make sure each motor is spinning in the desired direction (i.e. according to the green diagram).
+9. After the sounds stop, spin up each motor one at a time. Make sure they are spinning in the correct direction (i.e. according to the motor directions diagram in this doc).
 
 ## Checkoff
 
-1. Make sure your motors spin the correct direction.
-2. When you connect the drone to power, the ESCs make a "boop boop boop" sound, followed by a "beep BEEEEEP" sound.
+1. Make sure the motors spin in the correct direction.
+2. When you connect the drone to power, the ESCs should make a "boop boop boop" sound, followed by a "beep BEEEEEP" sound.
