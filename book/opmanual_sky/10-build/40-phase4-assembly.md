@@ -63,6 +63,22 @@ Use the sliver screws included in the drone frame kit to secure the Pi to the mo
     <img style='width:350px' src="photos/securing_pi_inked.jpg"/>
 </figure>
 
+## Connect Pi Cam
+
+Feed the FFC cable from the Pi Cam through the hole in Pi Hat, then connect it to the Pi's camera port, i.e. the black port close to the HDMI port. Note that the port is fairly shallow, so the FFC cable does not go in very deeply.
+
+<figure class="flow-subfigures">  
+    <figcaption>Connecting Pi Cam</figcaption>
+    <figure>
+        <figcaption>FFC cable through Pi Hat</figcaption>
+        <img style='width:230px' src="photos/pihat_camera_topview.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>FFC cable in Pi camera port</figcaption>
+        <img style='width:230px' src="photos/pihat_camera_portview_inked.jpg"/>
+    </figure>
+</figure>  
+
 ## Pi Hat
 
 With the Pi Hat all soldered together, place it on top of the Pi being sure the pins go into the header holes.
@@ -71,10 +87,6 @@ With the Pi Hat all soldered together, place it on top of the Pi being sure the 
     <figcaption>Attaching Pi Hat</figcaption>
     <img style='width:350px' src="photos/bec_attached_1.png"/>
 </figure>
-
-### Camera
-
-Also be sure to connect the camera before fully pressing down the Pi Hat. Note the camera port on the Pi is closer to the HDMI port. Also, the port is fairly shallow, so the FFC cable does not go in very deeply.
 
 ### BEC
 
