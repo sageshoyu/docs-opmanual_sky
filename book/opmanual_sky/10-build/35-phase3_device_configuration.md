@@ -28,6 +28,8 @@ In order for the drone to operate autonomously, it must have an intelligent syst
 
 5. Open Etcher and select the downloaded drone image. Then select the micro SD card as the drive to flash. Finally, click the "Flash" button.
 
+NOTE: flashing will take 30 min - 1 hour. In the meantime, you can move on to the next steps.
+
 ## Flashing the Flight Controller
 
 Before the FC can be configured, it must first be flashed with firmware. **Firmware** is a special type of software that allows hardware to be controlled programmatically. Once the FC is flashed, a program called **Cleanflight** can be used to configure it.
@@ -185,20 +187,25 @@ Now that the FC has been flashed with firmware, it can be configured with Cleanf
 
 ## Connecting the ESCs to the Flight Controller
 
-The numbers corresponding to each motor are as shown. Recall that the camera is in the back of the frame and the flight controller is in the front.
+Now that the FC has been configured, it can be connected to the ESCs via the PWM wires (i.e. the yellow wire set plugged into the FC). The numbers on each PWM wire indicates which motor it should be connected to. For example, the wire labeled "PWM1" should be connected to motor 1. For reference, the motor numbers with respect to the drone are: 
 
 <figure>
     <figcaption>Motor Numbers</figcaption>
     <img src="photos/motornumbers.png" width="200"/>
 </figure>  
 
-The yellow cable coming out of the skyline has 6 numbered connectors. Plug each motor into the corresponding connector (1-4) according to the above numbering scheme. The connectors shouldn't be too easy to plug in backwards, but make sure the white wire from the ESC is in line with the yellow wire in the connector from the skyline. The other 2 wires PWM 5/6 can be cut off. 
+Where the red arrow indicates the front direction of the drone. Recall that for your drone, the FC is on the front and the camera is on the back.
+
+**Note that there is a correct way to connect a PWM wire to an ESC**. Make sure the white wire of the ESC signal wire pair is in line with the yellow wire of the PWM wire. Equivalently, make sure the metallic part of the ESC signal wire pair is facing the same side as the word "PWM" on the PWM wire.
 
 <figure>
-    <figcaption>Connecting PWMs</figcaption>
-    <img src="photos/connecting_pwm_2.jpg" width="350"/>
+    <figcaption>Connecting PWMs. White wire in line with the yellow wire (in blue). Metallic part on same side as "PWM" (in red) </figcaption>
+    <img src="photos/connecting_pwm_inked.jpg" width="350"/>
 </figure>  
 
+TODO:     
+
+- Plug each PWM wire into its corresponding ESC signal wire pair. Note that the PWM wires labeled "PWM5" and "PWM6" can be snipped, since the drone only has 4 ESCs.
 
 ## Test the motors
 
