@@ -1,4 +1,4 @@
-# Phase 4: Asssembly {#build-phase4 status=ready}
+# Phase 4: Finalize Assembly {#build-phase4 status=ready}
 
 **Expected Time**: 1 hour
 
@@ -26,7 +26,7 @@ NOTE:
 
 ## Attach PiMount
 
-Place the PiMount on top of the PDB and use the black screws to secure the mount to the standoffs.     
+Place the PiMount on top of the PDB and use the black screws (from the motors box) to secure the mount to the standoffs.     
 
 NOTE: 
 
@@ -177,6 +177,22 @@ Attach the drone feet in the drone frame box to the four arms of the drone. This
     <figure>  
         <figcaption>Bottom View</figcaption>
         <img style='width:230px' src="photos/drone_feet_bottom_view.jpg"/>
+    </figure>
+</figure>  
+
+## Insert the SD card into the Pi
+
+Insert your (now flashed) SD card into the SD card slot on the bottom of the Pi. **Note that the direction does matter** - the lettering on the SD card should be facing downward.
+
+<figure class="flow-subfigures">  
+    <figcaption>SD card in Pi</figcaption>
+    <figure>
+        <figcaption>Top View</figcaption>
+        <img style='width:230px' src="photos/sd_card_in_pi_top_view.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Bottom View</figcaption>
+        <img style='width:230px' src="photos/sd_card_in_pi_bottom_view.jpg"/>
     </figure>
 </figure>  
 
