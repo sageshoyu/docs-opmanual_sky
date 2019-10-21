@@ -259,11 +259,7 @@ However, note that your drone has not 1, but 4 ESCs - which may not all have the
 
 The solution to this problem is to *calibrate* the ESCs with the FC. In this context, **calibration** means getting all the ESCs to have the same PWM-to-RPM understanding from the FC. In this section, you will calibrate your ESCs.
 
-Note that symptoms of no calibration include:    
-
-- Scorching hot motors.
-- A drone that lists to one side during flight.
-- Motors that appear to spin at different speeds.
+Note that symptoms of no calibration include: scorching hot motors, a drone that lists to one side during flight, motors that appear to spin at different speeds.
 
 1. **Make sure no propellers are attached to your drone's motors**!   
 
