@@ -28,6 +28,8 @@ In order for the drone to operate autonomously, it must have an intelligent syst
 
 5. Open Etcher and select the downloaded drone image. Then select the micro SD card as the drive to flash. Finally, click the "Flash" button.
 
+NOTE: flashing will take 1 - 2 hours. In the meantime, you can move on to the next sections.
+
 ## Flashing the Flight Controller
 
 Before the FC can be configured, it must first be flashed with firmware. **Firmware** is a special type of software that allows hardware to be controlled programmatically. Once the FC is flashed, a program called **Cleanflight** can be used to configure it.
@@ -185,68 +187,102 @@ Now that the FC has been flashed with firmware, it can be configured with Cleanf
 
 ## Connecting the ESCs to the Flight Controller
 
-The numbers corresponding to each motor are as shown. Recall that the camera is in the back of the frame and the flight controller is in the front.
+Now that the FC has been configured, it can be connected to the ESCs via the PWM wires (i.e. the yellow wire set plugged into the FC). The numbers on each PWM wire indicate which motor each should be connected to. For example, the wire labeled "PWM1" should be connected to motor 1. For reference, the motor numbers with respect to the drone are: 
 
 <figure>
-    <figcaption>Motor Numbers</figcaption>
-    <img src="photos/motornumbers.png" width="200"/>
+    <figcaption>Motors Diagram</figcaption>
+    <img src="photos/correct_motors_diagram.jpg" width="200"/>
 </figure>  
 
-The yellow cable coming out of the skyline has 6 numbered connectors. Plug each motor into the corresponding connector (1-4) according to the above numbering scheme. The connectors shouldn't be too easy to plug in backwards, but make sure the white wire from the ESC is in line with the yellow wire in the connector from the skyline. The other 2 wires PWM 5/6 can be cut off. 
+Where the red arrow indicates the front direction of the drone. Recall that for your drone, the FC is on the front and the camera is on the back.
+
+**Note that there is a correct way to connect a PWM wire to an ESC**. Make sure the white wire of the ESC signal wire pair is in line with the yellow wire of the PWM wire. Equivalently, make sure the metallic part of the ESC signal wire pair is facing the same side as the word "PWM" on the PWM wire.
 
 <figure>
-    <figcaption>Connecting PWMs</figcaption>
-    <img src="photos/connecting_pwm_2.jpg" width="350"/>
+    <figcaption>Connecting PWMs. White wire in line with the yellow wire (in blue). Metallic part on same side as "PWM" (in red) </figcaption>
+    <img src="photos/connecting_pwm_inked.jpg" width="350"/>
 </figure>  
 
+TODO:     
 
-## Test the motors
+- Plug each PWM wire into its corresponding ESC signal wire pair. Note that the PWM wires labeled "PWM5" and "PWM6" can be snipped, since the drone only has 4 ESCs.
 
-This is the first time you will be firing up your drone! At this point, make sure there is nothing that could be potentially causing a short on your PDB. Take a battery and plug it into the XT60 connector. If you did everything right, lights should come on and the motors beep. If this doesn’t happen, unplug the battery immediately! It is likely the case that something is backwards or shorting, and you could be causing damage by applying a voltage.
+## Test the Motors
 
-Now plug in the Skyline to your computer via USB and connect to the Cleanflight configurator.
+With the ESCs connected to the FC, your drone's motors can be tested. In this section, you will verify that the motors are spinning correctly.
 
-i. Go to the Motors tab in Cleanflight. Make sure the props are off! 
+1. **Make sure no propellers are attached to your drone's motors**!
 
-ii. Read the safety notice and check the box that says “I understand the risks, propellers are removed - Enable motor control.” 
+2. Open up Cleanflight on a computer. Plug your drone's FC into a computer (via the USB to micro USB cable) and connect to Cleanflight. Plug in a power supply to your drone.
 
-iii. Slowly power up each motor. Verify first that the correct motor spins and second that it spins in the correct direction using the diagram below. 
+2. Go to the Motors tab in Cleanflight. Read the safety notice and check the box that says **“I understand the risks, propellers are removed - Enable motor control”**.
 
-iv. If the motor does not spin, verify the connections, make sure there are no shorts and that it has power. 
+4. Slowly spin up each motor. Use the motors diagram to verify that: 1) the correct motor spins and 2) it spins in the correct direction. Keep note of which motors do not spin in the correct direction - you will fix them in the next step.
 
-<figure>
-    <figcaption>Motor Directions</figcaption>
-    <img src="photos/motor_directions.png" width="500"/>
-</figure>  
+    NOTE: **DO NOT** follow the incorrect motors diagram. If Cleanflight shows the incorrect motors diagram, then ignore it - the diagram is a UI bug and does not affect the spin directions of the motors.
 
-v. If a motor spins in the wrong direction, make a note of which motor it is. Power your drone off by disconnecting the battery or power supply. unplug the USB connector from the computer. To reverse the direction of a motor (to make it spin in the right direction), swap the connection of any two bullet connectors for that motor.
+    <figure class="flow-subfigures">  
+        <figcaption>Motors Diagram</figcaption>
+        <figure>
+            <figcaption>Correct Motors Diagram</figcaption>
+            <img style='width:200px' src="photos/correct_motors_diagram.jpg"/>
+        </figure>
+        <figure>  
+            <figcaption>Incorrect Motors Diagram. **DO NOT FOLLOW**.</figcaption>
+            <img style='width:200px' src="photos/incorrect_motors_diagram.jpg"/>
+        </figure>
+    </figure> 
 
-Connect the drone to power again and plug it into the computer. Reconnect to Cleanflight and ensure that your drone's motors are spinning in the correct direction.
+5. Power your drone off by disconnecting the power supply. For each motor that is spinning in the incorrect direction: disconnect any 2 of the 3 ESC pad wires from the motor, e.g. disconnect the red and yellow ESC pad wires from their corresponding motor wires. Then swap the connections, e.g. plug the female bullet connector of the red ESC pad wire into the male bullet connector of the motor wire previously connected to the yellow ESC pad wire and vice-versa.
 
-## Calibrate your ESCs
+    <figure class="flow-subfigures">  
+        <figcaption>Changing Motor Direction</figcaption>
+        <figure>
+            <figcaption>Disconnecting red and yellow ESC pad wires</figcaption>
+            <img style='width:200px' src="photos/changing_motor_direction_1.jpg"/>
+        </figure>
+        <figure>  
+            <figcaption>Reconnecting swapped red and yellow ESC pad wires</figcaption>
+            <img style='width:200px' src="photos/changing_motor_direction_2.jpg"/>
+        </figure>
+    </figure>
 
-This configuration tells the ESC at what PWM to start spinning up the motor. If you do not do it, the ESCs will not all work together to allow the drone to fly stably. Symptoms that this needs to be done include hot motors, a drone that lists to one side, or motors that appear to spin at different speeds.
+6. Re-connect a power supply to your drone. Repeat step 4 to verify all motors are spinning correctly.
 
-1. **REMOVE ALL PROPELLERS.**    
+## Calibrate the ESCs
 
-2. Connect the FC to computer, then open up CleanFlight.
+By this point, your drone's FC should be able to spin up each of the 4 motors. This is possible because the FC is sending *PWM signals* to each of the 4 ESCs, which in turn send electrical signals to each of the 4 motors. 
 
-3. Go to Motors tab.
+A **PWM signal** is a higher-level signal than an eletrical signal; it communicates at how much RPM an ESC should spin a motor. For example, the PWM signal "1000" might correspond to 2300 RPM. 
 
-4. Unplug the battery from the drone.
+However, note that your drone has not 1, but 4 ESCs - which may not all have the same PWM-to-RPM understanding. For example, ESC 1 might think the PWM signal "1100" from the FC means 2300 RPM while ESC 2 might think the PWM signal "1000" means 2300 RPM.
 
-5. Toggle on "Motor Test Mode Notice". **MAKE SURE ALL PROPELLERS REMOVED!**.    
+The solution to this problem is to *calibrate* the ESCs with the FC. In this context, **calibration** means getting all the ESCs to have the same PWM-to-RPM understanding from the FC. In this section, you will calibrate your ESCs.
 
-6. Drag master slider up to full. All 4 motor sliders should move up to full accordingly (e.g. 2000).
+Note that symptoms of no calibration include:    
 
-7. Plug the battery into the drone.
+- Scorching hot motors.
+- A drone that lists to one side during flight.
+- Motors that appear to spin at different speeds.
 
-8. ESCs will make an interesting set of sounds, kind of like music. If they do not, stop and try the previous steps again.
-After the music stops, drag the master slider to the bottom of the bar. Correspondingly, all 4 motor sliders should be at the bottoms of their bars (e.g. 1000). The motors will make another set of sounds.
+1. **Make sure no propellers are attached to your drone's motors**!   
 
-9. After the sounds stop, spin up each motor one at a time. Make sure they are spinning in the correct direction (i.e. according to the motor directions diagram in this doc).
+2. Unplug any power source from your drone.
+
+3. Connect the FC to a computer, then open up CleanFlight.
+
+4. Go to the Motors tab. Read the safety notice and check the box that says **“I understand the risks, propellers are removed - Enable motor control”**.
+
+6. Drag the master slider up to full. All 4 motor sliders should automatically move up to full accordingly (e.g. 2000).
+
+7. Plug a power source into your drone.
+
+8. The ESCs will make an interesting set of sounds, kind of like music. If they do not, stop and try the previous steps again.
+After the music stops, drag the master slider to the bottom of the bar. Correspondingly, all 4 motor sliders should automatically be at the bottoms of their bars (e.g. 1000). The motors will make another set of sounds.
+
+9. After the sounds stop, spin up each motor and verify it is spinning in the correct direction (i.e. according to the motors diagram in this doc).
 
 ## Checkoff
 
-1. Make sure the motors spin in the correct direction.
+1. Make sure the motors spin in the correct direction, i.e. according to the motors diagram in this doc.
 2. When you connect the drone to power, the ESCs should make a "boop boop boop" sound, followed by a "beep BEEEEEP" sound.
