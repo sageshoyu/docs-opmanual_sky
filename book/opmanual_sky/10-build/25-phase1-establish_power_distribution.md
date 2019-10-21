@@ -174,12 +174,31 @@ For reference, here are the motor directions with respect to the frame:
 
 6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black screws for each attachment.
 
-    <figure>
-        <figcaption>Securing Motor in Drone Frame (upside-down view)</figcaption>
-        <img style='width:350px' src="photos/motor_bottom.png"/>
-    </figure>
+    <figure class="flow-subfigures">  
+        <figcaption>Attaching CW Motors</figcaption>
+        <figure>
+            <figcaption>Top View</figcaption>
+            <img style='height:297px' src="photos/attach_cw_motors_to_frame_inked.jpg"/>
+        </figure>
+        <figure>  
+            <figcaption>Bottom View</figcaption>
+            <img style='height:297px' src="photos/motor_bottom.png"/>
+        </figure>
+    </figure>  
 
 7. Attach CCW motors to the bottom-left and top-right of the drone frame, using 2 black screws for each attachment.
+
+    <figure class="flow-subfigures">  
+        <figcaption>Attaching CCW Motors</figcaption>
+        <figure>
+            <figcaption>Top View</figcaption>
+            <img style='height:297px' src="photos/attach_ccw_motors_to_frame_inked.jpg"/>
+        </figure>
+        <figure>  
+            <figcaption>Bottom View</figcaption>
+            <img style='height:297px' src="photos/motor_bottom.png"/>
+        </figure>
+    </figure>  
 
 8. For each motor, connect its male bullect connectors to the female bullet connectors of the ESC in the motor's corner (e.g. top-left motor connects to top-left ESC). Any connection order will suffice for now, as you will be able to change them in a latter phase.
 
