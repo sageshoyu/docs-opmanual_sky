@@ -201,7 +201,7 @@ In this section, you will prepare your ESCs. Each ESC has 3 pads labeled A, B, a
 
 ## Solder bullet connectors
 
-Before beginning this section, please refer to a bullet connector soldering [tutorial](https://www.youtube.com/watch?v=u--Kvz8hksE).    
+Before beginning this section, please refer to a bullet connector soldering [tutorial](https://youtu.be/3oBy-jV9ajE).    
 
 NOTE: You can use any setup to hold the bullet connector, so long as the setup is not thermally conductive.
 
