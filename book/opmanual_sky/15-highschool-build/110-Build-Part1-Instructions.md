@@ -48,7 +48,7 @@ Recommended: [video instructions part 3](https://drive.google.com/file/d/1bRUzxm
 
 <div class='check' markdown="1">
 
-It's very easy to add too much solder and create solder bridge between adjacent pins. Visually inspect your soldering to make sure that adjacent pins are not connected by globs of solder. If you have a solder bridge, try the technique shown in [this video](https://www.youtube.com/watch?v=gJPLs7J4oCk). If this does not work, you can use desoldering wick or a solder sucker to remove the excess solder.
+It's very easy to add too much solder and create a solder bridge between adjacent pins. Visually inspect your soldering to make sure that adjacent pins are not connected by globs of solder. If you have a solder bridge, try the technique shown in [this video](https://www.youtube.com/watch?v=gJPLs7J4oCk). If this does not work, you can use desoldering wick or a solder sucker to remove the excess solder.
 
 </div>
 
@@ -64,7 +64,7 @@ TODO: link section on how to fix solder mistakes
    <img style='width:216px' src="photos/no_image.png"/>
 </figure>
 
-Remark: LEDs are directional, meaning that electricity can only flow in one direction through the element. This is why the direction we insert the LED is important.
+Remark: LEDs have polarity, meaning that electricity can only flow in one direction through the element. This is why the direction we insert the LED is important.
 
 2) Insert the cathode (the **short** end) of the LED into one of the open holes near pin #6. Make sure that this pin is **not in the +3V or GDN rails**.
 
@@ -91,7 +91,7 @@ Remark: LEDs are directional, meaning that electricity can only flow in one dire
 
 6) Insert one end of the resistor into one of the holes in the same row that you soldered the LED.
 
-Remark: Remember that resistors are not directional; therefore, electricity can flow in either direction through the element.
+Remark: Remember that resistors do not have polarity; therefore, electricity can flow in either direction through the element.
 
 Remark: Remember that all of the pins in a row are connected, so even though the wire from the resistor isn't touching the wire of the LED, they are connected by the Pi Hat. You can see this if you look at the back of the Pi Hat- there is thin metal that connects all of the holes in a row.
 
@@ -338,10 +338,12 @@ Do another [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/o
 
 ## Insert the SD card into the Pi
 
-Insert your (now flashed) SD card into the SD card slot on the bottom of the Pi. **Note that the direction does matter** - the lettering on the SD card should be facing downward.
+Insert your (now flashed) SD card into the SD card slot on the bottom of the Pi.
+
+Note: The SD card direction does matter - the lettering on the SD card should be facingS downward.
 
 <figure class="flow-subfigures">  
-    <figcaption>SD card in Pi</figcaption>
+    <figcaption>SD Card inserted in the Pi</figcaption>
     <figure>
         <figcaption>Top View</figcaption>
         <img style='width:230px' src="photos/sd_card_in_pi_top_view.jpg"/>

@@ -11,13 +11,13 @@ In this phase, strip and tin all of your parts, so that in latter phases they ca
     - If the red and brown wire pair has a black connector on each wire, then cut off each black connector. Strip and tin the remaining portion of each wire.
     - Do **not** cut off the white connector from the red and brown wire pair. If you accidentally do, then seek the help of a TA or teacher to solder the white connector back on the wires.
 
-    <col3 figure-id="tab:tin_parts" figure-caption="Parts Need Tinning" class="labels-row1">
-        <span style="text-align:center">Part Name</span>  <span style="text-align:center">Amount</span>  <span style="text-align:center">After Tinning Picture</span>
-        <span style="text-align:center">ESC</span> <span style="text-align:center">4</span>  <span style="text-align:center"><img src="photos/tinned_esc_2.jpg" width="250" /></span>
-        <span style="text-align:center">Motor</span> <span style="text-align:center">4</span> <span style="text-align:center"><img src="photos/tinned_motor.jpg" width="250" /></span>
-        <span style="text-align:center">BEC</span> <span style="text-align:center">1</span> <span style="text-align:center"><img src="photos/tinned_bec.jpg" width="250" /></span>
-        <span style="text-align:center">Red and brown wire pair (in FC box)</span> <span style="text-align:center">1</span> <span style="text-align:center"><img src="photos/tinned_red_brown.jpg" width="250"/></span>
-    </col3>
+<col3 figure-id="tab:tin_parts" figure-caption="Parts Need Tinning" class="labels-row1">
+    <span style="text-align:center">Part Name</span>  <span style="text-align:center">Amount</span>  <span style="text-align:center">After Tinning Picture</span>
+    <span style="text-align:center">ESC</span> <span style="text-align:center">4</span>  <span style="text-align:center"><img src="photos/tinned_esc_2.jpg" width="250" /></span>
+    <span style="text-align:center">Motor</span> <span style="text-align:center">4</span> <span style="text-align:center"><img src="photos/tinned_motor.jpg" width="250" /></span>
+    <span style="text-align:center">BEC</span> <span style="text-align:center">1</span> <span style="text-align:center"><img src="photos/tinned_bec.jpg" width="250" /></span>
+    <span style="text-align:center">Red and brown wire pair (in FC box)</span> <span style="text-align:center">1</span> <span style="text-align:center"><img src="photos/tinned_red_brown.jpg" width="250"/></span>
+</col3>
 
 ## Solder wires onto ESC pads
 
@@ -29,25 +29,25 @@ In this section, you will prepare your ESCs. Each ESC has 3 pads labeled A, B, a
 </figure>
 
 
-1. Gather the following parts:
+1) Gather the following parts:
     * 4 ESCs
     * Heat Shrinks (recommend 13mm width)
     * 12 pieces of wire (recommend 4 red, 4 yellow, and 4 blue - each 3in. length)
 
-2. For each ESC:
+2) For each ESC:
     1. Use your fingers (or small wire cutters) to *very carefully* remove excess material from each ESC pad.
 
-        <figure class="flow-subfigures">  
-            <figcaption>Clean ESC Pads</figcaption>
-            <figure>
-                <figcaption>Excess Material on ESC Pads</figcaption>
-                <img style='width:200px' src="photos/ESC_pads_unclean_inked.jpg"/>
-            </figure>
-            <figure>  
-                <figcaption>After Removing the Excess Material</figcaption>
-                <img style='width:200px' src="photos/ESC_pads_clean_inked.jpg"/>
-            </figure>
-        </figure>
+<figure class="flow-subfigures">  
+    <figcaption>Clean ESC Pads</figcaption>
+    <figure>
+        <figcaption>Excess Material on ESC Pads</figcaption>
+        <img style='width:200px' src="photos/ESC_pads_unclean_inked.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>After Removing the Excess Material</figcaption>
+        <img style='width:200px' src="photos/ESC_pads_clean_inked.jpg"/>
+    </figure>
+</figure>
 
 
     2. Strip one end of a red wire. Wrap solder around the exposed strands, especially around the tip of the wire. DO NOT tin the wrapped solder.
@@ -87,36 +87,36 @@ In this section, you will prepare your ESCs. Each ESC has 3 pads labeled A, B, a
 
     7. Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later). The multimeter *should* **not** beep, otherwise there is a short between the pair; if the multimeter does hold a continuous beep, then you will need to fix the short by removing any excess solder forming a bridge between the problematic pair of wires.
 
-        <figure>  
-            <figcaption>Connectivity Check on Wires</figcaption>
-            <figure>
-                <figcaption>RY Check</figcaption>
-                <img style='width:300px' src="photos/conn_check_RY.jpg"/>
-            </figure>
-            <figure>  
-                <figcaption>RB Check</figcaption>
-                <img style='width:300px' src="photos/conn_check_RB.jpg"/>
-            </figure>
-            <figure>  
-                <figcaption>YB Check</figcaption>
-                <img style='width:300px' src="photos/conn_check_YB.jpg"/>
-            </figure>
-        </figure>
+<figure>  
+    <figcaption>Connectivity Check on Wires</figcaption>
+    <figure>
+        <figcaption>RY Check</figcaption>
+        <img style='width:300px' src="photos/conn_check_RY.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>RB Check</figcaption>
+        <img style='width:300px' src="photos/conn_check_RB.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>YB Check</figcaption>
+        <img style='width:300px' src="photos/conn_check_YB.jpg"/>
+    </figure>
+</figure>
 
 
     8. Put a heat shrink over the ESC. The heat shrink should cover (length-wise) the exposed soldered wires on one end and half the ESC on the other end. Apply heat to shrink the heat shrink.
 
-        <figure class="flow-subfigures">  
-            <figcaption>Put Heat Shrinks on ESCs</figcaption>
-            <figure>
-                <figcaption>A Prepared ESC</figcaption>
-                <img style='width:220px' src="photos/colorful_esc.jpg"/>
-            </figure>
-            <figure>  
-                <figcaption>A Prepared ESC with Heat Shrinks</figcaption>
-                <img style='width:220px' src="photos/colorful_esc_shrinkwrap2.jpg"/>
-            </figure>
-        </figure>  
+<figure class="flow-subfigures">  
+    <figcaption>Put Heat Shrinks on ESCs</figcaption>
+    <figure>
+        <figcaption>A Prepared ESC</figcaption>
+        <img style='width:220px' src="photos/colorful_esc.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>A Prepared ESC with Heat Shrinks</figcaption>
+        <img style='width:220px' src="photos/colorful_esc_shrinkwrap2.jpg"/>
+    </figure>
+</figure>  
 
     9. Strip and tin all wires of the completed ESC (if not already done). This effectively amounts to stripping and tinning the other end of the red, yellow, and blue wires.
 
@@ -144,17 +144,17 @@ NOTE: You can use any setup to hold the bullet connector, so long as the setup i
 
     2. Put a heat shrink over each solder joint. For female connectors: the heat shrink should cover the solder joint on one end and run the entire length of the bullet connector. Apply heat to shrink the heat shrink.
 
-        <figure>  
-            <figcaption>Put Heat Shrinks on Female Bullet Connectors</figcaption>
-            <figure>
-                <figcaption>Female Bullet Connectors on ESCs (Ignore color of wires)</figcaption>
-                <img style='width:250px' src="photos/bullet_connectors_in_esc.jpg"/>
-            </figure>
-            <figure>  
-                <figcaption>Female Bullet Connector with Heat Shrinks</figcaption>
-                <img style='width:250px' src="photos/ESC_bullet_connectors_heat_shrinked.jpg"/>
-            </figure>
-        </figure>  
+<figure>  
+    <figcaption>Put Heat Shrinks on Female Bullet Connectors</figcaption>
+    <figure>
+        <figcaption>Female Bullet Connectors on ESCs (Ignore color of wires)</figcaption>
+        <img style='width:250px' src="photos/bullet_connectors_in_esc.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Female Bullet Connector with Heat Shrinks</figcaption>
+        <img style='width:250px' src="photos/ESC_bullet_connectors_heat_shrinked.jpg"/>
+    </figure>
+</figure>  
 
 3. For each motor:
 
@@ -162,17 +162,17 @@ NOTE: You can use any setup to hold the bullet connector, so long as the setup i
 
     2. Put a heat shrink over each solder joint. For male connectors: the heat shrink should cover the solder joint on one end and run only the short length of the cylindrical part. Apply heat to shrink the heat shrink.
 
-        <figure>  
-            <figcaption>Put Heat Shrinks on Male Bullet Connectors</figcaption>
-            <figure>
-                <figcaption>Male Bullet Connectors on Motor wires</figcaption>
-                <img style='width:250px' src="photos/motor_with_bullet_connectors.jpg"/>
-            </figure>
-            <figure>  
-                <figcaption>Male Bullet Connector with Heat Shrinks</figcaption>
-                <img style='width:250px' src="photos/motor_bullet_connector_heat_shrinked.jpg"/>
-            </figure>
-        </figure>     
+<figure>  
+    <figcaption>Put Heat Shrinks on Male Bullet Connectors</figcaption>
+    <figure>
+        <figcaption>Male Bullet Connectors on Motor wires</figcaption>
+        <img style='width:250px' src="photos/motor_with_bullet_connectors.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Male Bullet Connector with Heat Shrinks</figcaption>
+        <img style='width:250px' src="photos/motor_bullet_connector_heat_shrinked.jpg"/>
+    </figure>
+</figure>     
 
 <div class='check' markdown="1">
 
@@ -217,191 +217,3 @@ Note: While trying to solder on these wires, you may accidentally unsolder the e
 - Do **not** substitute the red and brown wire pair in the flight controller box with any other wire pair in the box.
 - If the red and brown wire pair has a black connector on each wire, then cut off each black connector. Strip and tin the remaining portion of each wire.
 - Do **not** cut off the white connector from the red and brown wire pair. If you accidentally do, then seek the help of a TA or teacher to solder the white connector back on the wires.
-
-
-## Attach parts to drone frame
-
-This section will cover attaching the first set of items to the drone frame.
-
-Before beginning, verify the PDB is completely soldered with all necessary parts (as covered in previous sections).
-
-For reference, here are the motor directions with respect to the frame:
-
-<figure>
-    <figcaption>Motor Directions on Drone</figcaption>
-    <img style='width:400px' src="photos/motor_directions.png"/>
-</figure>
-
-
-1. Gather the following:
-    - Drone frame
-    - Completed PDB
-    - 4 motors (2 CW, 2 CCW)
-    - Velcro
-    - 4 standoffs
-    - 12 black screws (in motors box, **not** drone frame box)
-
-2. Place the drone frame on a flat surface so that the back is facing you.
-
-    <figure>
-        <figcaption>Orientation of Drone Frame</figcaption>
-        <img style='width:350px' src="photos/drone_frame_labeled_orientation.jpg"/>
-    </figure>
-
-3. Feed the velcro through the center of the drone frame. Make sure the fuzzy side is facing down.
-
-    <figure>
-        <figcaption>Velcro through Drone Frame</figcaption>
-        <img style='width:350px' src="photos/velcro_in_frame.jpg"/>
-    </figure>
-
-4. Screw a black screw into each of the standoffs.
-
-    <figure>
-        <figcaption>Putting Screws in Standoffs</figcaption>
-        <img style='width:200px' src="photos/standoffs_with_screws.png"/>
-    </figure>
-
-5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing.
-
-    <figure class="flow-subfigures">  
-        <figcaption>Put PDB on Drone Frame</figcaption>
-        <figure>
-            <figcaption>Applying Downward Force</figcaption>
-            <img style='height:297px' src="photos/putting_standoffs_in_frame.jpg"/>
-        </figure>
-        <figure>  
-            <figcaption>PDB Secured in Drone Frame</figcaption>
-            <img style='height:297px' src="photos/pdb_in_drone_frame.jpg"/>
-        </figure>
-    </figure>  
-
-6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black screws for each attachment.
-
-    <figure class="flow-subfigures">  
-        <figcaption>Attaching CW Motors</figcaption>
-        <figure>
-            <figcaption>Top View</figcaption>
-            <img style='height:297px' src="photos/attach_cw_motors_to_frame_inked.jpg"/>
-        </figure>
-        <figure>  
-            <figcaption>Bottom View</figcaption>
-            <img style='height:297px' src="photos/motor_bottom.png"/>
-        </figure>
-    </figure>  
-
-7. Attach CCW motors to the bottom-left and top-right of the drone frame, using 2 black screws for each attachment.
-
-    <figure class="flow-subfigures">  
-        <figcaption>Attaching CCW Motors</figcaption>
-        <figure>
-            <figcaption>Top View</figcaption>
-            <img style='height:297px' src="photos/attach_ccw_motors_to_frame_inked.jpg"/>
-        </figure>
-        <figure>  
-            <figcaption>Bottom View</figcaption>
-            <img style='height:297px' src="photos/motor_bottom.png"/>
-        </figure>
-    </figure>  
-
-8. For each motor, connect its male bullect connectors to the female bullet connectors of the ESC in the motor's corner (e.g. top-left motor connects to top-left ESC). Any connection order will suffice for now, as you will be able to change them in a latter phase.
-
-    <figure>
-        <figcaption>Connecting Bullet Connectors</figcaption>
-        <img style='width:350px' src="photos/connecting_bullet_connectors.jpg"/>
-    </figure>
-
-## Checkoff
-
-- Visually inspect the drone to verify the following:
-
-  - All red wires connected to the PDB are connected to positive (+) pads
-
-  - All black wires connected to the PDB are connected to negative (-) pads
-
-  - The wires on the IN side - **NOT** the OUT side - of the BEC are soldered to the PDB
-
-  - For the battery monitor lead: the red wire is connected to a positive (+) pad while the brown wire is connected to a negative (-) pad
-
-- Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the PDB; verify there is:
-
-  - a short between any positive (+) pad and any other positive (+) pad
-
-  - a short between any negative (-) pad and any other negative (-) pad
-
-  - **no short** between any positive (+) pad and any negative (-) pad
-
-- **ONLY** if the connectivity check passed, do a [DC voltage check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the PDB; plug in a 12V battery and verify there is:
-
-  - ~0V between any positive (+) pad and any other positive (+) pad
-
-  - ~0V between any negative (-) pad and any other negative (-) pad
-
-  - ~12V between any positive (+) pad and any negative (-) pad.
-
-  NOTE: If the battery is X volts instead of 12 volts (e.g. 10), then the multimeter will show X volts instead of 12 volts.
-
-- **ONLY** if the DC voltage check passed, re-connect a battery to your drone and verify the following:
-
-  - The ESCs emitted a quick succession of 3 beeps.
-
-  - The bottom of the drone frame is illuminating, due to the LEDs on the bottom of the PDB.
-
-  ## Attach Flight Controller
-
-  The flight controller (i.e. FC) contains multiple sensors: an Inertial Measurement Unit (IMU) and a gyroscope. The IMU measures linear accelerations and the gyroscope measures angular velocities. The flight controller also sends electric signals to the ESCs.
-
-  The FC will have three cables connected to it (in the steps of this section): a USB to micro USB cable, a red and brown wire pair (i.e. battery monitor lead), and a PWM wire set. The USB to micro USB cable will be the electrical wire that the FC uses to report its sensors' observations. The battery monitor lead will allow the FC to monitor the power flow on the PDB (technically speaking, the _voltage_). The PWM wire set will allow the FC to send electrical signals to the ESCs.
-
-  The PWM wire set can be found inside the FC box:
-
-  <figure>
-      <figcaption>PWM Wire Set</figcaption>
-      <img style='width:200px' src="photos/pwm_wires.jpg"/>
-  </figure>
-
-  The corresponding ports on the FC are:
-
-  <figure>
-      <figcaption>Ports on FC</figcaption>
-      <img style='width:200px' src="photos/fc_labeled.jpg"/>
-  </figure>
-
-  1. Gather the following:
-      - Flight Controller
-      - Micro USB to USB cable
-      - Double sided mounting tape
-      - PWM wire set (inside FC box)
-
-  2. Connect the red and brown wire pair to the FC. Connect the PWM wire set to the FC. Connect the micro USB to USB cable to the FC. Note that there is a correct orientation to the connections - do **not** try to force them in.
-
-  <figure>
-      <figcaption>Cables Connect to FC</figcaption>
-      <img style='width:200px' src="photos/fc_with_cables_connected.jpg"/>
-  </figure>
-
-  3. Put double sided mounting tape on the bottom of the FC. Cut off any excess tape.
-
-  4. Attach the FC to front of the drone. Ensure the FC is not skewed and it is pushed against the frame body.     
-
-      NOTE:     
-
-      - Try to minimize the FC skew as much as possible. If you think of the FC as being foward-facing eyes, then a skewed FC would make a cross-eyed drone!     
-      - Once the FC is attached, do a "rock test" (i.e. try to rock the FC back-and-forth by pushing the corners). If the FC rocks, then the double sided mounting tape used is too soft and is compressing under pressure. Detach the FC from the frame (e.g. _carefully_ use a flat-head screwdriver) and replace the tape with more robust tape.    
-
-<figure class="flow-subfigures">  
-     <figcaption>Attach FC (bottom-up view)</figcaption>
-     <figure>
-         <figcaption>FC without Skew</figcaption>
-         <img style='width:220px' src="photos/fc_attached_no_skew.jpg"/>
-     </figure>
-     <figure>  
-         <figcaption>FC with Skew</figcaption>
-         <img style='width:220px' src="photos/fc_attached_skew.jpg"/>
-     </figure>
-</figure>
-
-
-## Checkoff
-
-  - Perform a "Rock Test" of the attached FC and verify it does not rock.

@@ -1,67 +1,195 @@
-# Build: Part 3 Instructions Cont. {#build-part3-instructions-cont status=ready}
-## Attach Flight Controller
+# Build: Part 3 FC Instructions {#build-part3-fc-instructions status=ready}
 
-The flight controller (i.e. FC) contains multiple sensors: an Inertial Measurement Unit (IMU) and a gyroscope. The IMU measures linear accelerations and the gyroscope measures angular velocities. The flight controller also sends electric signals to the ESCs.
+**Expected Time**: 1 hour
 
-The FC will have three cables connected to it (in the steps of this section): a USB to micro USB cable, a red and brown wire pair (i.e. battery monitor lead), and a PWM wire set. The USB to micro USB cable will be the electrical wire that the FC uses to report its sensors' observations. The battery monitor lead will allow the FC to monitor the power flow on the PDB (technically speaking, the _voltage_). The PWM wire set will allow the FC to send electrical signals to the ESCs.
+## Attach parts to drone frame
 
-The PWM wire set can be found inside the FC box:
+This section will cover attaching the first set of items to the drone frame.
 
-<figure>
-   <figcaption>PWM Wire Set</figcaption>
-   <img style='width:200px' src="photos/pwm_wires.jpg"/>
-</figure>
+Before beginning, verify the PDB is completely soldered with all necessary parts (as covered in previous sections).
 
-The corresponding ports on the FC are:
+For reference, here are the motor directions with respect to the frame:
 
 <figure>
-   <figcaption>Ports on FC</figcaption>
-   <img style='width:200px' src="photos/fc_labeled.jpg"/>
+    <figcaption>Motor Directions on Drone</figcaption>
+    <img style='width:400px' src="photos/motor_directions.png"/>
 </figure>
+
 
 1. Gather the following:
-   - Flight Controller
-   - Micro USB to USB cable
-   - Double sided mounting tape
-   - PWM wire set (inside FC box)
+    - Drone frame
+    - Completed PDB
+    - 4 motors (2 CW, 2 CCW)
+    - Velcro
+    - 4 standoffs
+    - 12 black screws (in motors box, **not** drone frame box)
 
-2. Connect the red and brown wire pair to the FC. Connect the PWM wire set to the FC. Connect the micro USB to USB cable to the FC. Note that there is a correct orientation to the connections - do **not** try to force them in.
+2. Place the drone frame on a flat surface so that the back is facing you.
 
 <figure>
-   <figcaption>Cables Connect to FC</figcaption>
-   <img style='width:200px' src="photos/fc_with_cables_connected.jpg"/>
+    <figcaption>Orientation of Drone Frame</figcaption>
+    <img style='width:350px' src="photos/drone_frame_labeled_orientation.jpg"/>
 </figure>
 
-3. Put double sided mounting tape on the bottom of the FC. Cut off any excess tape.
+3. Feed the velcro through the center of the drone frame. Make sure the fuzzy side is facing down.
 
-4. Attach the FC to front of the drone. Ensure the FC is not skewed and it is pushed against the frame body.     
+<figure>
+    <figcaption>Velcro through Drone Frame</figcaption>
+    <img style='width:350px' src="photos/velcro_in_frame.jpg"/>
+</figure>
 
-   NOTE:     
+4. Screw a black screw into each of the standoffs.
 
-   - Try to minimize the FC skew as much as possible. If you think of the FC as being foward-facing eyes, then a skewed FC would make a cross-eyed drone!     
-   - Once the FC is attached, do a "rock test" (i.e. try to rock the FC back-and-forth by pushing the corners). If the FC rocks, then the double sided mounting tape used is too soft and is compressing under pressure. Detach the FC from the frame (e.g. _carefully_ use a flat-head screwdriver) and replace the tape with more robust tape.    
+<figure>
+    <figcaption>Putting Screws in Standoffs</figcaption>
+    <img style='width:200px' src="photos/standoffs_with_screws.png"/>
+</figure>
+
+5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing.
 
 <figure class="flow-subfigures">  
-   <figcaption>Attach FC (bottom-up view)</figcaption>
-   <figure>
-       <figcaption>FC without Skew</figcaption>
-       <img style='width:220px' src="photos/fc_attached_no_skew.jpg"/>
-   </figure>
-   <figure>  
-       <figcaption>FC with Skew</figcaption>
-       <img style='width:220px' src="photos/fc_attached_skew.jpg"/>
-   </figure>
+    <figcaption>Put PDB on Drone Frame</figcaption>
+    <figure>
+        <figcaption>Applying Downward Force</figcaption>
+        <img style='height:297px' src="photos/putting_standoffs_in_frame.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>PDB Secured in Drone Frame</figcaption>
+        <img style='height:297px' src="photos/pdb_in_drone_frame.jpg"/>
+    </figure>
+</figure>  
+
+6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black screws for each attachment.
+
+<figure class="flow-subfigures">  
+    <figcaption>Attaching CW Motors</figcaption>
+    <figure>
+        <figcaption>Top View</figcaption>
+        <img style='height:297px' src="photos/attach_cw_motors_to_frame_inked.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Bottom View</figcaption>
+        <img style='height:297px' src="photos/motor_bottom.png"/>
+    </figure>
+</figure>  
+
+7. Attach CCW motors to the bottom-left and top-right of the drone frame, using 2 black screws for each attachment.
+
+<figure class="flow-subfigures">  
+    <figcaption>Attaching CCW Motors</figcaption>
+    <figure>
+        <figcaption>Top View</figcaption>
+        <img style='height:297px' src="photos/attach_ccw_motors_to_frame_inked.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Bottom View</figcaption>
+        <img style='height:297px' src="photos/motor_bottom.png"/>
+    </figure>
+</figure>  
+
+8. For each motor, connect its male bullect connectors to the female bullet connectors of the ESC in the motor's corner (e.g. top-left motor connects to top-left ESC). Any connection order will suffice for now, as you will be able to change them in a latter phase.
+
+<figure>
+    <figcaption>Connecting Bullet Connectors</figcaption>
+    <img style='width:350px' src="photos/connecting_bullet_connectors.jpg"/>
+</figure>
+
+## Checkoff
+
+- Visually inspect the drone to verify the following:
+
+  - All red wires connected to the PDB are connected to positive (+) pads
+
+  - All black wires connected to the PDB are connected to negative (-) pads
+
+  - The wires on the IN side - **NOT** the OUT side - of the BEC are soldered to the PDB
+
+  - For the battery monitor lead: the red wire is connected to a positive (+) pad while the brown wire is connected to a negative (-) pad
+
+- Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the PDB; verify there is:
+
+  - a short between any positive (+) pad and any other positive (+) pad
+
+  - a short between any negative (-) pad and any other negative (-) pad
+
+  - **no short** between any positive (+) pad and any negative (-) pad
+
+- **ONLY** if the connectivity check passed, do a [DC voltage check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the PDB; plug in a 12V battery and verify there is:
+
+  - ~0V between any positive (+) pad and any other positive (+) pad
+
+  - ~0V between any negative (-) pad and any other negative (-) pad
+
+  - ~12V between any positive (+) pad and any negative (-) pad.
+
+  NOTE: If the battery is X volts instead of 12 volts (e.g. 10), then the multimeter will show X volts instead of 12 volts.
+
+- **ONLY** if the DC voltage check passed, re-connect a battery to your drone and verify the following:
+
+  - The ESCs emitted a quick succession of 3 beeps.
+
+  - The bottom of the drone frame is illuminating, due to the LEDs on the bottom of the PDB.
+
+
+## Attach Flight Controller
+
+  The flight controller (i.e. FC) contains multiple sensors: an Inertial Measurement Unit (IMU) and a gyroscope. The IMU measures linear accelerations and the gyroscope measures angular velocities. The flight controller also sends electric signals to the ESCs.
+
+  The FC will have three cables connected to it (in the steps of this section): a USB to micro USB cable, a red and brown wire pair (i.e. battery monitor lead), and a PWM wire set. The USB to micro USB cable will be the electrical wire that the FC uses to report its sensors' observations. The battery monitor lead will allow the FC to monitor the power flow on the PDB (technically speaking, the _voltage_). The PWM wire set will allow the FC to send electrical signals to the ESCs.
+
+  The PWM wire set can be found inside the FC box:
+
+<figure>
+    <figcaption>PWM Wire Set</figcaption>
+    <img style='width:200px' src="photos/pwm_wires.jpg"/>
+</figure>
+
+  The corresponding ports on the FC are:
+
+<figure>
+    <figcaption>Ports on FC</figcaption>
+    <img style='width:200px' src="photos/fc_labeled.jpg"/>
+</figure>
+
+  1. Gather the following:
+      - Flight Controller
+      - Micro USB to USB cable
+      - Double sided mounting tape
+      - PWM wire set (inside FC box)
+
+  2. Connect the red and brown wire pair to the FC. Connect the PWM wire set to the FC. Connect the micro USB to USB cable to the FC. Note that there is a correct orientation to the connections - do **not** try to force them in.
+
+  <figure>
+      <figcaption>Cables Connect to FC</figcaption>
+      <img style='width:200px' src="photos/fc_with_cables_connected.jpg"/>
+  </figure>
+
+  3. Put double sided mounting tape on the bottom of the FC. Cut off any excess tape.
+
+  4. Attach the FC to front of the drone. Ensure the FC is not skewed and it is pushed against the frame body.     
+
+      NOTE:     
+
+      - Try to minimize the FC skew as much as possible. If you think of the FC as being foward-facing eyes, then a skewed FC would make a cross-eyed drone!     
+      - Once the FC is attached, do a "rock test" (i.e. try to rock the FC back-and-forth by pushing the corners). If the FC rocks, then the double sided mounting tape used is too soft and is compressing under pressure. Detach the FC from the frame (e.g. _carefully_ use a flat-head screwdriver) and replace the tape with more robust tape.    
+
+<figure class="flow-subfigures">  
+     <figcaption>Attach FC (bottom-up view)</figcaption>
+     <figure>
+         <figcaption>FC without Skew</figcaption>
+         <img style='width:220px' src="photos/fc_attached_no_skew.jpg"/>
+     </figure>
+     <figure>  
+         <figcaption>FC with Skew</figcaption>
+         <img style='width:220px' src="photos/fc_attached_skew.jpg"/>
+     </figure>
 </figure>
 
 
 ## Checkoff
 
-- Perform a "Rock Test" of the attached FC and verify it does not rock.
+  - Perform a "Rock Test" of the attached FC and verify it does not rock.
 
-
-# Phase 3: Device Configuration {#build-phase3 status=ready}
-
-**Expected Time**: 1 hour
 
 ## Preface
 

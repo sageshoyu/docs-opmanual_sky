@@ -6,9 +6,6 @@
 
 In this first part of the build, you will create a circuit to provide power to the Raspberry Pi from the battery. You will make the circuit connections using the soldering skills that you've gained from the Soldering Module.
 
-TODO: link soldering module
-
-
 First, we will reintroduce you to the components that you will be working with. Then, you will do some preliminary tasks that will run in the background. As those tasks are running, you will go through the first portion of the build.
 
 
@@ -24,27 +21,27 @@ First, we will reintroduce you to the components that you will be working with. 
 
 The Battery on your drone is a 1500mAh 3S 20C LiPo Battery. Let's go over what all that means.
 
-#### Capacity
+**Capacity**
 
 The unit milliAmp hour, or mAh, is a measure of how much charge a battery can hold. The higher this number is, the more charge the battery can hold; therefore, the battery will "last" longer and your drone will fly for a longer time without needing to be recharged.
 
-#### Structure
+**Structure**
 
 A Lithium-ion polymer (LiPo) battery is made up of one or more LiPo cells. Each cell has a voltage of 3.7 V when it is discharged, and 4.2 V when it is charged. The cells in your battery are connected in series, so that the voltages add together to get a total of 11.1 V when discharged, and 12.6 V when charged. There are *three cells* connected in *series* in your battery, so it is a **3S** battery.
 
-#### Current Output
+**Current Output**
 
-The "C" rating of a LiPo Battery determines how much current the battery can deliver. The maximum current current draw is equal to the battery's **C** rating multiplied by the battery's capacity. For the drone's 1500mAh 20C batteries, the maximum current draw is $$1500mAh \times 20C = 30A$$. For more information about C rating, see [this article](https://oscarliang.com/lipo-battery-c-rating/#:~:text=C%20Rating%20is%20an%20indicator,safely%20without%20harming%20the%20battery.&text=For%20example%2C%20if%20you%20have,be%201000ma%20x%2020C%20%3D%2020A.).
+The "C" rating of a LiPo Battery determines how much current the battery can deliver. The maximum current current draw is equal to the battery's **C** rating multiplied by the battery's capacity. For the drone's 1500mAh 20C batteries, the maximum current draw is 1500mAh x 20C = 30A.
 
-#### Precautions
+**Precautions**
 
 Taking the proper precautions when using, storing, or charging is very important to keeping the battery safe. Only store the battery at room temperature and out of direct sun light.  Do not discharge a battery below 10.5 V. Do not leave the battery charging unattended. Unplug the battery once it is fully charged.
 
 ### Power Distribution Board (PDB)
 
 <figure>
-     <figcaption>Power Distribution Board</figcaption>
-    <img src="photos/battery.png" width="300"/>
+     <figcaption>Power Distribution Board (after tinning)</figcaption>
+    <img src="photos/pdbtinned.png" width="300"/>
 </figure>
 
 The Power Distribution Board is used to distribute power from the battery to electrical components of the drone. The PDB an example of Printed Circuit Board (PCB), which is a circuit board that has connections within its structure. For the PDB, the internal wiring connects all of the positive (+) pads together, and all of the negative (-) pads together; this allows for the battery to be connected to one set of positive and negative pads, and all of the other pads receive power.
@@ -85,9 +82,9 @@ An LED is a device that emits light as current flows through it; the color of th
 
 Another property of an LED is that it has very little resistance. Recall that Ohms states that **I = V / R**. The resistance of an LED is so low that we can assume it is zero. Plug zero into the equation and we get an infinite amount of current. In reality, the current is limited by the power source. Since there is such little resistance with the LED, if we created a circuit with only this element, it would burn out from too much current.
 
-Question: Can you think of a way that we could limit the current passing through the LED?
+Q: Can you think of a way that we could limit the current passing through the LED?
 
-If you though of using a resistor, then you're right!
+A: If you though of using a resistor, then you're right!
 
 ### Resistor
 Resistors are passive elements that add resistance to a circuit. It might seem counter-intuitive at first to add resistance. However, according to Ohm's law, **V = I x R**. If there is no resistance in a circuit, then there is no voltage, either. Image you have a battery and you connect just a wire from the positive terminal to the negative terminal. Sine the wire has very little resistance (metals are conductors), then the charge on the battery will immediately began to flow through the wire to create an equipotential across the wire (no voltage). There will be so many charges flowing (there will be a lot of current), that the wire may burn up, and the battery will likely be damaged.
@@ -96,7 +93,7 @@ In comes the resistor. If you connect just a resistor between the positive and n
 
 <!-- TODO: what LED's are we using?
 
-Let's get back to our LED problem. The LED you have has a forward voltage of 3V, and can handle up to 20mA of current. The forward voltage is the minimum amount of voltage needed for current to flow through the device. To calculate the resistance needed, the formula is $$ R = \frac{V_S-V_F}{I}, where $$V_S$$ is the source voltage, $$V_F$$ is the forward voltage, and $$I$$ is the desired current. For our LED, we find the minimum resistance to be  -->
+Let's get back to our LED problem. The LED you have has a forward voltage of 3V, and can handle up to 20mA of current. The forward voltage is the minimum amount of voltage needed for current to flow through the device. To calculate the resistance needed, the formula is R = (V_s-V_f) / I, where V_s is the source voltage, V_f is the forward voltage, and I is the desired current. For our LED, we find the minimum resistance to be  -->
 
 <figure>  
   <figcaption> Resistor </figcaption>
@@ -108,7 +105,7 @@ Let's get back to our LED problem. The LED you have has a forward voltage of 3V,
 
 <figure>  
   <figcaption> XT60 Connector </figcaption>
-  <img style='width:216px' src="photos/no_image.png"/>
+  <img style='width:216px' src="xt60_complete.png"/>
 </figure>
 
 
@@ -138,7 +135,10 @@ The arrows represent the flow of electricity from the battery, through the PDB, 
 
 3) Plug the white connector on the battery into the charger with the ridges facing up
 
-TODO: add image of battery charging
+<figure>  
+  <figcaption> Charging Setup </figcaption>
+  <img style='width:216px' src="photos/no_image.png"/>
+</figure>
 
 ### Flash the SD card
 

@@ -9,15 +9,18 @@ In this phase of the build, you'll be making your drone look like an actual dron
 
 ### Motors
 
-TODO:
+<figure>
+     <figcaption>Motors</figcaption>
+    <img src="photos/motors.png" width="300"/>
+</figure>
 
 ### ESCs
 
-TODO:
+<figure>
+     <figcaption>Electronic Speed Controllers</figcaption>
+    <img src="photos/esc.jpg" width="300"/>
+</figure>
 
-### Flight Controller
-
-TODO:
 
 ### Battery Monitoring Wire
 
