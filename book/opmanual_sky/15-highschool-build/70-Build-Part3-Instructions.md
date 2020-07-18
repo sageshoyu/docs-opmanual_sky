@@ -217,3 +217,131 @@ Note: While trying to solder on these wires, you may accidentally unsolder the e
 - Do **not** substitute the red and brown wire pair in the flight controller box with any other wire pair in the box.
 - If the red and brown wire pair has a black connector on each wire, then cut off each black connector. Strip and tin the remaining portion of each wire.
 - Do **not** cut off the white connector from the red and brown wire pair. If you accidentally do, then seek the help of a TA or teacher to solder the white connector back on the wires.
+
+## Attach parts to drone frame
+
+This section will cover attaching the first set of items to the drone frame.
+
+Before beginning, verify the PDB is completely soldered with all necessary parts (as covered in previous sections).
+
+For reference, here are the motor directions with respect to the frame:
+
+<figure>
+    <figcaption>Motor Directions on Drone</figcaption>
+    <img style='width:400px' src="photos/motor_directions.png"/>
+</figure>
+
+
+1. Gather the following:
+    - Drone frame
+    - Completed PDB
+    - 4 motors (2 CW, 2 CCW)
+    - Velcro
+    - 4 standoffs
+    - 12 black screws (in motors box, **not** drone frame box)
+
+2. Place the drone frame on a flat surface so that the back is facing you.
+
+<figure>
+    <figcaption>Orientation of Drone Frame</figcaption>
+    <img style='width:350px' src="photos/drone_frame_labeled_orientation.jpg"/>
+</figure>
+
+3. Feed the velcro through the center of the drone frame. Make sure the fuzzy side is facing down.
+
+<figure>
+    <figcaption>Velcro through Drone Frame</figcaption>
+    <img style='width:350px' src="photos/velcro_in_frame.jpg"/>
+</figure>
+
+4. Screw a black screw into each of the standoffs.
+
+<figure>
+    <figcaption>Putting Screws in Standoffs</figcaption>
+    <img style='width:200px' src="photos/standoffs_with_screws.png"/>
+</figure>
+
+5. Place the completed PDB into the center of the drone frame. For each of the 4 corner screw holes of the PDB, screw a standoff through the hole and into the drone frame. Note that the drone frame doesn't have screw grooves for the standoffs - you will create these grooves by lightly applying downward force while screwing.
+
+<figure class="flow-subfigures">  
+    <figcaption>Put PDB on Drone Frame</figcaption>
+    <figure>
+        <figcaption>Applying Downward Force</figcaption>
+        <img style='height:297px' src="photos/putting_standoffs_in_frame.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>PDB Secured in Drone Frame</figcaption>
+        <img style='height:297px' src="photos/pdb_in_drone_frame.jpg"/>
+    </figure>
+</figure>  
+
+6. Attach CW motors to the bottom-right and top-left of the drone frame, using 2 black screws for each attachment.
+
+<figure class="flow-subfigures">  
+    <figcaption>Attaching CW Motors</figcaption>
+    <figure>
+        <figcaption>Top View</figcaption>
+        <img style='height:297px' src="photos/attach_cw_motors_to_frame_inked.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Bottom View</figcaption>
+        <img style='height:297px' src="photos/motor_bottom.png"/>
+    </figure>
+</figure>  
+
+7. Attach CCW motors to the bottom-left and top-right of the drone frame, using 2 black screws for each attachment.
+
+<figure class="flow-subfigures">  
+    <figcaption>Attaching CCW Motors</figcaption>
+    <figure>
+        <figcaption>Top View</figcaption>
+        <img style='height:297px' src="photos/attach_ccw_motors_to_frame_inked.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Bottom View</figcaption>
+        <img style='height:297px' src="photos/motor_bottom.png"/>
+    </figure>
+</figure>  
+
+8. For each motor, connect its male bullect connectors to the female bullet connectors of the ESC in the motor's corner (e.g. top-left motor connects to top-left ESC). Any connection order will suffice for now, as you will be able to change them in a latter phase.
+
+<figure>
+    <figcaption>Connecting Bullet Connectors</figcaption>
+    <img style='width:350px' src="photos/connecting_bullet_connectors.jpg"/>
+</figure>
+
+## Checkoff
+
+- Visually inspect the drone to verify the following:
+
+  - All red wires connected to the PDB are connected to positive (+) pads
+
+  - All black wires connected to the PDB are connected to negative (-) pads
+
+  - The wires on the IN side - **NOT** the OUT side - of the BEC are soldered to the PDB
+
+  - For the battery monitor lead: the red wire is connected to a positive (+) pad while the brown wire is connected to a negative (-) pad
+
+- Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the PDB; verify there is:
+
+  - a short between any positive (+) pad and any other positive (+) pad
+
+  - a short between any negative (-) pad and any other negative (-) pad
+
+  - **no short** between any positive (+) pad and any negative (-) pad
+
+- **ONLY** if the connectivity check passed, do a [DC voltage check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the PDB; plug in a 12V battery and verify there is:
+
+  - ~0V between any positive (+) pad and any other positive (+) pad
+
+  - ~0V between any negative (-) pad and any other negative (-) pad
+
+  - ~12V between any positive (+) pad and any negative (-) pad.
+
+  NOTE: If the battery is X volts instead of 12 volts (e.g. 10), then the multimeter will show X volts instead of 12 volts.
+
+- **ONLY** if the DC voltage check passed, re-connect a battery to your drone and verify the following:
+
+  - The ESCs emitted a quick succession of 3 beeps.
+
+  - The bottom of the drone frame is illuminating, due to the LEDs on the bottom of the PDB.
