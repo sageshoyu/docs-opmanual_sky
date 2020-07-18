@@ -19,7 +19,7 @@ In order for the drone to operate autonomously, it must have an intelligent syst
 1. Gather the following:
     - A workstation (or personal computer)
     - Micro SD card
-    
+
 2. On a workstation, downlaod the image flashing tool [Etcher](https://www.balena.io/etcher/).
 
 3. On a workstation, download the latest drone [image](https://drive.google.com/file/d/1ogPrxXBpXa6Tbv3xpYZcvCc_7EXD-w7S/view?usp=sharing).
@@ -48,7 +48,7 @@ Before the FC can be configured, it must first be flashed with firmware. **Firmw
         <img style='width:500px' src="photos/click_on_firmware_flasher.png"/>
     </figure>
 
-4. Toggle on the following options: "No reboot sequence", "Flash on connect", and "Full chip erase". 
+4. Toggle on the following options: "No reboot sequence", "Flash on connect", and "Full chip erase".
 
     <figure>
         <figcaption>Toggled Options</figcaption>
@@ -57,43 +57,43 @@ Before the FC can be configured, it must first be flashed with firmware. **Firmw
 
 5. Select "NAZE" and firmware version "2.1" from the dropdowns. Alternatively, if you have custom firmware to flash, instead click on "Load Firmware [Local]" in the bottom right corner of the window and select your custom fireware file.
 
-    <figure>  
+    <figure>
         <figcaption>Firmware Flash</figcaption>
         <figure>
             <figcaption>Selecting Firmware from Dropdowns</figcaption>
             <img style='width:500px' src="photos/flash_firmware_dropdowns_inked.jpg"/>
         </figure>
-        <figure>  
+        <figure>
             <figcaption>Loading Custom Firmware</figcaption>
             <img style='width:500px' src="photos/load_firmware.png"/>
         </figure>
-    </figure> 
+    </figure>
 
 6. On the FC, there are two holes marked "boot" (i.e. *bootloader pins*). Take a short piece of wire that is stripped on both sides and short the two holes with the wire.
 
-    <figure class="flow-subfigures">  
+    <figure class="flow-subfigures">
         <figcaption>Use Bootloader</figcaption>
         <figure>
             <figcaption>Bootloader Pins on FC</figcaption>
             <img style='width:200px' src="photos/fc_labeled_with_bootloader.jpg"/>
         </figure>
-        <figure>  
+        <figure>
             <figcaption>Wire in Bootloader Pins</figcaption>
             <img style='width:200px' src="photos/fc_with_jumped_bootloader_wire.jpg"/>
         </figure>
-    </figure> 
+    </figure>
 
-7. Connect the shorted FC to the workstation via a USB to micro USB cable. It should immediately start flashing because of the "flash on connect" option. Flashing will be complete once the bar at the bottom of the screen says "Programming: SUCCESSFUL".     
+7. Connect the shorted FC to the workstation via a USB to micro USB cable. It should immediately start flashing because of the "flash on connect" option. Flashing will be complete once the bar at the bottom of the screen says "Programming: SUCCESSFUL".
 
-    NOTE:    
+    NOTE:
 
-    - If the bar instead reaches halfway and then says "Verifying: FAILED", do not worry - it has flashed successfully.     
+    - If the bar instead reaches halfway and then says "Verifying: FAILED", do not worry - it has flashed successfully.
 
     <figure>
         <figcaption>Flashing</figcaption>
         <img style='width:500px' src="photos/flashing.png"/>
     </figure>
-    
+
 8. Disconnect the FC from the workstation, remove the wire in the bootloader pins, and close Cleanflight.
 
 ## Configuring Your Flight Controller
@@ -121,35 +121,35 @@ Now that the FC has been flashed with firmware, it can be configured with Cleanf
         <img style='width:500px' src="photos/ports.png"/>
     </figure>
 
-5. Go to "Configuration" tab. Change the ESC/Motor protocol to "MULTISHOT". Set the Minimum Throttle to 1100. Flip the yaw by 180&deg; (because the FC is rotated by 180&deg; when attached to the drone frame). Change the receiver to "MSP RX input" (by default it is configured to receive data from an RC receiver, but we want it to take commands over MSP). Finally, click "Save and Reboot."    
+5. Go to "Configuration" tab. Change the ESC/Motor protocol to "MULTISHOT". Set the Minimum Throttle to 1100. Flip the yaw by 180&deg; (because the FC is rotated by 180&deg; when attached to the drone frame). Change the receiver to "MSP RX input" (by default it is configured to receive data from an RC receiver, but we want it to take commands over MSP). Finally, click "Save and Reboot."
 
-    NOTE:     
+    NOTE:
 
-    - On the configuration page, Cleanflight might show that the direction of your motors are reversed. This is a UI bug and can be ignored. You will ensure that your motors are spinning in the correct direction in later steps.    
+    - On the configuration page, Cleanflight might show that the direction of your motors are reversed. This is a UI bug and can be ignored. You will ensure that your motors are spinning in the correct direction in later steps.
 
-    <figure>  
+    <figure>
         <figcaption>Configuration: Step 1</figcaption>
         <figure>
             <figcaption>Set Multishot</figcaption>
             <img style='width:500px' src="photos/multishot.png"/>
         </figure>
-        <figure>  
+        <figure>
             <figcaption>Set Minimum Throttle</figcaption>
             <img style='width:500px' src="photos/minimum_throttle.png"/>
         </figure>
-    </figure> 
+    </figure>
 
-    <figure>  
+    <figure>
         <figcaption>Configuration: Step 2</figcaption>
         <figure>
             <figcaption>Flip Yaw</figcaption>
             <img style='width:500px' src="photos/flip_yaw.png"/>
         </figure>
-        <figure>  
+        <figure>
             <figcaption>MSP RX Input</figcaption>
             <img style='width:500px' src="photos/msprx.png"/>
         </figure>
-    </figure> 
+    </figure>
 
 6. the FC needs to be in Angle mode for its entire available range - not just the range of acrobatic mode. Go to the "Modes" tab. Under the "Angle" option, click "Add Range". Drag the sliders so that the range spans from 900 to 2100 (i.e. entire range). Finally, click "Save".
 
@@ -158,41 +158,41 @@ Now that the FC has been flashed with firmware, it can be configured with Cleanf
         <img style='width:500px' src="photos/add_range.png"/>
     </figure>
 
-    <figure>  
+    <figure>
         <figcaption>Modes Configuration</figcaption>
         <figure>
             <figcaption>Expand Range</figcaption>
             <img style='width:500px' src="photos/angle_range.png"/>
         </figure>
-        <figure>  
+        <figure>
             <figcaption>Expanded Range</figcaption>
             <img style='width:500px' src="photos/angle_range_2.png"/>
         </figure>
-    </figure> 
+    </figure>
 
 7. The FC PID parameters need to be changed to work better with our drone. Go to the "PID Tuning" tab. Change the "ROLL" and "PITCH" PID terms to match the image. For reference: Roll should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: 1.00, Super Rate: 0.00, Max Vel: 200). Pitch should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: curly bracket, Super Rate: 0.00, Max Vel: 200). Change angle limit to 50. Finally, click "Save".
 
-    <figure>  
+    <figure>
         <figcaption>PID Tuning Configuration</figcaption>
         <figure>
             <figcaption>PID Params</figcaption>
             <img style='width:500px' src="photos/pid_settings.png"/>
         </figure>
-        <figure>  
+        <figure>
             <figcaption>Set Angle Limit</figcaption>
             <img style='width:500px' src="photos/angle_limit.png"/>
         </figure>
-    </figure> 
+    </figure>
 
 
 ## Connecting the ESCs to the Flight Controller
 
-Now that the FC has been configured, it can be connected to the ESCs via the PWM wires (i.e. the yellow wire set plugged into the FC). The numbers on each PWM wire indicate which motor each should be connected to. For example, the wire labeled "PWM1" should be connected to motor 1. For reference, the motor numbers with respect to the drone are: 
+Now that the FC has been configured, it can be connected to the ESCs via the PWM wires (i.e. the yellow wire set plugged into the FC). The numbers on each PWM wire indicate which motor each should be connected to. For example, the wire labeled "PWM1" should be connected to motor 1. For reference, the motor numbers with respect to the drone are:
 
 <figure>
     <figcaption>Motors Diagram</figcaption>
     <img src="photos/correct_motors_diagram.jpg" width="200"/>
-</figure>  
+</figure>
 
 Where the red arrow indicates the front direction of the drone. Recall that for your drone, the FC is on the front and the camera is on the back.
 
@@ -201,9 +201,9 @@ Where the red arrow indicates the front direction of the drone. Recall that for 
 <figure>
     <figcaption>Connecting PWMs. White wire in line with the yellow wire (in blue). Metallic part on same side as "PWM" (in red) </figcaption>
     <img src="photos/connecting_pwm_inked.jpg" width="350"/>
-</figure>  
+</figure>
 
-TODO:     
+TODO:
 
 - Plug each PWM wire into its corresponding ESC signal wire pair. Note that the PWM wires labeled "PWM5" and "PWM6" can be snipped, since the drone only has 4 ESCs.
 
@@ -221,29 +221,29 @@ With the ESCs connected to the FC, your drone's motors can be tested. In this se
 
     NOTE: **DO NOT** follow the incorrect motors diagram. If Cleanflight shows the incorrect motors diagram, then ignore it - the diagram is a UI bug and does not affect the spin directions of the motors.
 
-    <figure class="flow-subfigures">  
+    <figure class="flow-subfigures">
         <figcaption>Motors Diagram</figcaption>
         <figure>
             <figcaption>Correct Motors Diagram</figcaption>
             <img style='width:200px' src="photos/correct_motors_diagram.jpg"/>
         </figure>
-        <figure>  
+        <figure>
             <figcaption>Incorrect Motors Diagram. **DO NOT FOLLOW**.</figcaption>
             <img style='width:200px' src="photos/incorrect_motors_diagram.jpg"/>
         </figure>
-    </figure> 
+    </figure>
 
 5. Power your drone off by disconnecting the power supply. For each motor that is spinning in the incorrect direction: disconnect any 2 of the 3 ESC pad wires from the motor, e.g. disconnect the red and yellow ESC pad wires from their corresponding motor wires. Then swap the connections, e.g. plug the female bullet connector of the red ESC pad wire into the male bullet connector of the motor wire previously connected to the yellow ESC pad wire and vice-versa.
 
-    <figure class="flow-subfigures">  
+    <figure class="flow-subfigures">
         <figcaption>Changing Motor Direction</figcaption>
         <figure>
             <figcaption>Disconnecting red and yellow ESC pad wires</figcaption>
-            <img style='width:200px' src="photos/changing_motor_direction_1.jpg"/>
+            <!-- file not found <img style='width:200px' src="photos/changing_motor_direction_1.jpg"/>-->
         </figure>
-        <figure>  
+        <figure>
             <figcaption>Reconnecting swapped red and yellow ESC pad wires</figcaption>
-            <img style='width:200px' src="photos/changing_motor_direction_2.jpg"/>
+            <!-- file not found <img style='width:200px' src="photos/changing_motor_direction_2.jpg"/>-->
         </figure>
     </figure>
 
@@ -251,9 +251,9 @@ With the ESCs connected to the FC, your drone's motors can be tested. In this se
 
 ## Calibrate the ESCs
 
-By this point, your drone's FC should be able to spin up each of the 4 motors. This is possible because the FC is sending *PWM signals* to each of the 4 ESCs, which in turn send electrical signals to each of the 4 motors. 
+By this point, your drone's FC should be able to spin up each of the 4 motors. This is possible because the FC is sending *PWM signals* to each of the 4 ESCs, which in turn send electrical signals to each of the 4 motors.
 
-A **PWM signal** is a higher-level signal than an eletrical signal; it communicates at how much RPM an ESC should spin a motor. For example, the PWM signal "1000" might correspond to 2300 RPM. 
+A **PWM signal** is a higher-level signal than an eletrical signal; it communicates at how much RPM an ESC should spin a motor. For example, the PWM signal "1000" might correspond to 2300 RPM.
 
 However, note that your drone has not 1, but 4 ESCs - which may not all have the same PWM-to-RPM understanding. For example, ESC 1 might think the PWM signal "1100" from the FC means 2300 RPM while ESC 2 might think the PWM signal "1000" means 2300 RPM.
 
@@ -261,7 +261,7 @@ The solution to this problem is to *calibrate* the ESCs with the FC. In this con
 
 Note that symptoms of no calibration include: scorching hot motors, a drone that lists to one side during flight, motors that appear to spin at different speeds.
 
-1. **Make sure no propellers are attached to your drone's motors**!   
+1. **Make sure no propellers are attached to your drone's motors**!
 
 2. Unplug any power source from your drone.
 
