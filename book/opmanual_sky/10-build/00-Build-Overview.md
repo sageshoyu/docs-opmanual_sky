@@ -1,4 +1,4 @@
-# Highschool Build {#part:highschool-build-overview status=ready}
+# Build {#part:highschool-build-overview status=ready}
 
 This section describes how to build the DuckieSky Drone Version 4. You
 will need:
