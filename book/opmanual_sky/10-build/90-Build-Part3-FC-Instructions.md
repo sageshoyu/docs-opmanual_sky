@@ -1,4 +1,4 @@
-# Build: Part 3 FC Instructions {#build-part3-fc-instructions status=ready}
+# Part 3 FC Instructions {#build-part3-fc-instructions status=ready}
 
 **Expected Time**: 1 hour
 

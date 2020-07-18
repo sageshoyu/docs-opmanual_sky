@@ -1,4 +1,4 @@
-# Build: Part 3 FC Overview {#build-part3-fc-overview status=ready}
+# Part 3 FC Overview {#build-part3-fc-overview status=ready}
 
 **Expected Time**: 5 minutes
 

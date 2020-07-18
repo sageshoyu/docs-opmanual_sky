@@ -1,4 +1,4 @@
-# Build: Prerequisites {#build-prerequisites status=ready}
+# Prerequisites {#build-prerequisites status=ready}
 
 **Expected Time**: 1 hours
 

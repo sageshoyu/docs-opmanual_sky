@@ -1,4 +1,4 @@
-# Build: Part 2 Overview {#build-part2-overview status=ready}
+# Part 2 Overview {#build-part2-overview status=ready}
 
 **Expected Time**: 10 minutes
 

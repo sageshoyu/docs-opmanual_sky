@@ -1,4 +1,4 @@
-# Build: Part 4 Instructions {#build-part4-instructions status=ready}
+# Part 4 Instructions {#build-part4-instructions status=ready}
 
 ## Glue USB Connector to Flight Controller
 

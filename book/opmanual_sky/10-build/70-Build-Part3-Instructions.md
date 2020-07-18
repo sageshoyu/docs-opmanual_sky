@@ -1,4 +1,4 @@
-# Build: Part 3 Instructions {#build-part3-instructions status=ready}
+# Part 3 Instructions {#build-part3-instructions status=ready}
 
 **Expected Time**: 5 hours
 
@@ -15,7 +15,7 @@ In this phase, strip and tin all of your parts, so that in latter phases they ca
     <span style="text-align:center">Part Name</span>  <span style="text-align:center">Amount</span>  <span style="text-align:center">After Tinning Picture</span>
     <span style="text-align:center">ESC</span> <span style="text-align:center">4</span>  <span style="text-align:center"><img src="photos/tinned_esc_2.jpg" width="250" /></span>
     <span style="text-align:center">Motor</span> <span style="text-align:center">4</span> <span style="text-align:center"><img src="photos/tinned_motor.jpg" width="250" /></span>
-    <span style="text-align:center">Battery Monitor Leads (in FC box)</span> <span style="text-align:center">1</span> <span style="text-align:center"><img src="photos/no_image.png" width="250"/></span>
+    <span style="text-align:center">Battery Monitor Leads</span> <span style="text-align:center">1</span> <span style="text-align:center"><img src="photos/no_image.png" width="250"/></span>
 </col3>
 
 ## Solder wires onto ESC pads

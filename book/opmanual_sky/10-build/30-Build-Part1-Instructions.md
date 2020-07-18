@@ -1,4 +1,4 @@
-# Build: Part 1 Instructions {#build-part1-instructions status=ready}
+# Part 1 Instructions {#build-part1-instructions status=ready}
 
 **Expected Time**: 3 hours
 
