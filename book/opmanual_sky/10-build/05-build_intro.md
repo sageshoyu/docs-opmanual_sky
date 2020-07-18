@@ -13,7 +13,7 @@ Throughout the project are checkoff points where you will come show us your dron
 
 We will check the following things:
 
-  * Solder joins. (Shorts? Mechanical failure?)
+  * Solder joints. (Shorts? Mechanical failure?)
   * Motors are correct orientation.
   * Camera in the right spot.
   * IR in the right spot.

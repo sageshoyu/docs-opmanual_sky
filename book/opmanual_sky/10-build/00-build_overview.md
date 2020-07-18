@@ -1,7 +1,7 @@
 # Build {#part:build status=ready}
 
 This section describes how to build the DuckieSky Drone Version 4. You
-will need: 
+will need:
 
 - a drone kit
 
