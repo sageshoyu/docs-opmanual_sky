@@ -8,7 +8,7 @@ First, we will reintroduce you to the components that you will be working with. 
 
 ## Required Materials
 
-<col2 figure-id="tab:part1_mats" figure-caption="Build Part 1 Materials" class="labels-row1">
+<col2 figure-caption="Build Part 1 Materials" class="labels-row1">
     <span style="text-align:center">Part</span>  <span style="text-align:center">Quantity</span>  
     <span style="text-align:center">Battery</span> <span style="text-align:center">1</span>
     <span style="text-align:center">Battery Charger</span> <span style="text-align:center">1</span>
