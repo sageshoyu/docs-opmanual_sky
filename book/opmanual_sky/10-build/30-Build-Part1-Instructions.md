@@ -2,6 +2,37 @@
 
 **Expected Time**: 3 hours
 
+## Preliminary Tasks
+
+### Charge the Battery
+
+1) Plug the power cord into a wall outlet
+
+2) Plug the round end of the power cord into the battery charger
+
+3) Plug the white connector on the battery into the charger with the ridges facing up
+
+<figure>  
+  <figcaption> Charging Setup </figcaption>
+  <img style='width:216px' src="photos/no_image.png"/>
+</figure>
+
+Note: **Never** leave the battery charging unattended
+
+### Flash the SD card
+
+1) On a base station, download the image flashing tool [Etcher](https://www.balena.io/etcher/).
+
+2) On a base station, download the latest drone [image](https://drive.google.com/file/d/1ogPrxXBpXa6Tbv3xpYZcvCc_7EXD-w7S/view?usp=sharing).
+
+3) Connect the micro SD card to the workstation. Use the micro SD to USB card reader if the base station does not have a micro SD port.
+
+4) Open Etcher and select the downloaded drone image. Then select the micro SD card as the drive to flash. Finally, click the "Flash" button.
+
+Note: Double check that the "drive" is your micro SD card. You may be prompted to enter the base station password to proceed. This is normal; flashing an SD card deletes everything that is on it, so Etcher is making sure this process is OK with you.
+
+Note: flashing will take 1 - 2 hours. In the meantime, you can move on to the next sections.
+
 ## Attach the Pin Header to the Pi Hat
 
 1) Identify the side of the Pi Hat that has writing on it - this side is the front, and the side without writing is the back.
@@ -46,9 +77,12 @@ Recommended: [video instructions part 2](https://drive.google.com/file/d/1qAHN24
 
 Recommended: [video instructions part 3](https://drive.google.com/file/d/1bRUzxmqFLdeEPoKqYJNIGYimHYFPo2lI/view?usp=sharing)
 
-<div class='check' markdown="1">
+Note: It's very easy to add too much solder and create a solder bridge between adjacent pins. Visually inspect your soldering to make sure that adjacent pins are not connected by globs of solder. If you have a solder bridge, try the technique shown in [this video](https://www.youtube.com/watch?v=gJPLs7J4oCk). If this does not work, you can use desoldering wick or a solder sucker to remove the excess solder.
 
-It's very easy to add too much solder and create a solder bridge between adjacent pins. Visually inspect your soldering to make sure that adjacent pins are not connected by globs of solder. If you have a solder bridge, try the technique shown in [this video](https://www.youtube.com/watch?v=gJPLs7J4oCk). If this does not work, you can use desoldering wick or a solder sucker to remove the excess solder.
+<div class='check' markdown="1">
+Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the Pi Hat; verify there is:
+
+- A short between the SDA on the Pi Hat and
 
 </div>
 
@@ -340,7 +374,7 @@ Do another [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/o
 
 Insert your (now flashed) SD card into the SD card slot on the bottom of the Pi.
 
-Note: The SD card direction does matter - the lettering on the SD card should be facingS downward.
+Note: The SD card direction does matter - the lettering on the SD card should be facing downward.
 
 <figure class="flow-subfigures">  
     <figcaption>SD Card inserted in the Pi</figcaption>

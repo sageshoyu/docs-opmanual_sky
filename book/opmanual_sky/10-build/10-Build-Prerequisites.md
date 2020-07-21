@@ -6,21 +6,8 @@
 
 This section contains information about the most important skills used in the build. If you are new to soldering, it is recommended that you complete the soldering module before starting the build. Whether you're new too soldering or not, we recommend reading through this page to review the basic techniques used in the build.
 
-TODO: link soldering module
 
-## Safety Tips:
-
-- Be careful holding wires and components with your bare hands while soldering, as they will get very hot very quickly. We recommend using long-nose pliers or helping hands whenever possible.
-
-- Don't touch the soldering iron tip (or any other metal piece) while the soldering iron is on, since doing so can cause burns. If you get burned, rinse the affected area with cold water immediately.
-
-- Likewise, don't use the soldering iron on anything you don't intend to solder. The high heat will cause things to melt or burn.
-
-- Don't breathe soldering fumes; use a soldering fan whenever possible.
-
-- If you have difficulty soldering (e.g. shaky hands), please seek the advice of a TA or teacher.
-
-## Skills
+## Required Skills
 
 ### Strip Wires
 
@@ -88,6 +75,21 @@ Notes Sometimes parts will have wires already tinned out-of-the-box by the manuf
 ### Soldering
 
 We recommend you complete the soldering module before starting the drone build to ensure you've had plenty of practice soldering practice parts before soldering your drone parts. For a quick overview of soldering, watch this beginner soldering tutorial [YouTube video](https://www.youtube.com/watch?v=Qps9woUGkvI)
+
+TODO: Link soldering module
+
+
+### Safety Tips:
+
+- Be careful holding wires and components with your bare hands while soldering, as they will get very hot very quickly. We recommend using long-nose pliers or helping hands whenever possible.
+
+- Don't touch the soldering iron tip (or any other metal piece) while the soldering iron is on, since doing so can cause burns. If you get burned, rinse the affected area with cold water immediately.
+
+- Likewise, don't use the soldering iron on anything you don't intend to solder. The high heat will cause things to melt or burn.
+
+- Don't breathe soldering fumes; use a soldering fan whenever possible.
+
+- If you have difficulty soldering (e.g. shaky hands), please seek the advice of a TA or teacher.
 
 
 ## Basics of electrical circuits

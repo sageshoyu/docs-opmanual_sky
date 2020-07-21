@@ -1,9 +1,7 @@
 # Part 3 Overview {#build-part3-overview status=ready}
 
-**Expected Time**: 1 hour
-
 ## Preface
-In this phase of the build, you'll be making your drone look like an actual drone. You will connect the motors, ESCs, and the flight controller-- the essential elements of every drone.
+In this phase of the build, you'll be adding the essential elements of every drone-- the motors, ESCs, and the flight controller.
 
 ## Hardware
 

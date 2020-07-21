@@ -2,73 +2,82 @@
 
 **Expected Time**: 2 hours
 
-##  Connect the IR Sensor Wires
 
-1) Gather the following:
-    - ADC
-    - ADC header pins set (in ADC packet)
-    - Pi Hat
-    - IR sensor
-    - IR sensor cable (likely in IR bag)
-    - 4 pieces of thin wire
+## Prep the IR Sensor Wire and ADC
 
-Recommended: For the thin wire, we recommend 22-24 AWG, 3 in. length, colors: red, black, green, and blue. Additionally, we highly recommend using solid-core wire, not stranded wire. It is **much** easier to solder to the pihat with solid core wire.
+1) Cut the black plastic piece off the end of the IR sensor cable, then strip each wire.
 
 
-2) Cut the black part off the IR sensor cable, then strip each wire.
+<figure class="flow-subfigures">
+<figcaption>IR sensor cable before and after</figcaption>
+   <figure>
+       <figcaption>Pre-cut</figcaption>
+       <img style='width:150px' src="photos/ir_cable_precut.jpg"/>
+   </figure>
+   <figure>  
+       <figcaption>Post-cut (not yet stripped)</figcaption>
+       <img style='width:150px' src="photos/ir_cable_postcut.jpg"/>
+   </figure>
+</figure>   
 
-<figure>  
-   <figcaption>IR sensor cable pre-cut</figcaption>
+2) Cut/break the ADC header pin set to the same number as holes on the ADC.
+
+<figure>
+    <figcaption>ADC Pins</figcaption>
+    <img style='width:200px' src="photos/pin_for_adc.jpg"/>
+</figure>
+
+Remark: If you break off the wrong number of pins, don't worry. Simply break off more/less as needed.
+
+3) Solder the **short** end of the header pins into the ADC.    
+
+<figure class="flow-subfigures">
+<figcaption>ADC Pins Soldered</figcaption>
    <figure>
        <figcaption>Top View</figcaption>
-       <img style='width:250px' src="photos/ir_cable_precut.jpg"/>
+       <img style='width:150px' src="photos/adc_pins_soldered_1.jpg"/>
    </figure>
    <figure>  
-       <figcaption>IR sensor cable post-cut (not yet stripped)</figcaption>
-       <img style='width:250px' src="photos/ir_cable_postcut.jpg"/>
+       <figcaption>Side View</figcaption>
+       <img style='width:250px' src="photos/adc_pins_soldered_2.jpg"/>
    </figure>
-</figure>  
+</figure>
 
 
-3) Cut/break the ADC header pin set to the same number as holes on the ADC. **Solder the short end of the header pins into the ADC - NOT THE LONG END.**     
+## Solder the IR Sensor Wire and ADC to the Pi Hat
 
-Remark: There is no electric conductivity between individual header pins, so it is okay if you accidentally cut/break too many pins from the set (e.g. full set of 12 pins broken into a set of 8 and set of 4 - instead of the needed 10). Simply break additional pins as needed (e.g. break 2 more pins from the set of 4, then you will have 8 + 2 = 10 pins).
+1) Detach the Pi Hat from the Pi.
 
-   <figure>  
-       <figcaption>ADC Pins Soldered</figcaption>
-       <figure>
-           <figcaption>Top View</figcaption>
-           <img style='width:250px' src="photos/adc_pins_soldered_1.jpg"/>
-       </figure>
-       <figure>  
-           <figcaption>Side View</figcaption>
-           <img style='width:250px' src="photos/adc_pins_soldered_2.jpg"/>
-       </figure>
-   </figure>  
+Gently lift the Pi Hat near the pin header to detach.
 
-
-4) Solder the ADC and all wires to the Pi Hat according to the diagram (strip wires as needed):        
+2) Solder the ADC and all wires to the Pi Hat according to the diagram (strip wires as needed):        
 
  Remark: Recall that the Pi Hat is a breadboard, so it has rails. The wires you solder do not need to go into exact holes; each wire just needs to go into a hole on the same rail as its corresponding ADC pin (e.g. red wire does not need to go into pin immediately adjacent to VDD pin of ADC - it can go into any hole of that rail).
 
+Note: For the wires, we use the colors: red, black, green, and blue. However, any color wires will work.
+
+<figure>
+   <figcaption>Pi Hat Wiring Diagram</figcaption>
+   <img style='width:300px' src="photos/pihat_adc_wiring.jpg"/>
+</figure>
+
+
+The completed circuit will look like the image below. If you would like additional help, check out the "Recommended" videos below.
+
+Note: The extra pair of red and black wires are from the BEC which you soldered to the Pi Hat in Part 1.
+
+<figure class="flow-subfigures">  
+   <figcaption>Soldered Header Board</figcaption>
    <figure>
-       <figcaption>Pi Hat Wiring Diagram</figcaption>
-       <img style='width:350px' src="photos/pihat_adc_wiring.jpg"/>
+       <figcaption>Top View</figcaption>
+       <img style='width:220px' src="photos/pihat_complete_topview.jpg"/>
    </figure>
-
-   For reference, the completed circuit will look like the following:
-
-   <figure class="flow-subfigures">  
-       <figcaption>Soldered Header Board</figcaption>
-       <figure>
-           <figcaption>Top View</figcaption>
-           <img style='width:220px' src="photos/pihat_complete_topview.jpg"/>
-       </figure>
-       <figure>  
-           <figcaption>Bottom View</figcaption>
-           <img style='width:216px' src="photos/pihat_complete_bottomview.jpg"/>
-       </figure>
+   <figure>  
+       <figcaption>Bottom View</figcaption>
+       <img style='width:210px' src="photos/pihat_complete_bottomview.jpg"/>
    </figure>
+</figure>
+
 
 Recommended: [Insert ADC into Pi Hat](https://drive.google.com/file/d/10DsHfgPxzleOdPzpjynebLGuU_-UMFih/view?usp=sharing)
 
