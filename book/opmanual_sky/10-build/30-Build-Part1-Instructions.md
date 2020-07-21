@@ -6,18 +6,9 @@
 
 ### Charge the Battery
 
-1) Plug the power cord into a wall outlet
+1) Start charging your drone battery so it is ready when you need it.
 
-2) Plug the round end of the power cord into the battery charger
-
-3) Plug the white connector on the battery into the charger with the ridges facing up
-
-<figure>  
-  <figcaption> Charging Setup </figcaption>
-  <img style='width:216px' src="photos/no_image.png"/>
-</figure>
-
-Note: **Never** leave the battery charging unattended
+Note: **Never** leave the battery charging unattended. The battery takes about 2 hours to charge
 
 ### Flash the SD card
 

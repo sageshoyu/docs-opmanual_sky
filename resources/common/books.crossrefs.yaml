@@ -1,0 +1,24 @@
+
+opmanual_duckiebot:              https://docs.duckietown.org/daffy/opmanual_duckiebot/crossref.html
+opmanual_duckietown:             https://docs.duckietown.org/daffy/opmanual_duckietown/crossref.html
+opmanual_autolab:                https://docs.duckietown.org/daffy/opmanual_autolab/crossref.html
+duckumentation:                  https://docs.duckietown.org/daffy/duckumentation/crossref.html
+
+
+duckietown-robotics-development: https://docs.duckietown.org/daffy/duckietown-robotics-development/crossref.html
+duckietown-classical-robotics:   https://docs.duckietown.org/daffy/duckietown-classical-robotics/crossref.html
+duckietown-learning-robotics:    https://docs.duckietown.org/daffy/duckietown-learning-robotics/crossref.html
+course-extra:                    https://docs.duckietown.org/daffy/course-extra/out/index.html
+
+AIDO:                            https://docs.duckietown.org/daffy/AIDO/crossref.html
+
+
+# old books
+preliminaries: https://docs.duckietown.org/DT19/preliminaries/crossref.html
+software_architecture: https://docs.duckietown.org/DT19/software_architecture/crossref.html
+software_devel: https://docs.duckietown.org/DT19/software_devel/crossref.html
+software_reference: https://docs.duckietown.org/DT19/software_reference/crossref.html
+the_duckietown_project: https://docs.duckietown.org/DT19/the_duckietown_project/crossref.html
+exercises: https://docs.duckietown.org/DT19/exercises/crossref.html
+guide_for_instructors: https://docs.duckietown.org/DT19/guide_for_instructors/crossref.html
+learning_materials: https://docs.duckietown.org/DT19/learning_materials/crossref.html
