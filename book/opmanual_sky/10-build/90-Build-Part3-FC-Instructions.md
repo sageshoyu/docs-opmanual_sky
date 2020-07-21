@@ -1,34 +1,75 @@
-# Phase 3: Device Configuration {#build-phase3 status=ready}
+# Part 3 FC Instructions {#build-part3-fc-instructions status=ready}
 
 **Expected Time**: 1 hour
 
+## Attach Flight Controller
+
+  The flight controller (i.e. FC) contains multiple sensors: an Inertial Measurement Unit (IMU) and a gyroscope. The IMU measures linear accelerations and the gyroscope measures angular velocities. The flight controller also sends electric signals to the ESCs.
+
+  The FC will have three cables connected to it (in the steps of this section): a USB to micro USB cable, a red and brown wire pair (i.e. battery monitor lead), and a PWM wire set. The USB to micro USB cable will be the electrical wire that the FC uses to report its sensors' observations. The battery monitor lead will allow the FC to monitor the power flow on the PDB (technically speaking, the _voltage_). The PWM wire set will allow the FC to send electrical signals to the ESCs.
+
+  The PWM wire set can be found inside the FC box:
+
+<figure>
+    <figcaption>PWM Wire Set</figcaption>
+    <img style='width:200px' src="photos/pwm_wires.jpg"/>
+</figure>
+
+  The corresponding ports on the FC are:
+
+<figure>
+    <figcaption>Ports on FC</figcaption>
+    <img style='width:200px' src="photos/fc_labeled.jpg"/>
+</figure>
+
+  1. Gather the following:
+      - Flight Controller
+      - Micro USB to USB cable
+      - Double sided mounting tape
+      - PWM wire set (inside FC box)
+
+  2. Connect the red and brown wire pair to the FC. Connect the PWM wire set to the FC. Connect the micro USB to USB cable to the FC. Note that there is a correct orientation to the connections - do **not** try to force them in.
+
+  <figure>
+      <figcaption>Cables Connect to FC</figcaption>
+      <img style='width:200px' src="photos/fc_with_cables_connected.jpg"/>
+  </figure>
+
+  3. Put double sided mounting tape on the bottom of the FC. Cut off any excess tape.
+
+  4. Attach the FC to front of the drone. Ensure the FC is not skewed and it is pushed against the frame body.     
+
+      NOTE:     
+
+      - Try to minimize the FC skew as much as possible. If you think of the FC as being foward-facing eyes, then a skewed FC would make a cross-eyed drone!     
+      - Once the FC is attached, do a "rock test" (i.e. try to rock the FC back-and-forth by pushing the corners). If the FC rocks, then the double sided mounting tape used is too soft and is compressing under pressure. Detach the FC from the frame (e.g. _carefully_ use a flat-head screwdriver) and replace the tape with more robust tape.    
+
+<figure class="flow-subfigures">  
+     <figcaption>Attach FC (bottom-up view)</figcaption>
+     <figure>
+         <figcaption>FC without Skew</figcaption>
+         <img style='width:220px' src="photos/fc_attached_no_skew.jpg"/>
+     </figure>
+     <figure>  
+         <figcaption>FC with Skew</figcaption>
+         <img style='width:220px' src="photos/fc_attached_skew.jpg"/>
+     </figure>
+</figure>
+
+
+## Checkoff
+
+  - Perform a "Rock Test" of the attached FC and verify it does not rock.
+
+
 ## Preface
 
-In this phase of the buid, you will configure and calibrate the drone's devices. This includes:
+In this phase of the build, you will configure and calibrate the drone's devices. This includes:
 
-- Flashing your SD card with our software stack
 - Configuring the flight controller for our desired mode of operation
 - Calibrating the ESCs with respect to the flight controller
 
 The flight controller will receive roll, pitch, yaw, and thrust instructions from the drone's computer and send corresponding electrical signals to the ESCs (i.e. *PWM signals*). The ESCs will use those signals to send variable amounts of power to the motors. Then, the motors will spin in such a way so that the desired roll, pitch, yaw, and thrust are achieved. The flight controller knows what signals to send to the ESCs because it has an **IMU** (i.e. Inertial Measurement Unit), which measures the roll, pitch, and yaw of the drone.
-
-## Flashing Your SD Card
-
-In order for the drone to operate autonomously, it must have an intelligent system in place which dictates what to do. Our software stack will be such a system, which we will load into the drone's computer using an SD card.
-
-1. Gather the following:
-    - A workstation (or personal computer)
-    - Micro SD card
-
-2. On a workstation, downlaod the image flashing tool [Etcher](https://www.balena.io/etcher/).
-
-3. On a workstation, download the latest drone [image](https://drive.google.com/file/d/1ogPrxXBpXa6Tbv3xpYZcvCc_7EXD-w7S/view?usp=sharing).
-
-4. Connect the micro SD card to the workstation.
-
-5. Open Etcher and select the downloaded drone image. Then select the micro SD card as the drive to flash. Finally, click the "Flash" button.
-
-NOTE: flashing will take 1 - 2 hours. In the meantime, you can move on to the next sections.
 
 ## Flashing the Flight Controller
 
@@ -57,13 +98,13 @@ Before the FC can be configured, it must first be flashed with firmware. **Firmw
 
 5. Select "NAZE" and firmware version "2.1" from the dropdowns. Alternatively, if you have custom firmware to flash, instead click on "Load Firmware [Local]" in the bottom right corner of the window and select your custom fireware file.
 
-    <figure>
+    <figure>  
         <figcaption>Firmware Flash</figcaption>
         <figure>
             <figcaption>Selecting Firmware from Dropdowns</figcaption>
             <img style='width:500px' src="photos/flash_firmware_dropdowns_inked.jpg"/>
         </figure>
-        <figure>
+        <figure>  
             <figcaption>Loading Custom Firmware</figcaption>
             <img style='width:500px' src="photos/load_firmware.png"/>
         </figure>
@@ -71,23 +112,23 @@ Before the FC can be configured, it must first be flashed with firmware. **Firmw
 
 6. On the FC, there are two holes marked "boot" (i.e. *bootloader pins*). Take a short piece of wire that is stripped on both sides and short the two holes with the wire.
 
-    <figure class="flow-subfigures">
+    <figure class="flow-subfigures">  
         <figcaption>Use Bootloader</figcaption>
         <figure>
             <figcaption>Bootloader Pins on FC</figcaption>
             <img style='width:200px' src="photos/fc_labeled_with_bootloader.jpg"/>
         </figure>
-        <figure>
+        <figure>  
             <figcaption>Wire in Bootloader Pins</figcaption>
             <img style='width:200px' src="photos/fc_with_jumped_bootloader_wire.jpg"/>
         </figure>
     </figure>
 
-7. Connect the shorted FC to the workstation via a USB to micro USB cable. It should immediately start flashing because of the "flash on connect" option. Flashing will be complete once the bar at the bottom of the screen says "Programming: SUCCESSFUL".
+7. Connect the shorted FC to the workstation via a USB to micro USB cable. It should immediately start flashing because of the "flash on connect" option. Flashing will be complete once the bar at the bottom of the screen says "Programming: SUCCESSFUL".     
 
-    NOTE:
+    NOTE:    
 
-    - If the bar instead reaches halfway and then says "Verifying: FAILED", do not worry - it has flashed successfully.
+    - If the bar instead reaches halfway and then says "Verifying: FAILED", do not worry - it has flashed successfully.     
 
     <figure>
         <figcaption>Flashing</figcaption>
@@ -121,31 +162,31 @@ Now that the FC has been flashed with firmware, it can be configured with Cleanf
         <img style='width:500px' src="photos/ports.png"/>
     </figure>
 
-5. Go to "Configuration" tab. Change the ESC/Motor protocol to "MULTISHOT". Set the Minimum Throttle to 1100. Flip the yaw by 180&deg; (because the FC is rotated by 180&deg; when attached to the drone frame). Change the receiver to "MSP RX input" (by default it is configured to receive data from an RC receiver, but we want it to take commands over MSP). Finally, click "Save and Reboot."
+5. Go to "Configuration" tab. Change the ESC/Motor protocol to "MULTISHOT". Set the Minimum Throttle to 1100. Flip the yaw by 180&deg; (because the FC is rotated by 180&deg; when attached to the drone frame). Change the receiver to "MSP RX input" (by default it is configured to receive data from an RC receiver, but we want it to take commands over MSP). Finally, click "Save and Reboot."    
 
-    NOTE:
+    NOTE:     
 
-    - On the configuration page, Cleanflight might show that the direction of your motors are reversed. This is a UI bug and can be ignored. You will ensure that your motors are spinning in the correct direction in later steps.
+    - On the configuration page, Cleanflight might show that the direction of your motors are reversed. This is a UI bug and can be ignored. You will ensure that your motors are spinning in the correct direction in later steps.    
 
-    <figure>
+    <figure>  
         <figcaption>Configuration: Step 1</figcaption>
         <figure>
             <figcaption>Set Multishot</figcaption>
             <img style='width:500px' src="photos/multishot.png"/>
         </figure>
-        <figure>
+        <figure>  
             <figcaption>Set Minimum Throttle</figcaption>
             <img style='width:500px' src="photos/minimum_throttle.png"/>
         </figure>
     </figure>
 
-    <figure>
+    <figure>  
         <figcaption>Configuration: Step 2</figcaption>
         <figure>
             <figcaption>Flip Yaw</figcaption>
             <img style='width:500px' src="photos/flip_yaw.png"/>
         </figure>
-        <figure>
+        <figure>  
             <figcaption>MSP RX Input</figcaption>
             <img style='width:500px' src="photos/msprx.png"/>
         </figure>
@@ -158,13 +199,13 @@ Now that the FC has been flashed with firmware, it can be configured with Cleanf
         <img style='width:500px' src="photos/add_range.png"/>
     </figure>
 
-    <figure>
+    <figure>  
         <figcaption>Modes Configuration</figcaption>
         <figure>
             <figcaption>Expand Range</figcaption>
             <img style='width:500px' src="photos/angle_range.png"/>
         </figure>
-        <figure>
+        <figure>  
             <figcaption>Expanded Range</figcaption>
             <img style='width:500px' src="photos/angle_range_2.png"/>
         </figure>
@@ -172,13 +213,13 @@ Now that the FC has been flashed with firmware, it can be configured with Cleanf
 
 7. The FC PID parameters need to be changed to work better with our drone. Go to the "PID Tuning" tab. Change the "ROLL" and "PITCH" PID terms to match the image. For reference: Roll should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: 1.00, Super Rate: 0.00, Max Vel: 200). Pitch should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: curly bracket, Super Rate: 0.00, Max Vel: 200). Change angle limit to 50. Finally, click "Save".
 
-    <figure>
+    <figure>  
         <figcaption>PID Tuning Configuration</figcaption>
         <figure>
             <figcaption>PID Params</figcaption>
             <img style='width:500px' src="photos/pid_settings.png"/>
         </figure>
-        <figure>
+        <figure>  
             <figcaption>Set Angle Limit</figcaption>
             <img style='width:500px' src="photos/angle_limit.png"/>
         </figure>
@@ -192,7 +233,7 @@ Now that the FC has been configured, it can be connected to the ESCs via the PWM
 <figure>
     <figcaption>Motors Diagram</figcaption>
     <img src="photos/correct_motors_diagram.jpg" width="200"/>
-</figure>
+</figure>  
 
 Where the red arrow indicates the front direction of the drone. Recall that for your drone, the FC is on the front and the camera is on the back.
 
@@ -201,9 +242,9 @@ Where the red arrow indicates the front direction of the drone. Recall that for 
 <figure>
     <figcaption>Connecting PWMs. White wire in line with the yellow wire (in blue). Metallic part on same side as "PWM" (in red) </figcaption>
     <img src="photos/connecting_pwm_inked.jpg" width="350"/>
-</figure>
+</figure>  
 
-TODO:
+TODO:     
 
 - Plug each PWM wire into its corresponding ESC signal wire pair. Note that the PWM wires labeled "PWM5" and "PWM6" can be snipped, since the drone only has 4 ESCs.
 
@@ -221,13 +262,13 @@ With the ESCs connected to the FC, your drone's motors can be tested. In this se
 
     NOTE: **DO NOT** follow the incorrect motors diagram. If Cleanflight shows the incorrect motors diagram, then ignore it - the diagram is a UI bug and does not affect the spin directions of the motors.
 
-    <figure class="flow-subfigures">
+    <figure class="flow-subfigures">  
         <figcaption>Motors Diagram</figcaption>
         <figure>
             <figcaption>Correct Motors Diagram</figcaption>
             <img style='width:200px' src="photos/correct_motors_diagram.jpg"/>
         </figure>
-        <figure>
+        <figure>  
             <figcaption>Incorrect Motors Diagram. **DO NOT FOLLOW**.</figcaption>
             <img style='width:200px' src="photos/incorrect_motors_diagram.jpg"/>
         </figure>
@@ -235,15 +276,15 @@ With the ESCs connected to the FC, your drone's motors can be tested. In this se
 
 5. Power your drone off by disconnecting the power supply. For each motor that is spinning in the incorrect direction: disconnect any 2 of the 3 ESC pad wires from the motor, e.g. disconnect the red and yellow ESC pad wires from their corresponding motor wires. Then swap the connections, e.g. plug the female bullet connector of the red ESC pad wire into the male bullet connector of the motor wire previously connected to the yellow ESC pad wire and vice-versa.
 
-    <figure class="flow-subfigures">
+    <figure class="flow-subfigures">  
         <figcaption>Changing Motor Direction</figcaption>
         <figure>
             <figcaption>Disconnecting red and yellow ESC pad wires</figcaption>
-            <!-- file not found <img style='width:200px' src="photos/changing_motor_direction_1.jpg"/>-->
+            <img style='width:200px' src="photos/changing_motor_direction_1.jpg"/>
         </figure>
-        <figure>
+        <figure>  
             <figcaption>Reconnecting swapped red and yellow ESC pad wires</figcaption>
-            <!-- file not found <img style='width:200px' src="photos/changing_motor_direction_2.jpg"/>-->
+            <img style='width:200px' src="photos/changing_motor_direction_2.jpg"/>
         </figure>
     </figure>
 
@@ -261,7 +302,7 @@ The solution to this problem is to *calibrate* the ESCs with the FC. In this con
 
 Note that symptoms of no calibration include: scorching hot motors, a drone that lists to one side during flight, motors that appear to spin at different speeds.
 
-1. **Make sure no propellers are attached to your drone's motors**!
+1. **Make sure no propellers are attached to your drone's motors**!   
 
 2. Unplug any power source from your drone.
 
