@@ -12,7 +12,7 @@ You will now verify that the SD card is working properly by connecting to your P
 
 Note: At this point you will lose internet access, because you will be connected to the Pi's network. You can disconnect and reconnect to the network at any point without causing issues on the Pi.
 
-3) In a web browser on your base station, [follow this link(http://duckiesky-drone:8081/?folder=/home/duckiesky/ws/src/pidrone_pkg)
+3) In a web browser on your base station, [follow this link](http://duckiesky-drone.local:8081/?folder=/home/duckiesky/ws/src/pidrone_pkg)
 
 4) If the link does not show an error, then your SD card is correctly flashed! You can browse around the text editor and files if you'd like. You will be learning more about this interface in a later lesson.
 

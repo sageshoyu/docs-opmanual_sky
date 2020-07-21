@@ -58,18 +58,10 @@ Note: flashing will take 1 - 2 hours. In the meantime, you can move on to the ne
 
 3) Use the helping hands to solder the Pin Header to the Pi Hat.
 
-
-<figure class="flow-subfigures">  
-    <figcaption>Soldering the Pin Header</figcaption>
     <figure>
        <figcaption>Soldering Setup</figcaption>
        <img style='width:220px' src="photos/no_image.png"/>
     </figure>
-    <figure>  
-       <figcaption>Finished Result</figcaption>
-       <img style='width:216px' src="photos/pi_hat_header_board_soldered_front.jpg"/>
-    </figure>
-</figure>
 
 Recommended: [video instructions part 1](https://drive.google.com/file/d/1_3pavoqrBqVhaXVO_ckga5tiSTCBStaA/view?usp=sharing)
 
@@ -91,70 +83,13 @@ TODO: link section on how to fix solder mistakes
 
 ## Attach the LED and Resistor to the Pi Hat
 
-1) Insert the anode (the **long** end) of the LED into the Pi Hat pin labelled "#6".
+1) Solder the 680 Ohm resistor and your LED to the Pi Hat as shown in the image.
 
-<figure>  
-   <figcaption>Insert anode Pi Hat hole Pin #6</figcaption>
-   <img style='width:216px' src="photos/no_image.png"/>
-</figure>
-
-Remark: LEDs have polarity, meaning that electricity can only flow in one direction through the element. This is why the direction we insert the LED is important.
-
-2) Insert the cathode (the **short** end) of the LED into one of the open holes near pin #6. Make sure that this pin is **not in the +3V or GDN rails**.
-
-<figure>  
-   <figcaption>Insert Cathode into unused hole</figcaption>
-   <img style='width:216px' src="photos/no_image.png"/>
-</figure>
-
-3) Push in the LED in so that it is flush against the Pi Hat
-
-<figure>  
-   <figcaption>LED flush against the Pi Hat</figcaption>
-   <img style='width:216px' src="photos/no_image.png"/>
-</figure>
-
-4) solder the LED to the Pi Hat.
-
-5) Snip off the extra wire
-
-<figure>  
-   <figcaption>Extra LED wire snipped</figcaption>
-   <img style='width:216px' src="photos/no_image.png"/>
-</figure>
-
-6) Insert one end of the resistor into one of the holes in the same row that you soldered the LED.
-
-Remark: Remember that resistors do not have polarity; therefore, electricity can flow in either direction through the element.
-
-Remark: Remember that all of the pins in a row are connected, so even though the wire from the resistor isn't touching the wire of the LED, they are connected by the Pi Hat. You can see this if you look at the back of the Pi Hat- there is thin metal that connects all of the holes in a row.
-
-<figure>  
-   <figcaption>Resistor inserted into a hole in the same row as the LED</figcaption>
-   <img style='width:216px' src="photos/no_image.png"/>
-</figure>
-
-7) Insert the other end of the resistor into one of the holes in the GND rail adjacent to the 3V rail.
-
-<figure>  
-   <figcaption>Resistor inserted in a hole connected to GND</figcaption>
-   <img style='width:216px' src="photos/no_image.png"/>
-</figure>
-
-8) Push in the resistor so that it is flush against the Pi Hat
-
-<figure>  
-   <figcaption>Resistor flush against Pi Hat</figcaption>
-   <img style='width:216px' src="photos/no_image.png"/>
-</figure>
-
-9) Solder the resistor to the Pi Hat.
-
-10) Snip off the extra wire
+Note: The direction of the resistor does not matter, but the direction of the LED **does matter.** Be sure to place the cathode (shorter end) into the GND rail.
 
 <figure>  
    <figcaption>Extra resistor wire snipped</figcaption>
-   <img style='width:216px' src="photos/no_image.png"/>
+   <img style='width:216px' src="photos/pihat-with-led.png"/>
 </figure>
 
 
@@ -176,45 +111,19 @@ You've just finished the LED circuit! In a future lesson, you will learn how to 
    </figure>
 </figure>
 
- 2) Strip the end of the red and black OUT wires (the wires you just cut) so that there is about 5mm of exposed wire.
+ 2) Strip the end of the red and black **OUT** wires (the wires you just cut) so that there is about 5mm of exposed wire.
+
+ 3) Solder the BEC **red (+)** OUT wire to the +5V Rail, and solder the BEC **black (-)** OUT wire to the GND rail, as shown in the image.
+
+ Remark: Any hole on the 5V rail will work; however, for wire organization, it is best to use a hole on the 5V rail that is shown.
 
  <figure>
-     <figcaption>BEC wires stripped</figcaption>
-     <img style='width:250px' src="photos/no_image.png"/>
- </figure>
-
- 3) Insert the BEC **red (+)** OUT wire to any hole on the +5V Rail.
-
- Remark: Any hole on the 5V rail will work; however, for wire organization, it is best to use a hole on the 5V rail that is near the small slot on the Pi Hat.
-
- <figure>
-     <figcaption>BEC positive wire inserted into +5V rail</figcaption>
-     <img style='width:250px' src="photos/no_image.png"/>
+     <figcaption>BEC Soldered to Pi Hat</figcaption>
+     <img style='width:250px' src="photos/pihat-with-bec.png"/>
  </figure>
 
 
  Remark: The BEC wire is stranded so it can be difficult to push through the hole on the Pi Hat. It helps to twist the wire strands together using your index and thumb finger, like preparing to thread a needle.
-
- 4) Solder the BEC **red (+)** OUT wire on the back of the Pi Hat
-
-<figure>
-    <figcaption>Positive wire soldered to +5V rail</figcaption>
-    <img style='width:250px' src="photos/no_image.png"/>
-</figure>
-
- 5) Insert the BEC **black (-)** OUT wire to any pin on the GND Rail adjacent to the +5V Rail
-
- <figure>
-     <figcaption>Ground wire inserted into GND rail</figcaption>
-     <img style='width:250px' src="photos/no_image.png"/>
- </figure>
-
- 6) Solder the BEC **black (-)** OUT wire on back of the Pi Hat
-
- <figure>
-     <figcaption>Ground wire soldered to GND rail</figcaption>
-     <img style='width:250px' src="photos/no_image.png"/>
- </figure>
 
 Reference: [video instructions](https://drive.google.com/file/d/1dWkcTCSyBB6qZfQMVru1hSIyZC1fnxfx/view?usp=sharing) (please ignore the extra wires and components that are already attached to the Pi Hat in the video)
 
@@ -222,7 +131,7 @@ Reference: [video instructions](https://drive.google.com/file/d/1dWkcTCSyBB6qZfQ
 
 Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the Pi Hat. Verify there is:
 
- - **no short** between the +5V rail and the GND rail
+ - **no short** between the +5V rail and the GND rail on the Pi Hat
 
 </div>
 
@@ -247,20 +156,13 @@ Reference: [video instructions](https://drive.google.com/file/d/1xVlTBsAtarXKaJy
 
 1) Tin the ends of the red and black wires that are connected to the side of the BEC that is labeled **IN**
 
-2) Solder the BEC **red (+)** IN wire to one of the tinned positive **(+)** pads on the PDB
+2) Solder the BEC **red (+)** IN wire to the **positive (+)** pad on the PDB, and solder the **black (-)** IN wire to the **negative (-)** pad on the PDB, as shown in the image.
 
 Note: Any of the tinned (+) pads will work; however, using the pad shown in the image will help with wire organization later on.
 
 <figure>
     <figcaption>BEC positive wire soldered to PDB</figcaption>
-    <img style='width:300px' src="photos/no_image.png"/>
-</figure>
-
-3) Solder the BEC **black (-)** IN wire to the adjacent tinned ground **(-)** pad on the PDB
-
-<figure>
-    <figcaption>BEC negative wire soldered to PDB</figcaption>
-    <img style='width:300px' src="photos/no_image.png"/>
+    <img style='width:300px' src="photos/pdb-with-bec.png"/>
 </figure>
 
 Reference: [video instructions](https://drive.google.com/file/d/1j81xCk6fAeutRMZY-X9wH2JQ-ylNwIOQ/view?usp=sharing) (Please ignore the additional wires on the PDB, as well as which pads the BEC is soldered to - just observe the technique)
@@ -269,36 +171,19 @@ Reference: [video instructions](https://drive.google.com/file/d/1j81xCk6fAeutRMZ
 
 1) Strip the ends of the battery connector so that about 1cm of wire is exposed
 
-<figure>
-    <figcaption>Stripped XT60</figcaption>
-    <img style='width:300px' src="photos/no_image.png"/>
-</figure>
-
 2) Tin the exposed ends of the XT60 connector
 
-<figure>
-    <figcaption>Tinned XT60</figcaption>
-    <img style='width:300px' src="photos/no_image.png"/>
-</figure>
-
-2) Solder the XT60 **red (+)** wire to the tinned positive (+) pad on the PDB as shown in the image.
+2) Solder the XT60 **red (+)** wire to the tinned positive (+) pad on the PDB, and solder the **black (-)** wire to the tinned ground (-) pad on the PDB, as shown in the image.
 
 Note: This wire is very thick and it will take a while for the solder to melt. Make sure your soldering iron is turned all the way up and be patient.
 
-<figure>
-    <figcaption>XT60 positive lead soldered to PDB</figcaption>
-    <img style='width:300px' src="photos/no_image.png"/>
-</figure>
+Note: Do **not** solder the wires flat against the PDB - solder them at ~40&deg; angle away from the board. If you solder them flat, then you will not be able to fit the PDB into the drone frame.   
 
-3) Solder the XT60 **black (-)** wire to the tinned ground (-) pad on the PDB as shown in the image
 
 <figure>
-    <figcaption>XT60 negative lead soldered to PDB</figcaption>
-    <img style='width:300px' src="photos/no_image.png"/>
+    <figcaption>XT60 soldered to PDB</figcaption>
+    <img style='width:300px' src="photos/pdb-with-xt60.png"/>
 </figure>
-
-- Do **not** solder the wires flat against the PDB - solder them at ~40&deg; angle away from the board. If you solder them flat, then you will not be able to fit the PDB into the drone frame.   
-
 
 
 <div class='check' markdown="1">
@@ -339,8 +224,6 @@ Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/bui
 
 1) Align the 2x40 GPIO pins on the Raspberry Pi with the 2x40 pin header that you soldered to the Pi Hat as shown in the image. (please ignore additional wires on the Pi Hat)
 
-TODO: crop out extra wires
-
 <figure>
     <figcaption>Pi Hat lined up</figcaption>
     <img style='width:300px' src="photos/pihat_lined_up.jpg"/>
@@ -361,14 +244,9 @@ Do another [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/o
 
 1) Connect the battery
 
-2) Verify that the BEC has a solid greed light
+2) Verify that the BEC has a solid greed light.
 
-3) Verify that the Pi has a solid red light
-
-<figure>  
-  <figcaption>Pi power indicator LED </figcaption>
-  <img style='width:216px' src="photos/no_image.png"/>
-</figure>
+3) Verify that the Pi has a solid red light.
 
 ## Insert the SD card into the Pi
 

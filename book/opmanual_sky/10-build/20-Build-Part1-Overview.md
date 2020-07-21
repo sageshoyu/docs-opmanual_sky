@@ -166,7 +166,7 @@ The circuit you'll be making looks like this:
 
 <figure>  
   <figcaption> Circuit Diagram for Build Part 1 </figcaption>
-  <img style='width:216px' src="photos/no_image.png"/>
+  <img style='width:216px' src="photos/part-1-circuit.png"/>
 </figure>
 
 The arrows represent the flow of electricity from the battery, through the PDB, into the Pi Hat, and finally to the Pi and the LED.

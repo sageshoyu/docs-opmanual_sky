@@ -16,3 +16,10 @@ will need:
 Ensure you have all the parts in the [parts and materials list](https://docs.duckietown.org/daffy/opmanual_sky/out/build_parts_and_materials.html).
 
 </div>
+
+The figure below is a wiring diagram of the completed build. It will be a useful reference to use while you go through these instructions.
+
+<figure>  
+    <figcaption>Wiring Diagram</figcaption>
+    <img style='width:500px' src="photos/wiring-schematic.jpg"/>
+</figure>

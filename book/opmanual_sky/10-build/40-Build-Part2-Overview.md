@@ -26,15 +26,15 @@ In this part of the build, you will be adding your first sensor to the drone -- 
 ### Infrared (IR) Sensor
 The IR sensor is used to measure distance. On the drone, we use this sensor to measure the height of the drone above the ground. The sensor works by emitting infrared light from one side, and measuring the angle of reflection on other. The sensor outputs a voltage value that varies inversely with distance to an object. After powering up your sensor, you'll be able to read the voltage output from the sensor using a multimeter.
 
-### Analog to Digital Converter (ADC)
-The Raspberry Pi GPIO pins can only read digital signals (1's and 0's). However, the IR sensor outputs an analog signal (a voltage value). In order for the Pi to read the output of the IR sensor, the analog output must be converted to digital first. This is the purpose of the Analog to Digital Converter, or ADC for short.
-
-In order to connect the IR sensor and ADC, you will be creating the following circuit:
-
 <figure>
     <figcaption>Infrared Sensor and Wire</figcaption>
     <img style='width:400px' src="photos/ir.png"/>
 </figure>
+
+### Analog to Digital Converter (ADC)
+The Raspberry Pi GPIO pins can only read digital signals (1's and 0's). However, the IR sensor outputs an analog signal (a voltage value). In order for the Pi to read the output of the IR sensor, the analog output must be converted to digital first. This is the purpose of the Analog to Digital Converter, or ADC for short.
+
+In order to connect the IR sensor and ADC, you will be creating the following circuit:
 
 <figure>
     <figcaption>Analog to Digital Converter</figcaption>
