@@ -276,17 +276,7 @@ With the ESCs connected to the FC, your drone's motors can be tested. In this se
 
 5. Power your drone off by disconnecting the power supply. For each motor that is spinning in the incorrect direction: disconnect any 2 of the 3 ESC pad wires from the motor, e.g. disconnect the red and yellow ESC pad wires from their corresponding motor wires. Then swap the connections, e.g. plug the female bullet connector of the red ESC pad wire into the male bullet connector of the motor wire previously connected to the yellow ESC pad wire and vice-versa.
 
-    <figure class="flow-subfigures">  
-        <figcaption>Changing Motor Direction</figcaption>
-        <figure>
-            <figcaption>Disconnecting red and yellow ESC pad wires</figcaption>
-            <img style='width:200px' src="photos/changing_motor_direction_1.jpg"/>
-        </figure>
-        <figure>  
-            <figcaption>Reconnecting swapped red and yellow ESC pad wires</figcaption>
-            <img style='width:200px' src="photos/changing_motor_direction_2.jpg"/>
-        </figure>
-    </figure>
+
 
 6. Re-connect a power supply to your drone. Repeat step 4 to verify all motors are spinning correctly.
 
