@@ -1,4 +1,4 @@
-# Part 4 Instructions {#build-part4-instructions status=ready}
+<!-- # Part 4 Instructions {#build-part4-instructions status=ready}
 
 ## Glue USB Connector to Flight Controller
 
@@ -169,4 +169,4 @@ Attach the drone feet in the drone frame box to the four arms of the drone. This
 
 - Spin the propellers manually with your finger. Ensure no wires are hit by the propellers.
 
-- Make sure no wires or parts are dangling from the drone frame.
+- Make sure no wires or parts are dangling from the drone frame. -->
