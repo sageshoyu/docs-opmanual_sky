@@ -1,5 +1,7 @@
 # Part 3 Instructions {#build-part3-instructions status=ready}
 
+
+<!--
 **Expected Time**: 5 hours
 
 
@@ -371,4 +373,4 @@ For reference, here are the motor directions with respect to the frame:
 
   - The ESCs emitted a quick succession of 3 beeps.
 
-  - The bottom of the drone frame is illuminating, due to the LEDs on the bottom of the PDB.
+  - The bottom of the drone frame is illuminating, due to the LEDs on the bottom of the PDB. -->
