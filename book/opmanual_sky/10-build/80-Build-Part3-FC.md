@@ -8,3 +8,5 @@
      <figcaption>Flight Controller</figcaption>
     <img src="photos/fc.png" width="300"/>
 </figure>
+
+Note: Please, do not continue your build past this point. We are currently updating the docs to account for the new flight controller.

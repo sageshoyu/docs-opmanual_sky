@@ -49,10 +49,10 @@ Note: flashing will take 1 - 2 hours. In the meantime, you can move on to the ne
 
 3) Use the helping hands to solder the Pin Header to the Pi Hat.
 
-    <figure>
-       <figcaption>Soldering Setup</figcaption>
-       <img style='width:220px' src="photos/no_image.png"/>
-    </figure>
+<figure>
+  <figcaption>Soldering Setup</figcaption>
+  <img style='width:220px' src="photos/no_image.png"/>
+</figure>
 
 Recommended: [video instructions part 1](https://drive.google.com/file/d/1_3pavoqrBqVhaXVO_ckga5tiSTCBStaA/view?usp=sharing)
 
@@ -63,9 +63,21 @@ Recommended: [video instructions part 3](https://drive.google.com/file/d/1bRUzxm
 Note: It's very easy to add too much solder and create a solder bridge between adjacent pins. Visually inspect your soldering to make sure that adjacent pins are not connected by globs of solder. If you have a solder bridge, try the technique shown in [this video](https://www.youtube.com/watch?v=gJPLs7J4oCk). If this does not work, you can use desoldering wick or a solder sucker to remove the excess solder.
 
 <div class='check' markdown="1">
-Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the Pi Hat; verify there is:
+Sometime too much heat when soldering the pin header can mess up the Pi Hat connections. To make sure the connections are still good, do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the Pi Hat; verify there is:
 
-- A short between the SDA on the Pi Hat and
+- A short between the hole labelled SDA on the Pi Hat and the pin at row 2 column 1 of the pin header that you soldered.
+
+<figure>  
+   <figcaption>Check for SDA connection</figcaption>
+   <img style='width:216px' src="photos/check-scl.png"/>
+</figure>
+
+- A short between the hole labelled SCL on the Pi Hat and the pin at row 3 column 1 of the pin header that you soldered.
+
+<figure>  
+   <figcaption>Check for SCL connection</figcaption>
+   <img style='width:216px' src="photos/check-sda.png"/>
+</figure>
 
 </div>
 
@@ -106,7 +118,7 @@ You've just finished the LED circuit! In a future lesson, you will learn how to 
 
  3) Solder the BEC **red (+)** OUT wire to the +5V Rail, and solder the BEC **black (-)** OUT wire to the GND rail, as shown in the image.
 
- Remark: Any hole on the 5V rail will work; however, for wire organization, it is best to use a hole on the 5V rail that is shown.
+ Remark: Any hole on the rails will work; however, for wire organization, it is better to use a hole on the 5V rail that is shown. If you mess up soldering, it is ok to leave the mistake and use a different hole.
 
  <figure>
      <figcaption>BEC Soldered to Pi Hat</figcaption>

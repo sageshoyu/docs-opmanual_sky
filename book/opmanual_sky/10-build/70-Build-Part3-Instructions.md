@@ -6,16 +6,11 @@
 In this phase, strip and tin all of your parts, so that in latter phases they can be joined together.  
 - Notes:
     - Sometimes parts will have wires already tinned out-of-the-box by the manufacturer (i.e. pre-tinned). You can identify this by: 1) the "shininess" of the tip of a wire and 2) the inability to fray the wire strands of the tip of a wire. However, such tinning is often ineffective. Cut off any pre-tinned tips, then strip and tin the part yourself.
-    - Only tin red and black wires on the IN side of BEC.
-    - Do **not** substitute the red and brown wire pair in the flight controller box with any other wire pair in the box.
-    - If the red and brown wire pair has a black connector on each wire, then cut off each black connector. Strip and tin the remaining portion of each wire.
-    - Do **not** cut off the white connector from the red and brown wire pair. If you accidentally do, then seek the help of a TA or teacher to solder the white connector back on the wires.
 
-<col3 figure-id="tab:tin_parts" figure-caption="Parts Need Tinning" class="labels-row1">
+<col3 figure-caption="Parts Need Tinning" class="labels-row1">
     <span style="text-align:center">Part Name</span>  <span style="text-align:center">Amount</span>  <span style="text-align:center">After Tinning Picture</span>
     <span style="text-align:center">ESC</span> <span style="text-align:center">4</span>  <span style="text-align:center"><img src="photos/tinned_esc_2.jpg" width="250" /></span>
     <span style="text-align:center">Motor</span> <span style="text-align:center">4</span> <span style="text-align:center"><img src="photos/tinned_motor.jpg" width="250" /></span>
-    <span style="text-align:center">Battery Monitor Leads</span> <span style="text-align:center">1</span> <span style="text-align:center"><img src="photos/no_image.png" width="250"/></span>
 </col3>
 
 ## Solder wires onto ESC pads
@@ -181,7 +176,7 @@ See: Heat shrinks (recommend 4mm in width)
 
 Visually inspect each ESC and verify that the heat shrinks are on properly; there should be no exposed wires and each heat shrink should be a tight fit.
 
-- Visually inspect that each of the following is stripped and tinned: 4 ESCs, 4 motors, BEC, red and brown wire pair.
+- Visually inspect that each of the following is stripped and tinned: 4 ESCs, 4 motors
 
 - Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the XT60 connector cable; verify there is no short between the red and black wire.
 
@@ -197,7 +192,7 @@ An ESC (i.e. Electronic Speed Control) is a component which requires power. It t
 1) Solder each of your 4 ESCs to the PDB.   
 
 <figure>
-    <figcaption>BEC Soldered to PDB</figcaption>
+    <figcaption>ESCs Soldered to PDB</figcaption>
     <img style='width:400px' src="photos/added_bec.jpg"/>
 </figure>
 
@@ -205,27 +200,56 @@ An ESC (i.e. Electronic Speed Control) is a component which requires power. It t
 Note: Do **not** solder the wires flat against the PDB - solder them at ~40&deg; angle. If you solder them flat, then you will not be able to fit the PDB into the drone frame.   
 
 
-## Solder red and brown wire pair to the PDB
+## Solder battery monitor leads to the PDB
 
-1) Solder the red and brown wire pair to the PDB. Due to its small size, you will need to solder onto another pair of wires, e.g. BEC wires. The red wire should connect to a positive (+) pad and the brown wire should connect to a negative (-) pad.     
+1) Solder the 6 inch red and black wires to the PDB. Due to limited PDB pads, you will need to solder onto another pair of wires, e.g. BEC wires. The red wire should connect to a positive (+) pad and the brown wire should connect to a negative (-) pad.
+
+Note: these wires are soldered so they go across the PDB, toward where the flight controller will be mounted. Also, please ignore that in this photo, the PDB is in the drone frame.
 
 <figure>
     <figcaption>Battery Monitor Lead Soldered to PDB</figcaption>
-    <img style='width:400px' src="photos/added_red_brown.jpg"/>
+    <img style='width:300px' src="photos/battery-wires.png"/>
 </figure>
 
 
 Note: While trying to solder on these wires, you may accidentally unsolder the existing wires from the PDB. We recommend temporarily holding down the existing wires with long-nose pliers, tape, or helping hands.  
 
-- Do **not** substitute the red and brown wire pair in the flight controller box with any other wire pair in the box.
-- If the red and brown wire pair has a black connector on each wire, then cut off each black connector. Strip and tin the remaining portion of each wire.
-- Do **not** cut off the white connector from the red and brown wire pair. If you accidentally do, then seek the help of a TA or teacher to solder the white connector back on the wires.
+
+## Solder pins to the flight controller
+
+1) solder the short edge of the straight pins to the flight controller.
+
+Note: Be sure that direction you solder the pins into the board is exactly as shown in the images
+
+<figure>  
+    <figcaption>Solder FC Pins</figcaption>
+    <figure>
+        <figcaption>View 1</figcaption>
+        <img style='width:250px' src="photos/fc-view-1.png"/>
+    </figure>
+    <figure>  
+        <figcaption>View 2</figcaption>
+        <img style='width:250px' src="photos/fc-view-2.png"/>
+    </figure>
+</figure>
+
+## Solder the battery monitor leads to the flight controller
+
+1) Tin and solder the battery leads to the flight controller as shown in the image
+
+<figure>  
+    <figcaption>View 2</figcaption>
+    <img style='width:250px' src="photos/battery-leads.png"/>
+</figure>
+
 
 ## Attach parts to drone frame
 
 This section will cover attaching the first set of items to the drone frame.
 
 Before beginning, verify the PDB is completely soldered with all necessary parts (as covered in previous sections).
+
+Note: the flight controller is not shown in these images; however, don't be alarmed that your build is incorrect. For now, just move the flight controller as you are working so it is not in the way. In the next section, you will attach the flight controller to the drone frame.
 
 For reference, here are the motor directions with respect to the frame:
 
