@@ -47,7 +47,7 @@ This will open up the web interface in your browser!
 
 4) Plug the battery into your drone build and connect to the drone's wifi network, **defaultdrone**
 
-5) Browse to the [drone's code editor](http://duckiesky-drone.local:8081/?folder=/home/duckiesky/ws/src/pidrone_pkg)
+5) Browse to the drone's code editor: [http://192.168.42.1:8081/](http://192.168.42.1:8081/)
 
 6) Click the menu bar in the top left corner, then click Terminal > New Terminal
 
