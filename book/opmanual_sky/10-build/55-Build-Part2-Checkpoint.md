@@ -36,7 +36,7 @@ Note: For Chromebook Users: The web interface will not work if you download the 
 
 <figure>
   <figcaption>Download pidrone_pkg</figcaption>
-  <img style='width:220px' src="photos/code-zip.png"/>
+  <img style='width:100%' src="photos/code-zip.png"/>
 </figure>
 
 2) Open the zip file and open the **web** folder.
