@@ -32,7 +32,7 @@ TODO: provide better chromebook support or include an extra sd card for the foll
 
 Note: For Chromebook Users: The web interface will not work if you download the files to google drive. If you have an external storage device (extra sd cart, usb drive, etc) then you can download the software to this device, and it will work. (The only requirement is a place to store the files other than drive)
 
-1) Download the zip file of the [drone's software stack on github](https://github.com/h2r/pidrone_pkg)
+1) Download the zip file of the [drone's software stack on github](https://github.com/h2r/pidrone_pkg). To download the pidrone_pkg, click the Green Code Button then Download Zip from the dropdown menu on GitHub.
 
 <figure>
   <figcaption>Download pidrone_pkg</figcaption>
