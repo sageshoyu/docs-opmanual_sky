@@ -14,7 +14,6 @@ Note: You will not be able to remove the USB cable. This is intentional.
     <img style='width:350px' src="photos/usb_glue.png"/>
 </figure>
 
-
 ## Attach PiMount
 
 Place the PiMount on top of the PDB and use the **short** black bolts **from the motors box** to secure the mount to the standoffs.     
@@ -84,7 +83,23 @@ Note: Do not just push the FFC into the slot. [Watch this video](https://www.you
     </figure>
 </figure>  
 
-### Attach BEC to Drone
+## Attach the IR Sensor
+
+Zip tie the IR sensor at the front of the drone, facing down. It will be underneath the flight controller.
+
+<figure class="flow-subfigures">  
+    <figcaption>Attached IR Sensor</figcaption>
+    <figure>
+       <figcaption>Top View</figcaption>
+       <img style='width:220px' src="photos/ir_attached_top_view.jpg"/>
+    </figure>
+    <figure>  
+       <figcaption>Bottom View</figcaption>
+       <img style='width:220px' src="photos/ir_attached_bottom_view.jpg"/>
+    </figure>
+</figure>
+
+## Attach BEC to Drone
 
 Attach the BEC to the top of the USB ports using some double sided tape. Alternatively, if it does not reach, then 1) place electrical tape on the Pi Hat, 2) place double sided mounting tape on the electrical tape, and 3) place the BEC upside down on double sided mounting tape.
 
@@ -148,7 +163,6 @@ The propellers **must** be flat on the base of the motor
 Holding the motor still, try to spin the prop and make sure the props **cannot** spin around the motor shaft; the motors and the props should spin together.
 
 </div>
-
 
 
 ## Attach Drone Feet

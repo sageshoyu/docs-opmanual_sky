@@ -68,8 +68,6 @@ Once the FC is attached, do a "rock test" (i.e. try to rock the FC back-and-fort
 
 ## Flashing the Flight Controller
 
-Warning: Please don't follow these instructions yet, we're troubleshooting some problems.
-
 Before the FC can be configured, it must first be flashed with firmware. **Firmware** is a special type of software that allows hardware to be controlled programmatically. Once the FC is flashed, a program called **Cleanflight** can be used to configure it.
 
 1) Download the [flight controller firmware](https://www.dropbox.com/s/3e1c6tbp3zrxeyr/cleanflight_2.4.1_SPRACINGF3.hex?dl=0)
