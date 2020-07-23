@@ -6,19 +6,41 @@
 
 1) Trim the 4 pins on the flight controller as shown in the image. This helps the flight controller sit level on the drone frame.
 
-<figure>
- <figcaption>FC with pins cut</figcaption>
- <img style='width:220px' src="photos/fc-trim-pins.png"/>
+<figure class="flow-subfigures">  
+<figcaption>Trim the FC pins</figcaption>
+     <figure>
+           <figcaption>FC pins need trimming</figcaption>
+           <img style='width:220px' src="photos/fc-trim-pin.png"/>
+     </figure>
+     <figure>
+           <figcaption>FC with pins cut</figcaption>
+           <img style='width:220px' src="photos/fc-pins-level.png"/>
+     </figure>
 </figure>
 
 2) Put double sided mounting tape on the bottom of the FC. Cut off any excess tape.
 
-3) Attach the FC to front of the drone. Ensure the FC is not skewed and it is pushed against the frame body. (Ignore the extra wires in the flight controller for now)
+3) Attach the FC to front of the drone. Ensure the FC is not skewed and it is pushed against the frame body. (Ignore the extra wires in the flight controller for now).
 
 <figure>
- <figcaption>FC attached to frame</figcaption>
- <img style='width:220px' src="fc-attached.jpg"/>
+    <figcaption>Orientation of Drone Frame</figcaption>
+    <img style='width:200px' src="photos/drone_frame_labeled_orientation.jpg"/>
 </figure>
+
+Note: the white plastic tabs will need to hang off the frame for the flight controller to sit level.
+
+<figure class="flow-subfigures">  
+<figcaption>FC attached to drone frame</figcaption>
+     <figure>
+          <figcaption>Top View</figcaption>
+          <img style='width:220px' src="fc-attached.jpg"/>
+     </figure>
+     <figure>
+          <figcaption>Bottom View</figcaption>
+          <img style='width:220px' src="fc-tabs.png"/>
+     </figure>
+</figure>
+
 
 Note:  Try to minimize the FC skew as much as possible. (the following photos are an example of skew. ignore the difference of flight controller).
 
@@ -48,22 +70,17 @@ Before the FC can be configured, it must first be flashed with firmware. **Firmw
 
 1) Download the [flight controller firmware](https://www.dropbox.com/s/3e1c6tbp3zrxeyr/cleanflight_2.4.1_SPRACINGF3.hex?dl=0)
 
-Note: the file extension for this file should be **.hex**. Your computer might have added a **.txt** to the end of the file, rename the file and delete **.txt** so that the file ends in **.hex**
+Note: the file extension for this file should be **.hex**. Your computer might have added a **.txt** to the end of the file, rename the file and delete **.txt** so that the file ends in **.hex**.
 
-2) On a base station, install and open [Cleanflight](http://cleanflight.com/).
+2) Install [this driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers). Be sure to select the correct download for your device's operating system
 
-3) Click on "Firmware Flasher" on the left sidebar.
+3) On a base station, install and open [Cleanflight](http://cleanflight.com/) (you will need Google Chrome)
+
+4) Click on "Firmware Flasher" on the left sidebar.
 
 <figure>
    <figcaption>Firmware Flasher </figcaption>
    <img style='width:500px' src="photos/click_on_firmware_flasher.png"/>
-</figure>
-
-4) Toggle on the following options: "No reboot sequence", "Flash on connect", and "Full chip erase".
-
-<figure>
-   <figcaption>Toggled Options</figcaption>
-   <img style='width:500px' src="photos/flash_firmware_toggled_options_inked.jpg"/>
 </figure>
 
 5) Click on "Load Firmware [Local]" in the bottom right corner of the window and select the firmware file that you downloaded (the one with the .hex extension).
@@ -73,21 +90,7 @@ Note: the file extension for this file should be **.hex**. Your computer might h
   <img style='width:500px' src="photos/load_firmware.png"/>
 </figure>
 
-6) On the FC, there are two holes marked "boot" (i.e. *bootloader pins*). Take a short piece of wire that is stripped on both sides and short the two holes with the wire.
-
-<figure class="flow-subfigures">  
-   <figcaption>Use Bootloader</figcaption>
-   <figure>
-       <figcaption>Bootloader Pins on FC</figcaption>
-       <img style='width:200px' src="photos/fc_labeled_with_bootloader.jpg"/>
-   </figure>
-   <figure>  
-       <figcaption>Wire in Bootloader Pins</figcaption>
-       <img style='width:200px' src="photos/fc_with_jumped_bootloader_wire.jpg"/>
-   </figure>
-</figure>
-
-7) Connect the shorted FC to the workstation via a USB to micro USB cable. It should immediately start flashing because of the "flash on connect" option. Flashing will be complete once the bar at the bottom of the screen says "Programming: SUCCESSFUL".     
+6) Connect the FC to the workstation via a USB to micro USB cable. Click the flash firmware button at the bottom right of the screen. Flashing will be complete once the bar at the bottom of the screen says "Programming: SUCCESSFUL".
 
 Note: If the bar instead reaches halfway and then says "Verifying: FAILED", do not worry - it has flashed successfully.     
 
@@ -96,13 +99,11 @@ Note: If the bar instead reaches halfway and then says "Verifying: FAILED", do n
    <img style='width:500px' src="photos/flashing.png"/>
 </figure>
 
-8) Disconnect the FC from the workstation, remove the wire in the bootloader pins, and close Cleanflight.
-
 ## Configuring Your Flight Controller
 
 Now that the FC has been flashed with firmware, it can be configured with Cleanflight.
 
-1) If not already done: remove the bootloader wire from the FC, disconnect it from the workstation, and close Cleanflight.
+1) Disconnect the FC from the base station and close Cleanflight.
 
 2) Open Cleanflight, reconnect the FC to the workstation, and click the "Connect" button in the top right corner of the screen (this is not needed if "auto-connect" is toggled on).
 

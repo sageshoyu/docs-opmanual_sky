@@ -8,6 +8,7 @@ In this section of the build, you will attach the camera, and finalize the drone
     <span style="text-align:center">CW Propellors</span> <span style="text-align:center">2</span>
     <span style="text-align:center">CCW Propellors</span> <span style="text-align:center">2</span>
     <span style="text-align:center">Wrench for the motor bolts (included in the kit)</span> <span style="text-align:center">1</span>
+    <span style="text-align:center">3D Printed Battery Holder</span>  <span style="text-align:center">1</span>
     <span style="text-align:center">hot glue gun</span> <span style="text-align:center">1</span>
 </col2>
 
