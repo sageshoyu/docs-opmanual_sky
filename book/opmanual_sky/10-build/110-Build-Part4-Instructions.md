@@ -91,7 +91,7 @@ Screw in a pair of standoffs into bottom right hole of the Pi. It may help to fi
 
 ## Connect Pi Cam
 
-Feed the flexible flat cable (FFC) from the Pi Cam through the hole in Pi Hat, then connect it to the Pi's camera port, i.e. the black port close to the HDMI port.
+1. Feed the flexible flat cable (FFC) from the Pi Cam through the hole in Pi Hat, then connect it to the Pi's camera port, i.e. the black port close to the HDMI port.
 
 Note: Do not just push the FFC into the slot. [Watch this video](https://www.youtube.com/watch?v=VzYGDq0D1mw) on how to insert the camera properly.
 
@@ -106,6 +106,41 @@ Note: Do not just push the FFC into the slot. [Watch this video](https://www.you
         <img style='width:230px' src="photos/pihat_camera_portview_inked.jpg"/>
     </figure>
 </figure>  
+
+2. If not already done, attach the FFC to the Pi Cam. The shorter side should go into the camera port.
+
+    <figure class="flow-subfigures">  
+        <figcaption>FFC Attachment</figcaption>
+        <figure>
+            <figcaption>Good FFC Attachment (shorter side in camera port)</figcaption>
+            <img style='width:200px' src="photos/ffc_attachment_good_inked.jpg"/>
+        </figure>
+        <figure>  
+            <figcaption>Bad FFC Attachment (longer side in camera port)</figcaption>
+            <img style='width:200px' src="photos/ffc_attachment_bad_inked.jpg"/>
+        </figure>
+    </figure>  
+
+3. Put double sided mounting tape on the top, left, and right sides of the pi cam. Cut off any excess tape.
+
+    <figure>
+        <figcaption>Pi Cam with Tape</figcaption>
+        <img style='width:300px' src="photos/tape_attached_to_pi_cam.jpg"/>
+    </figure>
+
+4. Attach the Pi Cam to the hole in the back of the drone (attach on top so camera faces downward). Ensure that the attachment is not skewed.
+
+    <figure class="flow-subfigures">  
+        <figcaption>Attach the Pi Cam (bottom-up view)</figcaption>
+        <figure>
+            <figcaption>Pi Cam without Skew</figcaption>
+            <img style='width:200px' src="photos/pi_cam_attached_no_skew.jpg"/>
+        </figure>
+        <figure>  
+            <figcaption>Pi Cam with Skew</figcaption>
+            <img style='width:200px' src="photos/pi_cam_attached_skew.jpg"/>
+        </figure>
+    </figure>  
 
 ## Attach the IR Sensor
 
