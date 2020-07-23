@@ -14,7 +14,7 @@ Note: **Never** leave the battery charging unattended. The battery takes about 2
 
 1) On a base station, download the image flashing tool [Etcher](https://www.balena.io/etcher/).
 
-2) On a base station, download the latest drone [image](https://drive.google.com/file/d/1IEPpTi_UdoHvHh666DSqhcXnP5OrQBo4/view?usp=sharing).
+2) On a base station, download the latest drone [image](http://cs.brown.edu/people/stellex/droneimage/boot.img).
 
 3) Connect the micro SD card to the workstation. Use the micro SD to USB card reader if the base station does not have a micro SD port.
 
