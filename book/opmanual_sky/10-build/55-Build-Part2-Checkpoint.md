@@ -32,11 +32,11 @@ TODO: provide better chromebook support or include an extra sd card for the foll
 
 Note: For Chromebook Users: The web interface will not work if you download the files to google drive. If you have an external storage device (extra sd cart, usb drive, etc) then you can download the software to this device, and it will work. (The only requirement is a place to store the files other than drive)
 
-1) Download the zip file of the [drone's software stack on github](https://github.com/h2r/pidrone_pkg)
+1) Download the zip file of the [drone's software stack on github](https://github.com/h2r/pidrone_pkg). To download the pidrone_pkg, click the Green Code Button then Download Zip from the dropdown menu on GitHub.
 
 <figure>
   <figcaption>Download pidrone_pkg</figcaption>
-  <img style='width:220px' src="photos/code-zip.png"/>
+  <img style='width:100%' src="photos/code-zip.png"/>
 </figure>
 
 2) Open the zip file and open the **web** folder.
@@ -47,7 +47,7 @@ This will open up the web interface in your browser!
 
 4) Plug the battery into your drone build and connect to the drone's wifi network, **defaultdrone**
 
-5) Browse to the [drone's code editor](http://duckiesky-drone.local:8081/?folder=/home/duckiesky/ws/src/pidrone_pkg)
+5) Browse to the drone's code editor: [http://192.168.42.1:8081/](http://192.168.42.1:8081/)
 
 6) Click the menu bar in the top left corner, then click Terminal > New Terminal
 
