@@ -5,6 +5,7 @@
 ## Attach Flight Controller
 
 1) Trim the all of the pins on the flight controller just like the four shown in the image. This helps the flight controller sit level on the drone frame.
+
 Note: the image shows only 4 trimmed, but you will want to trim all of the pins (updated picture coming soon).
 
 <figure>
