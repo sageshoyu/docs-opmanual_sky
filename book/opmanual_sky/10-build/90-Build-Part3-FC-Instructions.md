@@ -4,7 +4,9 @@
 
 ## Attach Flight Controller
 
-1) Trim the 4 pins on the flight controller as shown in the image. This helps the flight controller sit level on the drone frame.
+1) Trim the all of the pins on the flight controller just like the four shown in the image. This helps the flight controller sit level on the drone frame.
+
+Note: the image shows only 4 trimmed, but you will want to trim all of the pins (updated picture coming soon).
 
 <figure class="flow-subfigures">  
 <figcaption>Trim the FC pins</figcaption>
@@ -65,6 +67,8 @@ Once the FC is attached, do a "rock test" (i.e. try to rock the FC back-and-fort
 
 
 ## Flashing the Flight Controller
+
+Warning: Please don't follow these instructions yet, we're troubleshooting some problems.
 
 Before the FC can be configured, it must first be flashed with firmware. **Firmware** is a special type of software that allows hardware to be controlled programmatically. Once the FC is flashed, a program called **Cleanflight** can be used to configure it.
 
