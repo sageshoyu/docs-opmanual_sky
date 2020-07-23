@@ -14,6 +14,30 @@ Note: You will not be able to remove the USB cable. This is intentional.
     <img style='width:350px' src="photos/usb_glue.png"/>
 </figure>
 
+## Attach Battery Mount
+
+Use zip ties to attach the battery mount to the drone frame as shown in the image.
+
+<figure>
+    <figcaption>Battery Mount</figcaption>
+    <img style='width:350px' src="photos/battery-mount.png"/>
+</figure>
+
+This is how the battery will be attached to the drone:
+
+<figure class="flow-subfigures">  
+    <figcaption>Strapping in the Battery</figcaption>
+    <figure>
+        <figcaption>Battery unstrapped</figcaption>
+        <img style='width:200px' src="photos/battery-not-strapped.png"/>
+    </figure>
+    <figure>  
+        <figcaption>Battery strapped in</figcaption>
+        <img style='width:200px' src="photos/battery-strapped.png"/>
+    </figure>
+</figure>
+
+
 ## Attach PiMount
 
 Place the PiMount on top of the PDB and use the **short** black bolts **from the motors box** to secure the mount to the standoffs.     
