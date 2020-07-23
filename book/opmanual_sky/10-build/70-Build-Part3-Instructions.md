@@ -283,6 +283,8 @@ For reference, here are the motor directions with respect to the frame:
 
 4. Screw a black screw into each of the standoffs.
 
+Note: Although the image shows rounded top bolts, the correct ones are the **short bolts that are included with the motors**. (The ones shown in the image are fine, but the hex key doesn't fit them)
+
 <figure>
     <figcaption>Putting Screws in Standoffs</figcaption>
     <img style='width:200px' src="photos/standoffs_with_screws.png"/>
@@ -365,7 +367,7 @@ For reference, here are the motor directions with respect to the frame:
 
   - ~12V between any positive (+) pad and any negative (-) pad.
 
-  NOTE: If the battery is X volts instead of 12 volts (e.g. 10), then the multimeter will show X volts instead of 12 volts.
+Note: If the battery is X volts instead of 12 volts (e.g. 10), then the multimeter will show X volts instead of 12 volts.
 
 - **ONLY** if the DC voltage check passed, re-connect a battery to your drone and verify the following:
 

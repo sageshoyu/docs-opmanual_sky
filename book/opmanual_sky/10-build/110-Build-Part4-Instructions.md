@@ -1,15 +1,13 @@
-<!-- # Part 4 Instructions {#build-part4-instructions status=ready}
+# Part 4 Instructions {#build-part4-instructions status=ready}
 
 ## Glue USB Connector to Flight Controller
 
 Carefully plug the 6" micro USB to USB cable into the USB port of the flight controller. These
 little surface-mount USB micro ports are very prone to failure, so to minimize
-the likelyhood of ripping off the port or breaking a connection cover the USB connector
+the likelihood of ripping off the port or breaking a connection cover the USB connector
 thoroughly with hot glue.    
 
-NOTE:
-
-- You will not be able to remove the USB cable. This is intentional.    
+Note: You will not be able to remove the USB cable. This is intentional.    
 
 <figure>
     <figcaption>Glued USB Connector</figcaption>
@@ -19,11 +17,9 @@ NOTE:
 
 ## Attach PiMount
 
-Place the PiMount on top of the PDB and use the black screws (from the motors box) to secure the mount to the standoffs.     
+Place the PiMount on top of the PDB and use the **short** black bolts **from the motors box** to secure the mount to the standoffs.     
 
-NOTE:
-
-- Ensure that the triangle shape is on the side of the camera.    
+Note: Ensure that the triangle shape is on the side of the camera.
 
 <figure>
     <figcaption>Securing the PiMount</figcaption>
@@ -72,7 +68,9 @@ Screw in a pair of standoffs into bottom right hole of the Pi. It may help to fi
 
 ## Connect Pi Cam
 
-Feed the FFC cable from the Pi Cam through the hole in Pi Hat, then connect it to the Pi's camera port, i.e. the black port close to the HDMI port. Note that the port is fairly shallow, so the FFC cable does not go in very deeply.
+Feed the flexible flat cable (FFC) from the Pi Cam through the hole in Pi Hat, then connect it to the Pi's camera port, i.e. the black port close to the HDMI port.
+
+Note: Do not just push the FFC into the slot. [Watch this video](https://www.youtube.com/watch?v=VzYGDq0D1mw) on how to insert the camera properly.
 
 <figure class="flow-subfigures">  
     <figcaption>Connecting Pi Cam</figcaption>
@@ -121,7 +119,9 @@ Use the small zipties to secure the ESCs and motor wires to the bottom of each f
 
 ## Propellers
 
-Attach the propellers to the drone so that it may fly; attach CW propellers to the CW motors, and CCW propellers to the CCW motors. The motors have small arrows on them in the center to indicate which type they are. Be aware that the bolts on the motors that spin CCW tighten when turned CW, and the bolts on the motors that spin CW tighten when turned CCW.
+Attach the propellers to the drone so that it may fly; attach CW propellers to the CW motors, and CCW propellers to the CCW motors. The motors have small arrows on them in the center to indicate which type they are.
+
+Note: The bolts on the motors that spin CCW tighten when turned CW, and the bolts on the motors that spin CW tighten when turned CCW.
 
 Use a wrench to tighten the bolts down so that the bottom of the propeller is flat on the top of the motor. Screw bolts down tightly, but not so tight that you could not remove the propellers if you had to.
 
@@ -141,6 +141,16 @@ Use a wrench to tighten the bolts down so that the bottom of the propeller is fl
     </figure>
 </figure>  
 
+<div class='check' markdown="1">
+
+The propellers **must** be flat on the base of the motor
+
+Holding the motor still, try to spin the prop and make sure the props **cannot** spin around the motor shaft; the motors and the props should spin together.
+
+</div>
+
+
+
 ## Attach Drone Feet
 
 Attach the drone feet in the drone frame box to the four arms of the drone. This can be done with either electrical tape or zip ties. **DO NOT** use hot glue, as it will not work.
@@ -158,15 +168,14 @@ Attach the drone feet in the drone frame box to the four arms of the drone. This
 </figure>  
 
 
-## Warnings
+<div class='check' markdown="1">
 
-- Make sure ESC-motor wires are ziptied down properly. If not, you risk having a short.
+Make sure ESC-motor wires are ziptied down properly. If not, you risk having a short.
 
-- The propellers **must** be flat on the base of the motor.
+Spin the propellers manually with your finger. Ensure no wires are hit by the propellers.
 
+Make sure no wires or parts are dangling from the drone frame.
 
-## Checkoff
+</div>
 
-- Spin the propellers manually with your finger. Ensure no wires are hit by the propellers.
-
-- Make sure no wires or parts are dangling from the drone frame. -->
+Congrats on finishing your build!
