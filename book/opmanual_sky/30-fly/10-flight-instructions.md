@@ -12,7 +12,7 @@ In order to fly, you will need:
 - should have considerable and distinct markings for camera to process.  
 <figure>
     <figcaption>Highly textured planar surface.</figcaption>
-    <img style='width:15em' src="https://github.com/duckietown/docs-opmanual_sky/blob/master/book/opmanual_sky/10-build/map.jpg"/>
+    <img style='width:15em' src="photos/htps.png"/>
 </figure>  
 
 ## Steps to Fly:
@@ -44,7 +44,7 @@ editing index.html.)
 
 1. Ensure that the IR sensor is publishing reasonable values by moving your drone up and down by hand and watching the values in the IR sensor graph on the web interface.
 
-1. Ensure that there is space around and a textured surface beneath your drone to fly.  Rotate the drone so that the camera end is facing towards you and the flight controller is facing away from you.  In this way the keyboard controls (I,j,k,l) will match the drone's orientation. 
+1. Ensure that there is space around and a textured surface beneath your drone to fly.  Rotate the drone so that the camera end is facing towards you and the flight controller is facing away from you.  In this way the keyboard controls (I,j,k,l) will match the drone's orientation.
 - I - foward (flight controller side)
 - J - left
 - K - backward (camera side)
