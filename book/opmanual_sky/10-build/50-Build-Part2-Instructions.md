@@ -58,7 +58,7 @@ Note: For the wires, we use the colors: red, black, green, and blue. However, an
 
 <figure>
    <figcaption>Pi Hat Wiring Diagram</figcaption>
-   <img style='width:300px' src="photos/pihat_adc_wiring.jpg"/>
+   <img style='width:300px' src="photos/pihat_adc_wiring.png"/>
 </figure>
 
 

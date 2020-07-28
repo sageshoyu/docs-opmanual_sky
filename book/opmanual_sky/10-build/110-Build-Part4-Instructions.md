@@ -109,38 +109,38 @@ Note: Do not just push the FFC into the slot. [Watch this video](https://www.you
 
 2. If not already done, attach the FFC to the Pi Cam. The shorter side should go into the camera port.
 
-    <figure class="flow-subfigures">  
-        <figcaption>FFC Attachment</figcaption>
-        <figure>
-            <figcaption>Good FFC Attachment (shorter side in camera port)</figcaption>
-            <img style='width:200px' src="photos/ffc_attachment_good_inked.jpg"/>
-        </figure>
-        <figure>  
-            <figcaption>Bad FFC Attachment (longer side in camera port)</figcaption>
-            <img style='width:200px' src="photos/ffc_attachment_bad_inked.jpg"/>
-        </figure>
-    </figure>  
+<figure class="flow-subfigures">  
+   <figcaption>FFC Attachment</figcaption>
+   <figure>
+       <figcaption>Good FFC Attachment (shorter side in camera port)</figcaption>
+       <img style='width:200px' src="photos/ffc_attachment_good_inked.jpg"/>
+   </figure>
+   <figure>  
+       <figcaption>Bad FFC Attachment (longer side in camera port)</figcaption>
+       <img style='width:200px' src="photos/ffc_attachment_bad_inked.jpg"/>
+   </figure>
+</figure>  
 
 3. Put double sided mounting tape on the top, left, and right sides of the pi cam. Cut off any excess tape.
 
-    <figure>
-        <figcaption>Pi Cam with Tape</figcaption>
-        <img style='width:300px' src="photos/tape_attached_to_pi_cam.jpg"/>
-    </figure>
+<figure>
+   <figcaption>Pi Cam with Tape</figcaption>
+   <img style='width:300px' src="photos/tape_attached_to_pi_cam.jpg"/>
+</figure>
 
 4. Attach the Pi Cam to the hole in the back of the drone (attach on top so camera faces downward). Ensure that the attachment is not skewed.
 
-    <figure class="flow-subfigures">  
-        <figcaption>Attach the Pi Cam (bottom-up view)</figcaption>
-        <figure>
-            <figcaption>Pi Cam without Skew</figcaption>
-            <img style='width:200px' src="photos/pi_cam_attached_no_skew.jpg"/>
-        </figure>
-        <figure>  
-            <figcaption>Pi Cam with Skew</figcaption>
-            <img style='width:200px' src="photos/pi_cam_attached_skew.jpg"/>
-        </figure>
-    </figure>  
+<figure class="flow-subfigures">  
+   <figcaption>Attach the Pi Cam (bottom-up view)</figcaption>
+   <figure>
+       <figcaption>Pi Cam without Skew</figcaption>
+       <img style='width:200px' src="photos/pi_cam_attached_no_skew.jpg"/>
+   </figure>
+   <figure>  
+       <figcaption>Pi Cam with Skew</figcaption>
+       <img style='width:200px' src="photos/pi_cam_attached_skew.jpg"/>
+   </figure>
+</figure>  
 
 ## Attach the IR Sensor
 

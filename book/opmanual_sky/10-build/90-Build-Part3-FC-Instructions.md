@@ -121,35 +121,42 @@ Now that the FC has been flashed with firmware, it can be configured with Cleanf
    <img style='width:500px' src="photos/ports.png"/>
 </figure>
 
-4) Go to "Configuration" tab. Change the ESC/Motor protocol to "MULTISHOT". Set the Minimum Throttle to 1100. Flip the yaw by 180&deg; (because the FC is rotated by 180&deg; when attached to the drone frame). Change the receiver to "MSP RX input" (by default it is configured to receive data from an RC receiver, but we want it to take commands over MSP). Finally, click "Save and Reboot."    
+4) Go to "Configuration" tab.
+
+Change the ESC/Motor protocol to "MULTISHOT".
+
+<figure>
+   <figcaption>Set Multishot</figcaption>
+   <img style='width:500px' src="photos/multishot.png"/>
+</figure>
+
+Set the Minimum Throttle to 1100.
+
+<figure>  
+   <figcaption>Set Minimum Throttle</figcaption>
+   <img style='width:500px' src="photos/minimum_throttle.png"/>
+</figure>
+
+Flip the yaw by 180&deg; (because the FC is rotated by 180&deg; when attached to the drone frame).
+
+<figure>
+   <figcaption>Flip Yaw</figcaption>
+   <img style='width:500px' src="photos/flip_yaw.png"/>
+</figure>
+
+Change the receiver to "MSP RX input" (by default it is configured to receive data from an RC receiver, but we want it to take commands over MSP).
+
+<figure>  
+   <figcaption>MSP RX Input</figcaption>
+   <img style='width:500px' src="photos/msprx.png"/>
+</figure>
+
+Finally, click "Save and Reboot."    
 
 Note: On the configuration page, Cleanflight might show that the direction of your motors are reversed. This is a UI bug and can be ignored. You will ensure that your motors are spinning in the correct direction in later steps.    
 
-<figure>  
-   <figcaption>Configuration: Step 1</figcaption>
-   <figure>
-       <figcaption>Set Multishot</figcaption>
-       <img style='width:500px' src="photos/multishot.png"/>
-   </figure>
-   <figure>  
-       <figcaption>Set Minimum Throttle</figcaption>
-       <img style='width:500px' src="photos/minimum_throttle.png"/>
-   </figure>
-</figure>
 
-<figure>  
-   <figcaption>Configuration: Step 2</figcaption>
-   <figure>
-       <figcaption>Flip Yaw</figcaption>
-       <img style='width:500px' src="photos/flip_yaw.png"/>
-   </figure>
-   <figure>  
-       <figcaption>MSP RX Input</figcaption>
-       <img style='width:500px' src="photos/msprx.png"/>
-   </figure>
-</figure>
-
-6) the FC needs to be in Angle mode for its entire available range - not just the range of acrobatic mode. Go to the "Modes" tab. Under the "Angle" option, click "Add Range". Drag the sliders so that the range spans from 900 to 2100 (i.e. entire range). Finally, click "Save".
+5) the FC needs to be in Angle mode for its entire available range - not just the range of acrobatic mode. Go to the "Modes" tab. Under the "Angle" option, click "Add Range". Drag the sliders so that the range spans from 900 to 2100 (i.e. entire range). Finally, click "Save".
 
 <figure>
    <figcaption>Angle Mode Option</figcaption>
@@ -168,7 +175,7 @@ Note: On the configuration page, Cleanflight might show that the direction of yo
    </figure>
 </figure>
 
-7) The FC PID parameters need to be changed to work better with our drone. Go to the "PID Tuning" tab. Change the "ROLL" and "PITCH" PID terms to match the image. For reference: Roll should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: 1.00, Super Rate: 0.00, Max Vel: 200). Pitch should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: curly bracket, Super Rate: 0.00, Max Vel: 200). Change angle limit to 50. Finally, click "Save".
+6) The FC PID parameters need to be changed to work better with our drone. Go to the "PID Tuning" tab. Change the "ROLL" and "PITCH" PID terms to match the image. For reference: Roll should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: 1.00, Super Rate: 0.00, Max Vel: 200). Pitch should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: curly bracket, Super Rate: 0.00, Max Vel: 200). Change angle limit to 50. Finally, click "Save".
 
 <figure>  
    <figcaption>PID Tuning Configuration</figcaption>
@@ -200,7 +207,7 @@ Now that the FC has been configured, it can be connected to the ESCs via the PWM
 
 Where the red arrow indicates the front direction of the drone. Recall that for your drone, the FC is on the front and the camera is on the back.
 
-Note: There is a correct way to connect an ESC to the Flight Controller. Make sure the white wire of the ESC signal wire pair is facing toward the board, and the black wire is facing away. Equivalently, make sure the white wire is on the side.
+Note: There is a correct way to connect an ESC to the Flight Controller. Make sure the white wire of the ESC signal wire pair is facing toward the board, and the black wire is facing away.
 
 <figure>
     <figcaption>Connecting ESCs. White wire on the inside. </figcaption>
