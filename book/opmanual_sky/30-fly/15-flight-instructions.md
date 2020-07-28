@@ -17,21 +17,24 @@ In order to fly, you will need:
 
 ## Steps to Fly:
 
+1. Go through the [pre-flight safety checks](#preflight-safety-checks)
+
 1. Power up your drone.
 
 1. Connect to your drone's wifi network.
 
-1. Ssh into your drone with `ssh pi@[yourDroneHostname]`.
+1. Browse to your drone's code editor: [192.168.42.1:8081](192.168.42.1:8081)
 
-1. Navigate to `pidrone_pkg` using `cd ~/ws/src/pidrone_pkg`.
+1. Open a new terminal in the code editor: Menu > Terminal > New Terminal
 
-1. Start up the flight code by typing the command `./start_pidrone_code.sh` and hit enter.
+1. In the terminal, type type `roscd pidrone_pkg` and press enter.
 
+1. Calibrate the accellerometer by typing  `python scripts/calibrateAcc.py` and press enter.
 
-1. Calibrate the accellerometer by running `scripts/calibrateAcc.py`.
+1. Start up the flight code by typing the command `./start_pidrone_code.sh` and press enter.
 
 1. Make sure all of the ROS nodes are running by first
-entering ```0` to make sure that roscore has started properly, and then cycle through all of the screens using ```n`.
+entering \`0 to make sure that roscore has started properly, and then cycle through all of the screens using \`n.
 
 1. Once you've ensured all of the nodes are running, find the file `index.html` in the `web` folder in the `pidrone_pkg` folder which you've downloaded onto your base station.  (If you haven't do that now by finding the repository on github [here](https://github.com/h2r/pidrone_pkg) and downloading the zip file onto your base station or cloning the git repository.)
 
@@ -43,9 +46,13 @@ editing index.html.)
 1. Ensure that the IR sensor is publishing reasonable values by moving your drone up and down by hand and watching the values in the IR sensor graph on the web interface.
 
 1. Ensure that there is space around and a textured surface beneath your drone to fly.  Rotate the drone so that the camera end is facing towards you and the flight controller is facing away from you.  In this way the keyboard controls (I,j,k,l) will match the drone's orientation.
+
 - I - foward (flight controller side)
+
 - J - left
+
 - K - backward (camera side)
+
 - L - right
 
 1. Find and read the keyboard commands to control the drone at the

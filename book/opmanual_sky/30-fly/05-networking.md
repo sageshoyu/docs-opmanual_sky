@@ -52,22 +52,62 @@ and working in order to fly.  Furthermore you must find the drone's IP
 address from your base station, unless you want to plug in a keyboard
 and monitor into the Pi to find out its IP address.
 
-You can switch to managed mode by first editing
-`/etc/wpa_supplicant/wpa_supplicant.conf` to add the wifi SSID and
-password or security.  This edit will save the network you wish to
-connect to across reboots.  Then you need to add a logical interface
-'client' to /etc/interfaces as follows: `iface client inet dhcp`.
-(Hopefully we have updated our image to do this by default by the time
-you read this.)
+### Managed Mode Configuration
 
-Finally, boot up your drone, and it will start in master mode.
-Connect to it, and run the script './configure_network_managed.sh'
-This script will cause the drone to switch to managed mode and connect
-to one of the wired networks.  Note that if there are multiple visible
-networks in /etc/wpa_supplicant/wpa_supplicant.conf, this script does
-not specify which one to connect to.  This script does not persist
-across reboots, so the next time your drone boots up it will be in
-master mode, and you must run it again to switch to managed mode.
+These instructions will save your networks credentials (network name, password)
+across reboots. You only have to follow these steps the first time you wish to
+connect to a new network.
 
-You will also need to edit `setup.sh` to configure the ROS_IP to be
-the IP address that you are assigned by the network's DHCP server.  
+**On your base station:**
+
+Remark: If you are familiar with ssh, you can connect to your drone using ssh and skip the next three steps
+
+1. connect your base station to the `defaultdrone` wifi network
+
+2. browse to your drone's code server at the default ip address and port 8081: [192.168.42.1:8081](192.168.42.1:8081)
+
+3. open a new terminal: Menu > Terminal > New Terminal
+
+***In the terminal:***
+
+1. navigate to the networking directory in the pidrone_pkg: `roscd pidrone_pkg/networking`
+
+2. run the bash script to generate a wpa_supplicant.conf file for your network: `./generate_wpa_supplicant_conf.sh`
+
+3. fill in the prompt for your networks ssid (your networks name) and press enter
+
+4. fill in the prompt for your networks password and press enter.
+
+Note: you will not see anything happening on the screen when you are entering the password, this is a privacy feature.
+
+5. after the script finishes, move your newly created wpa_supplicant.conf file to the /etc/wpa_supplicant directory: `sudo mv wpa_supplicant.conf /etc/wpa_supplicant/`
+
+
+### Switching to Managed Mode
+
+These instructions need to be followed everytime you wish to switch your drone
+to managed mode. The drone always starts up as a wifi access point so that you
+will always be able to connect to your drone, even if you are in range of the
+network you usually connect to.
+
+On the drone (using either a terminal in the code server or ssh):
+
+1. navigate to the networking directory in the pidrone_pkg: `roscd pidrone_pkg/networking`
+
+2. run the bash script to connect your drone to the wifi network configured previously: `./connect_to_user_wifi.sh`
+
+3. connect your base station to the same network that your drone is now connected to
+
+4. reconnect to your drone
+
+For this step, you can try to use your drone's hostname to connect; however this may not work. If using the hostname does not work for you, you will need to find your drone's IP address. Follow the instructions in [this article](https://www.raspberrypi.org/documentation/remote-access/ip-address.md) to find your drone's IP address.
+
+Note: your drone's hostname is `duckiesky-drone`, not `raspberrypi` which is used in the article.
+
+a) First, try connecting via hostname:
+
+browse to your drone's code server: [duckiesky-drone.local:8081](duckiesky-drone.local:8081)
+
+b) If connecting via hostname did not work, then connect via IP address: ip_address:8081
+
+If you are connecting over ssh instead of the terminal in the code server, you will need to specify the username. For example, `ssh duckiesky@duckiesky-drone.local` or `ssh duckiesky@ip_address` where ip_address is the address of your drone on your network
