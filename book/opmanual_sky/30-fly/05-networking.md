@@ -60,15 +60,13 @@ connect to a new network.
 
 **On your base station:**
 
-Remark: If you are familiar with ssh, you can connect to your drone using ssh and skip the next three steps
-
 1. connect your base station to the `defaultdrone` wifi network
 
 2. browse to your drone's code server at the default ip address and port 8081: [192.168.42.1:8081](192.168.42.1:8081)
 
 3. open a new terminal: Menu > Terminal > New Terminal
 
-***In the terminal:***
+**In the terminal:**
 
 1. navigate to the networking directory in the pidrone_pkg: `roscd pidrone_pkg/networking`
 
@@ -76,21 +74,19 @@ Remark: If you are familiar with ssh, you can connect to your drone using ssh an
 
 3. fill in the prompt for your networks ssid (your networks name) and press enter
 
-4. fill in the prompt for your networks password and press enter.
-
-Note: you will not see anything happening on the screen when you are entering the password, this is a privacy feature.
+4. fill in the prompt for your networks password and press enter. Note that you will not see anything happening when you are typing the password-- this is a security feature.
 
 5. after the script finishes, move your newly created wpa_supplicant.conf file to the /etc/wpa_supplicant directory: `sudo mv wpa_supplicant.conf /etc/wpa_supplicant/`
 
 
 ### Switching to Managed Mode
 
-These instructions need to be followed everytime you wish to switch your drone
-to managed mode. The drone always starts up as a wifi access point so that you
-will always be able to connect to your drone, even if you are in range of the
+These instructions need to be followed every time you wish to switch your drone
+to managed mode. The drone always starts up as a WiFi access point so that you
+will always be able to connect to your drone, even if you are not in range of the
 network you usually connect to.
 
-On the drone (using either a terminal in the code server or ssh):
+**In the terminal:**
 
 1. navigate to the networking directory in the pidrone_pkg: `roscd pidrone_pkg/networking`
 
@@ -100,9 +96,7 @@ On the drone (using either a terminal in the code server or ssh):
 
 4. reconnect to your drone
 
-For this step, you can try to use your drone's hostname to connect; however this may not work. If using the hostname does not work for you, you will need to find your drone's IP address. Follow the instructions in [this article](https://www.raspberrypi.org/documentation/remote-access/ip-address.md) to find your drone's IP address.
-
-Note: your drone's hostname is `duckiesky-drone`, not `raspberrypi` which is used in the article.
+For this step, you can try to use your drone's hostname to connect; however this may not work. If using the hostname does not work for you, you will need to find your drone's IP address. Follow the instructions in [this article](https://www.raspberrypi.org/documentation/remote-access/ip-address.md) to find your drone's IP address. Note that your drone's hostname is `duckiesky-drone`, not `raspberrypi` which is used in the article.
 
 a) First, try connecting via hostname:
 
@@ -110,4 +104,4 @@ browse to your drone's code server: [duckiesky-drone.local:8081](duckiesky-drone
 
 b) If connecting via hostname did not work, then connect via IP address: ip_address:8081
 
-If you are connecting over ssh instead of the terminal in the code server, you will need to specify the username. For example, `ssh duckiesky@duckiesky-drone.local` or `ssh duckiesky@ip_address` where ip_address is the address of your drone on your network
+Note: If you are connecting over ssh instead of the terminal in the code server, you will need to specify the username. For example, `ssh duckiesky@duckiesky-drone.local` or `ssh duckiesky@ip_address`

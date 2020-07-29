@@ -6,18 +6,18 @@ In order to fly, you will need:
 * Charged battery
 * Base station
 * Safety goggles
-* Highly textured planar surface, such a poster board with scribbles.
+* Highly textured planar surface, such a poster board with scribbles. This should have considerable and distinct markings for the camera to process
 
-## Example of Highly textured planar surface
-- should have considerable and distinct markings for camera to process.  
 <figure>
-    <figcaption>Highly textured planar surface.</figcaption>
+    <figcaption>Example of a highly textured planar surface.</figcaption>
     <img style='width:15em' src="photos/htps.png"/>
 </figure>  
 
-## Steps to Fly:
+## Get Ready to Fly:
 
-1. Go through the [pre-flight safety checks](#preflight-safety-checks)
+1. If this is your first ever flight, go through the [First Flight Safety Checks](#checks-first-flight)
+
+1. Go through the [environment](#checks-environment) and [hardware](#checks-hardware) pre-flight safety checks
 
 1. Power up your drone.
 
@@ -25,7 +25,7 @@ In order to fly, you will need:
 
 1. Browse to your drone's code editor: [192.168.42.1:8081](192.168.42.1:8081)
 
-1. Open a new terminal in the code editor: Menu > Terminal > New Terminal
+1. Open a new terminal in the code editor: Menu (three horizontal lines in the top left) > Terminal > New Terminal
 
 1. In the terminal, type type `roscd pidrone_pkg` and press enter.
 
@@ -33,8 +33,7 @@ In order to fly, you will need:
 
 1. Start up the flight code by typing the command `./start_pidrone_code.sh` and press enter.
 
-1. Make sure all of the ROS nodes are running by first
-entering \`0 to make sure that roscore has started properly, and then cycle through all of the screens using \`n.
+## Connect to the web interface
 
 1. Once you've ensured all of the nodes are running, find the file `index.html` in the `web` folder in the `pidrone_pkg` folder which you've downloaded onto your base station.  (If you haven't do that now by finding the repository on github [here](https://github.com/h2r/pidrone_pkg) and downloading the zip file onto your base station or cloning the git repository.)
 
@@ -43,20 +42,14 @@ sure the IP address or hostname is the IP address of your drone.
 (Note that you can change the default IP address or hostname by
 editing index.html.)
 
-1. Ensure that the IR sensor is publishing reasonable values by moving your drone up and down by hand and watching the values in the IR sensor graph on the web interface.
+## Final Steps
 
-1. Ensure that there is space around and a textured surface beneath your drone to fly.  Rotate the drone so that the camera end is facing towards you and the flight controller is facing away from you.  In this way the keyboard controls (I,j,k,l) will match the drone's orientation.
+1. Go through the [software](#checks-software) pre-flight safety checks
 
-- I - foward (flight controller side)
-
-- J - left
-
-- K - backward (camera side)
-
-- L - right
+1. Rotate the drone so that the camera end is facing towards you and the flight controller is facing away from you.  In this way the keyboard controls (I,j,k,l) will match the drone's orientation. ***I - foward*** (flight controller side), ***J - left***, ***K - backward*** (camera side), ***L - right***
 
 1. Find and read the keyboard commands to control the drone at the
-bottom of the web interface.  Note that there is also a keyboard
+bottom of the web interface. Note that there is also a keyboard
 control interface that you can access via SSH that we wrote for our
 initial testing.  However we *strongly* recommend the web interface
 for two reasons.  First, the web interface detects key press as well
@@ -67,18 +60,21 @@ heartbeat is not received.  It is not possible to do a heartbeat with
 the SSH interface because the program is running onboard the drone.
 The keyboard focus must be on the web page for these commands to work.
 
-1.  Find the disarm command, spacebar and press it.  If anything goes
-wrong be prepared to immediately hit spacebar to disarm the drone.
+1.  Find the disarm command, ***spacebar*** and press it.  **If anything goes
+wrong be prepared to immediately hit spacebar to disarm the drone.**
 
 1.  First arm your drone by pressing `;`.  The propellers should start
 spinning slowly. If they spin fast, or you hear strange noises,
 immediately disarm the drone.  If they do not spin, try tilting the
 drone; they should spin faster in response to the tilt.  If they still
 do not spin, verify you are connected to the drone and that all the
-ROS nodes are properly started including rosbridge and the
-mode_controller.py.
+ROS nodes are properly started.
 
-1.  If all goes well, press `t` to takeoff.  Be prepared to disarm the
+1. Disarm your drone (spacebar) and ensure that the propellors slow down almost immediately and then stop spinning. If there is a delay, then there is likely network latency and this could cause flight issues. If you are connected to the drones network and there is delay, try restarting the Pi. If you are connected to your home network and there is delay, restart the Pi and use the drone's network to fly instead.
+
+1. Try arming (`;`) and disarming (spaceba) again to ensure that the drone is responsive.
+
+1.  If all goes well, arm the drone, then press `t` to takeoff.  Be prepared to disarm the
 drone if anything goes wrong.
 
 1.  Move in the plane using `i`, `j`, `k`, `l` on the keyboard.  When
