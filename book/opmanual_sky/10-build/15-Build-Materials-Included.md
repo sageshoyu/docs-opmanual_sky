@@ -1,0 +1,338 @@
+# Included Materials {#build-materials-included status=ready}
+
+Welcome to your Duckietown Sky Drone kit! This section contains a list of parts and materials included in your kit.
+
+Note: Depending on the hardware version of your drone kit, the components may look different, but the functionality will be the same.
+
+## Your drone kit
+<figure>
+    <img src="photos/new-box.png" width="250" align="middle"/>
+</figure>
+
+
+## All materials included in the kit
+<figure>
+    <img src="photos/new-all-materials.png" width="500" align="middle"/>
+</figure>
+
+
+## FPV250 Drone Frame Kit
+<figure class="flow-subfigures">  
+<figcaption>Drone Frame Kit</figcaption>
+     <figure>
+       <figcaption>Closed</figcaption>
+       <img style='width:220px' src="photos/new-drone-box-closed.png"/>
+     </figure>
+     <figure>  
+       <figcaption>Open</figcaption>
+       <img style='width:220px' src="photos/new-drone-box-open.png"/>
+     </figure>
+</figure>
+
+### Frame
+<figure>
+    <figcaption>Drone Frame</figcaption>
+    <img src="photos/new-drone-frame.png" width="250" align="middle"/>
+</figure>
+
+**Units:** 1  
+**Description:** A 250mm plastic racing quad frame. Included in the frame box.
+
+### Power Distribution Board (PDB)
+<figure>
+    <img src="photos/new-pdb.png" width="250"/>
+</figure>  
+
+**Units:** 1  
+**Description:** An electronic component that distributes power that it receives to other components connected to it. Included in the frame box.
+
+### Panhead screws {#materials-pimount-screws}
+<figure>
+    <img src="photos/new-pi-mount-screws.png" width="250"/>
+</figure>  
+
+**Units:** 3    
+**Description:** Small screws that are used to mount the Pi on top of the pi mount. Included in the frame box.
+
+### Landing Gears
+<figure>
+    <img src="photos/new-landing-gears.png" width="250"/>
+</figure>  
+
+**Description:** Feet that attach to the drone frame. Included in frame box
+
+
+## XT60 Connector
+<figure>
+    <img src="photos/new-xt60.png" width="250"/>
+</figure>  
+
+**Units:** 1
+
+**Description:** The power connector cable that transfers power from the battery to the PDB.
+
+## 2205 2300KV Brushless Motor
+<figure>
+    <img src="photos/2205_2300kv_brushless_motors_red.jpg" width="200"/>
+</figure>  
+
+**Units:** 4 (2 clockwise and 2 counterclockwise)  
+
+**Description:** An actuator that spins at variable RPM based on how much power it receives. Note that the motor direction (CW or CCW) specifies only the *nut threading*, not the direction of spin; both CW and CCW motors can spin bidirectionally.
+
+### M3 Black Bolt {#materials-m3-bolt}
+<figure>
+    <img src="photos/new-motor-screws.png" width="250"/>
+</figure>  
+
+**Units:** 12-16   
+**Description:** A screw that can be screwed into a standoff or a motor. Included in the motors box.
+
+### M3 Hex Key
+<figure>
+    <img src="photos/new-hexkey.png" width="250"/>
+</figure>  
+
+**Description:** Used to tighten the [M3 bolts](#materials-m3-bolt)
+
+## 5040 3-Blade Propeller
+<figure>
+    <img src="photos/new-props.png" width="250"/>
+</figure>  
+
+**Units:** 2 clockwise and 2 counterclockwise (extra CW and CCW included)
+
+**Description:** A device with blades that turns rotational motion into thrust. 5 refers to the diameter in inches, and 4 refers to the distance the propeller would travel if turned one rotation without slippage, e.g. in jello. Three blades gives more lift for a given diameter than two blades - at the cost of efficiency.
+
+### 8mm Wrench
+<figure>
+    <img src="photos/new-wrench.png" width="250"/>
+</figure>  
+
+**Description:** Used to tighten the motor nuts that hold down the propellors
+
+## 30A Brushless Electronic Speed Controller (ESC)
+<figure>
+    <img src="photos/new-esc.png" width="250"/>
+</figure>  
+
+**Units:** 4    
+**Description:** An electronic component that sends variable amount of power to a motor, based on a specified input signal. Every motor needs one ESC.
+
+### Wires for the ESCs {#materials-wires-esc}
+<figure>
+    <img src="photos/new-wires-esc.png" width="250"/>
+</figure>  
+
+**Description:** Used to wire the ESCs to the motors
+
+
+## 2.0mm Bullet Connector
+<figure class="flow-subfigures">  
+    <figcaption>Bullet Connectors</figcaption>
+    <figure>
+       <figcaption>Plug</figcaption>
+       <img style='width:220px' src="photos/new-bullet-connectors-plug.png"/>
+    </figure>
+    <figure>  
+       <figcaption>Socket</figcaption>
+       <img style='width:220px' src="photos/new-bullet-connectors-socket.png"/>
+    </figure>
+</figure>
+
+**Units:** 24 (12 plugs and 12 sockets)    
+**Description:** The bullet connectors on the left are **plug** connectors and the ones on the right are **socket** connectors. A plug connector can be inserted into a socket connector to complete an electric connection.
+
+## Brass Standoffs
+<figure>
+    <img src="photos/new-standoffs.png" width="250"/>
+</figure>  
+
+**Units:** 6    
+**Description:** A special type of screw that can also accept other screws.
+
+## Raspberry Pi 3 Model B (Pi) {#materials-pi}
+<figure>
+    <img src="photos/new-pi.png" width="250"/>
+</figure>  
+
+**Units:** 1   
+**Description:** A single board computer that can execute code loaded via an SD card.
+
+### 16GB Micro SD Card
+
+<figure>
+    <img src="photos/new-sd.png" width="200"/>
+</figure>  
+
+**Units:** 1   
+**Description:** A memory device, especially notable because it can store code and be inserted into a Pi.
+
+### Heat Sinks
+<figure>
+    <img src="photos/new-heat-sinks.png" width="250"/>
+</figure>  
+
+**Units:** 3 (14mm * 14mm * 7mm; 9mm * 9mm * 5mm; 12mm * 12mm * 1mm)    
+**Description:** A device that dissipates heat into the air. When attached to a Pi, it will regulate temperature at optimal levels.
+
+### Pi Mount
+<figure>
+    <img src="photos/new-pi-mount.png" width="250"/>
+</figure>  
+
+**Units:** 1   
+**Description:** A 3D-printed mount for attaching the Raspberry Pi to the drone frame.
+
+### Screwdriver
+<figure>
+    <img src="photos/new-screwdriver.png" width="250"/>
+</figure>  
+
+**Description:** Used to tighten the [Pi Mount screws](#materials-pimount-screws)
+
+### Perma-Proto Raspberry Pi Hat (Pi Hat) and Pin Header
+<figure>
+    <img src="photos/new-pihat.png" width="250"/>
+</figure>  
+
+**Units:** 1    
+**Description:** A breadboard specifically designed for easy attachment to a Pi. The header gets soldered to the Pi Hat to attach it to the Pi.
+
+## Battery Eliminator Circuit (BEC)
+<figure>
+    <img src="photos/new-bec.png" width="250"/>
+</figure>  
+
+**Units:** 1   
+**Description:** An electronic component that steps down the voltage from 12V from the battery to 5V for the Pi
+
+## Flight Controller (FC) {#materials-fc}
+<figure>
+    <figcaption>Flight Controller Board and Vertical Pins</figcaption>
+    <img src="photos/new-fc.png" width="250"/>
+</figure>  
+
+**Units:** 1 + 1  
+**Description:** A flight controller is a device that contains a few sensors: an accelerometer and a gyroscope; together these sensors make an IMU. The accelerometer measures linear accelerations and a gyroscope measures angular velocities. A flight controller also sends input signals to the ESCs. There are extra wires included in the flight controller box. The drone only requires the flight controller board and the vertical pins.
+
+### USB to Micro USB
+<figure>
+    <img src="photos/usb.png" width="250"/>
+</figure>  
+
+**Units:** 1
+**Description:** Connects the [flight controller](#materials-fc) to the [Raspberry Pi](#materials-pi).
+
+### Foam Mounting Tape
+<figure>
+    <img src="photos/new-tape.png" width="150"/>
+</figure>  
+
+**Description:** Double-sided tape used to mount the flight controller onto the drone frame
+
+## Arducam 5MP 1080p OV5647 Camera (Pi Cam) + 15pin Flexible Flat Cable (FFC)
+<figure>
+    <img src="photos/new-picam.png" width="250"/>
+</figure>  
+
+**Units:** 1 + 1   
+**Description:** A sensor that observes 2D images of the world and reports it on a FFC cable. FFC included in pi cam box.
+
+## Infrared Sensor (IR) + IR Sensor Cable
+<figure>
+    <img src="photos/new-ir.png" width="250"/>
+</figure>  
+
+**Units:** 1 + 1  
+**Description:** A sensor that measures distance to an object using infrared beams, then reports it on a wire.
+
+
+## Analog-to-Digital Converter (ADC)
+<figure>
+  <figcaption>ADC</figcaption>
+  <img style='width:220px' src="photos/new-adc.png"/>
+</figure>
+
+
+**Units:** 1    
+**Description:** A device that converts real-valued signals (i.e. analog) into discrete-valued signals (i.e. digital).
+
+### Pins
+<figure>  
+  <figcaption>Pins</figcaption>
+  <img style='width:300px' src="photos/new-adc-pins.png"/>
+</figure>
+
+**Description:** The pins get soldered into the ADC in order to connect it to the Pi Hat
+
+### Wires for the ADC {#materials-wires-adc}
+<figure>
+    <img src="photos/new-wires-adc.png" width="250"/>
+</figure>  
+
+**Description:** Used to wire the ADC to the Pi Hat
+
+## 1500mAh 3S 20C LiPo Battery
+<figure>
+    <img src="photos/new-battery.png" width="250"/>
+</figure>  
+
+**Units:** 1   
+**Description:** A lithium polymer battery used to power the drone.
+
+### 12V 2-3S LiPo Battery Balancer/Charger
+
+<figure>
+    <img src="photos/new-charger.png" width="250"/>
+</figure>  
+
+**Units:** 1   
+**Description:** Safely charges and balances the LiPo battery
+
+
+### AC/DC US Charge Adapter
+
+<figure>
+    <img src="photos/new-adapter.png" width="250"/>
+</figure>  
+
+**Units:** 1   
+**Description:** Connects the battery charger to a wall outlet
+
+### Battery Mount
+<figure>
+    <img src="photos/new-battery-mount.png" width="250"/>
+</figure>  
+
+**Description:** A 3D printed part that attaches to the drone frame and holds in the battery
+
+### Velcro Strap
+<figure>
+    <img src="photos/new-velcro.png" width="250"/>
+</figure>  
+
+**Units:** 1    
+**Description:** A velcro strip used to hold the battery to the drone.                     
+
+## Heat Shrink
+<figure>
+    <img src="photos/new-heatshrink.png" width="250"/>
+</figure>
+
+**Description:** A heat shrink (a.k.a heatshrink or heat-shrink tubing) is a shrinkable plastic insulator tube used to insulate wires. It is commonly used as a "sleeve" over a solder joint.
+
+## Zip Ties
+<figure>
+    <img src="photos/new-zipties.png" width="250"/>
+</figure>  
+
+**Description:** A zip tie is a type of fastener for holding items together, primarily electrical cables or wires.       
+
+
+## Duckies
+<figure>
+    <img src="photos/new-duckies.png" width="250"/>
+</figure>  
+
+**Description:** The heart of Duckietown.
