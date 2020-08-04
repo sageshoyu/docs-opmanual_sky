@@ -76,8 +76,7 @@ connect to a new network.
 
 4. fill in the prompt for your networks password and press enter. Note that you will not see anything happening when you are typing the password-- this is a security feature.
 
-5. after the script finishes, move your newly created wpa_supplicant.conf file to the /etc/wpa_supplicant directory: `sudo mv wpa_supplicant.conf /etc/wpa_supplicant/`
-
+5. after the script finishes, move your newly created wpa_supplicant.conf file to the /etc/wpa_supplicant directory: `sudo mv wpa_supplicant.conf /etc/wpa_supplicant/`. Note that you will need to enter the user password when using `sudo`. By default, this is `bigbubba`
 
 ### Switching to Managed Mode
 
