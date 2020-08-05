@@ -3,15 +3,7 @@
 **Expected Time**: 5 hours
 
 
-In this phase, strip and tin all of your parts, so that in latter phases they can be joined together.  
-- Notes:
-    - Sometimes parts will have wires already tinned out-of-the-box by the manufacturer (i.e. pre-tinned). You can identify this by: 1) the "shininess" of the tip of a wire and 2) the inability to fray the wire strands of the tip of a wire. However, such tinning is often ineffective. Cut off any pre-tinned tips, then strip and tin the part yourself.
-
-<col3 figure-caption="Parts Need Tinning" class="labels-row1">
-    <span style="text-align:center">Part Name</span>  <span style="text-align:center">Amount</span>  <span style="text-align:center">After Tinning Picture</span>
-    <span style="text-align:center">ESC</span> <span style="text-align:center">4</span>  <span style="text-align:center"><img src="photos/tinned_esc_2.jpg" width="250" /></span>
-    <span style="text-align:center">Motor</span> <span style="text-align:center">4</span> <span style="text-align:center"><img src="photos/tinned_motor.jpg" width="250" /></span>
-</col3>
+Note: Sometimes parts will have wires already tinned out-of-the-box by the manufacturer (i.e. pre-tinned). You can identify this by: 1) the "shininess" of the tip of a wire and 2) the inability to fray the wire strands of the tip of a wire. However, such tinning is often ineffective. Cut off any pre-tinned tips, then strip and tin the part yourself.
 
 ## Solder wires onto ESC pads
 
@@ -23,17 +15,23 @@ In this section, you will prepare your ESCs. Each ESC has 3 pads labeled A, B, a
 </figure>
 
 
-1) Gather the following parts:
+### Cut ESC wires to length
 
-See: 4 ESCs
+1. Cut four pieces of the blue wire, 3 inch lengths
 
-See: Heat Shrinks (recommend 13mm width)
+1. Cut four pieces of the yellow wire, 3 inch lengths
 
-See: 12 pieces of wire (recommend 4 red, 4 yellow, and 4 blue - each 3in. length)
+1. Cut four pieces of the red wire, 3 inch lengths
 
-2) For each ESC:
+### Tin the ESC wires
 
-1. Use your fingers (or small wire cutters) to *very carefully* remove excess material from each ESC pad.
+1. Strip about 5mm from both ends of the each wire that you just cut (12 wires in total)
+
+1. Tin both ends of the wires
+
+### Prepare the ESC:
+
+Use your fingers (or small wire cutters) to *very carefully* remove excess material from each ESC pad.
 
 <figure class="flow-subfigures">  
     <figcaption>Clean ESC Pads</figcaption>
@@ -47,43 +45,25 @@ See: 12 pieces of wire (recommend 4 red, 4 yellow, and 4 blue - each 3in. length
     </figure>
 </figure>
 
+### Tin the ESC pads
 
-2. Strip one end of a red wire. Wrap solder around the exposed strands, especially around the tip of the wire. DO NOT tin the wrapped solder.
+Tin all three metal pads on each of the four ESCs
 
-3. Using long-nosed pliers, lightly push the wrapped wire end onto pad A.
+### Solder the ESC wires to the ESCs
 
-<figure>
-    <figcaption>Wire Pushed onto Pad</figcaption>
-    <img style='width:400px' src="photos/wire_pushed_onto_esc_pad_inked.jpg"/>
-</figure>
+1. Review the [wire-to-pad soldering technique](#prereq-solder-wire-to-pad)
 
+1. Use the helping hands to hold one ESC in place for solder
 
-4. Use a soldering iron to simultaneously melt the wrapped solder into the wire and pad A. The best way to do this is to place the edge of the soldering iron tip against the left-hand side of the pad - thus touching both the pad and the wire. Smooth out the melted solder by carrying the soldering iron from the left-hand side to the top, then down the right-hand side of the pad. If needed, repeat the motion back-and-forth or focus on any side (i.e. left, top, right) of the joint.
+1. Solder the yellow wire to the middle pad (pad "B")
 
+1. Solder the red wire to pad "A"
 
-<figure>  
-    <figcaption>Solder onto ESC Pads</figcaption>
-    <figure>
-        <figcaption>Motion 1</figcaption>
-        <img style='width:280px' src="photos/solder_onto_pad_motion_1_inked.jpg"/>
-    </figure>
-    <figure>  
-        <figcaption>Motion 2</figcaption>
-        <img style='width:280px' src="photos/solder_onto_pad_motion_2_inked.jpg"/>
-    </figure>
-    <figure>  
-        <figcaption>Motion 3</figcaption>
-        <img style='width:280px' src="photos/solder_onto_pad_motion_3_inked.jpg"/>
-    </figure>
-</figure>
+1. Solder the blue wire to pad "B"
 
-5. Lightly pull the wire soldered to the pad and verify it stays on. If it does, melt the rest of the wrapped solder into the wire (i.e. tin it).
+1. Lightly pull the wire soldered to the pad and verify it stays on.
 
-6. Repeat the previous four steps for the other pads, specifically a yellow wire on pad B and a blue wire on pad C.
-
-   NOTE: the wire colors are purely our convention. Feel free to use other colors if needed.
-
-7. Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later). The multimeter *should* **not** beep, otherwise there is a short between the pair; if the multimeter does hold a continuous beep, then you will need to fix the short by removing any excess solder forming a bridge between the problematic pair of wires.
+1. Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) between each pair of soldered wires (recommend doing this now instead of in checkoff later). The multimeter *should* **not** beep, otherwise there is a short between the pair; if the multimeter does hold a continuous beep, then you will need to fix the short by removing any excess solder forming a bridge between the problematic pair of wires.
 
 <figure>  
     <figcaption>Connectivity Check on Wires</figcaption>
@@ -116,58 +96,70 @@ See: 12 pieces of wire (recommend 4 red, 4 yellow, and 4 blue - each 3in. length
     </figure>
 </figure>  
 
-9. Strip and tin all wires of the completed ESC (if not already done). This effectively amounts to stripping and tinning the other end of the red, yellow, and blue wires.
+1. Repeat the above steps for each ESC
 
-## Solder bullet connectors
+## ESC bullet connectors
+
+In this step you will solder bullet connectors onto the ESC wires and the motor wires so that you can easily connect them later on.
+
+### Review soldering tutorial
 
 Before beginning this section, please refer to a bullet connector soldering [tutorial](https://youtu.be/3oBy-jV9ajE).    
 
-NOTE: You can use any setup to hold the bullet connector, so long as the setup is not thermally conductive.
+Note: You can use any setup to hold the bullet connector, so long as the setup is not thermally conductive.
 
-1. Gather the following parts:
+### Strip and Tin the ESC power wires
 
-See: 4 completed ESCs
+1. Strip about 5mm from the ends of the red and black wires on each ESC
 
-See: 4 motors
+1. Tin the red and black wires on each ESC
 
-See: 12 bullet connectors, female
+### Solder the socket bullet connectors to the ECS wires
 
-See: 12 bullet connectors, male
+For each ESC:
 
-See: Heat shrinks (recommend 4mm in width)
+1. Solder a socket bullet connector to the end of each of the 3 ESC wires (i.e. red, yellow, blue).
 
-2. For each ESC:
-
-    1. Solder a female bullet connector to each of the 3 ESC wires (i.e. red, yellow, blue).
-
-    2. Put a heat shrink over each solder joint. For female connectors: the heat shrink should cover the solder joint on one end and run the entire length of the bullet connector. Apply heat to shrink the heat shrink.
+1. Put a heat shrink over each solder joint. For socket connectors: the heat shrink should cover the solder joint on one end and run the entire length of the bullet connector. Apply heat to shrink the heat shrink.
 
 <figure>  
-    <figcaption>Put Heat Shrinks on Female Bullet Connectors</figcaption>
+    <figcaption>Put Heat Shrinks on Socket Bullet Connectors</figcaption>
     <figure>
-        <figcaption>Female Bullet Connectors on ESCs (Ignore color of wires)</figcaption>
+        <figcaption>Socket Bullet Connectors on ESCs</figcaption>
         <img style='width:250px' src="photos/bullet_connectors_in_esc.jpg"/>
     </figure>
     <figure>  
-        <figcaption>Female Bullet Connector with Heat Shrinks</figcaption>
+        <figcaption>Socket Bullet Connector with Heat Shrinks</figcaption>
         <img style='width:250px' src="photos/ESC_bullet_connectors_heat_shrinked.jpg"/>
     </figure>
 </figure>  
 
-3. For each motor:
+## Motor bullet connectors
 
-    1. Solder a male bullet connector to each of the motor's wires.
+### Strip the motor wires
 
-    2. Put a heat shrink over each solder joint. For male connectors: the heat shrink should cover the solder joint on one end and run only the short length of the cylindrical part. Apply heat to shrink the heat shrink.
+1. Strip about 5mm from the ends of the three black wires on each motor
+
+### Tin the motor wires
+
+1. Tin the ends of the three black wires on each motor
+
+### Solder the plug bullet connectors to the motor wires
+
+For each motor:
+
+1. Solder a plug bullet connector to each of the motor's wires.
+
+1. Put a heat shrink over each solder joint. For male connectors: the heat shrink should cover the solder joint on one end and run only the short length of the cylindrical part. Apply heat to shrink the heat shrink.
 
 <figure>  
-    <figcaption>Put Heat Shrinks on Male Bullet Connectors</figcaption>
+    <figcaption>Put Heat Shrinks on Plug Bullet Connectors</figcaption>
     <figure>
-        <figcaption>Male Bullet Connectors on Motor wires</figcaption>
+        <figcaption>Plug Bullet Connectors on Motor wires</figcaption>
         <img style='width:250px' src="photos/motor_with_bullet_connectors.jpg"/>
     </figure>
     <figure>  
-        <figcaption>Male Bullet Connector with Heat Shrinks</figcaption>
+        <figcaption>Plug Bullet Connector with Heat Shrinks</figcaption>
         <img style='width:250px' src="photos/motor_bullet_connector_heat_shrinked.jpg"/>
     </figure>
 </figure>     

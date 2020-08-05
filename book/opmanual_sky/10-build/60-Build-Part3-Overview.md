@@ -5,30 +5,21 @@ In this phase of the build, you'll be adding the essential elements of every dro
 
 ## Required Materials
 
-<col2 figure-caption="Build Part 1 Materials" class="labels-row1">
-    <span style="text-align:center">Part</span>  <span style="text-align:center">Quantity</span>
-    <span style="text-align:center">Flight Controller</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">CCW Motors</span> <span style="text-align:center">2</span>
-    <span style="text-align:center">CW Motors</span> <span style="text-align:center">2</span>
-    <span style="text-align:center">Motor Screws (included with motors)</span> <span style="text-align:center">20</span>
-    <span style="text-align:center">ESCs</span> <span style="text-align:center">4</span>
-    <span style="text-align:center">ESCs</span> <span style="text-align:center">4</span>
-    <span style="text-align:center">red wire, cut to 3 inch length</span> <span style="text-align:center">4</span>
-    <span style="text-align:center">blue wire, cut to 3 inch length</span> <span style="text-align:center">4</span>
-    <span style="text-align:center">yellow wire, cut to 3 inch length</span> <span style="text-align:center">4</span>
-    <span style="text-align:center">black wire, cut to **6** inch length</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">red wire, cut to **6** inch length</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">Velcro Strap</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">Bullet Connectors, Female</span> <span style="text-align:center">12</span>
-    <span style="text-align:center">Bullet Connectors, Male</span> <span style="text-align:center">12</span>
-    <span style="text-align:center">Metal Standoffs</span> <span style="text-align:center">4</span>
-    <span style="text-align:center">Soldering Tools</span> <span style="text-align:center">N/A</span>
+- **Part : Quantity**
+- [Flight Controller](#materials-fc) : 1
+- [Counter-clockwise Motors](#materials-motors-ccw) : 2
+- [Clockwise Motors](#materials-motors-cw) : 2
+- [Long M3 Bolts](#materials-bolt-m3) (included w/ motor) : 16
+- [Short M3 Bolts](#materials-bolt-m3) (included w/ motor) : 4
+- [Electronic Speed Controllers](#materials-esc) (ESCs) : 4
+- [ESC Wires](#materials-wires-esc)
+- [Velcro Strap](#materials-velcro) : 1
+- [Bullet Connectors](#materials-bullet-connectors) : 12 Plugs, 12 Sockets
+- [Brass Standoffs](#materials-brass-standoffs) : 4
+- [Soldering Tools](#materials-soldering-tools)
 
-</col2>
 
-Note: the different colors of the 3 inch wires is only to make it easier to follow the build instructions. If you only have one color wire, that will work, too.
-
-## Hardware
+## Detailed Hardware Descriptions
 
 ### Motors
 
@@ -76,3 +67,14 @@ Standoffs are used to separate layers of electronic circuits.
 ### Battery Monitoring Wire
 
 The 6 inch red and black wire that you've cut will allow the flight controller to *monitor* the power traversing the PDB. For this reason, this pair of wires is called the *battery monitor lead*. The battery monitor lead ultimately allows the flight controller to read the battery voltage, which helps the software and the user not drain the battery too low.
+
+## Build Progress
+
+After completing this section, your build will match the diagram below. Compare this diagram to the [completed drone diagram](#diagram-complete) to see how what you're doing now fits into the final result.
+
+<figure>  
+  <figcaption> Diagram for Build Part 3 </figcaption>
+  <img style='width:400px' src="photos/diagram-part3.png"/>
+</figure>
+
+ The Pi receives IMU sensor data from the flight controller, and sends the flight controller values for roll, pitch, yaw, and throttle. The flight controller converts these values to PWM commands for each motor, and sends the values to each ESC. The ESCs receive power from the PDB, and use the PWM signal from the flight controller to control how fast the motors are spinning.

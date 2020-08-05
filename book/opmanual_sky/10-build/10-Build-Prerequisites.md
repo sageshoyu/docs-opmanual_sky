@@ -6,10 +6,7 @@
 
 This section contains information about the most important skills used in the build. If you are new to soldering, it is recommended that you complete the soldering module before starting the build. Whether you're new too soldering or not, we recommend reading through this page to review the basic techniques used in the build.
 
-
-## Required Skills
-
-### Strip Wires
+## Strip Wires
 
 **Stripping** is the process of removing a portion of insulator from a wire in order to expose its strands. It is done by using a wire stripper.    
 <figure class="flow-subfigures">  
@@ -24,7 +21,7 @@ This section contains information about the most important skills used in the bu
     </figure>
 </figure>
 
-### Tin Wires
+## Tin Wires
 
 **Tinning** is the process of applying solder to exposed wire. It is done by using a soldering iron to melt solder into the exposed wire.    
 
@@ -72,12 +69,27 @@ Furthermore, since solder is conductive, the resulting joint acts as a bridge fo
 Notes Sometimes parts will have wires already tinned out-of-the-box by the manufacturer (i.e. pre-tinned). You can identify this by: 1) the "shininess" of the tip of a wire and 2) the inability to fray the wire strands of the tip of a wire. However, such tinning is often ineffective. Cut off any pre-tinned tips, then strip and tin the part yourself.
 
 
-### Soldering
+## Soldering
 
 We recommend you complete the soldering module before starting the drone build to ensure you've had plenty of practice soldering practice parts before soldering your drone parts. For a quick overview of soldering, watch this beginner soldering tutorial [YouTube video](https://www.youtube.com/watch?v=Qps9woUGkvI)
 
 TODO: Link soldering module
 
+### Wire-to-Wire {#prereq-solder-wire-to-wire}
+
+TOWRITE: soldering instructions on wire-to-wire solders
+
+### Wire-to-Pad {#prereq-solder-wire-to-pad}
+
+TOWRITE: soldering instructions on wire-to-pad solder
+
+### Through-Hole {#prereq-solder-through-hole}
+
+TOWRITE: soldering instructions on through hole soldering
+
+### How to Fix Solder Mistakes {#prereq-solder-mistakes}
+
+TOWRITE: instructions for fixing soldering mistakes
 
 ### Safety Tips:
 

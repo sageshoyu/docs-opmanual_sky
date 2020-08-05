@@ -2,7 +2,7 @@
 
 This section contains what you will need to build and fly your drone that is not included in the kit.
 
-## Base station
+## Base station {#materials-base-station}
 
 In order to fly the drone, you must have a laptop or personal computer that is capable of connecting to the internet. Additionally, your will need to install the following software on your base station.
 
@@ -35,7 +35,7 @@ Google Chrome is recommended. You will need to download a Chrome app later on, s
 
 1. [The software stack](https://github.com/h2r/pidrone_pkg)
 
-## Soldering Tools
+## Soldering Tools {#materials-soldering-tools}
 
 - soldering iron
 - solder
@@ -49,3 +49,7 @@ Google Chrome is recommended. You will need to download a Chrome app later on, s
 - flush cutters
 - fume extractor
 - multimeter
+
+## Misc. Tools {#materials-misc}
+
+- hot glue gun

@@ -19,7 +19,7 @@ A majority of the drone build involves soldering. Soldering is fun and safe when
 - Wash your hands after soldering since the solder may contain lead
 
 
-## Battery
+## Battery {#build-safety-battery}
 
 LiPi batteries pose an explosion hazard.
 

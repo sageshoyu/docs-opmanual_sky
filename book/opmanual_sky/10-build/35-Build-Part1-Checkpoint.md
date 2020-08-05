@@ -8,11 +8,11 @@ You will now verify that the SD card is working properly by connecting to your P
 
 ### Power up your drone build
 
-Plug the battery into the  XT60 connector
+Plug the battery into the XT60 connector
 
 ### Connect to the drone's wifi network
 
-On your base station connect to the network labelled **defaultdrone**. The wifi password is **bigbubba**
+On your base station, connect to the network labelled **defaultdrone**. The wifi password is **bigbubba**
 
 Note: At this point you will lose internet access, because you will be connected to the Pi's network. You can disconnect and reconnect to the network at any point without causing issues on the Pi.
 
@@ -22,6 +22,6 @@ In a web browser on your base station, browse to [192.168.42.1:8081](192.168.42.
 
 ### Checkoff
 
-If the link does not show an error, then your SD card is correctly flashed! You can browse around the text editor and files if you'd like. You will be learning more about this interface in a later lesson.
+If the link does not show an error, then your SD card is correctly flashed! The screen you are looking at is a text editor that allows you to edit the code on your drone. Any changes you make in this editor will be automatically saved to the drone. You can browse around the text editor and files if you'd like. You will be learning more about this interface in a later lesson.
 
 Congrats on finishing Build Part 1!
