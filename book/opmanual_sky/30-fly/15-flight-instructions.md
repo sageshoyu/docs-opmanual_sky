@@ -8,10 +8,12 @@ In order to fly, you will need:
 * Safety goggles
 * Highly textured planar surface, such a poster board with scribbles. This should have considerable and distinct markings for the camera to process
 
-<figure>
-    <figcaption>Example of a highly textured planar surface.</figcaption>
-    <img style='width:15em' src="photos/htps.png"/>
-</figure>  
+
+<figure>  
+   <figcaption>Example of a highly textured planar surface.</figcaption>
+   <img style='width:200px' src="photos/htps.png"/>
+</figure>
+
 
 ## Get Ready to Fly:
 

@@ -5,17 +5,6 @@
 
 ## Solder Pins to the ADC
 
-### Break off pins
-
-Cut/break the ADC header pin set to the same number as holes on the ADC.
-
-<figure>
-    <figcaption>ADC Pins</figcaption>
-    <img style='width:200px' src="photos/pin_for_adc.jpg"/>
-</figure>
-
-Remark: If you break off the wrong number of pins, don't worry. Simply break off more/less as needed.
-
 ### Identify the top and bottom
 
 The top of the ADC has the labels near the holes, "V," "G," "SCL," etc.
@@ -37,7 +26,7 @@ Note: The ADC shown is from a previous hardware version. For your ADC, the helpi
 
 Solder the pins on the **top** of the ADC using the [through-hole soldering technique](#prereq-solder-through-hole)
 
-Note: The ADC shown is freom a previous hardware version. For your ADC, the pins will be on the right side.
+Note: The ADC shown is from a previous hardware version. For your ADC, the pins will be on the right side.
 
 <figure>
   <figcaption>Top View of ADC after soldering</figcaption>
@@ -53,7 +42,7 @@ Gently lift the Pi Hat near the pin header to detach.
 
 ### Solder the ADC to the Pi Hat
 
-Following the image below, insert the ADC into the Pi Hat. Then, flip the Pi Hat over so you can solder the pins on the back of the Pi Hat using the [through-hole soldering technique](#prereq-solder-through-hole)
+Following the image below, insert the ADC into front of the Pi Hat. Then, flip the Pi Hat over so you can solder the pins on the back of the Pi Hat using the [through-hole soldering technique](#prereq-solder-through-hole)
 
 Note: Be sure to solder the ADC to the correct location on the Pi Hat. Use the location of the slot in the Pi Hat to help you align the ADC.
 
@@ -82,6 +71,16 @@ Remark: For the wires, we use the colors: red, black, green, and blue. However, 
    <figcaption>ADC Wires soldered to Pi Hat</figcaption>
    <img style='width:300px' src="photos/new-adc-wired.png"/>
 </figure>
+
+
+<div class='check' markdown="1">
+
+Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the Pi Hat; verify:
+
+- There is **NO** electrical connection (short) between the 5V and GND rails.
+- There is **NO** electrical connection (short) between the SCL and SDA wires
+
+</div>
 
 ## Prep the IR Sensor Wire
 
@@ -124,3 +123,12 @@ Following the diagram below, insert a wire into the correct hole in the front of
    <figcaption>ADC Wires soldered to Pi Hat</figcaption>
    <img style='width:300px' src="photos/new-adc-final.png"/>
 </figure>
+
+
+<div class='check' markdown="1">
+
+Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the Pi Hat; verify:
+
+- There is **NO** electrical connection (short) between the 5V and GND rails.
+
+</div>
