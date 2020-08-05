@@ -108,7 +108,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
     <img src="photos/new-hexkey.png" width="250"/>
 </figure>  
 
-**Description:** Used to tighten the [M3 bolts](#materials-m3-bolt)
+**Description:** Used to tighten the [M3 bolts](#materials-bolt-m3)
 
 ## 5040 3-Blade Propeller {#materials-props}
 <figure>
@@ -119,7 +119,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 
 **Description:** A device with blades that turns rotational motion into thrust. 5 refers to the diameter in inches, and 4 refers to the distance the propeller would travel if turned one rotation without slippage, e.g. in jello. Three blades gives more lift for a given diameter than two blades - at the cost of efficiency.
 
-### 8mm Wrench {materials-wrench-8mm}
+### 8mm Wrench {#materials-wrench-8mm}
 <figure>
     <img src="photos/new-wrench.png" width="250"/>
 </figure>  
