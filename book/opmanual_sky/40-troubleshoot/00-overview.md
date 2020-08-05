@@ -1,4 +1,4 @@
-# Troubleshooting {#part:troubleshooting status=draft}
+# Troubleshooting {#part:troubleshooting}
 
 It is very very common for something to go wrong during your build.
 Count on it.  The goal is to systematically figure out what is wrong

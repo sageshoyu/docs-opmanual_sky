@@ -1,4 +1,4 @@
-# Multimeters {#part:multimeter status=draft}
+# Multimeters {#part:multimeter}
 
 Using a multimeter effectively is an essential part of debugging any
 electronics project.  Achieving multimeter mastery is beyond the scope
