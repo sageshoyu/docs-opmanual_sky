@@ -21,10 +21,19 @@ A majority of the drone build involves soldering. Soldering is fun and safe when
 
 ## Battery
 
-LiPi batteries pose an explosion hazard.
+Lithium Polymer (LiPo) batteries are very commonly used in RC devices. However, they must be handled properly. Please read [this article](https://www.getfpv.com/learn/fpv-essentials/drone-battery-safety/) to learn more about the proper care of your drone's LiPo battery.  
 
-TOWRITE:
+- Never leave a LiPo battery charging unattended. If the battery or charger starts smoking when you plug in the battery to charge, unplug it immediately and get a new battery and charger (this happened once as a result of a faulty charger, but the battery was fine).
+
+- Never overcharge the battery
+
+- Always have a fire extinguisher nearby in case of fire. If one is not readily available, drenching the battery and surrounding area with water will work.
+
+- Always inspect your battery for signs of damage such as punctures or if it is puffy. If there are any signs of damage to your battery, properly dispose of it following [this article](http://modelaviation.com/lipo4).
+
 
 ## Flying
 
-TOWRITE:
+The main sources of danger when flying are the spinning propellers. The propellers can cause serious injury if they come into contact with a person, and can cause serious damage if they come into contact with things. For this reason, it is very important to **fly your drone in a spacious area without people or fragile things around**.
+
+Another source of danger is a propeller braking after hitting something, and then flying off of the drone. This is why it is important to **always wear your safety goggles** when flying. If your propellers are on the wrong motors, they could fly off of the motor and also cause serious damage. Always make sure the **correct propellers are on each motor, the propellers are tightly fastened to the motors, and the motors are tightly fastened to the drone frame**.

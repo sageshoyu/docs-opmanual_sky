@@ -26,7 +26,7 @@ You will now to two checks to see if the IR sensor on your drone is working prop
 
 4) Point the IR sensor at an object and then move the sensor closer and further to that object. Check that the value on the multimeter is getting smaller when the object is further, and larger when it is closer. If this is correct, then your IR sensor is working properly!
 
-### Reading the IR sensor on the web interface
+### Reading the IR sensor on the web interface {#part2-checkpoint-ir}
 
 TODO: provide better chromebook support or include an extra sd card for the following:
 

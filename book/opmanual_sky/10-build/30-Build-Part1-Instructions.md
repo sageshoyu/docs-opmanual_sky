@@ -10,15 +10,21 @@
 
 Note: **Never** leave the battery charging unattended. The battery takes about 2 hours to charge
 
-### Flash the SD card
+### Download Image and Image Flashing Software
 
-1) On a base station, download the image flashing tool [Etcher](https://www.balena.io/etcher/).
+1. On a base station, download the image flashing tool [Etcher](https://www.balena.io/etcher/).
 
-2) On a base station, download the latest drone [image](http://cs.brown.edu/people/stellex/droneimage/boot.img).
+1. On a base station, download the latest drone [image](http://cs.brown.edu/people/stellex/droneimage/boot.img).
 
-3) Connect the micro SD card to the workstation. Use the micro SD to USB card reader if the base station does not have a micro SD port.
+Note: Downloading the image could take several hours depending on your internet connection because it is a large file. In the meantime, you can move on to the next section
 
-4) Open Etcher and select the downloaded drone image. Then select the micro SD card as the drive to flash. Finally, click the "Flash" button.
+### Flash SD Card
+
+If the image has not finished downloading from the previous step, please skip to the next section.
+
+1. Connect the micro SD card to the workstation. Use the micro SD to USB card reader if the base station does not have a micro SD port.
+
+1. Open Etcher and select the downloaded drone image. Then select the micro SD card as the drive to flash. Finally, click the "Flash" button.
 
 Note: Double check that the "drive" is your micro SD card. You may be prompted to enter the base station password to proceed. This is normal; flashing an SD card deletes everything that is on it, so Etcher is making sure this process is OK with you.
 
