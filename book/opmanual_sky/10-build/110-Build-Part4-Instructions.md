@@ -2,17 +2,58 @@
 
 ## Glue USB Connector to Flight Controller
 
-Carefully plug the 6" micro USB to USB cable into the USB port of the flight controller. These
-little surface-mount USB micro ports are very prone to failure, so to minimize
-the likelihood of ripping off the port or breaking a connection cover the USB connector
-thoroughly with hot glue.    
+These little surface-mounted micro USB ports are prone to breaking upon impact; therefore, to minimize
+the likelihood of damaging the connect, you will thoroughly cover the port with hot glue.
 
-Note: You will not be able to remove the USB cable. This is intentional.    
+### Plug in the micro USB to USB cable
+
+If it is not plugged in already, plug the 6" micro USB to USB cable into the micro USB port of the flight controller.
+
+### Glue the port
+
+Liberally apply hot glue over the end of the usb cable and the port on the flight controller.
+
+Note: You will not be able to remove the USB cable. This is intentional. Also note that the flight controller shown is from a previous hardware version; use this as an example for how to glue your FC.  
 
 <figure>
     <figcaption>Glued USB Connector</figcaption>
     <img style='width:350px' src="photos/usb_glue.png"/>
 </figure>
+
+## Attach the Pi Camera to the drone frame
+
+### Detach the Pi Hat
+
+Gently lift near the pin header to detach the Pi hat
+
+### Put tape on the Pi Camera
+
+Put foam mounting tape on the top, left, and right sides of the pi cam. Cut off any excess tape.
+
+Note: The camera in the photo does not have the white flexible flat cable (FFC) attached. This is just for the photo; it is better to leave the FFC attached to your camera
+
+<figure>
+   <figcaption>Pi Cam with Tape</figcaption>
+   <img style='width:300px' src="photos/tape_attached_to_pi_cam.jpg"/>
+</figure>
+
+### Stick camera to the drone frame
+
+1. Peel off the back of the foam mounting tape
+
+1. Stick the Pi Cam to the hole in the back of the drone. attach on top so camera faces downward and the FFC goes away from the drone. Ensure that the attachment is not skewed.
+
+<figure class="flow-subfigures">  
+   <figcaption>Attach the Pi Cam (bottom-up view)</figcaption>
+   <figure>
+       <figcaption>Pi Cam without Skew</figcaption>
+       <img style='width:200px' src="photos/pi_cam_attached_no_skew.jpg"/>
+   </figure>
+   <figure>  
+       <figcaption>Pi Cam with Skew</figcaption>
+       <img style='width:200px' src="photos/pi_cam_attached_skew.jpg"/>
+   </figure>
+</figure>  
 
 ## Attach Battery Mount
 
@@ -40,7 +81,7 @@ This is how the battery will be attached to the drone:
 
 ## Attach PiMount
 
-Place the PiMount on top of the PDB and use the **short** black bolts **from the motors box** to secure the mount to the standoffs.     
+Place the PiMount on top of the PDB and use the **short** black [M3 bolts](#materials-pimount-screws) from the motors box to secure the mount to the standoffs.     
 
 Note: Ensure that the triangle shape is on the side of the camera.
 
@@ -68,14 +109,11 @@ You must put heat sinks on parts of the Raspberry Pi so that they do not overhea
 
 ## Attach Raspberry Pi
 
-Use the sliver screws included in the drone frame kit to secure the Pi to the mount. You should use 3 screws as shown in picture. The Pi USB ports should face toward the front of the drone.
+### Insert standoffs
 
-<figure>
-    <figcaption>Securing the Pi</figcaption>
-    <img style='width:350px' src="photos/securing_pi_inked.jpg"/>
-</figure>
+You will now insert standoffs into the Pi that will help support the Pi Hat and keep it from bouncing during flight.
 
-Screw in a pair of standoffs into bottom right hole of the Pi. It may help to first screw in a black screw into the standoffs, then use an allen wrench to screw the standoffs into the hole. Note that the hole may initially seem too small for the standoffs, but it will definitely screw in.
+1. Screw in a pair of standoffs into bottom right hole of the Pi. It may help to first screw in a black screw into the standoffs, then use an allen wrench to screw the standoffs into the hole. Note that the hole may initially seem too small for the standoffs, but it will definitely screw in.
 
 <figure class="flow-subfigures">  
     <figcaption>Inserting standoffs into Pi</figcaption>
@@ -89,9 +127,29 @@ Screw in a pair of standoffs into bottom right hole of the Pi. It may help to fi
     </figure>
 </figure>  
 
+### Attach Pi to Pi Mount
+
+Leaving the Pi Hat detached (to make the next step easier), use the sliver screws included in the drone frame kit to secure the Pi to the mount. You should use [3 panhead screws](#materials-pimount-screws) as shown in picture. The Pi USB ports should face toward the front of the drone.
+
+<figure>
+    <figcaption>Securing the Pi</figcaption>
+    <img style='width:350px' src="photos/securing_pi_inked.jpg"/>
+</figure>
+
 ## Connect Pi Cam
 
-1. Feed the flexible flat cable (FFC) from the Pi Cam through the hole in Pi Hat, then connect it to the Pi's camera port, i.e. the black port close to the HDMI port.
+### Connect FFC to the Pi Camera
+
+If not already done, attach the FFC to the Pi Cam.
+
+ <figure>
+     <figcaption> FFC Attachment to Pi Cam (shorter side in camera port)</figcaption>
+     <img style='width:200px' src="photos/ffc_attachment_good_inked.jpg"/>
+ </figure>
+
+### Connect FFC to the Pi
+
+Feed the flexible flat cable (FFC) from the Pi Cam through the slot in Pi Hat, then connect it to the Pi's camera port, i.e. the black port close to the HDMI port.
 
 Note: Do not just push the FFC into the slot. [Watch this video](https://www.youtube.com/watch?v=VzYGDq0D1mw) on how to insert the camera properly.
 
@@ -107,44 +165,13 @@ Note: Do not just push the FFC into the slot. [Watch this video](https://www.you
     </figure>
 </figure>  
 
-2. If not already done, attach the FFC to the Pi Cam. The shorter side should go into the camera port.
+### Re-attach Pi Hat
 
-<figure class="flow-subfigures">  
-   <figcaption>FFC Attachment</figcaption>
-   <figure>
-       <figcaption>Good FFC Attachment (shorter side in camera port)</figcaption>
-       <img style='width:200px' src="photos/ffc_attachment_good_inked.jpg"/>
-   </figure>
-   <figure>  
-       <figcaption>Bad FFC Attachment (longer side in camera port)</figcaption>
-       <img style='width:200px' src="photos/ffc_attachment_bad_inked.jpg"/>
-   </figure>
-</figure>  
-
-3. Put double sided mounting tape on the top, left, and right sides of the pi cam. Cut off any excess tape.
-
-<figure>
-   <figcaption>Pi Cam with Tape</figcaption>
-   <img style='width:300px' src="photos/tape_attached_to_pi_cam.jpg"/>
-</figure>
-
-4. Attach the Pi Cam to the hole in the back of the drone (attach on top so camera faces downward). Ensure that the attachment is not skewed.
-
-<figure class="flow-subfigures">  
-   <figcaption>Attach the Pi Cam (bottom-up view)</figcaption>
-   <figure>
-       <figcaption>Pi Cam without Skew</figcaption>
-       <img style='width:200px' src="photos/pi_cam_attached_no_skew.jpg"/>
-   </figure>
-   <figure>  
-       <figcaption>Pi Cam with Skew</figcaption>
-       <img style='width:200px' src="photos/pi_cam_attached_skew.jpg"/>
-   </figure>
-</figure>  
+Put the Pi Hat back onto the Pi. Refer to [part 1](#build-part1-attach-pihat) for detailed instructions to attach the Pi hat.
 
 ## Attach the IR Sensor
 
-Zip tie the IR sensor at the front of the drone, facing down. It will be underneath the flight controller.
+Zip tie the IR sensor at the front of the drone, facing down. It will be underneath the flight controller and the wires will go back toward the frame.
 
 <figure class="flow-subfigures">  
     <figcaption>Attached IR Sensor</figcaption>
@@ -197,7 +224,7 @@ Attach the propellers to the drone so that it may fly; attach CW propellers to t
 
 Note: The bolts on the motors that spin CCW tighten when turned CW, and the bolts on the motors that spin CW tighten when turned CCW.
 
-Use a wrench to tighten the bolts down so that the bottom of the propeller is flat on the top of the motor. Screw bolts down tightly, but not so tight that you could not remove the propellers if you had to.
+Use the [8 mm wrench](#materials-wrench-8mm) to tighten the bolts down so that the bottom of the propeller is flat on the top of the motor. Screw bolts down tightly, but not so tight that you could not remove the propellers if you had to.
 
 <figure class="flow-subfigures">  
     <figcaption>Put on Propellers</figcaption>

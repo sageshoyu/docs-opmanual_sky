@@ -8,32 +8,29 @@ First, we will reintroduce you to the components that you will be working with. 
 
 ## Required Materials
 
-<col2 figure-caption="Build Part 1 Materials" class="labels-row1">
-    <span style="text-align:center">Part</span>  <span style="text-align:center">Quantity</span>  
-    <span style="text-align:center">Battery</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">Battery Charger</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">Battery Charging Cable</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">Power Distribution Board</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">Battery Eliminator Circuit</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">Pi Hat</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">LED</span> <span style="text-align:center">1</span>  
-    <span style="text-align:center">Resistor</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">XT60 Connector</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">Soldering Tools</span> <span style="text-align:center">N/A</span>
-    <span style="text-align:center">Raspberry Pi</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">Micro SD Card</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">Mirco SD Card Reader</span> <span style="text-align:center">N/A</span>
-    <span style="text-align:center">Base Station</span> <span style="text-align:center">1</span>
-</col2>
+- **Part : Quantity**
+- [Battery](#materials-battery) : 1
+- [Battery Charger](#materials-battery-charger) : 1
+- [Battery Charging Adapter](#materials-battery-charger-adapter) : 1
+- [Power Distribution Board](#materials-pdb) : 1
+- [Battery Eliminator Circuit](#materials-bec) : 1
+- [Pi Hat](#materials-pihat) : 1
+- [XT60 Connector](#materials-xt60) : 1
+- [Soldering Tools](#materials-soldering-tools) : 1
+- [Raspberry Pi](#materials-pi) : 1
+- [Micro SD Card](#materials-sd-card) : 1
+- [Base Station](#materials-base-station) : 1
+- Micro SD Card Reader : 1
+- LED : 1
+- Resistor : 1
 
-
-## Hardware Descriptions
+## Detailed Hardware Descriptions
 
 ### Battery
 
 <figure>
      <figcaption>Battery</figcaption>
-    <img src="photos/battery.png" width="250"/>
+    <img src="photos/new-battery.png" width="200"/>
 </figure>
 
 The Battery on your drone is a 1500mAh 3S 20C LiPo Battery. Let's go over what all that means.
@@ -52,13 +49,13 @@ The "C" rating of a LiPo Battery determines how much current the battery can del
 
 **Precautions**
 
-Taking the proper precautions when using, storing, or charging is very important to keeping the battery safe. Only store the battery at room temperature and out of direct sun light.  Do not discharge a battery below 10.5 V. Do not leave the battery charging unattended. Unplug the battery once it is fully charged.
+[Review the safety information on the battery](#build-safety-battery). Take the proper precautions when using, storing, or charging is very important to keeping the battery safe. Only store the battery at room temperature and out of direct sun light.  Do not discharge a battery below 10.5 V. **Never** leave the battery charging unattended. Unplug the battery once it is fully charged.
 
 ### Power Distribution Board (PDB)
 
 <figure>
-     <figcaption>Power Distribution Board (after tinning)</figcaption>
-    <img src="photos/pdbtinned.png" width="250"/>
+     <figcaption>Power Distribution Board</figcaption>
+    <img src="photos/new-pdb.png" width="200"/>
 </figure>
 
 The Power Distribution Board is used to distribute power from the battery to electrical components of the drone. The PDB an example of Printed Circuit Board (PCB), which is a circuit board that has connections within its structure. For the PDB, the internal wiring connects all of the positive (+) pads together, and all of the negative (-) pads together; this allows for the battery to be connected to one set of positive and negative pads, and all of the other pads receive power.
@@ -67,7 +64,7 @@ The Power Distribution Board is used to distribute power from the battery to ele
 
 <figure>
      <figcaption>Battery Eliminator Circuit</figcaption>
-    <img src="photos/bec.png" width="250"/>
+    <img src="photos/new-bec.png" width="200"/>
 </figure>
 
 The Battery Eliminator Circuit, or BEC, solves the issue that arises from different electrical components requiring different supply voltages. In the case of the drone, the LiPo battery used for outputs around 12V; this is the required voltage for the motors, but not for the Raspberry Pi, which requires 5V. The Battery Eliminator Circuit eliminates the need to carry multiple batteries of different voltages by converting the 12V supply from the battery down to a 5V supply for the Pi.
@@ -76,26 +73,27 @@ The Battery Eliminator Circuit, or BEC, solves the issue that arises from differ
 
 <figure>
     <figcaption>Raspberry Pi</figcaption>
-    <img style='width:250px' src="photos/pi.jpg"/>
+    <img style='width:200px' src="photos/new-pi.png"/>
 </figure>
 
 The Raspberry Pi, or, Pi, is a low-cost, single-board computer. The Pi is capable of running a full desktop operating system; you can use it as a computer similar to the one you're using now. The Pi is used on the drone as the main computer that reads and processes all of the sensor data and user inputs, and then sends commands to the flight controller to control the drone motors. The drone would be able to fly without the Pi if a person had a remote controller to manually steer the drone. However, for the DuckieSky Drone, the person with a remote controller is replaced by software and sensors on the Pi. The Pi, as well as the sensors you will connect later, makes autonomous flight possible.
 
 ### Pi Hat
 
-<figure>
-    <figcaption>Pi Hat Front View</figcaption>
-    <img style='width:250px' src="photos/pihat_front_view.jpg"/>
-</figure>
-
 The Pi hat is a special type of breadboard. One useful property of a breadboard is that it has *rails*. A rail is a sequence of holes that share an electrical connection:
 
-<figure>
-    <figcaption>Rails Highlighted on Back of Pi Hat</figcaption>
-    <img style='width:250px' src="photos/pihat_rails.jpg"/>
+<figure class="flow-subfigures">  
+     <figure>
+         <figcaption>Pi Hat Front View</figcaption>
+         <img style='width:100px' src="photos/new-pihat.png"/>
+     </figure>
+     <figure>
+         <figcaption>Rails Highlighted on Back of Pi Hat</figcaption>
+         <img style='width:150px' src="photos/pihat_rails.jpg"/>
+     </figure>
 </figure>
 
-This is useful because: 1) it means every wire put on a rail will see the same measurement and 2) it does not matter into which hole on a rail a wire is inserted. For example, if wire A reports sensor measurements and is put into rail 1 hole 1, then wire B can go into any hole on rail 1 to receive the reports by wire A. Notice especially the long +5V rail; we can use any of the holes in this rails to provide power to components.
+The rails are useful because every wire put on a rail will be electrically connected; this means that it does not matter into which hole along a rail a wire is inserted. This is useful for wire organization, and if a soldering mistake is made in one hole, an adjacent hole in the same rail can be used instead. Notice especially the long +5V and GND rails; we can use any of the holes in this rails to provide power to components. Also notice that there is a 3.3V rail, be sure not to mix this up with the 5V rail because electrical components will only work at the correct voltages.
 
 ### Micro SD Card
 
@@ -103,23 +101,23 @@ The Micro SD card stores the operating system on the pi, as well as all of the s
 
 <figure>
     <figcaption>Micro SD Card and Adapter</figcaption>
-    <img style='width:200px' src="photos/sd-card.jpg"/>
+    <img style='width:150px' src="photos/new-sd.png"/>
 </figure>
 
 ### Light Emitting Diode (LED)
 
 <figure>  
   <figcaption> LED </figcaption>
-  <img style='width:200px' src="photos/green-led.jpg"/>
+  <img style='width:150px' src="photos/green-led.jpg"/>
 </figure>
 
 An LED is a device that emits light as current flows through it; the color of the light is based on the material properties of the LED. An LED has a polarity, meaning that current can only flow through the device in one direction. If electricity flows in the wrong direction, the device will be damaged; be sure to double check the LED direction before soldering. The correct direction of flow is from the **anode** (the positive terminal) to the **cathode** (the negative terminal). You will be able to identify the anode because it has a longer terminal, as shown in the image.
 
-Another property of an LED is that it has very little resistance. Recall that Ohms states that **I = V / R**. The resistance of an LED is so low that we can assume it is zero. Plug zero into the equation and we get an infinite amount of current. In reality, the current is limited by the power source. Since there is such little resistance with the LED, if we created a circuit with only this element, it would burn out from too much current.
+Another property of an LED is that it has very little resistance. Recall that Ohms states that **I = V / R**. The resistance of an LED is so low that we can assume it is zero. Plug zero into the equation and we get an infinite amount of current. In reality, the current is limited by the power source. Since there is such little resistance with the LED, if we created a circuit with only this element, it would burn out from too much current, and the battery may be damaged.
 
 Q: Can you think of a way that we could limit the current passing through the LED?
 
-A: If you though of using a resistor, then you're right!
+A: If you thought of using a resistor, then you're right!
 
 ### Resistor
 
@@ -137,36 +135,26 @@ Remark: if you have poor eyesight or experience difficulty seeing colors, it is 
     <img style='width:250px' src="photos/resistor-color-chart.png"/>
 </figure>
 
-Q: Can you think of one reason for adding resistance to a circuit?
-
-Hint: Think about Ohm's Law
-
-A: According to Ohm's Law, if there is no resistance in a circuit
-
-However, according to Ohm's law, **V = I x R**. If there is no resistance in a circuit, then there is no voltage, either. Image you have a battery and you connect just a wire from the positive terminal to the negative terminal. Sine the wire has very little resistance (metals are conductors), then the charge on the battery will immediately began to flow through the wire to create an equipotential across the wire (no voltage). There will be so many charges flowing (there will be a lot of current), that the wire may burn up, and the battery will likely be damaged.
-
-In comes the resistor. If you connect just a resistor between the positive and negative terminal, then there won't be a surge of charge that will damage the battery. The current through the resistor will be limited by the resistors resistance, and there will be a voltage across the resistor according to Ohm's Law. From this example, we see that one important use of resistors is to limit the current though a circuit.
-
 
 ### XT60 Connector
 
 <figure>  
   <figcaption> XT60 Connector </figcaption>
-  <img style='width:216px' src="xt60_complete.png"/>
+  <img style='width:216px' src="new-xt60.png"/>
 </figure>
 
 
 An XT60 connector cable is a component which provides power when a power source (e.g. battery) is connected to it. By soldering it to the PDB, the PDB will get power to distribute to other components.
 
-## Circuit Diagram
+## Build Progress {#build-part1-diagram}
 
-You are going to create a simple circuit using an LED and resistor that will allow you to control the LED using the Raspberry Pi. Later in the course, you'll learn how to write a script to turn the LED on and off, as well as vary its brightness!
+You are going to create a circuit to provide power to the Pi. You will also create a simple circuit using an LED and resistor that will allow you to control the LED using the Raspberry Pi. Later in the course, you'll learn how to write a script to turn the LED on and off, as well as vary its brightness!
 
-The circuit you'll be making looks like this:
+After completing this section, your build will match the diagram below. Compare this diagram to the [completed drone diagram](#diagram-complete) to see how what you're doing now fits into the final result.
 
 <figure>  
-  <figcaption> Circuit Diagram for Build Part 1 </figcaption>
-  <img style='width:216px' src="photos/part-1-circuit.png"/>
+  <figcaption> Diagram for Build Part 1 </figcaption>
+  <img style='width:400px' src="photos/diagram-part1.png"/>
 </figure>
 
-The arrows represent the flow of electricity from the battery, through the PDB, into the Pi Hat, and finally to the Pi and the LED.
+The electricity flows from the battery, through the PDB to the BEC where the voltage is stepped down to 5V, then into the Pi Hat, and finally to the Pi and the LED.

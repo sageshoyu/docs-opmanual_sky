@@ -2,15 +2,17 @@
 
 In this section of the build, you will attach the camera, and finalize the drone assembly.
 
-<col2 figure-caption="Build Part 1 Materials" class="labels-row1">
-    <span style="text-align:center">Part</span>  <span style="text-align:center">Quantity</span>
-    <span style="text-align:center">Raspberry Pi Camera</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">CW Propellors</span> <span style="text-align:center">2</span>
-    <span style="text-align:center">CCW Propellors</span> <span style="text-align:center">2</span>
-    <span style="text-align:center">Wrench for the motor bolts (included in the kit)</span> <span style="text-align:center">1</span>
-    <span style="text-align:center">3D Printed Battery Holder</span>  <span style="text-align:center">1</span>
-    <span style="text-align:center">hot glue gun</span> <span style="text-align:center">1</span>
-</col2>
+- **Part : Quantity**
+- [Raspberry Pi Camera](#materials-camera) : 1
+- [Pi Mount](#materials-pi-mount) : 1
+- [Pi Mount Screws](#materials-pimount-screws) : 3
+- [Brass Standoffs](#materials-brass-standoffs) : 2
+- [CW Propellors](#materials-props) : 2
+- [CCW Propellors](#materials-props) : 2
+- [8mm Wrench](#materials-wrench-8mm) : 1
+- [Battery Mount](#materials-battery-mount) : 1
+- [Hot glue gun](#materials-misc) : 1
+- [Zip Ties](#materials-zipties) : 10+
 
 ## Hardware
 
@@ -21,7 +23,7 @@ For more information about the camera, watch [these lectures](https://edge.edx.o
 
 <figure>
      <figcaption>Camera</figcaption>
-    <img src="photos/cam.png" width="300"/>
+    <img src="photos/new-picam.png" width="300"/>
 </figure>
 
 ### Propellors
@@ -31,5 +33,17 @@ Drone are specified by three numbers. The propellors on your drone are 5 x 4 x 3
 
 <figure>
      <figcaption>Propellors</figcaption>
-    <img src="photos/props.png" width="300"/>
+    <img src="photos/new-props.png" width="300"/>
 </figure>
+
+
+## Build Progress
+
+After completing this section, your build will match the diagram below. Compare this diagram to the [completed drone diagram](#diagram-complete) to see how what you're doing now fits into the final result.
+
+<figure>  
+  <figcaption> Diagram for Build Part 4 </figcaption>
+  <img style='width:400px' src="photos/diagram-completed.png"/>
+</figure>
+
+The camera provides information about the position and velocity of the drone, which is used to hold the drone in one place, or move it at a specific velocity or to a specific position. After this build part, you will be ready to fly!

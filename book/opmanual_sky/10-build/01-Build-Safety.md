@@ -19,7 +19,7 @@ A majority of the drone build involves soldering. Soldering is fun and safe when
 - Wash your hands after soldering since the solder may contain lead
 
 
-## Battery
+## Battery {#build-safety-battery}
 
 Lithium Polymer (LiPo) batteries are very commonly used in RC devices. However, they must be handled properly. Please read [this article](https://www.getfpv.com/learn/fpv-essentials/drone-battery-safety/) to learn more about the proper care of your drone's LiPo battery.  
 

@@ -39,7 +39,7 @@ In this checkpoint, you go through the process of setting up your drone to fly, 
 
 1. Start up the flight code by typing in the command `./start_pidrone_code.sh` and press enter
 
-1. Open up the web interface from your local copy of pidrone_pkg as done in the [Part 2 Checkpoint](#part2-checkpoint-ir)
+1. Open up the web interface from your local copy of pidrone_pkg as done in the [Part 2 Checkpoint](#build-part2-checkpoint-open-web-interface)
 
 1. Refresh this page and ensure it says "Connected" at the top
 
@@ -47,6 +47,6 @@ In this checkpoint, you go through the process of setting up your drone to fly, 
 
 1. Observe how the flight controller automatically adjusts to disturbances by tilting up one side of the drone and noticing how the motors that are lower are spinning faster than the motors that you've tilted up.
 
-1. Disarm your drone by pressing the spacebar.
+1. Disarm your drone by pressing the **spacebar**.
 
 Congrats on finishing build part 3!
