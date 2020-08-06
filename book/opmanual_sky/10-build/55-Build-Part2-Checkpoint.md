@@ -4,7 +4,7 @@
 
 ## Overview
 
-You will now to two checks to see if the IR sensor on your drone is working properly. The first check will involve reading the raw IR sensor measurements using a multimeter. Then, you will using the drone software and the web interface to see drone's height estimate.
+You will now checks to see if the IR sensor on your drone is working properly. The first check will involve reading the raw IR sensor measurements using a multimeter. Then, you will using the drone software and the web interface to see drone's height estimate.
 
 ## Reading the IR sensor using a multimeter
 

@@ -71,7 +71,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 
 **Description:** The power connector cable that transfers power from the battery to the PDB.
 
-## 2205 2300KV Brushless Motor
+## 2205 2300KV Brushless Motor {#materials-motors}
 <figure>
     <img src="photos/2205_2300kv_brushless_motors_red.jpg" width="200"/>
 </figure>  
@@ -286,7 +286,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
     <img src="photos/new-wires-adc.png" width="250"/>
 </figure>  
 
-**Description:** Used to wire the ADC to the Pi Hat
+**Description:** Used to wire the ADC to the Pi Hat. We use the colors blue, green, red, and black to make it easier to follow the instructions, but the color of the wire does not affect the functionality.
 
 ## 1500mAh 3S 20C LiPo Battery {#materials-battery}
 <figure>
@@ -343,6 +343,11 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 </figure>  
 
 **Description:** A zip tie is a type of fastener for holding items together, primarily electrical cables or wires.       
+
+## Extra Wires {#materials-wires-extra}
+<figure>
+    <img src="photos/new-wires-red-black.png" width="250"/>
+</figure>  
 
 
 ## Duckies

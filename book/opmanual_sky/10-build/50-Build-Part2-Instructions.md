@@ -11,6 +11,11 @@ The top of the ADC has the labels near the holes, "V," "G," "SCL," etc.
 
 The bottom of the ADC says "ADS1115/ADS1015"
 
+<figure>
+  <figcaption>Bottom of ADC</figcaption>
+  <img style='width:250px' src="photos/new-adc.png"/>
+</figure>
+
 ### Insert pins
 
 Insert the **short** ends of the pins into the holes in the **bottom** of the ADC and clamp the ADC with the helping hand as shown in the image below.

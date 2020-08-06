@@ -16,6 +16,7 @@ In this phase of the build, you'll be adding the essential elements of every dro
 - [Velcro Strap](#materials-velcro) : 1
 - [Bullet Connectors](#materials-bullet-connectors) : 12 Plugs, 12 Sockets
 - [Brass Standoffs](#materials-brass-standoffs) : 4
+- [Spare Wire](#materials-wires-extra)
 - [Soldering Tools](#materials-soldering-tools)
 
 
@@ -24,9 +25,8 @@ In this phase of the build, you'll be adding the essential elements of every dro
 ### Motors
 
 <figure>
-     <figcaption>Motors</figcaption>
-    <img src="photos/motors.png" width="300"/>
-</figure>
+    <img src="photos/2205_2300kv_brushless_motors_red.jpg" width="200"/>
+</figure>  
 
 ### ESCs
 
@@ -34,7 +34,7 @@ An Electronic Speed Controller (ESC) is used to regulate the speed of a motor ac
 
 <figure>
      <figcaption>Electronic Speed Controllers</figcaption>
-    <img src="photos/esc.jpg" width="300"/>
+    <img src="photos/new-esc.png" width="250"/>
 </figure>
 
 ### Bullet Connectors
@@ -44,19 +44,19 @@ Bullet connectors are used to connect two wires together in a way that allows th
 <figure class="flow-subfigures">  
     <figcaption>Bullet Connectors</figcaption>
     <figure>
-       <figcaption>Female</figcaption>
-       <img style='width:150px' src="photos/bullet-connector-female.png"/>
+       <figcaption>Socket</figcaption>
+       <img style='width:150px' src="photos/new-bullet-connectors-socket.png"/>
     </figure>
     <figure>  
-       <figcaption>Male</figcaption>
-       <img style='width:150px' src="photos/bullet-connector-male.png"/>
+       <figcaption>Plug</figcaption>
+       <img style='width:150px' src="photos/new-bullet-connectors-plug.png"/>
     </figure>
 </figure>
 
 
 ### Metal Standoffs
 
-Standoffs are used to separate layers of electronic circuits.
+Standoffs are used to separate layers of electronic circuits. On the drone, the standoffs will be used to separate the PDB from the Pi.
 
 <figure>  
   <figcaption>Metal Standoff</figcaption>
@@ -64,9 +64,16 @@ Standoffs are used to separate layers of electronic circuits.
 </figure>
 
 
-### Battery Monitoring Wire
+### Battery Monitoring Leads
 
-The 6 inch red and black wire that you've cut will allow the flight controller to *monitor* the power traversing the PDB. For this reason, this pair of wires is called the *battery monitor lead*. The battery monitor lead ultimately allows the flight controller to read the battery voltage, which helps the software and the user not drain the battery too low.
+The battery monitor wires leads allow the flight controller to *monitor* the power traversing the PDB. This is useful because the flight controller can inform the Pi of the battery voltage. The benefit of this is that the software will prevent the battery from draining too low and permanently damaging it.
+
+You will be using the extra red and black wire that came with the kit to make the battery monitor leads
+
+<figure>  
+  <img style='width:150px' src="photos/new-wires-red-black.png"/>
+</figure>
+
 
 ## Build Progress
 
