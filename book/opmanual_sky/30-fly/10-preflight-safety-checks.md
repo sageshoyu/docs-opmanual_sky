@@ -2,6 +2,8 @@
 
 There are safety checks that should be down before you fly for the first time, and safety checks that should be done before you fly every time. Some of the checks are repeats from the build document; however, it is very important to double and triple check these parts.
 
+A handout of pre-flight and first flight checklist can be read over [here](https://docs.google.com/document/d/1dtgmRaOTyjgUGNAs9_B03avwvllN0LdCCeAQ5GOPj6o/edit?usp=sharing)
+
 ## First Flight Safety Checks {#checks-first-flight}
 
 Before flying for the first time, make sure that:
