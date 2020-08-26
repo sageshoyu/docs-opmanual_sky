@@ -25,7 +25,7 @@ In order to fly, you will need:
 
 1. Connect to your drone's wifi network.
 
-1. Browse to your drone's code editor: [192.168.42.1:8081](192.168.42.1:8081)
+1. Browse to your drone's code editor: [192.168.42.1:8081](http://192.168.42.1:8081)
 
 1. Open a new terminal in the code editor: Menu (three horizontal lines in the top left) > Terminal > New Terminal
 
