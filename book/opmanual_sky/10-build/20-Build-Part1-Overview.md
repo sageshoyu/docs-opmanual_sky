@@ -18,6 +18,7 @@ First, we will reintroduce you to the components that you will be working with. 
 - [XT60 Connector](#materials-xt60) : 1
 - [Soldering Tools](#materials-soldering-tools) : 1
 - [Raspberry Pi](#materials-pi) : 1
+- [Heat Sinks](#materials-heat-sinks): 1 set
 - [Micro SD Card](#materials-sd-card) : 1
 - [Base Station](#materials-base-station) : 1
 - Micro SD Card Reader : 1

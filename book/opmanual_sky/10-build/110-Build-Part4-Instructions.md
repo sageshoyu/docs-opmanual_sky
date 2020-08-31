@@ -90,22 +90,6 @@ Note: Ensure that the triangle shape is on the side of the camera.
     <img style='width:350px' src="photos/securing_pimount_inked.jpg"/>
 </figure>
 
-## Put Heat Sinks on Raspberry Pi
-
-You must put heat sinks on parts of the Raspberry Pi so that they do not overheat. Attach the heat sinks to the Pi as shown in the pictures.
-
-<figure class="flow-subfigures">  
-    <figcaption>Put Heat Sinks on Pi</figcaption>
-    <figure>
-        <figcaption>Heat Sinks on Top of Pi</figcaption>
-        <img style='width:230px' src="photos/heat_sinks_on_pi_front.jpg"/>
-    </figure>
-    <figure>  
-        <figcaption>Heat Sinks on Bottom of Pi</figcaption>
-        <img style='width:230px' src="photos/heat_sinks_on_pi_back.jpg"/>
-    </figure>
-</figure>  
-
 
 ## Attach Raspberry Pi
 
