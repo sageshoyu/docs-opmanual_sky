@@ -59,6 +59,8 @@ Note: The camera in the photo does not have the white flexible flat cable (FFC) 
 
 Use zip ties to attach the battery mount to the drone frame as shown in the image.
 
+Note: Ignore the propellers on the drone in the image. You will attach those in the final step.
+
 <figure>
     <figcaption>Battery Mount</figcaption>
     <img style='width:350px' src="photos/battery-mount.png"/>
@@ -115,9 +117,20 @@ You will now insert standoffs into the Pi that will help support the Pi Hat and 
 
 Leaving the Pi Hat detached (to make the next step easier), use the sliver screws included in the drone frame kit to secure the Pi to the mount. You should use [3 panhead screws](#materials-pimount-screws) as shown in picture. The Pi USB ports should face toward the front of the drone.
 
+Note: The image below does not include the brass standoff from the previous step. Please ignore this discrepancy.
+
 <figure>
     <figcaption>Securing the Pi</figcaption>
     <img style='width:350px' src="photos/securing_pi_inked.jpg"/>
+</figure>
+
+### Plug in the Flight Controller USB
+
+Plug in the Flight Controller USB to any of the USB ports on the Raspberry Pi. The USB sends the autonomous flight commands from the Pi to the FC.
+
+<figure>
+    <figcaption>USB Cable Plugged into Pi</figcaption>
+    <img style='width:350px' src="photos/usb_in_pi.jpg"/>
 </figure>
 
 ## Connect Pi Cam

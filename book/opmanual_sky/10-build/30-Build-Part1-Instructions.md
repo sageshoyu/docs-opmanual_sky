@@ -243,6 +243,22 @@ Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/bui
 
 </div>
 
+## Put Heat Sinks on Raspberry Pi
+
+Attach the heat sinks to the Pi as shown in the pictures.
+
+<figure class="flow-subfigures">  
+    <figcaption>Put Heat Sinks on Pi</figcaption>
+    <figure>
+        <figcaption>Heat Sinks on Top of Pi</figcaption>
+        <img style='width:230px' src="photos/heat_sinks_on_pi_front.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Heat Sinks on Bottom of Pi</figcaption>
+        <img style='width:230px' src="photos/heat_sinks_on_pi_back.jpg"/>
+    </figure>
+</figure>  
+
 ## Attach the Pi Hat to the Pi {#build-part1-attach-pihat}
 
 ### Align the pins
