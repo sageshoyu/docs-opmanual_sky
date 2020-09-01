@@ -130,7 +130,7 @@ Plug in the Flight Controller USB to any of the USB ports on the Raspberry Pi. T
 
 <figure>
     <figcaption>USB Cable Plugged into Pi</figcaption>
-    <img style='width:350px' src="photos/usb_in_pi.jpg"/>
+    <img style='width:200px' src="photos/usb_in_pi.jpg"/>
 </figure>
 
 ## Connect Pi Cam
@@ -274,5 +274,3 @@ Spin the propellers manually with your finger. Ensure no wires are hit by the pr
 Make sure no wires or parts are dangling from the drone frame.
 
 </div>
-
-Congrats on finishing your build!

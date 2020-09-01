@@ -33,8 +33,6 @@ Google Chrome is recommended. You will need to download a Chrome app later on, s
 
 1. [Flight Controller Firmware](https://duckietown-public-storage.s3.amazonaws.com/brown/firmware/spracing_f3-7_27_20.hex)
 
-1. [The software stack](https://github.com/h2r/pidrone_pkg)
-
 ## Soldering Tools {#materials-soldering-tools}
 
 - soldering iron
