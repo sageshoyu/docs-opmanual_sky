@@ -83,7 +83,7 @@ The Raspberry Pi, or, Pi, is a low-cost, single-board computer. The Pi is capabl
 
 The Pi hat is a special type of breadboard. One useful property of a breadboard is that it has *rails*. A rail is a sequence of holes that share an electrical connection:
 
-<figure class="flow-subfigures">  
+<figure class="flow-subfigures" id="fig:pi-hat-board">  
      <figure>
          <figcaption>Pi Hat Front View</figcaption>
          <img style='width:100px' src="photos/new-pihat.png"/>
