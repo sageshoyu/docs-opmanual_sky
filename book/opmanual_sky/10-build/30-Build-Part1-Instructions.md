@@ -14,7 +14,7 @@ Note: **Never** leave the battery charging unattended. The battery takes about 2
 
 1. If you have not already, on a base station, download the image flashing tool [Etcher](https://www.balena.io/etcher/).
 
-1. If you have not already, on a base station, download the latest drone [image](https://duckietown-public-storage.s3.amazonaws.com/brown/disk_image/drone-7_27_20.zip).
+1. If you have not already, on a base station, download the latest drone [image](#materials-file-downloads).
 
 1. Connect the micro SD card to the workstation. Use the micro SD to USB card reader if the base station does not have a micro SD port.
 

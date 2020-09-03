@@ -241,9 +241,19 @@ Use the [8 mm wrench](#materials-wrench-8mm) to tighten the bolts down so that t
 
 <div class='check' markdown="1">
 
-The propellers **must** be flat on the base of the motor
+*Propeller Direction:*
 
-Holding the motor still, try to spin the prop and make sure the props **cannot** spin around the motor shaft; the motors and the props should spin together.
+1. The arrows on the propellers should be on visible from the top of the drone
+
+1. The arrows should be going in the same direction as the arrows on the motors.
+
+*Propeller Attachment:*
+
+1. The propellers **must** be flat on the base of the motor
+
+1. Make sure there is no gap between the propeller, the motor, and the motor nut.
+
+1. Holding the motor still, try to spin the prop and make sure the props **cannot** spin around the motor shaft; the motors and the props should spin together.
 
 </div>
 

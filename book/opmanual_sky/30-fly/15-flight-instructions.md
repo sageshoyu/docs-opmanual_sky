@@ -15,24 +15,6 @@ In order to fly, you will need:
 </figure>
 
 
-## First Flight Checks {#checks-first-flight}
-
-If this is your first ever flight, go through these checks. Regardless, always go through the checks in the following sections.
-
-### PWM wiring
-
-- The ESC PWM wires are connected to the correct pins on the flight controller.
-
-### Motor Direction
-<figure>
-    <figcaption>Motors Diagram</figcaption>
-    <img src="photos/correct_motors_diagram.jpg" width="200"/>
-</figure>  
-
-- **The arrows on the motors match up with the diagram above.** It is important that the correct motors are in the correct spot because the motor bolts are threaded so that the propeller will not loosen the nut and fly off the drone.
-
-- **The motors are spinning in the correct direction.** Connect your flight controller to cleanflight with the **propellors off** and the battery plugged in, and spin up each motor to make sure it is spinning in the same direction as the arrow on the motor, which is the same direction as shown in the image above. It helps to put a small piece of tape on the side of the motor to know which way it is spinning.
-
 ## Environment Checks {#checks-environment}
 
 - You are in an open space that is free of obstructions
@@ -51,20 +33,6 @@ If this is your first ever flight, go through these checks. Regardless, always g
 ## Hardware Checks {#checks-hardware}
 
 If not already, disconnect the battery before performing the following safety checks.
-
-### Propeller Direction
-
-1. The arrows on the propellers should be on visible from the top of the drone
-
-1. The arrows should be going in the same direction as the arrows on the motors.
-
-### Propeller Attachment
-
-1. The propellers should **not** be able to spin freely around the motor shaft.
-
-1. Make sure the propellers are tightened down so that they cannot spin freely
-
-1. Make sure there is no gap between the propeller, the motor, and the motor nut.
 
 ### Wire Management
 

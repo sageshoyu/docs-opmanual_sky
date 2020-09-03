@@ -27,9 +27,9 @@ Google Chrome is recommended. You will need to download a Chrome app later on, s
 1. [USB to UART driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers). Download the correct driver for your OS. You will not need this driver if you are using a Chromebook; you will be able to connect to the flight controller without it.
 
 
-### File Downloads
+### File Downloads {#materials-file-downloads}
 
-1. [SD Card Image](https://duckietown-public-storage.s3.amazonaws.com/brown/disk_image/drone-7_27_20.zip)
+1. [SD Card Image](https://duckietown-public-storage.s3.amazonaws.com/brown/disk_image/drone-9_01_20.gz)
 
 1. [Flight Controller Firmware](https://duckietown-public-storage.s3.amazonaws.com/brown/firmware/spracing_f3-7_27_20.hex)
 
