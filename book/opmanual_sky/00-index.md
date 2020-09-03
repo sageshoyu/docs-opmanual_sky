@@ -1,4 +1,4 @@
-# Duckiedrone Operations Manual {#book:opmanual_duckiedrone status=ready}
+# Duckiedrone Operations Manual {#book:book status=ready}
 
 <div id="logo-container">
     <img alt="logo duckietown" id="logo" src="Mack-and-duckietown.png"/>
