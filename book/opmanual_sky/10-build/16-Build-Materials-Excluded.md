@@ -26,6 +26,10 @@ Google Chrome is recommended. You will need to download a Chrome app later on, s
 
 1. [USB to UART driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers). Download the correct driver for your OS. You will not need this driver if you are using a Chromebook; you will be able to connect to the flight controller without it.
 
+**Viewing the screen of your drone**
+
+1. [Real VNC Viewer](https://chrome.google.com/webstore/detail/vnc%C2%AE-viewer-for-google-ch/iabmpiboiopbgfabjmgeedhcmjenhbla). This is a Google Chrome application.
+
 
 ### File Downloads {#materials-file-downloads}
 
