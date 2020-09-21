@@ -33,7 +33,7 @@ Solder the pins on the **top** of the ADC using the [through-hole soldering tech
 
 <figure>
   <figcaption>Top View of ADC after soldering</figcaption>
-  <img style='width:50px' src="photos/new-adc-pins-soldered.jpg"/>
+  <img style='width:250px' src="photos/new-adc-pins-soldered.jpg"/>
 </figure>
 
 
