@@ -1,4 +1,4 @@
-# Part 3 FC Instructions {#build-part3-fc-instructions status=ready}
+# Part 3: Flight Controller and Cleanflight Instructions {#build-part3-fc-instructions status=ready}
 
 **Expected Time**: 1 hour
 

@@ -1,4 +1,4 @@
-# Part 3 Checkpoint {#build-part3-checkpoint status=ready}
+# Part 3: Motors and ESCs Checkpoint {#build-part3-checkpoint status=ready}
 
 **Expected Time**: 20 minutes
 

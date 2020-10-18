@@ -1,4 +1,4 @@
-# Part 2 Checkpoint {#build-part2-checkpoint status=ready}
+# Part 2: IR Sensor Checkpoint {#build-part2-checkpoint status=ready}
 
 **Expected Time**: 30 minutes
 

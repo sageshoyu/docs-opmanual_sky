@@ -1,4 +1,4 @@
-# Part 1 Instructions {#build-part1-instructions status=ready}
+# Part 1: Raspberry Pi and Power Distribution Instructions {#build-part1-instructions status=ready}
 
 **Expected Time**: 3 hours
 

@@ -1,4 +1,4 @@
-# Part 3 Overview {#build-part3-overview status=ready}
+# Part 3: Motors and ESCs Overview {#build-part3-overview status=ready}
 
 ## Preface
 In this phase of the build, you'll be adding the essential elements of every drone-- the motors, ESCs, and the flight controller.
