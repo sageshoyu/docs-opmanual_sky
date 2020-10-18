@@ -1,4 +1,4 @@
-# Part 1 Checkpoint {#build-part1-checkpoint status=ready}
+# Part 1: Power Distribution and Raspberry Pi Checkpoint {#build-part1-checkpoint status=ready}
 
 **Expected Time**: 10 minutes
 

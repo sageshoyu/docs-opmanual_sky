@@ -1,4 +1,4 @@
-# Part 2 Instructions {#build-part2-instructions status=ready}
+# Part 2: IR Sensor Instructions {#build-part2-instructions status=ready}
 
 **Expected Time**: 2 hours
 

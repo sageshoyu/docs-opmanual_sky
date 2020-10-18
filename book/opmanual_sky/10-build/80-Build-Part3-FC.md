@@ -1,4 +1,4 @@
-# Part 3 FC Overview {#build-part3-fc-overview status=ready}
+# Part 3: Flight Controller and Cleanflight  Overview {#build-part3-fc-overview status=ready}
 
 
 ## Preface

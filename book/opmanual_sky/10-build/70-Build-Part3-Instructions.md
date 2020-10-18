@@ -1,4 +1,4 @@
-# Part 3 Instructions {#build-part3-instructions status=ready}
+# Part 3: Motors, and ESCs Instructions {#build-part3-instructions status=ready}
 
 **Expected Time**: 5 hours
 

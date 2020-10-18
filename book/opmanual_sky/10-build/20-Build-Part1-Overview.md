@@ -1,4 +1,4 @@
-# Part 1 Overview {#build-part1-overview status=ready}
+# Part 1: Raspberry Pi and Power Distribution Overview {#build-part1-overview status=ready}
 
 ## Preface
 

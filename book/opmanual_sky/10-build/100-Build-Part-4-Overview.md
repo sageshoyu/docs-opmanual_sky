@@ -1,4 +1,4 @@
-# Part 4 Overview {#build-part4-overview status=ready}
+# Part 4: Camera, Propellers, and Mounting Hardware Overview {#build-part4-overview status=ready}
 
 In this section of the build, you will attach the camera, and finalize the drone assembly.
 
