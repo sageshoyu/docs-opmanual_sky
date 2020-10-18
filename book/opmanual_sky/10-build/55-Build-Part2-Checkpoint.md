@@ -42,38 +42,28 @@ Note: if the measurement is taken closer than 10cm or further than 50cm, the sen
 
 ## Reading the IR sensor on the web interface
 
-Note: For Chromebook Users: The web interface will not work if you download the files to google drive. You must download the files to the device; the downloads folder should work.
-
-### Download the interface
-
-If you haven't already, download the zip file of the [drone's software stack on github](https://github.com/h2r/pidrone_pkg). To download the pidrone_pkg, click the Green Code Button then Download Zip from the dropdown menu on GitHub.
-
-<figure>
-  <figcaption>Download pidrone_pkg</figcaption>
-  <img style='width:100%' src="photos/code-zip.png"/>
-</figure>
-
-### Open the interface {#build-part2-checkpoint-open-web-interface}
-
-1. Open the zip file and open the **web** folder.
-
-1. Click on the index.html file. This will open up the web interface in your browser!
-
 ### Connect to the drone
 
-1. Plug the battery into your drone build and connect to the drone's wifi network, **defaultdrone**
+1. Plug the battery into your drone build and connect to the drone's wifi network. By default, the network is named, *defaultdrone*, and the password is *bigbubba*.
 
-1. Browse to the drone's code editor: [http://192.168.42.1:8081/](http://192.168.42.1:8081/)
+1. Browse to the drone's code editor: [http://192.168.42.1:8081](http://192.168.42.1:8081)
+
+1. In a new tab, browse to the web interface: [http://192.168.42.1](http://192.168.42.1). The web interface is what you will use to fly the drone. It also contains graphs that show data from the sensors.
+
 
 ### Start up the code
 
-1. Click the menu bar in the top left corner, then click Terminal > New Terminal
+1. In the code editor, click the menu bar in the top left corner, then click Terminal > New Terminal
 
-1. Paste and enter this command: **./start_pidrone_code.sh**
+1. Type `./start` and press enter
 
-1. Go back to the web interface tab and refresh. Make sure that you see "Connected" at the top of the page
+1. Go back to the web interface tab, wait about 5 seconds, and refresh the page. Make sure that you see "Connected" at the top of the page. If you do not see this, wait a few more seconds and try refreshing again.
 
-1. Move the IR sensor closer and further to an object and check that the Height Readings chart is changing
+### Test
+
+1. locate the *Height Readings* chart on the web interface
+
+1. Use your hand to move the IR sensor closer and further to an object and check that the Height Readings chart is changing
 
 
 

@@ -18,6 +18,7 @@ First, we will reintroduce you to the components that you will be working with. 
 - [XT60 Connector](#materials-xt60) : 1
 - [Soldering Tools](#materials-soldering-tools) : 1
 - [Raspberry Pi](#materials-pi) : 1
+- [Heat Sinks](#materials-heat-sinks): 1 set
 - [Micro SD Card](#materials-sd-card) : 1
 - [Base Station](#materials-base-station) : 1
 - Micro SD Card Reader : 1
@@ -82,7 +83,7 @@ The Raspberry Pi, or, Pi, is a low-cost, single-board computer. The Pi is capabl
 
 The Pi hat is a special type of breadboard. One useful property of a breadboard is that it has *rails*. A rail is a sequence of holes that share an electrical connection:
 
-<figure class="flow-subfigures">  
+<figure class="flow-subfigures" id="fig:pi-hat-board">  
      <figure>
          <figcaption>Pi Hat Front View</figcaption>
          <img style='width:100px' src="photos/new-pihat.png"/>

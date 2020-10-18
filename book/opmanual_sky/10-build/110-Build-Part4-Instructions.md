@@ -59,6 +59,8 @@ Note: The camera in the photo does not have the white flexible flat cable (FFC) 
 
 Use zip ties to attach the battery mount to the drone frame as shown in the image.
 
+Note: Ignore the propellers on the drone in the image. You will attach those in the final step.
+
 <figure>
     <figcaption>Battery Mount</figcaption>
     <img style='width:350px' src="photos/battery-mount.png"/>
@@ -90,22 +92,6 @@ Note: Ensure that the triangle shape is on the side of the camera.
     <img style='width:350px' src="photos/securing_pimount_inked.jpg"/>
 </figure>
 
-## Put Heat Sinks on Raspberry Pi
-
-You must put heat sinks on parts of the Raspberry Pi so that they do not overheat. Attach the heat sinks to the Pi as shown in the pictures.
-
-<figure class="flow-subfigures">  
-    <figcaption>Put Heat Sinks on Pi</figcaption>
-    <figure>
-        <figcaption>Heat Sinks on Top of Pi</figcaption>
-        <img style='width:230px' src="photos/heat_sinks_on_pi_front.jpg"/>
-    </figure>
-    <figure>  
-        <figcaption>Heat Sinks on Bottom of Pi</figcaption>
-        <img style='width:230px' src="photos/heat_sinks_on_pi_back.jpg"/>
-    </figure>
-</figure>  
-
 
 ## Attach Raspberry Pi
 
@@ -131,9 +117,20 @@ You will now insert standoffs into the Pi that will help support the Pi Hat and 
 
 Leaving the Pi Hat detached (to make the next step easier), use the sliver screws included in the drone frame kit to secure the Pi to the mount. You should use [3 panhead screws](#materials-pimount-screws) as shown in picture. The Pi USB ports should face toward the front of the drone.
 
+Note: The image below does not include the brass standoff from the previous step. Please ignore this discrepancy.
+
 <figure>
     <figcaption>Securing the Pi</figcaption>
     <img style='width:350px' src="photos/securing_pi_inked.jpg"/>
+</figure>
+
+### Plug in the Flight Controller USB
+
+Plug in the Flight Controller USB to any of the USB ports on the Raspberry Pi. The USB sends the autonomous flight commands from the Pi to the FC.
+
+<figure>
+    <figcaption>USB Cable Plugged into Pi</figcaption>
+    <img style='width:200px' src="photos/usb_in_pi.jpg"/>
 </figure>
 
 ## Connect Pi Cam
@@ -244,9 +241,19 @@ Use the [8 mm wrench](#materials-wrench-8mm) to tighten the bolts down so that t
 
 <div class='check' markdown="1">
 
-The propellers **must** be flat on the base of the motor
+*Propeller Direction:*
 
-Holding the motor still, try to spin the prop and make sure the props **cannot** spin around the motor shaft; the motors and the props should spin together.
+1. The arrows on the propellers should be on visible from the top of the drone
+
+1. The arrows should be going in the same direction as the arrows on the motors.
+
+*Propeller Attachment:*
+
+1. The propellers **must** be flat on the base of the motor
+
+1. Make sure there is no gap between the propeller, the motor, and the motor nut.
+
+1. Holding the motor still, try to spin the prop and make sure the props **cannot** spin around the motor shaft; the motors and the props should spin together.
 
 </div>
 
@@ -277,5 +284,3 @@ Spin the propellers manually with your finger. Ensure no wires are hit by the pr
 Make sure no wires or parts are dangling from the drone frame.
 
 </div>
-
-Congrats on finishing your build!

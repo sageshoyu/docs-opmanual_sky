@@ -183,13 +183,13 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Units:** 1   
 **Description:** A memory device, especially notable because it can store code and be inserted into a Pi.
 
-### Heat Sinks
+### Heat Sinks {#materials-heat-sinks}
 <figure>
     <img src="photos/new-heat-sinks.png" width="250"/>
 </figure>  
 
 **Units:** 3 (14mm * 14mm * 7mm; 9mm * 9mm * 5mm; 12mm * 12mm * 1mm)    
-**Description:** A device that dissipates heat into the air. When attached to a Pi, it will regulate temperature at optimal levels.
+**Description:** A device that helps dissipate heat. Heat sinks help to keep computer processors cool.
 
 ### Pi Mount {#materials-pi-mount}
 <figure>

@@ -84,14 +84,6 @@ On your base station, download the [flight controller firmware](https://duckieto
 
 Note: the file extension for this file should be **.hex**. Your computer might have added a **.txt** to the end of the file, rename the file and delete **.txt** so that the file ends in **.hex**.
 
-### Download the Cleanflight Settings
-
-In CleanFlight, a number of settings can be changed that affect the flight controller's performance. Some of the changes allow the Pi to talk to the drone, and others tune the drone to fly smoothly. All of these changes have been saved to a file and can be easily uploaded to your drone later on using the following file. If you are interested in viewing what changes are made, you can find these in the [cleanflight](#build-cleanflight-config) section; however, it is not required to review these. You will need to download the following file, however.
-
-On your base station, download the file containing the [cleanflight settings](https://drive.google.com/file/d/1u2xBKk58SDHd5qiM0NLh0dHiPRlr2jya/view?usp=sharing)
-
-Note: unlike the firmware .hex file, this file should indeed be a .txt file
-
 ### Install the USB to UART driver
 
 A driver is software that allows your computer to talk to a hardware device. You will need a driver that allows the computer to talk to the flight controller.
@@ -141,7 +133,7 @@ Note: If the bar instead reaches halfway and then says "Verifying: FAILED", do n
    <img style='width:500px' src="photos/flashing.png"/>
 </figure>
 
-## Configure the FC settings
+## Configure the Cleanflight settings
 
 Now that the FC has been flashed with firmware, it can be configured.
 
@@ -160,21 +152,107 @@ Now that the FC has been flashed with firmware, it can be configured.
    <img style='width:500px' src="photos/connect.png"/>
 </figure>
 
-### Navigate to the CLI tab
+Now you will configure each of the settings that need to be changed.
 
-Click on the **CLI** tab in the bottom left corner of cleanflight
 
-### Copy and Paste Settings
+### "Ports"
 
-1. Open the CleanFlight_Settings.txt file that you downloaded earlier
+1. Go to "Ports" tab on the left side of cleanflight
 
-1. Copy all of the contents in this file
+1. make sure SerialRX for UART2 is disabled and click "Save and Reboot." UART2 is a pin on the flight controller, and we want to make sure it only uses the USB.
 
-1. Paste the contents into the bar at the bottom of the cleanflight screen that says "Write your command here"
+<figure>
+   <figcaption>Ports Configuration</figcaption>
+   <img style='width:500px' src="photos/ports.png"/>
+</figure>
 
-1. Press enter
 
-Cleanflight should reboot and your settings will be saved.
+### "Configuration" {#build-cleanflight-config}
+
+Go to "Configuration" tab on the left side of cleanflight
+
+- Change the ESC/Motor protocol to "MULTISHOT".
+
+<figure>
+   <figcaption>Set Multishot</figcaption>
+   <img style='width:500px' src="photos/multishot.png"/>
+</figure>
+
+- Set the Minimum Throttle to 1100.
+
+<figure>  
+   <figcaption>Set Minimum Throttle</figcaption>
+   <img style='width:500px' src="photos/minimum_throttle.png"/>
+</figure>
+
+- Flip the yaw by 180&deg; (because the FC is rotated by 180&deg; when attached to the drone frame).
+
+<figure>
+   <figcaption>Flip Yaw</figcaption>
+   <img style='width:500px' src="photos/flip_yaw.png"/>
+</figure>
+
+- Change the receiver to "MSP RX input" (by default it is configured to receive data from an RC receiver, but we want it to take commands over MSP).
+
+<figure>  
+   <figcaption>MSP RX Input</figcaption>
+   <img style='width:500px' src="photos/msprx.png"/>
+</figure>
+
+- Finally, click "Save and Reboot."    
+
+Note: On the configuration page, Cleanflight might show that the direction of your motors are reversed. This is a UI bug and can be ignored. You will ensure that your motors are spinning in the correct direction in later steps.    
+
+### "Modes"
+
+The FC needs to be in Angle mode for its entire available range - not just the range of acrobatic mode.
+
+Go to the "Modes" tab on the left side of cleanflight
+
+- Under the "Angle" option, click "Add Range".
+
+<figure>
+   <figcaption>Angle Mode Option</figcaption>
+   <img style='width:500px' src="photos/add_range.png"/>
+</figure>
+
+- Drag the sliders so that the range spans from 900 to 2100 (i.e. entire range).
+
+<figure>  
+   <figcaption>Modes Configuration</figcaption>
+   <figure>
+       <figcaption>Expand Range</figcaption>
+       <img style='width:500px' src="photos/angle_range.png"/>
+   </figure>
+   <figure>  
+       <figcaption>Expanded Range</figcaption>
+       <img style='width:500px' src="photos/angle_range_2.png"/>
+   </figure>
+</figure>
+
+- Finally, click "Save".
+
+### PID Tuning
+
+The FC PID parameters need to be changed to work better with our drone. Go to the "PID Tuning" tab. Change the "ROLL" and "PITCH" PID terms to match the image. For reference: Roll should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: 1.00, Super Rate: 0.00, Max Vel: 200). Pitch should be (Proportional: 60, Integral: 40, Derivative: 50, RC Rate: curly bracket, Super Rate: 0.00, Max Vel: 200). Change angle limit to 50. Finally, click "Save".
+
+<figure>  
+   <figcaption>PID Tuning Configuration</figcaption>
+   <figure>
+       <figcaption>PID Params</figcaption>
+       <img style='width:500px' src="photos/pid_settings.png"/>
+   </figure>
+   <figure>  
+       <figcaption>Set Angle Limit</figcaption>
+       <img style='width:500px' src="photos/angle_limit.png"/>
+   </figure>
+</figure>
+
+<div class='check' markdown="1">
+
+Double check that all of the settings in cleanflight match up to the ones above. Make sure to save the settings when possible.
+
+</div>
 
 ### Verify
 

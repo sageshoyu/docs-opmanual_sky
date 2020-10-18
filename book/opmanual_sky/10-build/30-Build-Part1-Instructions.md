@@ -14,7 +14,7 @@ Note: **Never** leave the battery charging unattended. The battery takes about 2
 
 1. If you have not already, on a base station, download the image flashing tool [Etcher](https://www.balena.io/etcher/).
 
-1. If you have not already, on a base station, download the latest drone [image](https://duckietown-public-storage.s3.amazonaws.com/brown/disk_image/drone-7_27_20.zip).
+1. If you have not already, on a base station, download the latest drone [image](#materials-file-downloads).
 
 1. Connect the micro SD card to the workstation. Use the micro SD to USB card reader if the base station does not have a micro SD port.
 
@@ -242,6 +242,22 @@ Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/bui
   - The bottom of the drone frame is illuminating, due to the LEDs on the bottom of the PDB.
 
 </div>
+
+## Put Heat Sinks on Raspberry Pi
+
+Attach the heat sinks to the Pi as shown in the pictures.
+
+<figure class="flow-subfigures">  
+    <figcaption>Put Heat Sinks on Pi</figcaption>
+    <figure>
+        <figcaption>Heat Sinks on Top of Pi</figcaption>
+        <img style='width:230px' src="photos/heat_sinks_on_pi_front.jpg"/>
+    </figure>
+    <figure>  
+        <figcaption>Heat Sinks on Bottom of Pi</figcaption>
+        <img style='width:230px' src="photos/heat_sinks_on_pi_back.jpg"/>
+    </figure>
+</figure>  
 
 ## Attach the Pi Hat to the Pi {#build-part1-attach-pihat}
 

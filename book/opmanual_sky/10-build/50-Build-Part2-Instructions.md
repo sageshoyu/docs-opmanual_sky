@@ -31,11 +31,9 @@ Note: The ADC shown is from a previous hardware version. For your ADC, the helpi
 
 Solder the pins on the **top** of the ADC using the [through-hole soldering technique](#prereq-solder-through-hole)
 
-Note: The ADC shown is from a previous hardware version. For your ADC, the pins will be on the right side.
-
 <figure>
   <figcaption>Top View of ADC after soldering</figcaption>
-  <img style='width:100px' src="photos/adc_pins_soldered_1.jpg"/>
+  <img style='width:250px' src="photos/new-adc-pins-soldered.jpg"/>
 </figure>
 
 
@@ -51,14 +49,23 @@ Following the image below, insert the ADC into front of the Pi Hat. Then, flip t
 
 Note: Be sure to solder the ADC to the correct location on the Pi Hat. Use the location of the slot in the Pi Hat to help you align the ADC.
 
-<figure>
-   <figcaption>ADC soldered to Pi Hat</figcaption>
-   <img style='width:300px' src="photos/new-adc-soldered.png"/>
-</figure>
+<figure class="flow-subfigures">
+<figcaption>ADC soldered to Pi Hat</figcaption>
+   <figure>
+       <figcaption>Diagram</figcaption>
+       <img style='width:150px' src="photos/new-adc-soldered.png"/>
+   </figure>
+   <figure>  
+       <figcaption>Actual</figcaption>
+       <img style='width:150px' src="photos/new-adc-soldered-real.jpg"/>
+   </figure>
+</figure>   
 
 ### Solder the ADC wires
 
 Following the diagram below, insert a wire into the correct hole on the front of the Pi Hat. Then, flip the Pi Hat over to solder the wire on the back of the Pi Hat using the [through-hole soldering technique](#prereq-solder-through-hole).
+
+Note: Recall that the Pi Hat is a breadboard, so it has rails. The wires you solder do not need to go into exact holes; each wire just needs to go into a hole on the same rail as its corresponding ADC pin. You can look at the back of the Pi Hat and see the metal connections between holes. You can also do a connectivity check with the multimeter if you have doubts about which holes are connected.
 
 1. Use a small piece of **red** wire to connect the **V** pin of the ADC to the 5V rail.
 
@@ -68,7 +75,6 @@ Following the diagram below, insert a wire into the correct hole on the front of
 
 1. Use a small piece of **green** wire to connect the **SDA** pin of the ADC to the hole labelled **SDA** on the Pi Hat
 
-Remark: Recall that the Pi Hat is a breadboard, so it has rails. The wires you solder do not need to go into exact holes; each wire just needs to go into a hole on the same rail as its corresponding ADC pin (e.g. red wire does not need to go into pin immediately adjacent to VDD pin of ADC - it can go into any hole of that rail). Use can do a connectivity check with the multimeter if you have doubts about which holes are connected.
 
 Remark: For the wires, we use the colors: red, black, green, and blue. However, any color wires will work.
 
@@ -83,9 +89,17 @@ Remark: For the wires, we use the colors: red, black, green, and blue. However, 
 Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the Pi Hat; verify:
 
 - There is **NO** electrical connection (short) between the 5V and GND rails.
+
 - There is **NO** electrical connection (short) between the SCL and SDA wires
 
+- There are **NO** stray wire strands that are connecting adjacent pins, especially between 5V and GND (see image below)
+
 </div>
+
+<figure>
+   <figcaption>BAD: Wire strands causing shorts</figcaption>
+   <img style='width:150px' src="photos/pi-hat-soldered-bad.jpg"/>
+</figure>
 
 ## Prep the IR Sensor Wire
 

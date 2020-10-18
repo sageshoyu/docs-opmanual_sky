@@ -15,9 +15,13 @@ In this phase of the build, you will configure and calibrate the Flight Controll
 
 ### Flight Controller
 
-The flight controller (i.e. FC) contains multiple sensors: an Inertial Measurement Unit (IMU) and a gyroscope. The IMU measures linear accelerations and the gyroscope measures angular velocities. The flight controller also receives commands from the Pi and them sends electric signals to the ESCs.
+The flight controller (i.e. FC) contains multiple sensors: an Inertial Measurement Unit (IMU) and a gyroscope. The IMU measures linear accelerations and the gyroscope measures angular velocities. The flight controller also receives commands from the Pi and them sends electric signals to the ESCs which in turn change the speeds of the motors.
 
 <figure>
      <figcaption>Flight Controller</figcaption>
     <img src="photos/new-fc.png" width="300"/>
 </figure>
+
+### USB to Micro USB cable
+
+This cable is used for two purposes. The first use is to configure the flight controller settings in CleanFlight (introduced later); this part only needs to be done once. The second use is to send the flight commands from the Raspberry Pi to the FC. This connection allows our software on the Pi to control the motors. The Pi tells the FC what roll, pitch, yaw, and throttle values the drone should have, and then the flight controller speeds up or slows down the motors to get this values.
